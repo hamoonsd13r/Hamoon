@@ -80,7 +80,7 @@ export type DogPose = {
   head?: number; jaw?: number; ears?: number; // ears 0 = up, 1 = flat back
   tail?: number; bristle?: number; breath?: number; eye?: number;
 };
-const DOG_BODY = "M300,-300 C280,-312 250,-320 230,-322 C220,-330 212,-338 200,-342 C185,-346 172,-344 162,-336 C140,-318 110,-288 60,-264 C10,-256 -60,-252 -110,-244 C-150,-238 -185,-226 -205,-205 C-228,-180 -232,-140 -222,-112 L-160,-104 C-146,-130 -120,-148 -90,-150 C-40,-148 20,-138 70,-124 L122,-124 C150,-140 165,-190 180,-240 C200,-270 230,-282 250,-286 C270,-290 290,-290 300,-300 Z";
+const DOG_BODY = "M302,-298 C284,-316 252,-326 230,-328 C220,-330 212,-338 200,-342 C185,-346 172,-344 162,-336 C140,-318 110,-288 60,-264 C10,-256 -60,-252 -110,-244 C-150,-238 -185,-226 -205,-205 C-228,-180 -232,-140 -222,-112 L-160,-104 C-146,-130 -120,-148 -90,-150 C-40,-148 20,-138 70,-124 L122,-124 C150,-140 165,-190 180,-240 C200,-268 228,-276 250,-278 C270,-280 292,-282 302,-298 Z";
 const DOG_LIE = "M-210,0 C-225,-40 -200,-95 -130,-110 C-60,-122 40,-118 100,-100 C150,-86 178,-62 186,-30 L186,0 Z";
 const Paw = () => <ellipse cx={10} cy={2} rx={17} ry={8} />;
 export const Dog: React.FC<G & DogPose> = ({ pose = "stand", legs = [0, 0, 0, 0], head = 0, jaw = 0, ears = 0, tail = 0, bristle = 0, breath = 0, eye = 0, fill = C.ink, filter, ...g }) => {
@@ -102,10 +102,10 @@ export const Dog: React.FC<G & DogPose> = ({ pose = "stand", legs = [0, 0, 0, 0]
       </g>
     );
   }
-  const bris = bristle > 0 ? Array.from({ length: 13 }, (_, i) => {
-    const k = i / 12; const x = 150 - k * 150, y = -330 + k * 78;
-    const h = (8 + 20 * Math.sin(k * Math.PI)) * bristle;
-    return `M${x + 9},${y + 6} L${x - 4},${y - h} L${x - 9},${y + 8} Z`;
+  const bris = bristle > 0 ? Array.from({ length: 22 }, (_, i) => {
+    const k = i / 21; const x = 150 - k * 170, y = -330 + k * 80 + (k > 0.85 ? (k - 0.85) * 40 : 0);
+    const h = (4 + 12 * Math.sin(k * Math.PI) * (0.7 + 0.3 * Math.sin(i * 2.7))) * bristle;
+    return `M${x + 6},${y + 6} L${x - 3},${y - h} L${x - 6},${y + 8} Z`;
   }).join(" ") : "";
   return (
     <g transform={wrap(g)} fill={fill} filter={filter}>
@@ -116,9 +116,9 @@ export const Dog: React.FC<G & DogPose> = ({ pose = "stand", legs = [0, 0, 0, 0]
         <g transform={`translate(0 -190) scale(1 ${1 + breath * 0.02}) translate(0 190)`}><path d={DOG_BODY} /></g>
         {bris && <path d={bris} />}
         <g transform={`rotate(${head} 170 -300)`}>
-          <g transform={`rotate(${jaw * 26} 236 -292)`}><path d="M226,-300 L292,-298 C296,-292 290,-284 280,-284 L232,-280 Z" /></g>
-          <g transform={`rotate(${ears * -50} 168 -338)`}><path d="M156,-336 L176,-414 L190,-340 Z" /></g>
-          <g transform={`rotate(${ears * -50} 190 -342)`}><path d="M178,-342 L204,-426 L214,-336 Z" /></g>
+          <g transform={`rotate(${jaw * 26} 236 -292)`}><path d="M226,-290 L288,-288 C292,-282 286,-272 276,-272 L232,-268 Z" /></g>
+          <g transform={`rotate(${ears * -50} 168 -338)`}><path d="M150,-334 L172,-412 L194,-342 Z" /></g>
+          <g transform={`rotate(${ears * -50} 190 -342)`}><path d="M174,-344 L202,-424 L220,-336 Z" /></g>
           {eye > 0 && <ellipse cx={214} cy={-320} rx={6} ry={4} fill={C.bone} opacity={eye} />}
         </g>
         <Limb x={100} y={-132} a={legs[0]} len={128} w0={36} w1={22}><Paw /></Limb>

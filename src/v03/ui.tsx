@@ -43,7 +43,7 @@ export const Captions: React.FC<{ vo: VO; T: number; y?: number }> = ({ vo, T, y
       {dia && <span style={{ color: C.red }}>«</span>}
       {c.words.map((w, k) => {
         const on = T >= w.s - 0.03;
-        return <span key={k} style={{ color: on ? (dia ? "#ffd2c8" : C.bone) : "rgba(239,233,223,0.35)", textShadow: "0 4px 18px rgba(0,0,0,0.95), 0 0 3px #000" }}>{w.w.replace(/[«»]/g, "")}{k < c.words.length - 1 ? " " : ""}</span>;
+        return <span key={k} style={{ color: on ? (dia ? "#ffd2c8" : C.bone) : "rgba(239,233,223,0.35)", textShadow: "0 4px 18px rgba(0,0,0,0.95), 0 0 3px #000" }}>{w.w.replace(/[«»\u064B-\u0652]/g, "")}{k < c.words.length - 1 ? " " : ""}</span>;
       })}
       {dia && <span style={{ color: C.red }}>»</span>}
     </div>

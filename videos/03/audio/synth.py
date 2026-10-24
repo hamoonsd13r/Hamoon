@@ -90,4 +90,12 @@ def boom():
     x = np.sin(2 * np.pi * (52 - 16 * tt) * tt) * np.exp(-tt * 1.3) + lp_fast(rng.standard_normal(n), 30) * 4 * np.exp(-tt * 4)
     return reverb(x, 3.0, 0.45)
 save("boom", boom())
+def growl():  # low dog growl: band-limited noise, amplitude-modulated ~28 Hz, slow swell
+    n = int(2.6 * SR); tt = np.arange(n) / SR
+    base = lp_fast(rng.standard_normal(n), 25) - lp_fast(rng.standard_normal(n), 120)
+    am = 0.55 + 0.45 * np.sin(2 * np.pi * (26 + 4 * np.sin(2 * np.pi * 0.7 * tt)) * tt)
+    env = np.clip(tt / 0.5, 0, 1) * np.clip((2.6 - tt) / 0.6, 0, 1)
+    x = base * am * env + 0.3 * np.sin(2 * np.pi * 95 * tt) * am * env
+    return reverb(x, 0.8, 0.2)
+save("growl", growl())
 print("ok")

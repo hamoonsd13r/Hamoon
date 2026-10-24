@@ -5,8 +5,12 @@ import { Cast } from "./Cast";
 import { FPS, H, W } from "./lib";
 import { Episode, type Shot, type VO } from "./ui";
 import * as E01 from "./e01";
+import * as E02 from "./e02";
 
-const EP = [{ id: "V03-E01", m: E01, title: "آخرین شبِ شهر", sub: "قسمت اول · کسی پشت در بود", next: "قسمت دوم", audio: "v03/e01/mix.wav" }];
+const EP = [
+  { id: "V03-E01", m: E01, title: "آخرین شبِ شهر", sub: "قسمت اول · کسی پشت در بود", next: "قسمت دوم", audio: "v03/e01/mix.wav" },
+  { id: "V03-E02", m: E02, title: "آخرین شبِ شهر", sub: "قسمت دوم · ذرت می‌دونست", next: "قسمت سوم", audio: "v03/e02/mix.wav" },
+];
 
 // props must be JSON (Remotion serialises them), so each composition gets a wrapper that holds its shot functions
 type EpMod = { SHOTS: Shot[]; vo: VO; TOTAL: number; LOOK: number[] };
