@@ -24,6 +24,7 @@ if (!elevenReady()) throw new Error("ELEVENLABS_API_KEY missing (put it in .env,
 const OUT = path.join(dir, "vo");
 fs.mkdirSync(OUT, { recursive: true });
 const pad = (n) => String(n).padStart(2, "0");
+let FMT = "mp3_44100_192";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ---- 1) takes ----
@@ -35,12 +36,16 @@ for (const l of L) {
 async function tts([l, k]) {
   for (let a = 0; a < 4; a++) {
     try {
-      const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${V[l.sp]}/with-timestamps?output_format=mp3_44100_192`, {
+      const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${V[l.sp]}/with-timestamps?output_format=${FMT}`, {
         method: "POST",
         headers: { ...xi(), "Content-Type": "application/json" },
         body: JSON.stringify({ text: l.fa, model_id: model, language_code: lang, ...(V.settings?.[l.sp] ? { voice_settings: V.settings[l.sp] } : {}) }),
       });
-      if (!r.ok) throw new Error(r.status + " " + (await r.text()).slice(0, 160));
+      if (!r.ok) {
+        const t = await r.text();
+        if (r.status === 403 && FMT !== "mp3_44100_128" && t.includes("Output format")) { FMT = "mp3_44100_128"; continue; } // free plan: 128k only
+        throw new Error(r.status + " " + t.slice(0, 160));
+      }
       const j = await r.json();
       fs.writeFileSync(path.join(OUT, `${pad(l.n)}-${k}.mp3`), Buffer.from(j.audio_base64, "base64"));
       fs.writeFileSync(path.join(OUT, `${pad(l.n)}-${k}.json`), JSON.stringify({ alignment: j.alignment }));
