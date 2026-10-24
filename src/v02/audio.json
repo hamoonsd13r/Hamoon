@@ -1,0 +1,18 @@
+{ "vo": "public/v02/vo.wav", "voJson": "src/v02/vo.json", "length": 22,
+  "music": [["public/v02/music.wav", "0", 0.05, "end", 1.2]],
+  "musicKeys": [[0, 0.5], [0.3, 0.28], ["end-1.6", 0.28], ["end-1.2", 0.55]],
+  "sfxGain": 0.45,
+  "sfx": [
+    ["public/sfx-lib/thud.wav", 0.15, 0.6, 0.007],
+    ["public/sfx-lib/whoosh.wav", 2.35, 0.5, 0.328],
+    ["public/sfx-lib/stamp.wav", "W:1:دو", 0.6, 0.012],
+    ["public/sfx-lib/sweep.wav", "W:2:طبقه‌ی", 0.5, 0.224],
+    ["public/sfx-lib/pop.wav", "W:2:کاردیو", 0.5, 0.004],
+    ["public/sfx-lib/whoosh.wav", "W:3:طبقه‌ی", 0.5, 0.328],
+    ["public/sfx-lib/sweep.wav", "W:3:بهترین", 0.5, 0.224],
+    ["public/sfx-lib/pop.wav", "W:3:جدیدترین", 0.5, 0.004],
+    ["public/sfx-lib/whoosh.wav", "W:4:رشت", 0.5, 0.328],
+    ["public/sfx-lib/sweep.wav", "W:4:مجتمع", 0.5, 0.224],
+    ["public/sfx-lib/whoosh.wav", "W:5:همین", 0.5, 0.328],
+    ["public/sfx-lib/ping.wav", "W:5:پیجمون", 0.5, 0.016]
+  ] }
