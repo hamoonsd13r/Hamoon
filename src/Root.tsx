@@ -17,6 +17,7 @@ import { LIGHTLOGO_FPS, LIGHTLOGO_FRAMES, LIGHTLOGO_LOOK, LightLogoVideo } from 
 import { DESK_FPS, DESK_FRAMES, DESK_LOOK, DeskVideo } from "./styles/studio-desk";
 import { ArtMotionCompositions } from "./styles/art-motion";
 import { V02 } from "./v02/Video";
+import { V03 } from "./v03/Video";
 
 // Every video = one <Composition>. The style demos below are the reference films / starter templates (see STYLES.md).
 // They play silent: the films’ narration, music and effects are not shipped — each style’s pipeline/ folder says how to make yours.
@@ -57,6 +58,7 @@ export const RemotionRoot: React.FC = () => {
           Card: styles/art-motion.md. Your video: cp src/art-starter/StoryVideo.tsx src/v01/Video.tsx → import { V01 } from "./v01/Video"; <V01 /> */}
       <ArtMotionCompositions />
       <V02 />
+      <V03 />
       {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
     </>
   );

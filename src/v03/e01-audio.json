@@ -1,0 +1,17 @@
+{ "vo": "public/v03/e01/vo.wav", "voJson": "src/v03/e01-vo.json", "length": 30.71,
+  "music": [["public/v03/e01/music.wav", "0", 0, "end", 0.1]],
+  "musicKeys": [[0, 0.3], [0.3, 0.2], [29.0, 0.2], [29.1, 0.4]],
+  "sfxGain": 0.16,
+  "sfx": [
+    ["public/v03/e01/bell.wav", 1.56, 0.8, 0.005],
+    ["public/v03/e01/tick.wav", 4.0, 0.45, 0.003],
+    ["public/v03/e01/tick.wav", 5.0, 0.45, 0.003],
+    ["public/v03/e01/bell.wav", 13.37, 1.0, 0.005],
+    ["public/v03/e01/step.wav", 17.17, 0.5, 0.01],
+    ["public/v03/e01/step.wav", 17.59, 0.45, 0.01],
+    ["public/v03/e01/step.wav", 18.01, 0.5, 0.01],
+    ["public/v03/e01/step.wav", 18.43, 0.45, 0.01],
+    ["public/v03/e01/step.wav", 18.85, 0.4, 0.01],
+    ["public/v03/e01/sting.wav", 25.74, 0.7, 0.02],
+    ["public/v03/e01/boom.wav", 29.06, 1.0, 0.02]
+  ] }
