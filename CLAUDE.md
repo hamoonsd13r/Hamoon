@@ -55,6 +55,11 @@
   - موزیک آزاد `public/music/`
   - افکت‌های `public/kenney/` و `public/sfx-lib/`
 
+## موزیک و افکت
+- کاربر خواسته موزیک و افکت از کتابخانه‌ی **Alvana Audio** باشد (https://github.com/seyedpouramir/alvana-audio، تقریباً همه CC0). مهارتش: `.claude/skills/alvana-audio/SKILL.md`.
+- ابزارها در `tools/get.mjs` (جست‌وجو و دانلود به `public/audio/`) و `tools/mix.mjs` (میکس و ‎-14 LUFS) هستند.
+- برای دانلود سریع، ریپو را یک بار clone کن (`GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/seyedpouramir/alvana-audio ~/alvana-audio`) و `ALVANA_AUDIO_DIR=~/alvana-audio` بده.
+
 ## رندر در ابر
 - **سبک‌های دوبعدی** با `--concurrency=4` رندر می‌شوند. این پیش‌فرض ابر است و در `remotion.config.ts` تنظیم شده.
   - ریلز ۶۰ ثانیه‌ای عمودی حدود ۱۰ تا ۱۵ دقیقه طول می‌کشد.

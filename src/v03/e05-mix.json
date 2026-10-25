@@ -1,0 +1,105 @@
+{
+ "length": 28.03,
+ "voice": "public/v03/e05/vo.wav",
+ "music": [
+  {
+   "id": "music/horror/tension-in-the-air",
+   "at": 5.48,
+   "from": 0,
+   "to": 28.03,
+   "fadeIn": 2,
+   "fadeOut": 1.2,
+   "gain": 0.22
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/wind",
+   "from": 0,
+   "to": 21.5,
+   "vol": 0.25
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/body/heartbeat-fast",
+   "at": 0.3,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/body/heartbeat-fast",
+   "at": 2.4,
+   "vol": 0.203
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 4.31,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 7.95,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 10.88,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/transition/whoosh-hit-2",
+   "at": 13.27,
+   "vol": 0.203
+  },
+  {
+   "id": "sfx/creature/barking-01",
+   "at": 17.43,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/creature/barking-02",
+   "at": 17.86,
+   "vol": 0.203
+  },
+  {
+   "id": "sfx/creature/barking-01",
+   "at": 18.16,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/creature/barking-02",
+   "at": 18.56,
+   "vol": 0.203
+  },
+  {
+   "id": "sfx/riser/quick-1s",
+   "at": 21.4,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/transition/power-down",
+   "at": 21.49,
+   "vol": 0.27
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 21.5,
+   "vol": 0.248
+  },
+  {
+   "id": "sfx/glitch/static",
+   "at": 23,
+   "vol": 0.113
+  },
+  {
+   "id": "sfx/creature/scream-02",
+   "at": 24.98,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 26.38,
+   "vol": 0.27
+  }
+ ]
+}
