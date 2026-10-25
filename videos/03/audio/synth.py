@@ -98,4 +98,10 @@ def growl():  # low dog growl: band-limited noise, amplitude-modulated ~28 Hz, s
     x = base * am * env + 0.3 * np.sin(2 * np.pi * 95 * tt) * am * env
     return reverb(x, 0.8, 0.2)
 save("growl", growl())
+def buzz():  # phone vibrating on a hard surface: 0.45 s rough 170 Hz burst
+    n = int(0.5 * SR); tt = np.arange(n) / SR
+    x = np.sign(np.sin(2 * np.pi * 170 * tt)) * 0.5 + np.sin(2 * np.pi * 340 * tt) * 0.3
+    x = lp_fast(x, 6) * np.clip(tt / 0.02, 0, 1) * np.clip((0.45 - tt) / 0.03, 0, 1)
+    return x
+save("buzz", buzz())
 print("ok")

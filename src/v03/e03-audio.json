@@ -1,0 +1,21 @@
+{ "vo": "public/v03/e03/vo.wav", "voJson": "src/v03/e03-vo.json", "length": 30.57,
+  "music": [["public/v03/e03/music.wav", "0", 0, "end", 0.1]],
+  "musicKeys": [[0, 0.3], [0.3, 0.2], [28.85, 0.2], [28.95, 0.4]],
+  "sfxGain": 0.1,
+  "sfx": [
+    ["public/sfx-lib/glitch.wav", 1.30, 0.7, 0.01],
+    ["public/v03/e03/sting.wav", 1.32, 0.5, 0.02],
+    ["public/sfx-lib/glitch.wav", 2.03, 0.5, 0.01],
+    ["public/sfx-lib/glitch.wav", 4.07, 0.8, 0.01],
+    ["public/v03/e03/sting.wav", 4.09, 0.7, 0.02],
+    ["public/v03/e03/tick.wav", 9.52, 0.6, 0.003],
+    ["public/v03/e03/tick.wav", 9.78, 0.5, 0.003],
+    ["public/v03/e03/sting.wav", 11.62, 0.6, 0.02],
+    ["public/v03/e03/buzz.wav", 19.40, 0.6, 0.05],
+    ["public/v03/e03/buzz.wav", 20.31, 0.6, 0.05],
+    ["public/v03/e03/buzz.wav", 21.22, 0.6, 0.05],
+    ["public/v03/e03/buzz.wav", 22.13, 0.6, 0.05],
+    ["public/v03/e03/step.wav", 26.05, 0.7, 0.01],
+    ["public/v03/e03/sting.wav", 27.66, 0.8, 0.02],
+    ["public/v03/e03/boom.wav", 28.92, 1.0, 0.02]
+  ] }

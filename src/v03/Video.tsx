@@ -6,9 +6,11 @@ import { FPS, H, W } from "./lib";
 import { Episode, type Shot, type VO } from "./ui";
 import * as E01 from "./e01";
 import * as E02 from "./e02";
+import * as E03 from "./e03";
 
 const EP = [
   { id: "V03-E01", m: E01, title: "آخرین شبِ شهر", sub: "قسمت اول · کسی پشت در بود", next: "قسمت دوم", audio: "v03/e01/mix.wav" },
+  { id: "V03-E03", m: E03, title: "آخرین شبِ شهر", sub: "قسمت سوم · از پشت چشمی", next: "قسمت چهارم · سامان چی دیده؟", audio: "v03/e03/mix.wav" },
   { id: "V03-E02", m: E02, title: "آخرین شبِ شهر", sub: "قسمت دوم · ذرت می‌دونست", next: "قسمت سوم", audio: "v03/e02/mix.wav" },
 ];
 
