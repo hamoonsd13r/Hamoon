@@ -1,0 +1,17 @@
+{ "vo": "public/v05/vo.wav", "voJson": "src/v05/vo.json", "length": 31.4,
+  "music": [["public/v05/music.wav", "0", 0.3, "end", 1.2]],
+  "sfx": [
+    ["public/audio/sfx/body/heartbeat-fast.wav", "0.05", 0.55, 0.005],
+    ["public/audio/sfx/body/heartbeat-fast.wav", "2.0", 0.45, 0.005],
+    ["public/audio/sfx/transition/power-down.wav", "S:2-0.12", 0.5, 0.303],
+    ["public/audio/sfx/notification/error-buzz.wav", "W:4:لود+0.15", 0.35, 0.132],
+    ["public/audio/sfx/whoosh/soft-short.wav", "S:5-0.12", 0.35, 0.184],
+    ["public/v05/sfx/splat.wav", "W:5:جدید+0.25", 0.6, 0.484],
+    ["public/audio/sfx/paper/page-flip.wav", "S:6-0.05", 0.45, 0.006],
+    ["public/audio/sfx/magic/sparkle.wav", "W:6:فکر", 0.3, 0.565],
+    ["public/v05/sfx/laugh.wav", "S:7+0.4", 0.45, 0.792],
+    ["public/v05/sfx/notifs.wav", "S:9-0.12", 0.55, 0.065],
+    ["public/audio/sfx/misc/spring-04.wav", "W:10:ساعت-0.37", 0.45, 0.028]
+  ],
+  "beds": [["public/v05/sfx/birds.wav", "S:8-0.3", "S:9-0.12", 0.35]],
+  "musicBase": 0.75, "musicLift": 0.3, "sfxGain": 0.45, "voGain": 1.0 }
