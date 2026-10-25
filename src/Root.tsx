@@ -18,6 +18,7 @@ import { DESK_FPS, DESK_FRAMES, DESK_LOOK, DeskVideo } from "./styles/studio-des
 import { ArtMotionCompositions } from "./styles/art-motion";
 import { V02 } from "./v02/Video";
 import { V03 } from "./v03/Video";
+import { V04 } from "./v04/Video";
 
 // Every video = one <Composition>. The style demos below are the reference films / starter templates (see STYLES.md).
 // They play silent: the films’ narration, music and effects are not shipped — each style’s pipeline/ folder says how to make yours.
@@ -59,6 +60,7 @@ export const RemotionRoot: React.FC = () => {
       <ArtMotionCompositions />
       <V02 />
       <V03 />
+      <V04 />
       {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
     </>
   );

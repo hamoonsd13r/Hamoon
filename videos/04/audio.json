@@ -1,0 +1,13 @@
+{ "vo": "public/v04/vo.wav", "voJson": "src/v04/vo.json", "length": 31.6,
+  "music": [["public/v04/music.wav", "0", 0.3, "end", 1.2]],
+  "sfx": [
+    ["public/v04/sfx/mammoth.wav", "W:1:ماموته+0.15", 0.3, 0.213],
+    ["public/audio/sfx/transition/power-down.wav", "S:2-0.15", 0.45, 0.303],
+    ["public/v04/sfx/rift.wav", "S:3-0.15", 0.6, 0.557],
+    ["public/audio/sfx/impact/classic-thud.wav", "S:3-0.05", 0.5, 0.007],
+    ["public/audio/sfx/whoosh/soft-short.wav", "W:4:نون-0.05", 0.35, 0.184],
+    ["public/v04/sfx/ooh.wav", "E:5+0.1", 0.55, 0.489],
+    ["public/v04/sfx/cheer.wav", "W:7:اولین", 0.45, 0.978],
+    ["public/v04/sfx/mammoth.wav", "E:8+0.3", 0.6, 0.213]
+  ],
+  "musicBase": 0.75, "musicLift": 0.3, "sfxGain": 0.45, "voGain": 1.0 }
