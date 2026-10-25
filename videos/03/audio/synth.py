@@ -104,4 +104,18 @@ def buzz():  # phone vibrating on a hard surface: 0.45 s rough 170 Hz burst
     x = lp_fast(x, 6) * np.clip(tt / 0.02, 0, 1) * np.clip((0.45 - tt) / 0.03, 0, 1)
     return x
 save("buzz", buzz())
+def knock():  # heavy fist on a wooden door
+    n = int(0.9 * SR); tt = np.arange(n) / SR
+    x = np.sin(2 * np.pi * 95 * tt) * np.exp(-tt * 22) + 0.6 * np.sin(2 * np.pi * 180 * tt) * np.exp(-tt * 30)
+    x += lp_fast(rng.standard_normal(n), 8) * 3 * np.exp(-tt * 45)
+    return reverb(x, 0.9, 0.35)
+save("knock", knock())
+
+def rain():  # 12 s rain bed
+    n = int(12 * SR)
+    hiss = rng.standard_normal(n) - lp_fast(rng.standard_normal(n), 30)
+    drops = np.zeros(n); idx = rng.integers(0, n - 200, 900)
+    for i in idx: drops[i:i + 120] += np.exp(-np.arange(120) / 18) * rng.uniform(0.2, 1)
+    return lp_fast(hiss, 3) * 0.35 + drops * 0.25
+save("rain", rain())
 print("ok")

@@ -144,3 +144,15 @@ export const RimDefs: React.FC<{ id: string; color: string; dx: number; dy: numb
     </filter>
   </defs>
 );
+
+// whip-in: the first frames of a shot slide in with horizontal motion blur (use on hard, energetic cuts)
+export const Whip: React.FC<{ id: string; t: number; dir?: number; len?: number; children: React.ReactNode }> = ({ id, t, dir = 1, len = 0.2, children }) => {
+  const k = 1 - easeOut(clamp(t / len));
+  if (k <= 0.001) return <>{children}</>;
+  return (
+    <g>
+      <defs><filter id={`${id}wb`} x="-30%" y="-5%" width="160%" height="110%"><feGaussianBlur stdDeviation={`${k * 48} 0`} /></filter></defs>
+      <g filter={`url(#${id}wb)`} transform={`translate(${dir * k * 320} 0)`}>{children}</g>
+    </g>
+  );
+};

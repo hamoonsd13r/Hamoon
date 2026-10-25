@@ -10,7 +10,7 @@ export const vo = voJson as VO;
 const RING = wd(vo, 5, "همون") - 0.05;
 
 // fisheye peephole view: content drawn inside a lens circle, dark barrel edge, faint chromatic ring
-const Peep: React.FC<{ id: string; r?: number; cx?: number; cy?: number; children: React.ReactNode }> = ({ id, r = 440, cx = 540, cy = 900, children }) => (
+export const Peep: React.FC<{ id: string; r?: number; cx?: number; cy?: number; children: React.ReactNode }> = ({ id, r = 440, cx = 540, cy = 900, children }) => (
   <g>
     <rect width={W} height={H} fill="#020306" />
     <defs>
@@ -32,7 +32,7 @@ const Peep: React.FC<{ id: string; r?: number; cx?: number; cy?: number; childre
 );
 
 // the old man's face turned to the lens — only for split-second flashes
-const Face: React.FC<{ cx: number; cy: number; s: number; o: number }> = ({ cx, cy, s, o }) => (
+export const Face: React.FC<{ cx: number; cy: number; s: number; o: number }> = ({ cx, cy, s, o }) => (
   <g opacity={o} transform={`translate(${cx} ${cy}) scale(${s})`}>
     <ellipse cx={0} cy={0} rx={150} ry={190} fill="#0b0e14" />
     <ellipse cx={-130} cy={10} rx={30} ry={52} fill="#0b0e14" />
@@ -72,7 +72,7 @@ const S1: ShotFn = ({ t, dur, T }) => {
 };
 
 // the inside of the door, side-on, with Raha's face close to it
-const AtDoor: React.FC<{ id: string; t: number; dur: number; T: number; close: number; lean: number; dog?: boolean }> = ({ id, t, dur, T, close, lean, dog }) => (
+export const AtDoor: React.FC<{ id: string; t: number; dur: number; T: number; close: number; lean: number; dog?: boolean }> = ({ id, t, dur, T, close, lean, dog }) => (
   <g>
     <RimDefs id={`${id}rim`} color="#8aa6d6" dx={-5} dy={-3} w={3} blur={1.5} />
     <Cam t={t} dur={dur} from={1.0} to={1.1} ox={620} oy={820}>
@@ -161,7 +161,7 @@ const S6: ShotFn = ({ t, dur, T }) => {
 };
 
 // Saman in the back stairwell, phone to his ear (head-and-shoulders silhouette)
-const Saman: React.FC<{ x: number; y: number; s: number; filter?: string; talk: number }> = ({ x, y, s, filter, talk }) => (
+export const Saman: React.FC<{ x: number; y: number; s: number; filter?: string; talk: number }> = ({ x, y, s, filter, talk }) => (
   <g transform={`translate(${x} ${y}) scale(${s})`} fill={C.ink} filter={filter}>
     <path d="M-260,420 C-250,250 -170,170 -70,150 L70,150 C170,170 250,250 260,420 Z" />
     <path d="M-80,160 L-40,90 L40,90 L80,160 Z" />
