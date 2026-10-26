@@ -9,8 +9,14 @@ import * as E02 from "./e02";
 import * as E03 from "./e03";
 import * as E04 from "./e04";
 import * as E05 from "./e05";
+import * as E06 from "./e06";
+import * as E07 from "./e07";
+import * as E08 from "./e08";
 
 const EP = [
+  { id: "V03-E08", m: E08, title: "آخرین شبِ شهر", sub: "قسمت آخر · پدربزرگ زنگ زد", next: "آخرین شبِ شهر · ۸ قسمت", audio: "v03/e08/mix.wav", fin: true },
+  { id: "V03-E07", m: E07, title: "آخرین شبِ شهر", sub: "قسمت هفتم · زیرِ زمین", next: "قسمت آخر · پدربزرگ زنگ زد", audio: "v03/e07/mix.wav" },
+  { id: "V03-E06", m: E06, title: "آخرین شبِ شهر", sub: "قسمت ششم · مامانم در رو باز کرد", next: "قسمت هفتم · ده دقیقه تا تعمیرگاه", audio: "v03/e06/mix.wav" },
   { id: "V03-E01", m: E01, title: "آخرین شبِ شهر", sub: "قسمت اول · کسی پشت در بود", next: "قسمت دوم", audio: "v03/e01/mix.wav" },
   { id: "V03-E05", m: E05, title: "آخرین شبِ شهر", sub: "قسمت پنجم · خاموشی", next: "قسمت ششم · مامانم در رو باز کرد", audio: "v03/e05/mix.wav" },
   { id: "V03-E04", m: E04, title: "آخرین شبِ شهر", sub: "قسمت چهارم · مرده‌ها هم در می‌زنن", next: "قسمت پنجم · خاموشی", audio: "v03/e04/mix.wav" },
@@ -20,9 +26,9 @@ const EP = [
 
 // props must be JSON (Remotion serialises them), so each composition gets a wrapper that holds its shot functions
 type EpMod = { SHOTS: Shot[]; vo: VO; TOTAL: number; LOOK: number[] };
-const make = (m: EpMod, title: string, sub: string, next: string) =>
-  ({ audio, look }: { audio?: string; look?: boolean }) => <Episode shots={m.SHOTS} vo={m.vo} total={m.TOTAL} title={title} sub={sub} next={next} audio={audio} times={look ? m.LOOK : undefined} />;
-const COMP = Object.fromEntries(EP.map((e) => [e.id, make(e.m, e.title, e.sub, e.next)]));
+const make = (m: EpMod, title: string, sub: string, next: string, fin?: boolean) =>
+  ({ audio, look }: { audio?: string; look?: boolean }) => <Episode shots={m.SHOTS} vo={m.vo} total={m.TOTAL} title={title} sub={sub} next={next} fin={fin} audio={audio} times={look ? m.LOOK : undefined} />;
+const COMP = Object.fromEntries(EP.map((e) => [e.id, make(e.m, e.title, e.sub, e.next, "fin" in e ? e.fin : false)]));
 
 export const V03: React.FC = () => (
   <>

@@ -62,18 +62,18 @@ export const Title: React.FC<{ T: number; title: string; sub: string; until: num
   );
 };
 
-export const EndCard: React.FC<{ t: number; next: string }> = ({ t, next }) => {
+export const EndCard: React.FC<{ t: number; next: string; fin?: boolean }> = ({ t, next, fin }) => {
   const a = easeOut(prog(t, 0.05, 0.5));
   return (
     <AbsoluteFill style={{ background: "#020306", direction: "rtl", alignItems: "center", justifyContent: "center" }}>
-      <div style={{ fontFamily: "V03Black", fontSize: 96, color: C.bone, opacity: a, transform: `translateY(${(1 - a) * 20}px)`, textShadow: `0 0 30px rgba(224,36,47,${0.4 + 0.3 * Math.sin(t * 9)})` }}>ادامه دارد…</div>
+      <div style={{ fontFamily: "V03Black", fontSize: 96, color: C.bone, opacity: a, transform: `translateY(${(1 - a) * 20}px)`, textShadow: `0 0 30px rgba(224,36,47,${0.4 + 0.3 * Math.sin(t * 9)})` }}>{fin ? "پایان" : "ادامه دارد…"}</div>
       <div style={{ fontFamily: "V03Bold", fontSize: 46, color: C.red, marginTop: 26, opacity: easeOut(prog(t, 0.35, 0.8)) }}>{next}</div>
     </AbsoluteFill>
   );
 };
 
 // plays the shots in order; each shot gets its local time. Hard cuts, with a short dip at shot starts flagged by the scene.
-export const Episode: React.FC<{ shots: Shot[]; vo: VO; total: number; audio?: string; title: string; sub: string; next: string; times?: number[] }> = ({ shots, vo, total, audio, title, sub, next, times }) => {
+export const Episode: React.FC<{ shots: Shot[]; vo: VO; total: number; audio?: string; title: string; sub: string; next: string; times?: number[]; fin?: boolean }> = ({ shots, vo, total, audio, title, sub, next, times, fin }) => {
   const f = useCurrentFrame();
   const T = times ? times[Math.min(f, times.length - 1)] : f / FPS;
   const k = shots.findIndex((s, i) => T >= s.at && (i === shots.length - 1 || T < shots[i + 1].at));
@@ -83,7 +83,7 @@ export const Episode: React.FC<{ shots: Shot[]; vo: VO; total: number; audio?: s
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       {audio && !times && <Html5Audio src={staticFile(audio)} />}
-      {isEnd ? <EndCard t={T - vo.total + 0.05} next={next} /> : (
+      {isEnd ? <EndCard t={T - vo.total + 0.05} next={next} fin={fin} /> : (
         <>
           <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{ position: "absolute" }}>
             <sh.S t={T - sh.at} dur={end - sh.at} T={T} />

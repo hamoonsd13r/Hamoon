@@ -1,0 +1,5 @@
+[
+ {"id":"skid","text":"Car tires screeching to a short stop on asphalt, brakes squeal","dur":1.5,"infl":0.5},
+ {"id":"quack","text":"A single duck quacking twice, cartoonish, close","dur":1,"infl":0.5},
+ {"id":"meow","text":"A cat meowing once, curious, short","dur":1,"infl":0.5}
+]

@@ -1,0 +1,146 @@
+{
+ "length": 36.42,
+ "voice": "public/v03/e07/vo.wav",
+ "music": [
+  {
+   "id": "music/horror/tension-in-the-air",
+   "at": 16.68,
+   "from": 0,
+   "to": 36.42,
+   "fadeIn": 2.5,
+   "fadeOut": 1.2,
+   "gain": 0.26
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/wind",
+   "from": 0,
+   "to": 24.67,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/ambience/rain",
+   "from": 24.67,
+   "to": 36.42,
+   "vol": 0.18
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 0.3,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 4.111,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 5.128,
+   "vol": 0.075
+  },
+  {
+   "id": "sfx/impact/classic-thud",
+   "at": 7.103,
+   "vol": 0.175
+  },
+  {
+   "id": "sfx/impact/classic-thud",
+   "at": 7.639,
+   "vol": 0.175
+  },
+  {
+   "id": "sfx/impact/classic-thud",
+   "at": 8.853,
+   "vol": 0.175
+  },
+  {
+   "id": "sfx/impact/classic-thud",
+   "at": 10.246,
+   "vol": 0.175
+  },
+  {
+   "id": "sfx/money/coin-drop",
+   "at": 10.246,
+   "vol": 0.075
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 11.349,
+   "vol": 0.06
+  },
+  {
+   "id": "sfx/foley/creak-1",
+   "at": 13.288,
+   "vol": 0.175
+  },
+  {
+   "id": "sfx/foley/creak-3",
+   "at": 14.088,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/foley/creak-2",
+   "at": 14.888,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/body/heartbeat-fast",
+   "at": 13.588,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/transition/whoosh-hit-2",
+   "at": 15.453,
+   "vol": 0.065
+  },
+  {
+   "id": "sfx/foley/creak-2",
+   "at": 18.535,
+   "vol": 0.175
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 21.787,
+   "vol": 0.06
+  },
+  {
+   "id": "sfx/notification/notify-message",
+   "at": 23.619,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 24.573,
+   "vol": 0.06
+  },
+  {
+   "id": "sfx/foley/creak-1",
+   "at": 26.798,
+   "vol": 0.175
+  },
+  {
+   "id": "sfx/transition/whoosh-hit-2",
+   "at": 28.529,
+   "vol": 0.075
+  },
+  {
+   "id": "sfx/riser/quick-1s",
+   "at": 32.483,
+   "vol": 0.075
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 32.683,
+   "vol": 0.125
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 34.872,
+   "vol": 0.135
+  }
+ ]
+}
