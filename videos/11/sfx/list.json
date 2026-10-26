@@ -1,0 +1,9 @@
+[
+ {"id":"roar","text":"Massive stadium concert crowd of a hundred thousand fans erupting into a huge roar, screaming and cheering wildly","dur":4,"infl":0.5},
+ {"id":"murmur","text":"Huge stadium crowd murmuring in tense anticipation, distant low rumble of voices, waiting for the singer","dur":4,"infl":0.4},
+ {"id":"fans","text":"Crowd of screaming excited fans outside an apartment window on a street, cheering and chanting, camera shutters","dur":3,"infl":0.4},
+ {"id":"rewind","text":"VHS tape rewinding fast, high pitched squealing whir, tape rewind effect","dur":1.5,"infl":0.5},
+ {"id":"shower","text":"Shower water running steadily in a small tiled bathroom, close","dur":4,"infl":0.3},
+ {"id":"scratch","text":"Vinyl record scratch, music stops abruptly","dur":1,"infl":0.6},
+ {"id":"chase","text":"Excited crowd chasing someone through a narrow alley, many running footsteps, people shouting and screaming","dur":3,"infl":0.4}
+]
