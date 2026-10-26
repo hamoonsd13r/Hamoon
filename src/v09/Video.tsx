@@ -21,8 +21,8 @@ export const V09_END = E(16) + 2.4;
 export const V09_FRAMES = fr(V09_END);
 
 // handwriting (Nastaliq) + heavy sans for the alert
-const NASTA = "V09Nasta";
-const BLACK = "V09Black";
+export const NASTA = "V09Nasta";
+export const BLACK = "V09Black";
 if (typeof document !== "undefined") {
   const h = delayRender("v09 fonts");
   Promise.all([
@@ -32,7 +32,7 @@ if (typeof document !== "undefined") {
 }
 
 // ---- palette ----------------------------------------------------------------
-const C = {
+export const C = {
   night: "#06080f", sky1: "#0b1324", sky2: "#18233b", sand: "#15110d", asphalt: "#15171c",
   sodium: "#ff9a3c", sodiumGlow: "rgba(255,154,60,.35)", red: "#e8323c", glass: "#7fa3c7", ice: "#bfe3ff", radio: "#8dff9a",
   paper: "#efe3c4", ink: "#1b1712", text: "#f3efe6", dim: "#7d8494",
@@ -49,13 +49,13 @@ const hn = (i: number, s = 0) => { const x = Math.sin(i * 127.1 + s * 311.7) * 4
 const fa = (s: string | number) => String(s).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[+d]);
 
 // ---- shared pieces ---------------------------------------------------------------
-const Stars: React.FC<{ t: number; n?: number; h?: number }> = ({ t, n = 70, h = 1000 }) => (
+export const Stars: React.FC<{ t: number; n?: number; h?: number }> = ({ t, n = 70, h = 1000 }) => (
   <g>{Array.from({ length: n }, (_, i) => <circle key={i} cx={hn(i) * 1080} cy={hn(i, 2) * h} r={0.8 + hn(i, 3) * 1.8} fill="#fff" opacity={0.25 + 0.5 * hn(i, 4) * (0.6 + 0.4 * Math.sin(t * 2 + i))} />)}</g>
 );
-const Moon: React.FC<{ x: number; y: number }> = ({ x, y }) => (
+export const Moon: React.FC<{ x: number; y: number }> = ({ x, y }) => (
   <g><circle cx={x} cy={y} r={70} fill="rgba(220,230,255,.06)" /><circle cx={x} cy={y} r={38} fill="#e9e6da" /><circle cx={x + 16} cy={y - 8} r={34} fill={C.sky1} /></g>
 );
-const Mountains: React.FC<{ y: number }> = ({ y }) => (
+export const Mountains: React.FC<{ y: number }> = ({ y }) => (
   <g>
     <path d={`M0 ${y} L120 ${y - 70} L230 ${y - 30} L380 ${y - 120} L520 ${y - 40} L660 ${y - 95} L800 ${y - 35} L930 ${y - 110} L1080 ${y - 50} L1080 ${y + 40} L0 ${y + 40} Z`} fill="#0d1220" />
     <path d={`M0 ${y + 10} L160 ${y - 30} L300 ${y + 5} L470 ${y - 50} L640 ${y} L820 ${y - 40} L1080 ${y + 5} L1080 ${y + 60} L0 ${y + 60} Z`} fill="#0a0e18" />
@@ -63,7 +63,7 @@ const Mountains: React.FC<{ y: number }> = ({ y }) => (
 );
 
 /** Person silhouette (head + shoulders), origin = neck base. */
-const Figure: React.FC<{ x: number; y: number; s?: number; fill?: string; turn?: number; eyes?: number; cap?: boolean; op?: number }> = ({ x, y, s = 1, fill = "#0a0c12", turn = 0, eyes = 0, cap, op = 1 }) => (
+export const Figure: React.FC<{ x: number; y: number; s?: number; fill?: string; turn?: number; eyes?: number; cap?: boolean; op?: number }> = ({ x, y, s = 1, fill = "#0a0c12", turn = 0, eyes = 0, cap, op = 1 }) => (
   <g transform={`translate(${x} ${y}) scale(${s})`} opacity={op}>
     <path d="M-150 260 Q-150 40 -70 20 L70 20 Q150 40 150 260 Z" fill={fill} />
     <rect x={-26} y={-10} width={52} height={40} fill={fill} />
@@ -75,13 +75,13 @@ const Figure: React.FC<{ x: number; y: number; s?: number; fill?: string; turn?:
   </g>
 );
 
-const Chip: React.FC<{ x: number; y: number; a: number; bg: string; color?: string; children: React.ReactNode; size?: number }> = ({ x, y, a, bg, color = "#fff", children, size = 40 }) => (
+export const Chip: React.FC<{ x: number; y: number; a: number; bg: string; color?: string; children: React.ReactNode; size?: number }> = ({ x, y, a, bg, color = "#fff", children, size = 40 }) => (
   <div style={{ position: "absolute", left: x, top: y, transform: `translate(-50%,-50%) scale(${a})`, opacity: a > 0.01 ? 1 : 0, background: bg, color, borderRadius: 14, padding: "8px 26px 12px", fontFamily: BLACK, fontSize: size, direction: "rtl", whiteSpace: "nowrap", boxShadow: "0 12px 30px rgba(0,0,0,.5)" }}>{children}</div>
 );
 
 // ---- scenes (absolute time t) -----------------------------------------------------
 /** Exterior: desert gas station. car = Paykan progress (0 off-screen left → 1 parked at pump 4). */
-const Exterior: React.FC<{ t: number; car?: number; carEyes?: number; push?: number; litShop?: number }> = ({ t, car = -1, carEyes = 0, push = 0, litShop = 1 }) => {
+export const Exterior: React.FC<{ t: number; car?: number; carEyes?: number; push?: number; litShop?: number }> = ({ t, car = -1, carEyes = 0, push = 0, litShop = 1 }) => {
   const z = 1 + push;
   const buzz = 0.85 + 0.15 * (hn(Math.floor(t * 12)) > 0.93 ? 0 : 1);
   return (
@@ -538,7 +538,7 @@ const Captions: React.FC<{ t: number }> = ({ t }) => {
 };
 
 /** Grain + vignette + rare flicker over everything. */
-const Film: React.FC<{ f: number }> = ({ f }) => (
+export const Film: React.FC<{ f: number }> = ({ f }) => (
   <>
     <svg width={360} height={640} viewBox="0 0 360 640" style={{ position: "absolute", left: 0, top: 0, width: 1080, height: 1920, mixBlendMode: "overlay", opacity: 0.35, imageRendering: "pixelated" }}>
       <filter id="v09g"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves={1} seed={f % 12} /></filter>
