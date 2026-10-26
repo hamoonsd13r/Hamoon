@@ -1,4 +1,4 @@
-// v13 «پیام صوتی» قسمت ۱ voice (Sarah = سارا، Lily = مامان از پیام صوتی، فیلتر تلفنی), line by line with strict pronunciation control.
+// v13 «پیام صوتی» قسمت ۱ voice (Sarah = ماهک، Lily = مامان از پیام صوتی، فیلتر تلفنی), line by line with strict pronunciation control.
 //   node --env-file=.env tools/v13-voice.mjs takes <segId|all> [n=2]   → videos/13/voice/<id>-<k>.mp3 (+ STT check)
 //   node tools/v13-voice.mjs check                                    → STT diff + low-confidence words of every take
 //   node tools/v13-voice.mjs build                                    → public/v13/vo.wav + src/v13/words.json (PICK + GAP)
@@ -12,7 +12,7 @@ export const SEG = [
   { id: "01", v: "sara", si: 0, t: "[whispering, sad] امشب چهلمِ مامانه. همه رفتن… فقط من موندم و این خونه." },
   { id: "02", v: "sara", si: 1, t: "[whispering] ساعت سه و هفت دقیقه، گوشیم لرزید." },
   { id: "03", v: "sara", si: 2, t: "[whispering, confused] یه پیامِ صوتی… از شماره‌ی مامان." },
-  { id: "04", v: "mom", si: 3, phone: true, t: "[softly, slow, eerie] سارا… جانِ مادر… در رو باز نکن." },
+  { id: "04", v: "mom", si: 3, phone: true, t: "[softly, slow, eerie] ماهَک… جانِ مادر… در رو باز نکن." },
   { id: "05", v: "sara", si: 4, t: "[whispering, trembling] ولی… خطِ مامان رو… خودم باطل کرده بودم." },
   { id: "06", v: "sara", si: 5, t: "[terrified whisper] همون لحظه… یکی در زد." },
   { id: "07", v: "mom", si: 6, phone: true, t: "[whispering, eerie] از چشمی… نگاه نکن." },
