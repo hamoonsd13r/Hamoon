@@ -1,0 +1,15 @@
+[
+ {"id":"azan","text":"Faint distant Islamic call to prayer (adhan) sung by a muezzin from a far away mosque at night, echoing over the rooftops of a sleeping city, muffled and reverberant","dur":20,"infl":0.5},
+ {"id":"ney","text":"Slow mournful Persian ney flute solo, eerie and haunting, long breathy wavering notes, deep cavernous reverb, horror film atmosphere","dur":20,"infl":0.5},
+ {"id":"kaman","text":"Persian kamancheh bowed string playing dissonant eerie sliding notes, creepy horror tension, reverb","dur":12,"infl":0.5},
+ {"id":"daf","text":"Slow deep Persian daf frame drum hits like a heartbeat, ominous, dark reverb","dur":10,"infl":0.5},
+ {"id":"knock","text":"Three slow heavy knocks on an old wooden apartment front door, quiet hallway, close","dur":3,"infl":0.6},
+ {"id":"vibrate","text":"Smartphone vibrating on a wooden nightstand in a silent room, two short buzzes","dur":2,"infl":0.6},
+ {"id":"steps","text":"Slow barefoot footsteps on an old creaking wooden floor in a silent dark hallway","dur":6,"infl":0.4},
+ {"id":"candle","text":"A candle flame suddenly blown out by a gust, short puff and soft hiss","dur":1,"infl":0.6},
+ {"id":"bulb","text":"Old light bulb flickering, electrical buzzing and crackling hum","dur":5,"infl":0.4},
+ {"id":"sting","text":"Horror jump scare sting: violent screeching violins and a deep impact boom, sudden and loud","dur":2.5,"infl":0.7},
+ {"id":"breath","text":"Frightened young woman's trembling breathing, shaky inhale and exhale, very close","dur":4,"infl":0.5},
+ {"id":"whisper","text":"Eerie unintelligible ghostly whispers, layered voices, reverb, horror","dur":4,"infl":0.5},
+ {"id":"rumble","text":"Low ominous sub bass rumble slowly rising, horror tension","dur":5,"infl":0.5}
+]

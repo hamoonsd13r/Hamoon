@@ -7,3 +7,4 @@ out
 # V10 final mix (regenerate: node videos/10-namira/build-audio.mjs && node tools/mix.mjs videos/10-namira/mix.json --out out/v10/mix.wav)
 public/v10/mix.wav
 public/v12/music.wav
+public/v13/drone.wav
