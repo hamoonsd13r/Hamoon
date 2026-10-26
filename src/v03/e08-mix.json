@@ -1,0 +1,168 @@
+{
+ "length": 36.74,
+ "voice": "public/v03/e08/vo.wav",
+ "music": [
+  {
+   "id": "music/horror/tension-in-the-air",
+   "at": 0,
+   "from": 0.12,
+   "to": 24.8,
+   "fadeIn": 1.5,
+   "fadeOut": 0.15,
+   "gain": 0.24
+  },
+  {
+   "file": "public/audio/music/horror/floor-1.mp3",
+   "at": 27.48,
+   "from": 0,
+   "to": 36.74,
+   "fadeIn": 1.5,
+   "fadeOut": 2,
+   "gain": 0.22
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/rain",
+   "from": 10.17,
+   "to": 14.27,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "from": 0,
+   "to": 10.17,
+   "vol": 0.18
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 0.4,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 5.43,
+   "vol": 0.06
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 7.691,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/transition/whoosh-hit-2",
+   "at": 10.072,
+   "vol": 0.07
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 10.372,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 10.732,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 11.092,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 11.452,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 11.812,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 12.172,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 12.532,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 12.892,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 13.252,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 13.612,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/impact/metallic",
+   "at": 11.144,
+   "vol": 0.075
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 14.166,
+   "vol": 0.06
+  },
+  {
+   "file": "public/v03/e08/ring.wav",
+   "at": 15.834,
+   "vol": 0.11,
+   "peak": 0.02
+  },
+  {
+   "file": "videos/09-pomp-benzin/sfx/vibrate-1.mp3",
+   "at": 15.884,
+   "vol": 0.09,
+   "peak": 0.05
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 18.221,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/foley/creak-2",
+   "at": 20.34,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/impact/metallic",
+   "at": 24.747,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/impact/metal-heavy-002",
+   "at": 25.147,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 27.726,
+   "vol": 0.05
+  },
+  {
+   "file": "public/v03/e08/ring.wav",
+   "at": 33.167,
+   "vol": 0.125,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 34.592,
+   "vol": 0.135
+  }
+ ]
+}
