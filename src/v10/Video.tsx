@@ -74,7 +74,7 @@ const Year: React.FC<{ t: number }> = ({ t }) => {
   const pop = y !== prev && t < S(22) - 0.2 ? 1 : 0;
   return (
     <div style={{ position: "absolute", left: 0, top: 96, width: 1080, display: "flex", justifyContent: "center", pointerEvents: "none" }}>
-      <div style={{ display: "flex", alignItems: "baseline", gap: 18, direction: "rtl", padding: "6px 34px 12px", borderRadius: 999, background: "rgba(10,12,20,.42)", backdropFilter: "blur(6px)", transform: `scale(${1 + 0.08 * pop})` }}>
+      <div style={{ display: "flex", alignItems: "baseline", gap: 18, direction: "rtl", padding: "6px 34px 12px", borderRadius: 999, background: "rgba(10,12,20,.5)", transform: `scale(${1 + 0.08 * pop})` }}>
         <span style={{ fontFamily: BLACK, fontSize: 34, color: "rgba(255,255,255,.75)" }}>سال</span>
         <span style={{ fontFamily: FONT_NUM, fontSize: 78, color: "#ffc23a", lineHeight: 1.05, textShadow: "0 3px 0 rgba(0,0,0,.35)", direction: y === "POW" ? "ltr" : "rtl" }}>{y === "POW" ? <>۱۰<sup style={{ fontSize: 44 }}>۱۰۰</sup></> : y}</span>
       </div>
@@ -102,13 +102,9 @@ const Captions: React.FC<{ t: number }> = ({ t }) => {
   );
 };
 
-/** paper grain + soft vignette */
-const Grain: React.FC<{ f: number }> = ({ f }) => (
+/** soft vignette (film grain is added in the final ffmpeg encode — far cheaper than in the browser) */
+const Grain: React.FC<{ f: number }> = () => (
   <>
-    <svg width={360} height={640} viewBox="0 0 360 640" style={{ position: "absolute", left: 0, top: 0, width: 1080, height: 1920, mixBlendMode: "overlay", opacity: 0.22 }}>
-      <filter id="v10g"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves={1} seed={f % 8} /></filter>
-      <rect width={360} height={640} filter="url(#v10g)" />
-    </svg>
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(0,0,0,.35) 100%)" }} />
   </>
 );
