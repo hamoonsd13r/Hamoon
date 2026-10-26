@@ -1,0 +1,45 @@
+# Reference reel: "What if you could never die?" (instagram.com/reel/De1eYYqNWCr)
+720x1280 · 105.6s · 23 shots · realistic 3D character (Unreal-like), year counter top, mono caption under it, ending card "Would you still take it?"
+
+-   0.2s  What if you could never die?
+-   2.1s  Day one, you jump off a building just to check.
+-   6.5s  You swim with sharks.
+-   7.8s  The sharks give up first.
+-  10.0s  You hold a golf club up in a thunderstorm.
+-  13.4s  You take a hot bath in a volcano.
+-  16.2s  Best year of your life.
+-  18.3s  Then you fall in love.
+-  20.3s  Two kids, a little house, a garden.
+-  22.8s  You never get a single gray hair.
+-  25.2s  Sixty years later, she's ninety.
+-  27.2s  You still look twenty-five.
+-  29.7s  You bury her.
+-  31.0s  Then your kids.
+-  32.2s  Then their kids.
+-  34.1s  So you start over.
+-  35.4s  New city, new name, new family.
+-  38.1s  And you bury them too.
+-  40.5s  After the third family, you stop.
+-  43.2s  It hurts less to be alone.
+-  45.7s  Year 3000.
+-  47.8s  The AI decides it doesn't need humans anymore.
+-  50.6s  It wipes out everyone.
+-  52.8s  Everyone except you.
+-  54.9s  It tries.
+-  56.4s  A lot.
+-  58.3s  Year 12,000.
+-  59.8s  The cities are jungle again, and you're the last human on Earth.
+-  64.0s  Year 5 billion.
+-  65.7s  The sun swells into a red giant and swallows the Earth.
+-  70.0s  You float away into space, still awake.
+-  73.4s  Year 100 trillion.
+-  75.1s  The universe keeps stretching.
+-  77.1s  Galaxies drift out of sight.
+-  79.3s  The stars die of old age, one by one.
+-  82.9s  Year 10 to the power of 100.
+-  85.4s  Even the black holes slowly evaporate into nothing.
+-  89.3s  Then even atoms fall apart.
+-  91.8s  Everything drifts so far apart that nothing will ever touch again.
+-  95.9s  No light, no sound, no time.
+-  99.0s  Just you.
+- 100.6s  And forever is only just getting started.
