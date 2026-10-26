@@ -31,7 +31,8 @@ const Layer: React.FC<{ i: number; T: number; style?: React.CSSProperties }> = (
   return <AbsoluteFill style={{ overflow: "hidden", ...style }}><S T={T} t0={CUT[i]} /></AbsoluteFill>;
 };
 
-const Scenes: React.FC<{ T: number }> = ({ T }) => {
+const Scenes: React.FC<{ T: number; only?: number }> = ({ T, only }) => {
+  if (only !== undefined) return <Layer i={only} T={T} />;
   const out: React.ReactNode[] = [];
   SCENES.forEach((_, i) => {
     const xin = i ? XLEN[KIND[i]] : 0;
@@ -95,11 +96,11 @@ const Headline: React.FC<{ T: number }> = ({ T }) => {
 };
 
 // chapter chip + progress bar
-const Chapter: React.FC<{ T: number }> = ({ T }) => {
+const Chapter: React.FC<{ T: number; num?: number; p01?: number }> = ({ T, num, p01 }) => {
   const i = SCENES.findIndex((_, k) => T >= CUT[k] && T < endOf(k));
   if (i <= 0 || T > END0) return null;
   const p = pop(T, CUT[i] + 0.1, 0.4);
-  const prog01 = (T - CUT[1]) / (END0 - CUT[1]);
+  const prog01 = p01 ?? (T - CUT[1]) / (END0 - CUT[1]);
   return (
     <>
       <div style={{ position: "absolute", left: 60, right: 60, top: 64, height: 8, borderRadius: 4, background: "rgba(94,168,255,0.2)" }}>
@@ -108,7 +109,7 @@ const Chapter: React.FC<{ T: number }> = ({ T }) => {
       <div style={{ position: "absolute", left: 0, right: 0, top: 100, display: "flex", justifyContent: "center" }}>
         <div style={{ transform: `scale(${p})`, direction: "rtl", display: "flex", alignItems: "center", gap: 14, padding: "8px 28px 12px", borderRadius: 999,
           background: "rgba(10,18,45,0.85)", border: `2px solid ${C.streetHi}` }}>
-          <span style={{ fontFamily: FONT.black, fontSize: 40, color: C.lime }}>{fa(i)}</span>
+          <span style={{ fontFamily: FONT.black, fontSize: 40, color: C.lime }}>{fa(num ?? i)}</span>
           <span style={{ fontFamily: FONT.bold, fontSize: 38, color: C.ink }}>{CHAPTER[i]}</span>
         </div>
       </div>
@@ -170,13 +171,13 @@ const EndCard: React.FC<{ T: number }> = ({ T }) => {
   );
 };
 
-const Frame: React.FC<{ T: number }> = ({ T }) => (
+const Frame: React.FC<{ T: number; only?: number; num?: number; p01?: number }> = ({ T, only, num, p01 }) => (
   <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 35%, ${C.bg2} 0%, ${C.bg} 70%)` }}>
     <svg width={0} height={0} style={{ position: "absolute" }}><Defs /></svg>
-    <Scenes T={T} />
+    <Scenes T={T} only={only} />
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 42%, rgba(0,0,0,0) 58%, rgba(0,0,0,0.45) 100%)" }} />
     <Headline T={T} />
-    <Chapter T={T} />
+    <Chapter T={T} num={num} p01={p01} />
     <Captions T={T} />
     <EndCard T={T} />
   </AbsoluteFill>
@@ -197,10 +198,54 @@ const Video: React.FC<{ audio?: string; t?: number }> = ({ audio, t }) => {
 const LOOK = [0.03, 2.4, 4.6, 6.2, ...SCENES.slice(1).flatMap((_, k) => { const i = k + 1; return [CUT[i] + 0.9, (CUT[i] + endOf(i)) / 2 + 1.2, endOf(i) - 0.4]; }), END0 + 1];
 const Look: React.FC<{ times: number[] }> = ({ times }) => <Video t={times[Math.min(useCurrentFrame(), times.length - 1)]} />;
 
+// ───── 60-second cut: the same scenes, played back to back with fresh cuts between them ─────
+const SHORT_SEL = [0, 1, 4, 6, 8, 9, 13];
+const SHORT_WIN = SHORT_SEL.map((i) => ({ i, a: i ? segStart(i) - 0.1 : 0, b: i === 13 ? TOTAL : segEnd(i) + 0.3 }));
+const SHORT_AT = SHORT_WIN.reduce<number[]>((acc, w, k) => [...acc, (acc[k] ?? 0) + (w.b - w.a)], [0]);
+export const V12S_TOTAL = SHORT_AT.at(-1)!;
+export const V12S_WINDOWS = SHORT_WIN.map((w, k) => ({ ...w, at: SHORT_AT[k] }));
+const SKIND: Kind[] = ["zoom", "whip", "iris", "flash", "glitch", "whipV", "zoom"];
+const ShortVideo: React.FC<{ audio?: string; t?: number }> = ({ audio, t }) => {
+  const f = useCurrentFrame();
+  const ts = t ?? f / FPS;
+  let k = SHORT_AT.findIndex((x, j) => j < SHORT_WIN.length && ts >= x && ts < SHORT_AT[j + 1]);
+  if (k < 0) k = SHORT_WIN.length - 1;
+  const w = SHORT_WIN[k];
+  const T = w.a + (ts - SHORT_AT[k]);
+  const local = ts - SHORT_AT[k];
+  const kind = SKIND[k];
+  const q = k ? easeOut(prog(local, 0, 0.32)) : 1;
+  let st: React.CSSProperties = {};
+  if (k && q < 1) {
+    if (kind === "zoom") st = { transform: `scale(${1.5 - 0.5 * q})`, filter: `blur(${(1 - q) * 14}px)` };
+    if (kind === "whip") st = { transform: `translateX(${(1 - q) * -W}px)`, filter: `blur(${(1 - q) * 22}px)` };
+    if (kind === "whipV") st = { transform: `translateY(${(1 - q) * H}px)`, filter: `blur(${(1 - q) * 22}px)` };
+    if (kind === "iris") st = { clipPath: `circle(${q * 120}% at 50% 40%)` };
+    if (kind === "glitch") st = { transform: `translateX(${Math.sin(local * 200) * 30 * (1 - q)}px)`, filter: `hue-rotate(${(1 - q) * 90}deg) contrast(${1 + (1 - q) * 0.8})` };
+  }
+  const flash = k && kind === "flash" ? Math.max(0, 1 - local / 0.25) : 0;
+  const num = w.i ? SHORT_SEL.indexOf(w.i) : 0;
+  const p01 = clamp01((ts - SHORT_AT[1]) / (SHORT_AT.at(-1)! - 2.95 - SHORT_AT[1]));
+  return (
+    <AbsoluteFill style={{ background: C.bg }}>
+      <AbsoluteFill style={st}><Frame T={T} only={w.i} num={num} p01={p01} /></AbsoluteFill>
+      {flash > 0 && <AbsoluteFill style={{ background: `rgba(234,242,255,${0.75 * flash})` }} />}
+      {audio && t === undefined && <Html5Audio src={staticFile(audio)} />}
+    </AbsoluteFill>
+  );
+};
+const clamp01 = (x: number) => Math.min(1, Math.max(0, x));
+const SLOOK = [0.03, 3.5, ...SHORT_AT.slice(1, -1).flatMap((x) => [x + 0.15, x + 3.5]), V12S_TOTAL - 1];
+const ShortLook: React.FC<{ times: number[] }> = ({ times }) => <ShortVideo t={times[Math.min(useCurrentFrame(), times.length - 1)]} />;
+
 export const V12: React.FC = () => (
   <>
     <Composition id="V12" component={Video} durationInFrames={V12_FRAMES} fps={FPS} width={W} height={H} defaultProps={{ audio: "v12/mix.wav" }} />
     <Composition id="V12-Silent" component={Video} durationInFrames={V12_FRAMES} fps={FPS} width={W} height={H} defaultProps={{}} />
+    <Composition id="V12-60" component={ShortVideo} durationInFrames={Math.round(V12S_TOTAL * FPS)} fps={FPS} width={W} height={H} defaultProps={{ audio: "v12/mix60.wav" }} />
+    <Composition id="V12-60-Silent" component={ShortVideo} durationInFrames={Math.round(V12S_TOTAL * FPS)} fps={FPS} width={W} height={H} defaultProps={{}} />
+    <Composition id="V12-60-Look" component={ShortLook} durationInFrames={1} fps={FPS} width={W} height={H}
+      defaultProps={{ times: SLOOK }} calculateMetadata={({ props }) => ({ durationInFrames: props.times.length })} />
     <Composition id="V12-Look" component={Look} durationInFrames={1} fps={FPS} width={W} height={H}
       defaultProps={{ times: LOOK }} calculateMetadata={({ props }) => ({ durationInFrames: props.times.length })} />
   </>
