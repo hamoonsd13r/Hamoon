@@ -1,4 +1,4 @@
-// Video 10 — «پمپ‌بنزین · شب ۲ از ۷» · vertical 1080×1920 · same world as V09 (shared pieces imported from ../v09).
+// Video 14 — «پمپ‌بنزین · شب ۲ از ۷» · vertical 1080×1920 · same world as V09 (shared pieces imported from ../v09).
 // New this night: CCTV monitor, the uniform double, rule #4, the dead phone, the scratch lap, the full Paykan, the blackout.
 import React from "react";
 import { AbsoluteFill, Composition, Html5Audio as Audio, Sequence, staticFile, useCurrentFrame } from "remotion";
@@ -18,8 +18,8 @@ const W = (si: number, needle: string, nth = 0) => {
 };
 const S = (si: number) => WORDS.find((w) => w.si === si)!.s;
 const E = (si: number) => WORDS.filter((w) => w.si === si).at(-1)!.e;
-export const V10_END = E(17) + 2.4;
-export const V10_FRAMES = fr(V10_END);
+export const V14_END = E(17) + 2.4;
+export const V14_FRAMES = fr(V14_END);
 
 const clamp = (v: number, a = 0, b = 1) => Math.max(a, Math.min(b, v));
 const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
@@ -415,20 +415,20 @@ const Video: React.FC<{ audio?: string }> = ({ audio }) => {
   );
 };
 
-export const V10_LOOK = [0.5, 6.5, 8.6, 11.5, 13.2, 16.0, 19.5, 25.0, 31.0, 36.5, 42.5, 46.5, 51.5, 55.5, 60.0, 63.5, 69.0, 74.5, 78.0, 83.0, 86.3, 89.0, 92.0, 97.5, 102.5, 108.0];
+export const V14_LOOK = [0.5, 6.5, 8.6, 11.5, 13.2, 16.0, 19.5, 25.0, 31.0, 36.5, 42.5, 46.5, 51.5, 55.5, 60.0, 63.5, 69.0, 74.5, 78.0, 83.0, 86.3, 89.0, 92.0, 97.5, 102.5, 108.0];
 const Look: React.FC = () => {
   const f = useCurrentFrame();
   return (
-    <Sequence from={f - fr(V10_LOOK[f])}>
+    <Sequence from={f - fr(V14_LOOK[f])}>
       <Video />
     </Sequence>
   );
 };
 
-export const V10: React.FC = () => (
+export const V14: React.FC = () => (
   <>
-    <Composition id="V10" component={Video} durationInFrames={V10_FRAMES} fps={FPS} width={1080} height={1920} defaultProps={{ audio: "v10/mix.wav" }} />
-    <Composition id="V10-Silent" component={Video} durationInFrames={V10_FRAMES} fps={FPS} width={1080} height={1920} defaultProps={{}} />
-    <Composition id="V10-Look" component={Look} durationInFrames={V10_LOOK.length} fps={FPS} width={1080} height={1920} />
+    <Composition id="V14" component={Video} durationInFrames={V14_FRAMES} fps={FPS} width={1080} height={1920} defaultProps={{ audio: "v14/mix.wav" }} />
+    <Composition id="V14-Silent" component={Video} durationInFrames={V14_FRAMES} fps={FPS} width={1080} height={1920} defaultProps={{}} />
+    <Composition id="V14-Look" component={Look} durationInFrames={V14_LOOK.length} fps={FPS} width={1080} height={1920} />
   </>
 );

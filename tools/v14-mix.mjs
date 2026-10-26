@@ -1,11 +1,11 @@
-// v10 mix plan → out/v10-mix.json (beats from src/v10/words.json, same needles as src/v10/Video.tsx), then: node tools/mix.mjs out/v10-mix.json --out public/v10/mix.wav
+// v14 mix plan → out/v14-mix.json (beats from src/v14/words.json, same needles as src/v14/Video.tsx), then: node tools/mix.mjs out/v14-mix.json --out public/v14/mix.wav
 import fs from "node:fs";
-const WD = JSON.parse(fs.readFileSync("src/v10/words.json", "utf8"));
+const WD = JSON.parse(fs.readFileSync("src/v14/words.json", "utf8"));
 const W = (si, n, nth = 0) => { const h = WD.filter((x) => x.si === si && x.w.includes(n)); return (h[nth] ?? h[0]).s; };
 const S = (si) => WD.find((w) => w.si === si).s;
 const E = (si) => WD.filter((w) => w.si === si).at(-1).e;
 const END = E(17) + 2.4;
-const D = "videos/10-shab-2/sfx/", D9 = "videos/09-pomp-benzin/sfx/";
+const D = "videos/14-shab-2/sfx/", D9 = "videos/09-pomp-benzin/sfx/";
 const own = (f, at, vol, peak = 0.05) => ({ file: f, at: +at.toFixed(3), vol: +(vol * 0.25).toFixed(3), peak });
 const lib = (id, at, vol) => ({ id, at: +at.toFixed(3), vol });
 const sfx = [
@@ -21,8 +21,8 @@ const sfx = [
   own(D + "whisper-1.mp3", W(15, "آروم") - 0.2, 0.8, 0.3),
   ...[2, 3, 4, 6, 7, 9, 11, 16].map((si) => lib("sfx/whoosh/swish-13", S(si) - 0.22, 0.12)),
 ];
-fs.writeFileSync("out/v10-mix.json", JSON.stringify({
-  length: +END.toFixed(2), voice: "public/v10/narration.wav",
+fs.writeFileSync("out/v14-mix.json", JSON.stringify({
+  length: +END.toFixed(2), voice: "public/v14/narration.wav",
   music: [
     { file: "public/audio/music/horror/floor-6.mp3", at: 0, from: 0, to: +(S(14) + 0.55).toFixed(2), fadeIn: 0.8, fadeOut: 0.1, gain: 0.26 },
     { file: "public/audio/music/horror/floor-6.mp3", at: +(S(16) - 0.3).toFixed(2), from: 90, to: +END.toFixed(2), fadeIn: 0.5, fadeOut: 1.5, gain: 0.22 },

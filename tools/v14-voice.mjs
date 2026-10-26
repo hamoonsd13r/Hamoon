@@ -1,12 +1,12 @@
-// v10 «پمپ‌بنزین · شب ۲» voice, line by line for pronunciation control.
-//   node --env-file=.env tools/v10-voice.mjs takes <segId|all> [n=2]   → videos/10-shab-2/voice/<id>-<k>.mp3 (+ STT check)
-//   node tools/v10-voice.mjs check                                    → STT diff of every take vs the script
-//   node tools/v10-voice.mjs build                                    → public/v10/narration.wav + src/v10/words.json (PICK + GAP)
+// v14 «پمپ‌بنزین · شب ۲» voice, line by line for pronunciation control.
+//   node --env-file=.env tools/v14-voice.mjs takes <segId|all> [n=2]   → videos/14-shab-2/voice/<id>-<k>.mp3 (+ STT check)
+//   node tools/v14-voice.mjs check                                    → STT diff of every take vs the script
+//   node tools/v14-voice.mjs build                                    → public/v14/narration.wav + src/v14/words.json (PICK + GAP)
 // Text: kasra (ِ) marks ezafe for the voice only; captions drop it.
 import fs from "node:fs";
 import { execFileSync } from "node:child_process";
 
-const DIR = "videos/10-shab-2/voice/";
+const DIR = "videos/14-shab-2/voice/";
 const V = { brian: "nPczCjzI2devNBz1zQrb", twin: "nPczCjzI2devNBz1zQrb", lily: "pFZP5JQG7iQjIQuC4Bku", lilyphone: "pFZP5JQG7iQjIQuC4Bku" };
 export const SEG = [
   { id: "01", v: "brian", si: 0, t: "دیشب در رو باز نکردی… ولی دوربینِ مداربسته نشون می‌ده ساعتِ سه و بیست‌وشش دقیقه، یکی از داخل در رو باز کرده." },
@@ -75,7 +75,7 @@ if (mode === "takes") {
   const { PICK, GAP, TEMPO } = JSON.parse(fs.readFileSync(DIR + "pick.json", "utf8"));
   const words = [], parts = [];
   let t = 0.15;
-  fs.mkdirSync("out/v10", { recursive: true });
+  fs.mkdirSync("out/v14", { recursive: true });
   for (const s of SEG) {
     const f = `${DIR}${s.id}-${PICK[s.id]}`;
     const { alignment: a } = JSON.parse(fs.readFileSync(f + ".json", "utf8"));
@@ -85,7 +85,7 @@ if (mode === "takes") {
     const from = Math.max(0, first - 0.05), to = lastEnd + 0.12;
     const fx = s.v === "lilyphone" ? ",highpass=f=400,lowpass=f=2800,acrusher=bits=9:mix=0.3,volume=1.3"
       : s.v === "twin" ? ",asetrate=48000*0.84,aresample=48000,atempo=1.12,aecho=0.7:0.6:60|120:0.35|0.2" : "";
-    const tmp = `out/v10/${s.id}.wav`;
+    const tmp = `out/v14/${s.id}.wav`;
     execFileSync("ffmpeg", ["-v", "error", "-y", "-i", f + ".mp3", "-af", `aresample=48000,atrim=${from}:${to},asetpts=PTS-STARTPTS,atempo=${TEMPO}${fx}`, "-ar", "48000", "-ac", "1", tmp]);
     parts.push({ tmp, at: t });
     // words of this segment
@@ -101,10 +101,10 @@ if (mode === "takes") {
   }
   const inputs = parts.flatMap((p) => ["-i", p.tmp]);
   const delays = parts.map((p, i) => `[${i}]adelay=${Math.round(p.at * 1000)}|${Math.round(p.at * 1000)}[d${i}]`).join(";");
-  fs.mkdirSync("public/v10", { recursive: true });
-  execFileSync("ffmpeg", ["-v", "error", "-y", ...inputs, "-filter_complex", `${delays};${parts.map((_, i) => `[d${i}]`).join("")}amix=inputs=${parts.length}:normalize=0`, "-ar", "48000", "public/v10/narration.wav"]);
-  fs.mkdirSync("src/v10", { recursive: true });
-  fs.writeFileSync("src/v10/words.json", JSON.stringify(words));
+  fs.mkdirSync("public/v14", { recursive: true });
+  execFileSync("ffmpeg", ["-v", "error", "-y", ...inputs, "-filter_complex", `${delays};${parts.map((_, i) => `[d${i}]`).join("")}amix=inputs=${parts.length}:normalize=0`, "-ar", "48000", "public/v14/narration.wav"]);
+  fs.mkdirSync("src/v14", { recursive: true });
+  fs.writeFileSync("src/v14/words.json", JSON.stringify(words));
   console.log("words", words.length, "dur", t.toFixed(2));
   for (const s of SEG) { const ws = words.filter((w) => w.si === s.si); console.log(s.id, ws[0].s.toFixed(2), "→", ws.at(-1).e.toFixed(2), ws.length, "words"); }
 }
