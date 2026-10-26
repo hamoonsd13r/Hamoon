@@ -9,8 +9,10 @@ import * as E02 from "./e02";
 import * as E03 from "./e03";
 import * as E04 from "./e04";
 import * as E05 from "./e05";
+import * as E06 from "./e06";
 
 const EP = [
+  { id: "V03-E06", m: E06, title: "آخرین شبِ شهر", sub: "قسمت ششم · مامانم در رو باز کرد", next: "قسمت هفتم · ده دقیقه تا تعمیرگاه", audio: "v03/e06/mix.wav" },
   { id: "V03-E01", m: E01, title: "آخرین شبِ شهر", sub: "قسمت اول · کسی پشت در بود", next: "قسمت دوم", audio: "v03/e01/mix.wav" },
   { id: "V03-E05", m: E05, title: "آخرین شبِ شهر", sub: "قسمت پنجم · خاموشی", next: "قسمت ششم · مامانم در رو باز کرد", audio: "v03/e05/mix.wav" },
   { id: "V03-E04", m: E04, title: "آخرین شبِ شهر", sub: "قسمت چهارم · مرده‌ها هم در می‌زنن", next: "قسمت پنجم · خاموشی", audio: "v03/e04/mix.wav" },
