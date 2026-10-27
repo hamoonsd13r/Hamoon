@@ -29,6 +29,7 @@ import { V10 } from "./v10/Video";
 import { V11 } from "./v11/Video";
 import { V12 } from "./v12/Video";
 import { V13 } from "./v13/Video";
+import { V18 } from "./v18/Video";
 import { V15 } from "./v15/Video";
 import { V17 } from "./v17/Video";
 import { V14 } from "./v14/Video";
@@ -84,6 +85,7 @@ export const RemotionRoot: React.FC = () => {
       <V11 />
       <V12 />
       <V13 />
+      <V18 />
       <V15 />
       <V17 />
       <V14 />
