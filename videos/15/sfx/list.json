@@ -1,0 +1,7 @@
+[
+ {"id":"bang","text":"Old kitchen window violently slammed open by a gust of wind, loud bang, glass rattling, storm rushing in","dur":2,"infl":0.7},
+ {"id":"rain","text":"Heavy rain and wind pouring through an open window at night, a lace curtain flapping","dur":10,"infl":0.4},
+ {"id":"bulbon","text":"Old light bulb suddenly turning on by itself with an electrical clunk, buzzing hum and flicker","dur":2,"infl":0.6},
+ {"id":"pop","text":"Light bulb bursting, sharp electrical pop and small glass shatter, then silence","dur":1.5,"infl":0.7},
+ {"id":"ceiling","text":"Slow heavy footsteps walking on the floor upstairs heard through the ceiling, wooden creaks, muffled","dur":4,"infl":0.5}
+]
