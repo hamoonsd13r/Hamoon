@@ -47,10 +47,10 @@ const hn = (i: number, s = 0) => { const x = Math.sin(i * 127.1 + s * 311.7) * 4
 const fa = (s: string | number) => String(s).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[+d]);
 const GREEN = "#1fae5c";
 
-const Beam: React.FC<{ x: number; y: number; r?: number; dim?: number }> = ({ x, y, r = 380, dim = 0.96 }) => (
+export const Beam: React.FC<{ x: number; y: number; r?: number; dim?: number }> = ({ x, y, r = 380, dim = 0.96 }) => (
   <AbsoluteFill style={{ background: `radial-gradient(circle ${r}px at ${x}px ${y}px, rgba(0,0,0,0) 0%, rgba(0,0,0,.25) 55%, rgba(0,0,0,${dim}) 100%)` }} />
 );
-const Dust: React.FC<{ t: number; n?: number }> = ({ t, n = 40 }) => (
+export const Dust: React.FC<{ t: number; n?: number }> = ({ t, n = 40 }) => (
   <svg width={1080} height={1920} style={{ position: "absolute" }}>
     {Array.from({ length: n }, (_, i) => <circle key={i} cx={(hn(i) * 1080 + Math.sin(t * 0.5 + i) * 30) % 1080} cy={((hn(i, 2) * 1920 + t * (8 + hn(i, 3) * 14)) % 1920)} r={1.5 + hn(i, 4) * 2.5} fill="rgba(255,240,210,.5)" />)}
   </svg>
@@ -71,7 +71,7 @@ const Arm: React.FC<{ x: number; y: number; s: number; k: number; fill: string }
 
 /** Inside the dark shop, facing the glass wall: night outside, your reflection in the glass, you in the foreground (back of head).
  *  meTurn / refTurn: head turn; point: reflection's arm; eyes: its eyes; zoom: push into the glass. */
-const GlassWall: React.FC<{ t: number; meTurn?: number; refTurn?: number; point?: number; eyes?: number; zoom?: number; mouth?: number; me?: number }> = ({ t, meTurn = 0, refTurn = 0, point = 0, eyes = 0, zoom = 0, mouth = 0, me = 1 }) => {
+export const GlassWall: React.FC<{ t: number; meTurn?: number; refTurn?: number; point?: number; eyes?: number; zoom?: number; mouth?: number; me?: number }> = ({ t, meTurn = 0, refTurn = 0, point = 0, eyes = 0, zoom = 0, mouth = 0, me = 1 }) => {
   const z = 1 + zoom;
   return (
     <AbsoluteFill style={{ background: "#04060b" }}>
@@ -480,7 +480,7 @@ const Final: React.FC<{ t: number }> = ({ t }) => {
 };
 
 // ---- overlays: death card + VHS rewind ---------------------------------------------
-const Dead: React.FC<{ t: number; at: number; until: number; why: string }> = ({ t, at, until, why }) => {
+export const Dead: React.FC<{ t: number; at: number; until: number; why: string }> = ({ t, at, until, why }) => {
   if (t < at || t >= until) return null;
   const k = t - at;
   const a = rk(k, 0, 0.25, back);
@@ -492,7 +492,7 @@ const Dead: React.FC<{ t: number; at: number; until: number; why: string }> = ({
     </AbsoluteFill>
   );
 };
-const Rew: React.FC<{ t: number; at: number }> = ({ t, at }) => {
+export const Rew: React.FC<{ t: number; at: number }> = ({ t, at }) => {
   const k = t - at;
   if (k < 0 || k >= REW) return null;
   const bands = Array.from({ length: 5 }, (_, i) => ({ y: (hn(i, Math.floor(k * 30)) * 1920) | 0, h: 20 + hn(i, 7) * 90 }));
