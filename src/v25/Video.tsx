@@ -305,7 +305,7 @@ const Look: React.FC<{ times: number[] }> = ({ times }) => <Video t={times[Math.
 
 export const V25: React.FC = () => (
   <>
-    <Composition id="V25" component={Video} durationInFrames={V25_FRAMES} fps={FPS} width={W} height={H} defaultProps={{ audio: "v25/mix.wav" }} />
+    <Composition id="V25" component={Video} durationInFrames={V25_FRAMES} fps={FPS} width={W} height={H} defaultProps={{ audio: "v25/mix-norm.wav" }} />
     <Composition id="V25-Silent" component={Video} durationInFrames={V25_FRAMES} fps={FPS} width={W} height={H} defaultProps={{}} />
     <Composition id="V25-Look" component={Look} durationInFrames={LOOK.length} fps={FPS} width={W} height={H} defaultProps={{ times: LOOK }} />
   </>

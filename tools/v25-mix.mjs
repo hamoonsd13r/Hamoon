@@ -1,4 +1,4 @@
-// v25 mix plan → out/v25-mix.json (times from src/v25/words.json, same cues as src/v25/Video.tsx), then: node tools/mix.mjs out/v25-mix.json --out public/v25/mix.wav
+// v25 mix plan → out/v25-mix.json (times from src/v25/words.json, same cues as src/v25/Video.tsx), then: node tools/mix.mjs out/v25-mix.json --out public/v25/mix.wav (keeps mix-norm.wav)
 import fs from "node:fs";
 const WD = JSON.parse(fs.readFileSync("src/v25/words.json", "utf8"));
 const bare = (x) => x.replace(/[،.؟!…«»,:]/g, "");
