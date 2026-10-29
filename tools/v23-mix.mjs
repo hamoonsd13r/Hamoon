@@ -9,10 +9,10 @@ const L = (n) => ({ file: `public/sfx-lib/${n}.wav`, peak: 0.02 });
 const cue = (at, n, v) => { const vol = +(v * 0.45).toFixed(3); return n.includes("/") ? { id: n, at, vol } : { ...L(n), at, vol }; };
 const T = {
   bill: w(0, "حساب"), remember: w(0, "یادش"), wallet: w(0, "کیف"), car: w(0, "ماشین"), months: w(1, "ماهه"), says: w(1, "می‌گه"), night: w(1, "«شب"), c2c: w(1, "کارت", 1),
-  name: w(2, "دنگ‌گیر"), invoice: w(2, "فاکتور"), scan: w(2, "اسکن"), ai: w(3, "هوش"), who: w(3, "کی"), slice: w(3, "تیکه"), test: w(3, "«تست"), testEnd: E(3),
+  name: w(2, "دُنگ‌گیر"), invoice: w(2, "فاکتور"), scan: w(2, "اسکن"), ai: w(3, "هوش"), who: w(3, "کی"), slice: w(3, "تیکه"), test: w(3, "«تست"), testEnd: E(3),
   reminder: w(4, "یادآوری"), polite: w(4, "مؤدبانه"), send: w(4, "می‌فرسته"), seen: w(5, "سین"), noAnswer: w(5, "نداد"), photo: w(5, "عکس"), change: w(5, "عوض"), debtor: w(5, "بدهکارم"),
   call: w(6, "زنگ"), noCharge: w(7, "شارژ"), last: w(7, "قرون"), take: w(7, "برمی‌داره"), fine: w(7, "جریمه"), late: w(7, "دیرکرد"),
-  rate: w(8, "ستاره"), moment: w(9, "لحظه"), removed: w(9, "ریمو"), sent: w(10, "فرستاد"), punch: w(10, "«دنگ"), curse: w(10, "مادرجنده"),
+  rate: w(8, "ستاره"), moment: w(9, "لحظه"), removed: w(9, "ریمو"), sent: w(10, "فرستاد"), punch: w(10, "«دُنگ"), curse: w(10, "مادرجنده"),
 };
 const sfx = [
   cue(T.bill + 0.1, "paper", 0.4), cue(T.remember, "pop", 0.4), cue(T.wallet - 0.1, "sfx/misc/spring-04", 0.4), cue(T.car + 0.2, "sweep", 0.3),

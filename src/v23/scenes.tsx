@@ -1,4 +1,4 @@
-// Video 23 scenes — «دنگ‌گیر», one per sentence. Scene area y ≈ 860–1720 (ledger above, captions at 600, status pill at 1752).
+// Video 23 scenes — «دُنگ‌گیر», one per sentence. Scene area y ≈ 860–1720 (ledger above, captions at 600, status pill at 1752).
 import React from "react";
 import { useCurrentFrame } from "remotion";
 import { FONT_NUM, FONT_TEXT } from "../fonts";
@@ -119,7 +119,7 @@ export const Sc1: React.FC<SP> = ({ from }) => {
   );
 };
 
-/* 2 · dark · open «دنگ‌گیر», scan the café invoice */
+/* 2 · dark · open «دُنگ‌گیر», scan the café invoice */
 export const Sc2: React.FC<SP> = ({ from }) => {
   const { f, at } = useLocal(from);
   const enter = ramp(f, 0, 16, easeOut);
@@ -137,8 +137,8 @@ export const Sc2: React.FC<SP> = ({ from }) => {
               <div style={{ width: 160, height: 160, margin: "0 auto", borderRadius: 44, background: "#fff", boxShadow: "0 20px 40px rgba(0,0,0,.3)", transform: `scale(${logo}) rotate(${(1 - logo) * -30}deg)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <Emo size={86}>💸</Emo>
               </div>
-              <div style={{ color: "#fff", fontSize: 54, marginTop: 26, opacity: logo }}>دنگ‌گیر</div>
-              <div style={{ color: "rgba(255,255,255,.85)", fontSize: 22, opacity: logo }}>دنگ رفیقت رو، با عشق، به زور بگیر</div>
+              <div style={{ color: "#fff", fontSize: 54, marginTop: 26, opacity: logo }}>دُنگ‌گیر</div>
+              <div style={{ color: "rgba(255,255,255,.85)", fontSize: 22, opacity: logo }}>دُنگ رفیقت رو، با عشق، به زور بگیر</div>
             </div>
             {/* camera scanning the invoice */}
             {cam > 0 && (
@@ -241,8 +241,8 @@ export const Sc4: React.FC<SP> = ({ from }) => {
               <div style={{ fontSize: 108, fontWeight: 700, lineHeight: 1.05 }}>23:58</div>
             </div>
             <div style={{ position: "absolute", left: 14, right: 14, top: 300, padding: "18px 20px", borderRadius: 26, background: "rgba(255,255,255,.88)", color: "#111", opacity: n > 0 ? 1 : 0, transform: `translateY(${(1 - n) * -60}px) scale(${0.9 + 0.1 * n})`, ...FA_UI }}>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 18, color: "#666" }}><span><Emo size={20}>💸</Emo> دنگ‌گیر</span><span>همین الان</span></div>
-              <div style={{ fontSize: 24, lineHeight: 1.6, marginTop: 6 }}>رضا جان سلام <Emo size={22}>🌸</Emo> امیدوارم حالت عالی باشه. لطفاً <b style={{ color: C.red }}>۳۸۷٬۰۰۰ تومان</b> دنگ کافه رو هر وقت راحت بودی (امشب) واریز کن. مرسی که هستی <Emo size={22}>🙏</Emo></div>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 18, color: "#666" }}><span><Emo size={20}>💸</Emo> دُنگ‌گیر</span><span>همین الان</span></div>
+              <div style={{ fontSize: 24, lineHeight: 1.6, marginTop: 6 }}>رضا جان سلام <Emo size={22}>🌸</Emo> امیدوارم حالت عالی باشه. لطفاً <b style={{ color: C.red }}>۳۸۷٬۰۰۰ تومان</b> دُنگ کافه رو هر وقت راحت بودی (امشب) واریز کن. مرسی که هستی <Emo size={22}>🙏</Emo></div>
             </div>
           </Phone>
         </div>
@@ -267,7 +267,7 @@ export const Sc5: React.FC<SP> = ({ from }) => {
     <>
       <div style={{ position: "absolute", left: 90, top: 880, width: 900, opacity: enter, transform: `translateY(${(1 - enter) * 50}px)`, ...FA_UI }}>
         <div style={{ background: "#e7ebf0", borderRadius: 34, padding: "18px 24px", boxShadow: T.light.shadow }}>
-          <Bubble a={1} me time="23:58" seen={seen}>رضا جان سلام 🌸 لطفاً دنگ کافه رو…</Bubble>
+          <Bubble a={1} me time="23:58" seen={seen}>رضا جان سلام 🌸 لطفاً دُنگ کافه رو…</Bubble>
           <div style={{ height: 40, fontSize: 22, color: "#8d8d94", padding: "0 10px" }}>
             {typing ? <>رضا در حال نوشتن{".".repeat(1 + (Math.floor(f / 6) % 3))}</> : f >= at(TM.noAnswer) + 6 ? <span style={{ color: C.red }}>رضا آفلاین شد</span> : ""}
           </div>
@@ -307,7 +307,7 @@ export const Sc6: React.FC<SP> = ({ from }) => {
       <div style={{ position: "absolute", inset: 0, transform: `translateY(${(1 - enter) * 100}px)`, opacity: enter }}>
         <Phone x={338} y={870} s={0.92} screen="linear-gradient(180deg,#2c1840,#120a1c)">
           <div style={{ position: "absolute", left: 0, top: 120, width: 412, textAlign: "center", color: "#fff", ...FA_UI }}>
-            <div style={{ fontSize: 22, opacity: 0.7 }}>دنگ‌گیر · تماس خودکار</div>
+            <div style={{ fontSize: 22, opacity: 0.7 }}>دُنگ‌گیر · تماس خودکار</div>
             <div style={{ margin: "30px auto 20px", width: 170, transform: `scale(${1 + 0.04 * Math.sin(f / 4)})` }}><Avatar who="mom" size={170} /></div>
             <div style={{ fontSize: 44 }}>مامانِ رضا</div>
             <div style={{ fontSize: 24, opacity: 0.8, marginTop: 6, color: connected ? "#7be3ad" : "#fff" }}>{connected ? "وصل شد · ۰۰:۰۴" : `در حال تماس${".".repeat(1 + (Math.floor(f / 8) % 3))}`}</div>
@@ -320,7 +320,7 @@ export const Sc6: React.FC<SP> = ({ from }) => {
       {!connected && <Rings x={540} y={1170} f={f} every={18} n={3} color="#c77dff" r0={90} r1={330} />}
       {connected && (
         <div style={{ position: "absolute", left: 40, top: 900, width: 330, transform: `scale(${pop(f, at(TM.call) + 12)}) rotate(-4deg)`, transformOrigin: "100% 100%", ...FA_UI }}>
-          <div style={{ background: "#fff", color: "#111", borderRadius: 26, padding: "14px 20px", fontSize: 26, lineHeight: 1.5 }}>سلام حاج‌خانوم، رضا دنگش رو نداده <Emo size={26}>😔</Emo></div>
+          <div style={{ background: "#fff", color: "#111", borderRadius: 26, padding: "14px 20px", fontSize: 26, lineHeight: 1.5 }}>سلام حاج‌خانوم، رضا دُنگش رو نداده <Emo size={26}>😔</Emo></div>
         </div>
       )}
       {connected && (
@@ -387,7 +387,7 @@ export const Sc8: React.FC<SP> = ({ from }) => {
           <div style={{ position: "absolute", left: 0, top: 130, width: 412, textAlign: "center", ...FA_UI }}>
             <div style={{ width: 130, margin: "0 auto" }}><Avatar size={130} label={stars > 0.5 ? undefined : undefined} /></div>
             <div style={{ fontSize: 34, marginTop: 24, color: "#111" }}>به رضا چند ستاره می‌دی؟</div>
-            <div style={{ fontSize: 21, color: "#888", marginTop: 6 }}>رفیق از ۱۳۹۲ · ۱۴ دنگ پرداخت‌نشده</div>
+            <div style={{ fontSize: 21, color: "#888", marginTop: 6 }}>رفیق از ۱۳۹۲ · ۱۴ دُنگ پرداخت‌نشده</div>
             <div style={{ marginTop: 40 }}><Stars filled={stars} size={58} /></div>
             <div style={{ fontSize: 24, color: C.red, marginTop: 20, opacity: stars }}>«رفیق خوبیه… ولی نه با پول» <Emo size={22}>😐</Emo></div>
           </div>
@@ -448,19 +448,19 @@ export const Sc10: React.FC<SP> = ({ from }) => {
       <div style={{ position: "absolute", left: 90, top: 880, width: 900, height: 820, borderRadius: 40, background: "#17171b", border: "2px solid rgba(255,255,255,.08)", overflow: "hidden", opacity: enter, ...FA_UI }}>
         <div style={{ height: 96, background: "#1f1f24", display: "flex", alignItems: "center", gap: 18, padding: "0 28px" }}>
           <div style={{ width: 62, height: 62, borderRadius: 31, background: GREEN, display: "flex", alignItems: "center", justifyContent: "center" }}><Emo size={34}>💸</Emo></div>
-          <div><div style={{ fontSize: 30, color: "#fff" }}>دنگ‌گیر ← رضا</div><div style={{ fontSize: 20, color: "#8d8d94" }}>پیام خودکار · آخرین اخطار</div></div>
+          <div><div style={{ fontSize: 30, color: "#fff" }}>دُنگ‌گیر ← رضا</div><div style={{ fontSize: 20, color: "#8d8d94" }}>پیام خودکار · آخرین اخطار</div></div>
         </div>
         <div style={{ padding: "26px 30px" }}>
-          <Bubble a={1} mode="dark">رضا جان سلام 🌸 لطفاً دنگ کافه رو…</Bubble>
+          <Bubble a={1} mode="dark">رضا جان سلام 🌸 لطفاً دُنگ کافه رو…</Bubble>
           <Bubble a={1} mode="dark">رضا جان، یادآوری دوم 🙏</Bubble>
           <Bubble a={1} mode="dark">به مامانت گفتیم 😔</Bubble>
-          {type && !(slam > 0) && <div style={{ color: "#8d8d94", fontSize: 24, margin: "16px 0" }}>دنگ‌گیر در حال نوشتن{".".repeat(1 + (Math.floor(f / 5) % 3))}</div>}
+          {type && !(slam > 0) && <div style={{ color: "#8d8d94", fontSize: 24, margin: "16px 0" }}>دُنگ‌گیر در حال نوشتن{".".repeat(1 + (Math.floor(f / 5) % 3))}</div>}
         </div>
       </div>
       {slam > 0 && (
         <div style={{ position: "absolute", left: 540, top: 1420, transform: `translate(-50%,-50%) scale(${lerp(1.7, 1, slam)}) rotate(${lerp(-12, -3, slam)}deg)`, opacity: clamp(slam * 2), ...FA_UI }}>
           <div style={{ background: C.red, color: "#fff", borderRadius: 34, padding: "26px 44px", fontSize: 62, whiteSpace: "nowrap", boxShadow: slam > 0.95 ? "0 0 60px rgba(229,72,77,.6), 0 30px 60px rgba(0,0,0,.6)" : "none", textAlign: "center", lineHeight: 1.4 }}>
-            دنگ رو بده،
+            دُنگ رو بده،
             <div style={{ fontFamily: FONT_NUM, fontSize: 96, transform: `scale(${curse})`, opacity: curse > 0 ? 1 : 0 }}>مادرجنده! <Emo size={80}>💸</Emo></div>
           </div>
           <div style={{ textAlign: "left", color: "#7fd0ff", fontSize: 30, marginTop: 10, direction: "ltr", opacity: sent ? 1 : 0 }}>✓✓ seen</div>
@@ -469,7 +469,7 @@ export const Sc10: React.FC<SP> = ({ from }) => {
       <Burst x={540} y={1420} f={f} at={at(TM.curse) - 2} n={34} power={1.5} colors={[C.red, "#ffd84d", "#fff"]} />
       {sent && <Rings x={540} y={1420} f={f} at={at(TM.curse) + 14} color={C.red} r0={200} r1={520} n={2} />}
       <div style={{ position: "absolute", left: 540, top: 1640, transform: `translate(-50%,-50%) scale(${pop(f, fr(E(10) - from) + 6)})`, color: "#fff", fontSize: 34, whiteSpace: "nowrap", ...FA_UI }}>
-        <Emo size={34}>💸</Emo> دنگ‌گیر · <span style={{ color: GREEN }}>رفاقت سر جاش، دنگ سر جاش</span>
+        <Emo size={34}>💸</Emo> دُنگ‌گیر · <span style={{ color: GREEN }}>رفاقت سر جاش، دُنگ سر جاش</span>
       </div>
     </>
   );

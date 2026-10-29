@@ -1,4 +1,4 @@
-// Video 23 — «دنگ‌گیر» · vertical 1080×1920 · same language as V06 (receipt-ui) · narration (ElevenLabs Brian v3, atempo 1.17) drives every cue.
+// Video 23 — «دُنگ‌گیر» · vertical 1080×1920 · same language as V06 (receipt-ui) · narration (ElevenLabs Brian v3, atempo 1.17) drives every cue.
 import React from "react";
 import { AbsoluteFill, Composition, Html5Audio as Audio, Sequence, staticFile, useCurrentFrame } from "remotion";
 import { FONT_NUM, FONT_TEXT } from "../fonts";
@@ -51,7 +51,7 @@ const TripReceipt: React.FC<{ t: number }> = ({ t }) => {
       filter: "drop-shadow(0 22px 30px rgba(0,0,0,.28))", transform: `rotate(${Math.sin(t * 0.9) * 0.6}deg)`, transformOrigin: "50% 0" }}>
       <div style={{ background: C.paper, padding: "34px 34px 26px", clipPath: "polygon(0 0,100% 0,100% calc(100% - 14px),96% 100%,92% calc(100% - 14px),88% 100%,84% calc(100% - 14px),80% 100%,76% calc(100% - 14px),72% 100%,68% calc(100% - 14px),64% 100%,60% calc(100% - 14px),56% 100%,52% calc(100% - 14px),48% 100%,44% calc(100% - 14px),40% 100%,36% calc(100% - 14px),32% 100%,28% calc(100% - 14px),24% 100%,20% calc(100% - 14px),16% 100%,12% calc(100% - 14px),8% 100%,4% calc(100% - 14px),0 100%)" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <span style={{ fontSize: 34 }}><span style={{ fontFamily: EMOJI, fontSize: 30 }}>💸</span> دنگ‌گیر</span>
+          <span style={{ fontSize: 34 }}><span style={{ fontFamily: EMOJI, fontSize: 30 }}>💸</span> دُنگ‌گیر</span>
           <span style={{ fontSize: 20, opacity: 0.55 }}>پرونده‌ی بدهی رضا · {printing ? "در حال چاپ…" : "باز"}</span>
         </div>
         <div style={{ borderTop: "2px dashed rgba(0,0,0,.3)", margin: "12px 0 6px" }} />
@@ -80,11 +80,11 @@ const TripReceipt: React.FC<{ t: number }> = ({ t }) => {
 const STATUS: [number, string, string, string?][] = [
   [0, "😐", "رضا · بدهکار", C.red],
   [TM.months, "⏳", "در انتظار «کارت به کارت»…", C.red],
-  [TM.name, "💸", "دنگ‌گیر فعال شد", "#1fae6a"],
+  [TM.name, "💸", "دُنگ‌گیر فعال شد", "#1fae6a"],
   [TM.send, "📩", "یادآوری ارسال شد"],
   [TM.seen + 0.1, "👀", "سین شد · بدون جواب", C.red],
   [TM.call, "📞", "در حال تماس با مامانِ رضا", "#7b2cbf"],
-  [TM.late + 0.2, "✅", "دنگ دریافت شد", "#1fae6a"],
+  [TM.late + 0.2, "✅", "دُنگ دریافت شد", "#1fae6a"],
   [TM.removed, "🚪", "از گروه «رفقا» حذف شدی", C.red],
   [TM.sent, "💬", "پیام آخر ارسال شد", C.red],
 ];
@@ -108,7 +108,7 @@ const StatusPill: React.FC<{ t: number; mode: Mode }> = ({ t, mode }) => {
 const KEYS: Record<number, { keys?: string[]; reds?: string[]; icons?: Record<string, string> }> = {
   0: { keys: ["حساب"], reds: ["کیف"], icons: { رفیقت: "😎", کیف: "👛", ماشین: "🚗" } },
   1: { reds: ["ماهه"], icons: { ماهه: "📅", "«شب": "🌙" } },
-  2: { keys: ["«دنگ‌گیر»"], icons: { "«دنگ‌گیر»": "💸", فاکتور: "🧾" } },
+  2: { keys: ["«دُنگ‌گیر»"], icons: { "«دُنگ‌گیر»": "💸", فاکتور: "🧾" } },
   3: { keys: ["هوش", "مصنوعی"], reds: ["«تست"], icons: { مصنوعی: "🤖", پیتزایی: "🍕" } },
   4: { keys: ["مؤدبانه"], icons: { مؤدبانه: "🌸" } },
   5: { keys: ["سین"], reds: ["بدهکارم"], icons: { سین: "👀", بدهکارم: "💸" } },
@@ -116,7 +116,7 @@ const KEYS: Record<number, { keys?: string[]; reds?: string[]; icons?: Record<st
   7: { keys: ["قرون"], reds: ["جریمه‌ی"], icons: { شارژ: "🥲", قرون: "🪙", دیرکرد: "⏰" } },
   8: { keys: ["ستاره"], icons: { ستاره: "⭐" } },
   9: { reds: ["ریمو"], icons: { "«رفقا»": "👬", ریمو: "🚪" } },
-  10: { reds: ["«دنگ", "بده", "مادرجنده"], icons: { "دنگ‌گیر": "💸", مادرجنده: "😤" } },
+  10: { reds: ["«دُنگ", "بده", "مادرجنده"], icons: { "دُنگ‌گیر": "💸", مادرجنده: "😤" } },
 };
 
 const Overlay: React.FC = () => {
@@ -160,7 +160,7 @@ const Video: React.FC<{ audio?: string }> = ({ audio }) => (
 );
 
 // key stills for review (seconds)
-export const V23_LOOK = [0.2, 4.8, 8.6, 12.0, 14.2, 19.9, 23.0, 26.0, 30.8, 32.6, 34.6, 36.4, 40.4, 42.6, 45.0, 46.6, 50.0, 52.2, 54.2, 56.4, 57.9, 59.6];
+export const V23_LOOK = [0.2, 4.4, 7.8, 10.9, 12.9, 18.1, 20.9, 23.6, 28.0, 29.6, 31.4, 33.0, 36.7, 38.7, 40.8, 42.3, 45.4, 47.4, 49.2, 51.2, 52.6, 54.1];
 const Look: React.FC = () => {
   const f = useCurrentFrame();
   return (
