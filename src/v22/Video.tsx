@@ -54,7 +54,7 @@ const PALE = "#b8d6f4";
 const SEPIA = "sepia(.85) saturate(.7) contrast(1.05) brightness(.9)";
 
 /** The pale grinning face (the thing), centred at (0,0) — reused for every scare. */
-const Face: React.FC<{ s?: number; tint?: string; grin?: number }> = ({ s = 1, tint = "#b9cbe0", grin = 1 }) => (
+export const Face: React.FC<{ s?: number; tint?: string; grin?: number }> = ({ s = 1, tint = "#b9cbe0", grin = 1 }) => (
   <g transform={`scale(${s})`}>
     <path d="M-260 -280 Q-310 30 -230 260 Q-120 430 0 440 Q120 430 230 260 Q310 30 260 -280 Q130 -420 0 -420 Q-130 -420 -260 -280 Z" fill={tint} />
     <path d="M-260 -280 Q0 -480 260 -280 L280 -220 L-280 -220 Z" fill="#0d1018" />
@@ -66,7 +66,7 @@ const Face: React.FC<{ s?: number; tint?: string; grin?: number }> = ({ s = 1, t
   </g>
 );
 /** a 0.35 s jump-scare layer: flash, the face lunging, red */
-const Scare: React.FC<{ t: number; at: number; len?: number }> = ({ t, at, len = 0.5 }) => {
+export const Scare: React.FC<{ t: number; at: number; len?: number }> = ({ t, at, len = 0.5 }) => {
   const k = t - at;
   if (k < 0 || k >= len) return null;
   const sz = lerp(0.6, 1.3, out3(clamp(k / 0.12)));
@@ -306,7 +306,7 @@ const CallPill: React.FC<{ t: number }> = ({ t }) => {
 };
 
 /** generic fork card: wrong side dies first, then the rewind and the right one. */
-const Fork: React.FC<{ t: number; n: number; q: string; a: [string, string]; b: [string, string]; wrong: "a" | "b"; t0: number; pickWrong: number; pickRight: number; bg: React.ReactNode }> = ({ t, n, q, a, b, wrong, t0, pickWrong, pickRight, bg }) => {
+export const Fork: React.FC<{ t: number; n: number; of?: number; q: string; a: [string, string]; b: [string, string]; wrong: "a" | "b"; t0: number; pickWrong: number; pickRight: number; bg: React.ReactNode }> = ({ t, n, of = 3, q, a, b, wrong, t0, pickWrong, pickRight, bg }) => {
   const qIn = rk(t, t0 - 2.3, t0 - 1.9, back);
   const left = clamp(TIMER - (t - t0), 0, TIMER);
   const running = t >= t0 && t < t0 + TIMER;
@@ -336,7 +336,7 @@ const Fork: React.FC<{ t: number; n: number; q: string; a: [string, string]; b: 
     <AbsoluteFill>
       <AbsoluteFill style={{ filter: `blur(${6 * qIn}px) brightness(${1 - 0.55 * qIn})` }}>{bg}</AbsoluteFill>
       <AbsoluteFill style={{ direction: "rtl", fontFamily: BLACK, color: "#fff", textAlign: "center" }}>
-        <div style={{ position: "absolute", top: 260, width: "100%", fontSize: 40, color: C.sodium, opacity: qIn }}>انتخاب {fa(n)} از ۳</div>
+        <div style={{ position: "absolute", top: 260, width: "100%", fontSize: 40, color: C.sodium, opacity: qIn }}>انتخاب {fa(n)} از {fa(of)}</div>
         <div style={{ position: "absolute", top: 320, width: "100%", fontSize: 92, lineHeight: 1.25, transform: `scale(${qIn})`, textShadow: "0 6px 0 #000" }}>{q}</div>
         <div style={{ position: "absolute", top: 610, width: "100%", display: "flex", justifyContent: "center", gap: 50 }}>
           {one("a", a, 0)}
@@ -462,7 +462,7 @@ const Reflectors: React.FC<{ t: number }> = ({ t }) => {
 
 /* ===== 18–23 · the mirror ===== */
 /** Bathroom mirror. smile 0..1 (the reflection grins, you don't), cracks 0..1, cover 0..1 (jacket over it). */
-const Mirror: React.FC<{ t: number; smile?: number; cracks?: number; cover?: number; many?: number; hands?: number; zoom?: number }> = ({ t, smile = 0, cracks = 0, cover = 0, many = 0, hands = 0, zoom = 0 }) => {
+export const Mirror: React.FC<{ t: number; smile?: number; cracks?: number; cover?: number; many?: number; hands?: number; zoom?: number }> = ({ t, smile = 0, cracks = 0, cover = 0, many = 0, hands = 0, zoom = 0 }) => {
   const shards = Array.from({ length: 14 }, (_, i) => ({ x: 200 + (i % 4) * 170 + hn(i) * 40, y: 380 + Math.floor(i / 4) * 230 + hn(i, 2) * 40 }));
   return (
     <AbsoluteFill style={{ background: "#0a0d10" }}>
@@ -568,7 +568,7 @@ const Final: React.FC<{ t: number }> = ({ t }) => {
 };
 
 /** Grain + vignette + rare flicker — same look as v09's Film, but from 12 pre-made noise frames (the live feTurbulence tripled render time). */
-const Grain: React.FC<{ f: number }> = ({ f }) => (
+export const Grain: React.FC<{ f: number }> = ({ f }) => (
   <>
     <Img src={staticFile(`v22/grain-${String((f % 12) + 1).padStart(2, "0")}.jpg`)} style={{ position: "absolute", left: 0, top: 0, width: 1080, height: 1920, opacity: 0.07, imageRendering: "pixelated" }} />
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, transparent 45%, rgba(0,0,0,.75) 100%)" }} />
