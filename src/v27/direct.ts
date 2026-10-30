@@ -288,15 +288,15 @@ export const direct = (T: Times, t: number, E: World, cam: THREE.PerspectiveCame
       const rise = eio(prog(t, T.mucus, T.mucus + 1.2));
       tunCam(cam, cz + 1.6, 0.25, seaY + 0.42 + rise * 0.55, 6, 0, seaY + 0.1 - rise * 0.2, 0.04 * Math.sin(t * 0.8), 52);
     } else {
-      tunCam(cam, cz + 2.4, 1.15, seaY + 0.95, 5, -0.6, seaY + 0.15, -0.07, 54);
+      tunCam(cam, cz + 1.2, 1.0, seaY + 0.8, 5, -0.3, seaY + 0.1, -0.07, 54);
     }
     su.uCam.value.copy(cam.position);
     const n = 18;
     for (let i = 0; i < n; i++) {
-      const [ox] = lane(i + (immune ? 400 : 300), 1.9, 0.0);
+      const [ox] = immune && i < 5 ? [[-0.55, 0.35, -0.1, 0.75, -0.75][i]] : lane(i + (immune ? 400 : 300), 1.9, 0.0);
       const stuck = i % 4 === 3;
       const slow = stuck ? 0 : sp * (0.9 + hsh(i, 14) * 0.45) * (1 - (immune ? 0 : 0.35 * prog(t, T.sticky, T.sticky + 0.6)) + (immune ? 0 : 0.5 * prog(t, T.pass, T.pass + 0.4)));
-      let z = z0 - 0.5 - hsh(i, 15) * 9 - (t - t0) * slow;
+      let z = immune && i < 5 ? cz - 1.4 - i * 0.75 - (t - t0) * 0.15 : z0 - 0.5 - hsh(i, 15) * 9 - (t - t0) * slow;
       const p = E.pods[i];
       let s = 1;
       let bob = Math.sin(t * 2.2 + i) * 0.04;
@@ -315,7 +315,7 @@ export const direct = (T: Times, t: number, E: World, cam: THREE.PerspectiveCame
         c.visible = up > 0.01;
         c.position.copy(cpos);
         const eat = prog(t, te, te + 0.35);
-        const cr = 0.62 * (0.3 + 0.7 * up) * (1 + 0.15 * Math.sin(Math.PI * eat));
+        const cr = 0.58 * (0.3 + 0.7 * up) * (1 + 0.15 * Math.sin(Math.PI * eat));
         c.scale.set(cr * 1.05, cr * 0.9, cr);
         const u = (c.material as THREE.ShaderMaterial).uniforms;
         u.uT.value = t * 1.5 + i;
@@ -330,7 +330,7 @@ export const direct = (T: Times, t: number, E: World, cam: THREE.PerspectiveCame
         }
       }
       const yy = cy(z) + seaY + 0.06 + bob - (stuck ? 0.12 : 0);
-      if (s > 0.01) placePod(p, { z, ox: s < 1 && immune ? lane(i + 400, 1.9, 0)[0] : ox, y: yy, absY: true, s, pitch: -0.1, dead: stuck ? 0.8 : 0, coat: stuck ? 0.6 : 0, i }, t, cam.position);
+      if (s > 0.01) placePod(p, { z, ox, y: yy, absY: true, s, pitch: -0.1, dead: stuck ? 0.8 : 0, coat: stuck ? 0.6 : 0, i }, t, cam.position);
     }
     glowZ = cz - 40;
     glowS = 9;
