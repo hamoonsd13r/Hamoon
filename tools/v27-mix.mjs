@@ -1,5 +1,5 @@
 // v27 «اگه یه روز…» audio: one effect per visible event (times from src/v27/words.json, same cues as src/v27/Video.tsx),
-// Alvana «Cave 1» under the voice with its drop on the blueprint scene, then tools/mix.mjs → public/v27/mix-norm.wav.
+// Alvana «Cave 1» under the voice with its drop on the blueprint scene, then tools/mix.mjs → out/v27/mix-norm.wav (copied to public/v27/mix-norm.wav).
 //   ALVANA_AUDIO_DIR=~/alvana-audio node tools/v27-mix.mjs
 import fs from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -78,4 +78,5 @@ fs.mkdirSync("out/v27", { recursive: true });
 fs.writeFileSync("out/v27/mix.json", JSON.stringify(mix, null, 1));
 const n = {}; for (const f of fx) n[f.id] = (n[f.id] ?? 0) + 1;
 console.log("effects", fx.length, "· most used", Object.entries(n).sort((a, b) => b[1] - a[1]).slice(0, 3).map((e) => e.join("×")).join(" "));
-execFileSync(process.execPath, ["tools/mix.mjs", "out/v27/mix.json", "--out", "public/v27/mix-norm.wav", "--stems"], { stdio: "inherit" });
+execFileSync(process.execPath, ["tools/mix.mjs", "out/v27/mix.json", "--out", "out/v27/mix.wav"], { stdio: "inherit" });
+fs.copyFileSync("out/v27/mix-norm.wav", "public/v27/mix-norm.wav");
