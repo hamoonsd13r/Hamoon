@@ -40,6 +40,7 @@ import { V22 } from "./v22/Video";
 import { V23 } from "./v23/Video";
 import { V24 } from "./v24/Video";
 import { V25 } from "./v25/Video";
+import { V27 } from "./v27/Video";
 import { V26 } from "./v26/Video";
 import { V14 } from "./v14/Video";
 
@@ -105,6 +106,7 @@ export const RemotionRoot: React.FC = () => {
       <V23 />
       <V24 />
       <V25 />
+      <V27 />
       <V26 />
       <V14 />
       {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
