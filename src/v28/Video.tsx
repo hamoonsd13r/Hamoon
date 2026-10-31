@@ -55,10 +55,11 @@ const Bg: React.FC<{ n: string; filter?: string; style?: React.CSSProperties }> 
 );
 
 /** camera: slow drift/zoom around a focus point, optional shake */
-const Cam: React.FC<{ t: number; dur: number; z0?: number; z1?: number; fx?: number; fy?: number; dx?: number; dy?: number; shake?: number; children: React.ReactNode }> =
-  ({ t, dur, z0 = 1.02, z1 = 1.08, fx = 0.5, fy = 0.5, dx = 0, dy = 0, shake = 0, children }) => {
+const punchK = (T: number, ps?: number[]) => (ps ?? []).reduce((a, q) => { const x = T - q; return a + (x < 0 ? 0 : x < 0.08 ? x / 0.08 : Math.exp(-(x - 0.08) * 4.5)) * 0.075; }, 0);
+const Cam: React.FC<{ t: number; dur: number; z0?: number; z1?: number; fx?: number; fy?: number; dx?: number; dy?: number; shake?: number; T?: number; punch?: number[]; children: React.ReactNode }> =
+  ({ t, dur, z0 = 1.02, z1 = 1.08, fx = 0.5, fy = 0.5, dx = 0, dy = 0, shake = 0, T = 0, punch, children }) => {
     const p = easeInOut(clamp(t / Math.max(dur, 0.1)));
-    const z = z0 + (z1 - z0) * p;
+    const z = (z0 + (z1 - z0) * p) * (1 + punchK(T, punch));
     const sx = (noise(t * 9) - 0.5) * 2 * shake + Math.sin(t * 71) * shake * 0.6;
     const sy = (noise(t * 8 + 5) - 0.5) * 2 * shake + Math.cos(t * 63) * shake * 0.6;
     const hx = (noise(t * 0.35) - 0.5) * 8, hy = (noise(t * 0.3 + 9) - 0.5) * 6; // hand-held float
@@ -72,10 +73,10 @@ const Cam: React.FC<{ t: number; dur: number; z0?: number; z1?: number; fx?: num
 type CharP = {
   n: string; x: number; y: number; h: number; t: number; // t = scene-local time
   flip?: boolean; inAt?: number; outAt?: number; from?: "left" | "right" | "pop" | "fade" | "up";
-  walk?: boolean; talk?: string; T?: number; shade?: number; shadow?: boolean; z?: number; tilt?: number; clip?: string;
+  walk?: boolean; talk?: string; T?: number; shade?: number; shadow?: boolean; z?: number; tilt?: number; clip?: string; hop?: number;
 };
 /** a keyed stick-figure pose; (x,y) = feet centre on stage */
-const Char: React.FC<CharP> = ({ n, x, y, h, t, flip, inAt = -9, outAt = 1e9, from = "pop", walk, talk, T = 0, shade = 1, shadow = true, tilt = 0, clip }) => {
+const Char: React.FC<CharP> = ({ n, x, y, h, t, flip, inAt = -9, outAt = 1e9, from = "pop", walk, talk, T = 0, shade = 1, shadow = true, tilt = 0, clip, hop }) => {
   const m = CH[n];
   if (!m) throw new Error("no char " + n);
   const w = (m.w / m.h) * h;
@@ -92,16 +93,21 @@ const Char: React.FC<CharP> = ({ n, x, y, h, t, flip, inAt = -9, outAt = 1e9, fr
   const breathe = 1 + Math.sin(t * 2.4 + x) * 0.008;
   const step = walk ? Math.abs(Math.sin(t * 7)) * h * 0.035 : 0;
   const speak = talk && speaking(talk, T);
-  const rot = tilt + (speak ? Math.sin(T * 17) * 1.6 : 0) + (walk ? Math.sin(t * 7) * 1.5 : 0);
+  const rot = tilt + (speak ? Math.sin(T * 17) * 1.6 : 0) + (walk ? Math.sin(t * 7) * 1.5 : 0) + Math.sin(t * 1.3 + x * 0.01) * 0.9;
+  // hop: anticipation squash → jump arc → landing squash
+  const hp = hop === undefined ? -1 : (t - hop) / 0.55;
+  const jump = hp > 0.15 && hp < 0.85 ? Math.sin(((hp - 0.15) / 0.7) * Math.PI) * h * 0.16 : 0;
+  const sq = hp >= 0 && hp <= 0.15 ? 1 - 0.1 * Math.sin((hp / 0.15) * Math.PI) : hp >= 0.85 && hp <= 1.1 ? 1 - 0.08 * Math.sin(((hp - 0.85) / 0.25) * Math.PI) : 1;
+  oy -= jump;
   return (
     <>
       {shadow && (
         <div style={{ position: "absolute", left: x + ox - w * 0.36, top: y - h * 0.035, width: w * 0.72, height: h * 0.07, borderRadius: "50%",
-          background: "radial-gradient(closest-side, rgba(0,0,0,0.5), rgba(0,0,0,0))", opacity: op * (1 - step / h * 6) }} />
+          background: "radial-gradient(closest-side, rgba(0,0,0,0.5), rgba(0,0,0,0))", opacity: op * (1 - step / h * 6) * (1 - jump / h * 3) }} />
       )}
       <Img src={staticFile(`v28/chars/${n}.png`)} style={{
         position: "absolute", left: x + ox - w / 2, top: y - h - step + oy, width: w, height: h, opacity: op,
-        transformOrigin: "50% 100%", transform: `scale(${(flip ? -1 : 1) * sc * (speak ? 1 + Math.sin(T * 23) * 0.006 : 1)}, ${sc * breathe}) rotate(${rot}deg)`,
+        transformOrigin: "50% 100%", transform: `scale(${(flip ? -1 : 1) * sc * (2 - sq) * (speak ? 1 + Math.sin(T * 23) * 0.006 : 1)}, ${sc * breathe * sq}) rotate(${rot}deg)`,
         filter: shade !== 1 ? `brightness(${shade}) saturate(${0.8 + 0.2 * shade})` : undefined, clipPath: clip,
       }} />
     </>
@@ -114,7 +120,7 @@ const Chip: React.FC<{ t: number; at: number; x: number; y: number; text: string
     if (t < at || t > out + 0.3) return null;
     const p = backOut(prog(t, at, at + 0.35)), q = 1 - prog(t, out, out + 0.3);
     return (
-      <div style={{ position: "absolute", left: x, top: y, transform: `translate(-50%,-50%) scale(${0.7 + 0.3 * p})`, opacity: prog(t, at, at + 0.15) * q,
+      <div style={{ position: "absolute", left: x, top: y, transform: `translate(-50%,-50%) scale(${0.7 + 0.3 * p}) rotate(${(1 - prog(t, at, at + 0.5)) * -6 + Math.sin(t * 1.7 + x) * 0.6}deg) translateY(${Math.sin(t * 1.4 + y) * 4}px)`, opacity: prog(t, at, at + 0.15) * q,
         background: CREAM, color, borderRadius: 18, padding: "14px 30px", fontFamily: FB, fontSize: size, direction: "rtl", whiteSpace: "nowrap",
         boxShadow: "0 10px 30px rgba(0,0,0,0.45)", border: `4px solid ${INK}`, display: "flex", alignItems: "center", gap: 18 }}>
         {icon}{text}
@@ -186,6 +192,75 @@ const Glow: React.FC<{ x: number; y: number; r: number; color: string; op: numbe
     background: `radial-gradient(closest-side, ${color}, rgba(0,0,0,0))` }} />
 );
 
+/** horizontal speed lines (moving left) */
+const SpeedLines: React.FC<{ t: number; op: number; area?: [number, number, number, number] }> = ({ t, op, area = [0, 0, W, H] }) => (
+  <AbsoluteFill style={{ pointerEvents: "none", opacity: op }}>
+    {Array.from({ length: 26 }, (_, i) => {
+      const [ax, ay, aw, ah] = area; const len = 120 + hash(i * 3) * 260;
+      const x = ax + aw - (((hash(i) * aw + t * 2600) % (aw + len)));
+      return <div key={i} style={{ position: "absolute", left: x, top: ay + hash(i * 5.3) * ah, width: len, height: 3 + hash(i) * 3, borderRadius: 3, background: "rgba(255,255,255,0.75)" }} />;
+    })}
+  </AbsoluteFill>
+);
+/** screen cracks spreading from a point */
+const Cracks: React.FC<{ t: number; x: number; y: number }> = ({ t, x, y }) => {
+  const p = easeOut(prog(t, 0, 0.35));
+  return (
+    <svg width={W} height={H} style={{ position: "absolute", left: 0, top: 0, pointerEvents: "none" }}>
+      {Array.from({ length: 14 }, (_, i) => {
+        const a = (i / 14) * Math.PI * 2 + hash(i) * 0.4; const L = (250 + hash(i * 2) * 700) * p;
+        const mx = x + Math.cos(a) * L * 0.5 + (hash(i * 4) - 0.5) * 60, my = y + Math.sin(a) * L * 0.5 + (hash(i * 6) - 0.5) * 60;
+        return <path key={i} d={`M${x} ${y} L${mx} ${my} L${x + Math.cos(a + 0.1) * L} ${y + Math.sin(a + 0.1) * L}`} stroke="rgba(255,255,255,0.85)" strokeWidth={3} fill="none" />;
+      })}
+      {[0, 1, 2].map((k) => <circle key={k} cx={x} cy={y} r={(40 + k * 90) * p} stroke="rgba(255,255,255,0.6)" strokeWidth={2} fill="none" />)}
+    </svg>
+  );
+};
+/** debris chunks flung by the blast */
+const Debris: React.FC<{ t: number }> = ({ t }) => (
+  <AbsoluteFill style={{ pointerEvents: "none" }}>
+    {Array.from({ length: 28 }, (_, i) => {
+      const vx = -(600 + hash(i) * 1600), vy = -200 + hash(i * 3) * 300;
+      const x = 1700 + hash(i * 7) * 400 + vx * t, y = 300 + hash(i * 9) * 600 + vy * t + 900 * t * t;
+      const s = 8 + hash(i * 11) * 22;
+      return <div key={i} style={{ position: "absolute", left: x, top: y, width: s, height: s * 0.6, background: i % 2 ? "#5d554c" : "#8a8279", transform: `rotate(${t * 900 * (hash(i) - 0.5)}deg)`, opacity: clamp(1.4 - t) }} />;
+    })}
+  </AbsoluteFill>
+);
+const ShockRing: React.FC<{ t: number; x: number; y: number }> = ({ t, x, y }) => {
+  if (t < 0 || t > 2.2) return null;
+  const r = 40 + t * 900;
+  return <div style={{ position: "absolute", left: x - r, top: y - r * 0.45, width: 2 * r, height: r * 0.9, borderRadius: "50%", border: `${10 * (1 - t / 2.2) + 2}px solid rgba(255,220,170,${0.7 * (1 - t / 2.2)})`, filter: "blur(2px)" }} />;
+};
+const LightRays: React.FC<{ t: number; x: number; y: number; op: number }> = ({ t, x, y, op }) => (
+  <AbsoluteFill style={{ pointerEvents: "none", opacity: op, mixBlendMode: "screen" }}>
+    {Array.from({ length: 7 }, (_, i) => (
+      <div key={i} style={{ position: "absolute", left: x - 60, top: y, width: 120 + hash(i) * 120, height: 1500, transformOrigin: "50% 0%",
+        transform: `rotate(${-50 + i * 16 + Math.sin(t * 0.4 + i) * 3}deg)`, background: "linear-gradient(rgba(255,245,215,0.45), rgba(255,245,215,0))", filter: "blur(18px)" }} />
+    ))}
+  </AbsoluteFill>
+);
+const Birds: React.FC<{ t: number }> = ({ t }) => (
+  <svg width={W} height={H} style={{ position: "absolute", left: 0, top: 0, pointerEvents: "none" }}>
+    {Array.from({ length: 6 }, (_, i) => {
+      const x = 500 + i * 70 + t * (90 + i * 8), y = 200 + hash(i) * 120 - t * 10 + Math.sin(t * 2 + i) * 6, f = Math.sin(t * 12 + i * 1.7) * 9;
+      return <path key={i} d={`M${x - 16} ${y - f} Q${x - 6} ${y - 4} ${x} ${y} Q${x + 6} ${y - 4} ${x + 16} ${y - f}`} stroke="#3a3f48" strokeWidth={3.5} fill="none" strokeLinecap="round" />;
+    })}
+  </svg>
+);
+const Glints: React.FC<{ t: number; area: [number, number, number, number] }> = ({ t, area }) => (
+  <AbsoluteFill style={{ pointerEvents: "none" }}>
+    {Array.from({ length: 9 }, (_, i) => {
+      const ph = (t * 0.9 + hash(i)) % 1; const a = Math.sin(ph * Math.PI);
+      return <div key={i} style={{ position: "absolute", left: area[0] + hash(i * 3.3) * area[2], top: area[1] + hash(i * 5.1) * area[3], width: 36, height: 36, opacity: a * 0.9,
+        transform: `translate(-50%,-50%) rotate(45deg) scale(${a})`, background: "radial-gradient(closest-side, #fff, rgba(255,255,255,0))", boxShadow: "0 0 18px #fff" }} />;
+    })}
+  </AbsoluteFill>
+);
+const Bob: React.FC<{ t: number; amp?: number; children: React.ReactNode }> = ({ t, amp = 10, children }) => (
+  <div style={{ transform: `translateY(${Math.sin(t * 2.2) * amp}px) rotate(${Math.sin(t * 1.6) * 2}deg)` }}>{children}</div>
+);
+
 // ───── icons (SVG, ink style) ─────
 const DustPile: React.FC<{ t: number; s?: number }> = ({ t, s = 1 }) => (
   <svg width={360 * s} height={260 * s} viewBox="0 0 360 260">
@@ -226,6 +301,7 @@ add(0, ({ t, dur }) => (
     <Bg n="01-car" />
     <Glow x={510} y={520} r={140} color="rgba(170,210,255,0.8)" op={0.35 + 0.1 * Math.sin(t * 3)} />
     <Char n="21-hero-back-phone" x={560} y={1120} h={660} t={t} shadow={false} inAt={-1} />
+    <Chip t={t} at={0.15} x={1700} y={110} text="۷:۴۰ صبح" size={42} />
   </Cam>
 ));
 // 1 · white flash, no sound → calm highway burnt white
@@ -253,10 +329,11 @@ add(1, ({ t, T }) => {
 add(2, ({ t, T, dur }) => {
   const x = easeInOut(prog(T, wd(2, "بمب") - 0.2, wd(2, "اتمی") + 0.4));
   return (
-    <Cam t={t} dur={dur} z0={1.03} z1={1.16} fx={0.53} fy={0.22}>
+    <Cam t={t} dur={dur} z0={1.03} z1={1.16} fx={0.53} fy={0.22} T={T} punch={[wd(2, "بمب"), wd(2, "منفجر")]}>
       <Bg n="02-highway" filter="brightness(1.05) saturate(0.85)" />
       <Bg n="03-highway-cloud" style={{ opacity: x }} />
       <Glow x={1020} y={190} r={420} color="rgba(255,170,80,1)" op={x * (0.35 + 0.15 * Math.sin(t * 2.2))} />
+      <ShockRing t={T - wd(2, "بمب")} x={1020} y={230} />
       <Dust t={t} n={40} size={3} speed={-25} op={0.25 * x} area={[600, 0, 900, 500]} />
     </Cam>
   );
@@ -271,31 +348,34 @@ add(3, ({ t, T, dur }) => {
     <Cam t={t + 5} dur={dur + 6} z0={1.12} z1={1.2} fx={0.53} fy={0.22}>
       <Bg n="03-highway-cloud" />
       <Glow x={1020} y={190} r={420} color="rgba(255,170,80,1)" op={0.35 + 0.15 * Math.sin(T * 2.2)} />
+      <Chip t={T} at={wd(3, "دقیقه")} x={W / 2} y={150} text={`موج انفجار: ${String(Math.max(0, 60 - Math.floor((T - wd(3, "دقیقه")) * 22))).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[+d])} ثانیه`} color={RED} size={46} />
     </Cam>
   ) : (
     <AbsoluteFill>
-      <Cam t={T - hit} dur={dur} z0={1.1} z1={1.04} fx={0.5} fy={0.55} shake={26 * k + 2}>
+      <Cam t={T - hit} dur={dur} z0={1.1} z1={1.04} fx={0.5} fy={0.55} shake={26 * k + 2} T={T} punch={[hit, wd(3, "جیغ")]}>
         <Bg n="04-lane" />
         {alarm && <><Glow x={1745} y={650} r={90} color="rgba(255,170,40,1)" op={0.9} /><Glow x={250} y={760} r={90} color="rgba(255,170,40,1)" op={0.7} /></>}
         <Char n="22-hero-crouch" x={930} y={1010} h={470} t={T - hit} inAt={0.05} from="pop" />
         <Dust t={T * 3} n={90} size={4} speed={-900} op={0.6 * k} />
+        <Debris t={T - hit} />
       </Cam>
+      <Cracks t={T - hit} x={1380} y={380} />
       <AbsoluteFill style={{ background: "#fff2dc", opacity: 0.85 * (1 - prog(T, hit, hit + 0.35)) }} />
     </AbsoluteFill>
   );
 });
 // 4 · you're alive. the real danger hasn't arrived
 add(4, ({ t, dur }) => (
-  <Cam t={t} dur={dur} z0={1.0} z1={1.1} fx={0.47} fy={0.6}>
+  <Cam t={t} dur={dur} z0={1.0} z1={1.1} fx={0.47} fy={0.6} T={t + START(4)} punch={[wd(4, "خطر")]}>
     <Bg n="04-lane" />
-    <Char n="23-hero-shocked" x={900} y={1010} h={560} t={t} inAt={0} from="up" />
+    <Char n="23-hero-shocked" x={900} y={1010} h={560} t={t} inAt={0} from="up" hop={0.5} />
     <Dust t={t} n={30} size={3} speed={12} op={0.3} area={[0, 0, W, 600]} />
   </Cam>
 ));
 // 5 · card: the real danger = fallout dust
 add(5, ({ t, T, dur }) => (
   <Card t={t} dur={dur}>
-    <div style={{ position: "absolute", left: W / 2 - 230, top: 150, transform: `scale(${0.6 + 0.4 * backOut(prog(t, 0, 0.5))})` }}><DustPile t={t} s={1.28} /></div>
+    <div style={{ position: "absolute", left: W / 2 - 230, top: 150, transform: `scale(${0.6 + 0.4 * backOut(prog(t, 0, 0.5))})` }}><Bob t={t}><DustPile t={t} s={1.28} /></Bob></div>
     <Title t={t} at={0.25} y={530} text="خطرِ اصلی: غبار" size={96} />
     <Sub t={t} at={wd(5, "این") - START(5)} y={680} text="خاکی که انفجار برد بالا، رادیواکتیو شده و برمی‌گرده پایین." />
     <Chip t={T} at={wd(5, "هزاران")} x={1500} y={300} text="هزاران تُن خاک" size={40} out={wd(5, "این") - 0.2} />
@@ -308,7 +388,7 @@ add(6, ({ t, T, dur }) => {
   const fa = (n: number) => String(n).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[+d]);
   return (
     <Card t={t} dur={dur}>
-      <div style={{ position: "absolute", left: W / 2 - 170, top: 130, transform: `scale(${0.6 + 0.4 * backOut(prog(t, 0, 0.5))})` }}><Clock t={T} s={1.3} /></div>
+      <div style={{ position: "absolute", left: W / 2 - 170, top: 130, transform: `scale(${0.6 + 0.4 * backOut(prog(t, 0, 0.5))})` }}><Bob t={t} amp={6}><Clock t={T} s={1.3} /></Bob></div>
       <Title t={t} at={0.2} y={520} text="ساعت داره کار می‌کنه" size={90} />
       <div style={{ position: "absolute", left: 0, right: 0, top: 650, textAlign: "center", fontFamily: FN, fontSize: 150, color: RED, opacity: prog(t, 0.4, 0.7), direction: "ltr" }}>
         {fa(mm).padStart(2, "۰")}:{fa(ss).padStart(2, "۰")}
@@ -354,7 +434,7 @@ add(7, ({ t, T, dur }) => {
       </svg>
       <Chip t={t} at={carAt + 0.9} x={540} y={gy + 120} text="ماشین: تقریباً هیچی ✗" color={RED} size={42} />
       <Chip t={t} at={massAt + 0.6} x={1340} y={gy + 70} text="بتن و خاک ✓" color={GREEN} size={42} />
-      <Title t={t} at={moreAt - 0.1} y={960} text="هرچی جرم بیشتر، بهتر" size={60} color={BLUE} />
+      <Chip t={t} at={moreAt - 0.1} x={720} y={gy + 290} text="هرچی جرم بیشتر، بهتر" color={BLUE} size={50} />
     </Card>
   );
 });
@@ -363,8 +443,9 @@ add(8, ({ t, T, dur }) => {
   const arr = wd(8, "پیک") - START(8), go = wd(8, "پایینه") - START(8) + 0.35;
   const mx = 1900 - 620 * easeOut(prog(t, arr, arr + 1.6)) - 1700 * Math.pow(prog(t, go, go + 1.0), 2);
   return (
-    <Cam t={t} dur={dur} z0={1.04} z1={1.1} fx={0.5} fy={0.6}>
+    <Cam t={t} dur={dur} z0={1.04} z1={1.1} fx={0.5} fy={0.6} T={T} punch={[wd(8, "بپر")]}>
       <Bg n="04-lane" />
+      <SpeedLines t={t} op={(t > arr && t < arr + 1.5 ? 1 - prog(t, arr + 0.9, arr + 1.5) : 0) + prog(t, go, go + 0.3)} area={[0, 700, W, 330]} />
       <Char n="23-hero-shocked" x={640} y={1010} h={540} t={t} inAt={-1} outAt={go - 0.15} />
       <Char n="30-moto" x={mx} y={1040} h={560} t={t} inAt={arr} from="fade" talk="liam" T={T} walk={t > go || t < arr + 1.6}
         clip={t < go - 0.15 ? "polygon(0% 0%, 61.3% 0%, 61.3% 23.2%, 71.5% 23.2%, 71.5% 51.4%, 100% 51.4%, 100% 100%, 0% 100%)" : undefined} />
@@ -378,12 +459,13 @@ add(9, ({ t, T, dur }) => {
   if (t < down) {
     const r = easeInOut(prog(t, 0.1, down - 0.3));
     return (
-      <Cam t={t} dur={down} z0={1.0} z1={1.08} fx={0.8} fy={0.55}>
+      <Cam t={t} dur={down} z0={1.0} z1={1.12} fx={0.8} fy={0.55} dx={-60}>
         <Bg n="05-entrance" filter="sepia(0.35) hue-rotate(-12deg) saturate(1.1) brightness(0.92)" />
         <AbsoluteFill style={{ background: "linear-gradient(rgba(190,90,40,0.35), rgba(0,0,0,0) 45%)" }} />
         <Char n="24-hero-run" flip x={300 + 1280 * r} y={1060 - 380 * r} h={470 - 260 * r} t={t} inAt={0} from="left" walk outAt={down - 0.45} />
         <Char n="34-courier-walk" flip x={60 + 1300 * easeInOut(prog(t, 0.5, down - 0.1))} y={1080 - 400 * easeInOut(prog(t, 0.5, down - 0.1))} h={480 - 270 * easeInOut(prog(t, 0.5, down - 0.1))} t={t} inAt={0.4} from="left" walk outAt={down - 0.25} />
         <Dust t={t} n={50} size={3} speed={20} op={0.25} area={[0, 0, W, 500]} />
+        <SpeedLines t={-t} op={0.35 * (1 - prog(t, down - 0.8, down - 0.3))} area={[0, 650, 1300, 400]} />
       </Cam>
     );
   }
@@ -400,18 +482,19 @@ add(9, ({ t, T, dur }) => {
 });
 // 10 · the platform — an old pharmacist: "30 metres of earth above us"
 add(10, ({ t, T, dur }) => (
-  <Cam t={t} dur={dur} z0={1.02} z1={1.09} fx={0.55} fy={0.6}>
+  <Cam t={t} dur={dur} z0={1.02} z1={1.09} fx={0.55} fy={0.6} T={T} punch={[wd(10, "سی")]}>
     <Bg n="07-platform" />
     <Char n="35-pharm-bag" x={1280} y={990} h={520} t={t} inAt={0.3} from="fade" talk="bill" T={T} shade={0.93} />
-    <Char n="27-hero-explain" x={700} y={1000} h={540} t={t} inAt={wd(10, "آفرین") - START(10) - 0.4} from="left" shade={0.93} />
+    <Char n="27-hero-explain" x={700} y={1000} h={540} t={t} inAt={wd(10, "آفرین") - START(10) - 0.9} from="left" walk={t < wd(10, "آفرین") - START(10) - 0.4} shade={0.93} />
     <Chip t={T} at={wd(10, "سی")} x={980} y={150} text="۳۰ متر خاک بالای سر" size={44} icon={<span style={{ fontSize: 44 }}>⬆</span>} />
   </Cam>
 ));
 // 11 · up on the street, the dust starts falling
 add(11, ({ t, dur }) => (
   <AbsoluteFill>
-    <Cam t={t} dur={dur} z0={1.12} z1={1.02} fx={0.5} fy={0.5} dx={-40}>
+    <Cam t={t} dur={dur} z0={1.12} z1={1.02} fx={0.5} fy={0.5} dx={-40} T={t + START(11)} punch={[wd(11, "غبار")]}>
       <Bg n="10-dust-street" />
+      <LightRays t={t} x={1150} y={-80} op={0.5} />
       <Dust t={t} n={220} size={5} speed={55} op={0.85} />
     </Cam>
     <Chip t={t} at={0.4} x={1640} y={110} text="۱۵ دقیقه بعد" size={40} />
@@ -435,15 +518,15 @@ add(12, ({ t, T, dur }) => {
         const p = easeOut(prog(t, c.at, c.at + 0.6));
         return (
           <React.Fragment key={i}>
-            <div style={{ position: "absolute", left: x - 110, top: 880 - c.h * p, width: 220, height: c.h * p, background: i === 0 ? RED : i === 1 ? AMBER : i === 2 ? "#7fa7d6" : BLUE,
+            <div style={{ position: "absolute", left: x - 110, top: 820 - c.h * p, width: 220, height: c.h * p, background: i === 0 ? RED : i === 1 ? AMBER : i === 2 ? "#7fa7d6" : BLUE,
               border: `6px solid ${INK}`, borderRadius: "14px 14px 0 0", opacity: prog(t, c.at, c.at + 0.1) }} />
-            <div style={{ position: "absolute", left: x - 150, width: 300, top: 880 - c.h * p - 90, textAlign: "center", fontFamily: FN, fontSize: 70, color: INK, opacity: prog(t, c.at + 0.3, c.at + 0.6) }}>{c.val}</div>
-            <div style={{ position: "absolute", left: x - 150, width: 300, top: 905, textAlign: "center", fontFamily: FB, fontSize: 46, color: INK, direction: "rtl", opacity: prog(t, c.at, c.at + 0.3) }}>{c.lab}</div>
-            {i > 0 && <div style={{ position: "absolute", left: x + 115, width: 140, top: 640, textAlign: "center", fontFamily: FB, fontSize: 40, color: RED, opacity: prog(t, c.at + 0.2, c.at + 0.5) }}>÷۱۰ ←</div>}
+            <div style={{ position: "absolute", left: x - 150, width: 300, top: 820 - c.h * p - 90, textAlign: "center", fontFamily: FN, fontSize: 70, color: INK, opacity: prog(t, c.at + 0.3, c.at + 0.6) }}>{c.val}</div>
+            <div style={{ position: "absolute", left: x - 150, width: 300, top: 840, textAlign: "center", fontFamily: FB, fontSize: 46, color: INK, direction: "rtl", opacity: prog(t, c.at, c.at + 0.3) }}>{c.lab}</div>
+            {i > 0 && <div style={{ position: "absolute", left: x + 115, width: 140, top: 590, textAlign: "center", fontFamily: FB, fontSize: 40, color: RED, opacity: prog(t, c.at + 0.2, c.at + 0.5) }}>÷۱۰ ←</div>}
           </React.Fragment>
         );
       })}
-      <div style={{ position: "absolute", left: 230, right: 230, top: 880, height: 8, background: INK, borderRadius: 4 }} />
+      <div style={{ position: "absolute", left: 230, right: 230, top: 820, height: 8, background: INK, borderRadius: 4 }} />
     </Card>
   );
 });
@@ -456,6 +539,7 @@ add(13, ({ t, dur }) => {
       <Cam t={t} dur={dur} z0={1.06} z1={1.14} fx={0.6} fy={0.6}>
         <Bg n="08-platform-end" />
         <Glow x={1222} y={490} r={170} color="rgba(255,190,90,1)" op={0.45 + 0.12 * noise(t * 6)} />
+        <AbsoluteFill style={{ background: "#000", opacity: noise(t * 3) > 0.82 ? 0.25 : 0 }} />
         <Char n="25-hero-sit-knees" x={1010} y={860} h={400} t={t} inAt={0} from="fade" shade={0.9} />
         <Char n="38-pharm-radio" x={1500} y={930} h={430} t={t} inAt={0} from="fade" shade={0.9} />
       </Cam>
@@ -471,7 +555,7 @@ add(14, ({ t, T, dur }) => {
   const c = easeOut(prog(t, back + 0.3, back + 2.4));
   return (
     <AbsoluteFill>
-      <Cam t={t} dur={dur} z0={1.02} z1={1.07} fx={0.47} fy={0.55}>
+      <Cam t={t} dur={dur} z0={1.02} z1={1.07} fx={0.47} fy={0.55} T={T} punch={[wd(14, "خاکستری")]}>
         <Bg n="08-platform-end" />
         <Glow x={1222} y={490} r={170} color="rgba(255,190,90,1)" op={0.45 + 0.12 * noise(t * 6)} />
         <Char n="34-courier-walk" x={1400 - 520 * w} y={1000 - 430 * w} h={500 - 300 * w} t={t} inAt={-1} walk={w > 0 && w < 1} outAt={up + 1.4} shade={0.92} />
@@ -485,11 +569,11 @@ add(14, ({ t, T, dur }) => {
 // 15 · "radiation sickness isn't contagious — the dust is the danger"
 add(15, ({ t, T, dur }) => (
   <AbsoluteFill>
-    <Cam t={t} dur={dur} z0={1.03} z1={1.09} fx={0.5} fy={0.62}>
+    <Cam t={t} dur={dur} z0={1.03} z1={1.09} fx={0.5} fy={0.62} T={T} punch={[wd(15, "واگیر")]}>
       <Bg n="07-platform" />
       <Char n="31-courier-dusty" x={720} y={1000} h={520} t={t} inAt={-1} shade={0.93} />
       <Dust t={t} n={18} size={4} speed={50} op={0.7} area={[600, 520, 240, 460]} />
-      <Char n="36-pharm-finger" x={1300} y={1000} h={540} t={t} inAt={0} from="right" talk="bill" T={T} shade={0.93} />
+      <Char n="36-pharm-finger" x={1300} y={1000} h={540} t={t} inAt={0} from="right" walk={t < 0.45} talk="bill" T={T} shade={0.93} />
     </Cam>
     <Chip t={T} at={wd(15, "واگیر")} x={W / 2} y={120} text="بیماریِ تشعشع واگیر نداره" color={GREEN} size={48} out={wd(15, "خطر") - 0.15} />
     <Chip t={T} at={wd(15, "خطر")} x={W / 2} y={120} text="خطر = غبارِ روی لباس" color={RED} size={48} />
@@ -501,7 +585,7 @@ add(16, ({ t, T, dur }) => {
   if (t < wash) {
     return (
       <AbsoluteFill>
-        <Cam t={t} dur={wash} z0={1.04} z1={1.1} fx={0.45} fy={0.6}>
+        <Cam t={t} dur={wash} z0={1.04} z1={1.1} fx={0.45} fy={0.6} T={T} punch={[wd(16, "نود")]}>
           <Bg n="07-platform" />
           <Char n="32-courier-jacket" x={820} y={1000} h={560} t={t} inAt={0} from="fade" shade={0.93} />
           <Dust t={t} n={30} size={4} speed={140} op={0.8} area={[620, 560, 420, 440]} />
@@ -528,7 +612,7 @@ add(16, ({ t, T, dur }) => {
       {row(250, 0.1, "🧥", "لباسِ رویی، توی کیسه", true)}
       {row(470, wd(16, "صابون") - START(16) - wash - 0.2, "🧼", "آب و صابون، آروم", true)}
       {row(690, wd(16, "نرم‌کننده", 1) - START(16) - wash - 0.1, "🧴", "نرم‌کننده", false)}
-      <Sub t={u} at={wd(16, "نرم‌کننده", 2) - START(16) - wash} y={900} text="نرم‌کننده غبار رو به مو می‌چسبونه" size={40} color={RED} />
+      <Sub t={u} at={wd(16, "نرم‌کننده", 2) - START(16) - wash} y={860} text="نرم‌کننده غبار رو به مو می‌چسبونه" size={40} color={RED} />
     </Card>
   );
 });
@@ -538,7 +622,7 @@ add(17, ({ t, T, dur }) => (
     <Cam t={t} dur={dur} z0={1.05} z1={1.12} fx={0.55} fy={0.62}>
       <Bg n="08-platform-end" filter="brightness(0.9)" />
       <Glow x={1222} y={490} r={170} color="rgba(255,190,90,1)" op={0.45 + 0.12 * noise(t * 6)} />
-      <Char n="33-courier-sick" x={880} y={940} h={400} t={t} inAt={0} from="fade" shade={0.9} tilt={Math.sin(t * 1.3) * 2} />
+      <Char n="33-courier-sick" x={880} y={940} h={400} t={t} inAt={0} from="fade" shade={0.9} tilt={Math.sin(t * 1.3) * 2 + Math.sin(t * 31) * 0.8} />
       <Char n="36-pharm-finger" x={1440} y={990} h={520} t={t} inAt={wd(17, "داروساز") - START(17) - 0.3} from="right" talk="bill" T={T} shade={0.9} />
     </Cam>
     <Chip t={t} at={0.3} x={1660} y={110} text="۴ ساعت بعد" size={40} />
@@ -551,7 +635,8 @@ add(18, ({ t, T, dur }) => (
     <Cam t={t} dur={dur} z0={1.02} z1={1.1} fx={0.5} fy={0.5}>
       <Bg n="09-kiosk" />
       <Glow x={960} y={330} r={420} color="rgba(255,200,120,1)" op={0.18} />
-      <Char n="26-hero-water-snack" x={960} y={1040} h={560} t={t} inAt={wd(18, "کیوسک") - START(18)} from="pop" shade={0.95} />
+      <Glints t={t} area={[520, 230, 900, 220]} />
+      <Char n="26-hero-water-snack" x={960} y={1040} h={560} t={t} inAt={wd(18, "کیوسک") - START(18)} from="pop" shade={0.95} hop={wd(18, "سالم") - START(18) - 0.2} />
     </Cam>
     <Chip t={T} at={wd(18, "دربسته")} x={480} y={170} text="دربسته = سالم ✓" color={GREEN} size={52} />
     <Chip t={T} at={wd(18, "هرچی")} x={1440} y={170} text="هرچی باز بوده ✗" color={RED} size={52} />
@@ -562,7 +647,7 @@ add(19, ({ t, T, dur }) => {
   const u = t - DAY_LEN;
   return (
     <AbsoluteFill>
-      <Cam t={t} dur={dur} z0={1.03} z1={1.1} fx={0.5} fy={0.6}>
+      <Cam t={t} dur={dur} z0={1.03} z1={1.1} fx={0.5} fy={0.6} T={T} punch={[wd(19, "تیروئید"), wd(19, "مسئولین")]}>
         <Bg n="07-platform" />
         <Char n="37-pharm-pills" x={1200} y={1000} h={540} t={u} inAt={0} from="fade" talk="bill" T={T} shade={0.93} />
         <Char n="27-hero-explain" x={620} y={1000} h={520} t={u} inAt={0.2} from="fade" shade={0.93} />
@@ -630,7 +715,7 @@ add(22, ({ t, T, dur }) => {
     <AbsoluteFill>
       <Cam t={t} dur={dur} z0={1.0} z1={1.18} fx={0.6} fy={0.45}>
         <Bg n="12-tunnel" filter="brightness(0.95)" />
-        <Glow x={lead - 260} y={800} r={330} color="rgba(255,240,200,1)" op={0.55} />
+        <Glow x={lead - 260 + Math.sin(t * 1.8) * 70} y={800 + Math.sin(t * 2.6) * 25} r={330} color="rgba(255,240,200,1)" op={0.55} />
         <Char n="28-hero-flashlight" x={lead} y={1010} h={500} t={t} inAt={0} from="fade" walk shade={0.75} />
         <Char n="34-courier-walk" x={lead + 330} y={1020} h={490} t={t} inAt={0.2} from="fade" walk shade={0.65} />
         <Char n="39-pharm-walk" x={lead + 650} y={1030} h={500} t={t} inAt={0.4} from="fade" walk shade={0.6} />
@@ -656,6 +741,8 @@ add(23, ({ t, T, dur }) => {
       <Cam t={t} dur={dur} z0={1.0} z1={1.12} fx={0.5} fy={0.32}>
         <Bg n="13-exit" filter={`brightness(${0.8 + 0.3 * c})`} />
         <Glow x={960} y={260} r={700} color="rgba(255,248,225,1)" op={0.15 + 0.4 * c} />
+        <LightRays t={t} x={960} y={150} op={0.25 + 0.5 * c} />
+        <Birds t={u} />
         <Char n="29-hero-back-hope" x={960} y={1130 - 470 * c} h={560 - 380 * c} t={u} inAt={0} from="fade" walk={c > 0.02 && c < 0.98} />
       </Cam>
       <Chip t={T} at={wd(23, "هزارم")} x={1580} y={120} text="تشعشع: ۰٫۱٪" color={GREEN} size={46} />
@@ -679,7 +766,7 @@ add(24, ({ t, T, dur }) => {
         const p = backOut(prog(T, it.at - 0.1, it.at + 0.3));
         return (
           <div key={i} style={{ position: "absolute", left: x - 170, top: 420, width: 340, textAlign: "center", opacity: prog(T, it.at - 0.1, it.at + 0.05), transform: `scale(${0.6 + 0.4 * p})` }}>
-            <div style={{ width: 210, height: 210, margin: "0 auto", borderRadius: 44, background: "#fff", border: `7px solid ${INK}`, fontSize: 120, display: "flex", alignItems: "center", justifyContent: "center", color: INK }}>{it.icon}</div>
+            <div style={{ transform: `translateY(${Math.sin(T * 3 + i) * 8 * prog(T, it.at + 0.3, it.at + 0.6)}px)`, width: 210, height: 210, margin: "0 auto", borderRadius: 44, background: "#fff", border: `7px solid ${INK}`, fontSize: 120, display: "flex", alignItems: "center", justifyContent: "center", color: INK }}>{it.icon}</div>
             <div style={{ marginTop: 30, fontFamily: FB, fontSize: 52, color: i === 3 ? RED : INK, direction: "rtl" }}>{it.text}</div>
           </div>
         );
@@ -688,8 +775,75 @@ add(24, ({ t, T, dur }) => {
   );
 });
 
+// ───── transitions ─────
+type Tr = "fade" | "cut" | "whip" | "zoom" | "slideUp" | "slideDown" | "push" | "glitch";
+const TR: Record<number, Tr> = { 1: "cut", 2: "fade", 3: "cut", 4: "whip", 5: "slideUp", 6: "push", 7: "push", 8: "zoom", 9: "whip", 10: "zoom", 11: "slideDown", 12: "slideUp",
+  13: "zoom", 14: "whip", 15: "whip", 16: "push", 17: "glitch", 18: "whip", 19: "cut", 20: "cut", 21: "cut", 22: "zoom", 23: "cut", 24: "slideUp" };
+const TLEN: Record<Tr, number> = { fade: 0.28, cut: 0, whip: 0.32, zoom: 0.38, slideUp: 0.42, slideDown: 0.42, push: 0.4, glitch: 0.3 };
+const inStyle = (ty: Tr, p: number): React.CSSProperties => {
+  const e = easeInOut(p);
+  switch (ty) {
+    case "fade": return { opacity: p };
+    case "whip": return { transform: `translateX(${(1 - e) * W}px)`, filter: p < 1 ? `blur(${(1 - e) * 22}px)` : undefined };
+    case "zoom": return { transform: `scale(${1.5 - 0.5 * easeOut(p)})`, opacity: easeOut(p) };
+    case "slideUp": return { transform: `translateY(${(1 - easeOut(p)) * H}px)` };
+    case "slideDown": return { transform: `translateY(${-(1 - easeOut(p)) * H}px)` };
+    case "push": return { transform: `translateX(${-(1 - e) * W}px)` };
+    case "glitch": { const k = 1 - p; return { opacity: p < 0.5 ? (Math.floor(p * 20) % 2 ? 1 : 0.2) : 1, transform: `translateX(${Math.sin(p * 90) * 40 * k}px)`, filter: k > 0 ? `hue-rotate(${k * 90}deg) saturate(${1 + k * 2})` : undefined }; }
+    default: return {};
+  }
+};
+const outStyle = (ty: Tr, p: number): React.CSSProperties => {
+  const e = easeInOut(p);
+  switch (ty) {
+    case "whip": return { transform: `translateX(${-e * W}px)`, filter: `blur(${e * 22}px)` };
+    case "zoom": return { transform: `scale(${1 + 0.6 * easeOut(p)})`, opacity: 1 - p };
+    case "slideUp": return { transform: `translateY(${-e * H * 0.3}px)`, filter: `brightness(${1 - 0.5 * e})` };
+    case "slideDown": return { transform: `translateY(${e * H * 0.3}px)`, filter: `brightness(${1 - 0.5 * e})` };
+    case "push": return { transform: `translateX(${e * W}px)` };
+    default: return {};
+  }
+};
+
+// ───── captions (word by word, current word highlighted) ─────
+type Chunk = { ws: Word[]; a: number; b: number; v: string };
+const CHUNKS: Chunk[] = (() => {
+  const out: Chunk[] = []; let cur: Word[] = [];
+  const push = () => { if (cur.length) out.push({ ws: cur, a: cur[0].s - 0.08, b: cur.at(-1)!.e + 0.35, v: cur[0].v }); cur = []; };
+  words.forEach((w, i) => {
+    if (w.wi === 0 && cur.length) push();
+    cur.push(w);
+    const nx = words[i + 1];
+    if (/[،.؟!:؛]$/.test(w.w) && cur.length >= 2) push();
+    else if (cur.length >= 5 && !(nx && nx.wi === 0)) push();
+  });
+  push();
+  for (let i = 0; i + 1 < out.length; i++) out[i].b = Math.min(out[i].b, out[i + 1].a);
+  return out;
+})();
+const WHO: Record<string, [string, string]> = { liam: ["پیک", "#7fb6ff"], bill: ["داروساز", "#9fe0a8"], george: ["رادیو", AMBER] };
+const Captions: React.FC<{ T: number }> = ({ T }) => {
+  const c = CHUNKS.find((x) => T >= x.a && T < x.b);
+  if (!c) return null;
+  const p = prog(T, c.a, c.a + 0.18);
+  const who = WHO[c.v];
+  return (
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: 52, display: "flex", justifyContent: "center", pointerEvents: "none" }}>
+      <div style={{ display: "flex", gap: 16, direction: "rtl", alignItems: "baseline", background: "rgba(12,12,16,0.66)", borderRadius: 22, padding: "12px 34px 18px",
+        transform: `translateY(${(1 - easeOut(p)) * 18}px) scale(${0.94 + 0.06 * easeOut(p)})`, opacity: p, boxShadow: "0 8px 26px rgba(0,0,0,0.35)" }}>
+        {who && <span style={{ fontFamily: FB, fontSize: 40, color: who[1] }}>{who[0]}:</span>}
+        {c.ws.map((w, i) => {
+          const on = T >= w.s - 0.03 && T < (c.ws[i + 1]?.s ?? c.b);
+          const past = T >= w.s - 0.03;
+          return <span key={i} style={{ fontFamily: FB, fontSize: 54, color: on ? "#FFC24A" : "#fff", opacity: past ? 1 : 0.5,
+            display: "inline-block", transform: `scale(${on ? 1.08 : 1}) translateY(${on ? -3 : 0}px)`, textShadow: "0 3px 10px rgba(0,0,0,0.6)" }}>{w.w}</span>;
+        })}
+      </div>
+    </div>
+  );
+};
+
 // ───── assembly ─────
-const XF = 0.28; // crossfade
 const Video: React.FC<{ audio?: string }> = ({ audio }) => {
   const f = useCurrentFrame();
   const T = f / FPS;
@@ -697,11 +851,17 @@ const Video: React.FC<{ audio?: string }> = ({ audio }) => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       {list.map((s, i) => {
-        if (T < s.a || T > s.b + XF) return null;
-        const op = i === 0 || s.cut ? 1 : prog(T, s.a, s.a + XF);
+        const tyIn: Tr = i === 0 ? "cut" : TR[s.si] ?? "fade";
+        const nxt = list[i + 1];
+        const tyOut: Tr = nxt ? TR[nxt.si] ?? "fade" : "cut";
+        const outLen = TLEN[tyOut] || 0;
+        if (T < s.a || T > s.b + Math.max(outLen, 0.02)) return null;
+        let st: React.CSSProperties = {};
+        if (TLEN[tyIn] > 0 && T < s.a + TLEN[tyIn]) st = inStyle(tyIn, prog(T, s.a, s.a + TLEN[tyIn]));
+        else if (T >= s.b) st = tyOut === "fade" || tyOut === "glitch" ? {} : outStyle(tyOut, prog(T, s.b, s.b + outLen));
         const C = s.C;
         return (
-          <AbsoluteFill key={i} style={{ opacity: op }}>
+          <AbsoluteFill key={i} style={st}>
             <C t={T - s.a} T={T} dur={s.b - s.a} />
           </AbsoluteFill>
         );
@@ -709,6 +869,7 @@ const Video: React.FC<{ audio?: string }> = ({ audio }) => {
       <Vignette k={0.32} />
       <AbsoluteFill style={{ pointerEvents: "none", opacity: 0.06, backgroundImage: `radial-gradient(rgba(255,255,255,0.8) 1px, transparent 1px)`, backgroundSize: "3px 3px", transform: `translate(${(f * 37) % 3}px, ${(f * 53) % 3}px)` }} />
       <AbsoluteFill style={{ background: "#000", opacity: prog(T, TOTAL - 0.9, TOTAL - 0.1) }} />
+      <Captions T={T} />
       {audio && <Html5Audio src={staticFile(audio)} />}
     </AbsoluteFill>
   );
@@ -726,6 +887,7 @@ const Look: React.FC<{ times: number[] }> = ({ times }) => {
     <AbsoluteFill style={{ background: "#000" }}>
       <C t={T - s.a} T={T} dur={s.b - s.a} />
       <Vignette k={0.32} />
+      <Captions T={T} />
     </AbsoluteFill>
   );
 };
