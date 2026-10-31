@@ -1,0 +1,312 @@
+{
+ "length": 218.46,
+ "voice": "public/v28/narration.wav",
+ "music": [
+  {
+   "file": "public/audio/music/ambient/cave-4.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 6.088,
+   "fadeIn": 0.5,
+   "fadeOut": 0.15,
+   "gain": 0.24
+  },
+  {
+   "file": "public/audio/music/ambient/cave-4.mp3",
+   "at": 13.433,
+   "from": 60,
+   "to": 198.798,
+   "fadeIn": 1.5,
+   "fadeOut": 1.2,
+   "gain": 0.24
+  },
+  {
+   "file": "public/audio/music/intro/beginning-6.mp3",
+   "at": 198.49800000000002,
+   "from": 0,
+   "to": 19.962,
+   "fadeIn": 1.5,
+   "fadeOut": 2.6,
+   "gain": 0.24
+  }
+ ],
+ "sfx": [
+  {
+   "file": "public/sfx-lib/pop.wav",
+   "at": 0.6,
+   "vol": 0.1,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 13.948,
+   "vol": 0.22
+  },
+  {
+   "file": "public/v28/sfx/blast-1.mp3",
+   "at": 22.46,
+   "vol": 0.28,
+   "peak": 0.04
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 22.46,
+   "vol": 0.2
+  },
+  {
+   "file": "public/v28/sfx/alarms-1.mp3",
+   "at": 24.86,
+   "vol": 0.12,
+   "peak": 2.89
+  },
+  {
+   "id": "sfx/whoosh/soft-medium",
+   "at": 31.963,
+   "vol": 0.14
+  },
+  {
+   "file": "public/sfx-lib/ticks.wav",
+   "at": 39.904,
+   "vol": 0.14,
+   "peak": 0.05
+  },
+  {
+   "id": "sfx/whoosh/soft-medium",
+   "at": 43.299,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 44.549,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 48.493,
+   "vol": 0.16
+  },
+  {
+   "file": "public/v28/sfx/moto-1.mp3",
+   "at": 53.873,
+   "vol": 0.18,
+   "peak": 1.9
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 58.955,
+   "vol": 0.16
+  },
+  {
+   "file": "public/sfx-lib/steps.wav",
+   "at": 59.424,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 62.483,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 73.493,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/whoosh/soft-medium",
+   "at": 83.294,
+   "vol": 0.12
+  },
+  {
+   "file": "public/sfx-lib/pop.wav",
+   "at": 86.733,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/blip.wav",
+   "at": 91.82,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/blip.wav",
+   "at": 93.745,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/blip.wav",
+   "at": 96.133,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/steps.wav",
+   "at": 106.857,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/steps.wav",
+   "at": 109.694,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/pop.wav",
+   "at": 115.418,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/pop.wav",
+   "at": 116.896,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/paper.wav",
+   "at": 122.75,
+   "vol": 0.14,
+   "peak": 0.05
+  },
+  {
+   "file": "public/sfx-lib/stamp.wav",
+   "at": 126.333,
+   "vol": 0.16,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/whoosh/soft-medium",
+   "at": 128.857,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 129.444,
+   "vol": 0.14
+  },
+  {
+   "file": "public/sfx-lib/error.wav",
+   "at": 131.509,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 141.063,
+   "vol": 0.14
+  },
+  {
+   "file": "public/sfx-lib/match.wav",
+   "at": 152.948,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/error.wav",
+   "at": 154.885,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/thud.wav",
+   "at": 157.612,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/pop.wav",
+   "at": 163.728,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/pop.wav",
+   "at": 166.836,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/thud.wav",
+   "at": 168.659,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v28/sfx/rain-1.mp3",
+   "at": 171.259,
+   "vol": 0.18,
+   "peak": 2.61
+  },
+  {
+   "file": "public/sfx-lib/thud.wav",
+   "at": 179.361,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v28/sfx/radio-1.mp3",
+   "at": 182.327,
+   "vol": 0.14,
+   "peak": 1.41
+  },
+  {
+   "file": "public/sfx-lib/steps.wav",
+   "at": 187.439,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/thud.wav",
+   "at": 198.248,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/chime.wav",
+   "at": 207,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/pop.wav",
+   "at": 210.322,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/blip.wav",
+   "at": 211.419,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/blip.wav",
+   "at": 212.242,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/sfx-lib/chime.wav",
+   "at": 213.689,
+   "vol": 0.12,
+   "peak": 0.02
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/wind",
+   "from": 75.95100000000001,
+   "to": 83.29400000000001,
+   "vol": 0.3
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "from": 199.24800000000002,
+   "to": 208.553,
+   "vol": 0.18
+  }
+ ]
+}

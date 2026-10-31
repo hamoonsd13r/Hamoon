@@ -1,0 +1,7 @@
+[
+ {"id":"alarms","text":"many car alarms going off at once on a jammed highway after a blast, distant echoes, wailing sirens of cars","dur":5,"infl":0.5},
+ {"id":"moto","text":"small delivery motorcycle approaching fast between cars, revving, then braking to a stop","dur":3.5,"infl":0.6},
+ {"id":"rain","text":"heavy rain pouring down concrete subway stairs, water streaming and splashing, echoing underground","dur":6,"infl":0.5},
+ {"id":"radio","text":"portable radio tuning static crackle then a clear signal locks in","dur":2.2,"infl":0.6},
+ {"id":"blast","text":"enormous distant nuclear blast shockwave, deep rumble and glass windows shattering, rolling thunder","dur":5,"infl":0.6}
+]

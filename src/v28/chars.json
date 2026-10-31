@@ -1,0 +1,82 @@
+{
+"20-sheet": {
+"w": 1071,
+"h": 767
+},
+"21-hero-back-phone": {
+"w": 619,
+"h": 849
+},
+"22-hero-crouch": {
+"w": 483,
+"h": 586
+},
+"23-hero-shocked": {
+"w": 309,
+"h": 799
+},
+"24-hero-run": {
+"w": 832,
+"h": 765
+},
+"25-hero-sit-knees": {
+"w": 500,
+"h": 696
+},
+"26-hero-water-snack": {
+"w": 429,
+"h": 772
+},
+"27-hero-explain": {
+"w": 428,
+"h": 802
+},
+"28-hero-flashlight": {
+"w": 568,
+"h": 787
+},
+"29-hero-back-hope": {
+"w": 488,
+"h": 754
+},
+"30-moto": {
+"w": 929,
+"h": 824
+},
+"31-courier-dusty": {
+"w": 338,
+"h": 844
+},
+"32-courier-jacket": {
+"w": 646,
+"h": 771
+},
+"33-courier-sick": {
+"w": 635,
+"h": 722
+},
+"34-courier-walk": {
+"w": 498,
+"h": 762
+},
+"35-pharm-bag": {
+"w": 439,
+"h": 831
+},
+"36-pharm-finger": {
+"w": 421,
+"h": 810
+},
+"37-pharm-pills": {
+"w": 439,
+"h": 821
+},
+"38-pharm-radio": {
+"w": 767,
+"h": 742
+},
+"39-pharm-walk": {
+"w": 418,
+"h": 763
+}
+}
