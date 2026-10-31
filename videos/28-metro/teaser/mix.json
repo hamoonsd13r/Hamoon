@@ -1,0 +1,77 @@
+{
+ "length": 30.6,
+ "voice": "public/v28/teaser-voice.wav",
+ "music": [
+  {
+   "file": "public/audio/music/horror/tragedy-waiting-to-happen.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 30.6,
+   "fadeIn": 0.05,
+   "fadeOut": 1.5,
+   "gain": 0.26
+  }
+ ],
+ "sfx": [
+  {
+   "file": "public/v28/sfx/blast-1.mp3",
+   "at": 0.02,
+   "vol": 0.28,
+   "peak": 0.04
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 0.02,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/whoosh/soft-medium",
+   "at": 4.1,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 7.65,
+   "vol": 0.16
+  },
+  {
+   "file": "public/sfx-lib/steps.wav",
+   "at": 7.8,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 9,
+   "vol": 0.14
+  },
+  {
+   "file": "public/sfx-lib/steps.wav",
+   "at": 17.2,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/whoosh/soft-medium",
+   "at": 16,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 23.2,
+   "vol": 0.18
+  },
+  {
+   "file": "public/sfx-lib/stamp.wav",
+   "at": 26,
+   "vol": 0.16,
+   "peak": 0.02
+  },
+  {
+   "file": "public/sfx-lib/pop.wav",
+   "at": 28.2,
+   "vol": 0.14,
+   "peak": 0.01
+  }
+ ]
+}

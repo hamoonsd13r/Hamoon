@@ -40,7 +40,7 @@ const E = (si: number) => words.filter((w) => w.si === si).at(-1)!.e;
 const speaking = (v: string, T: number) => words.some((w) => w.v === v && T >= w.s - 0.02 && T <= w.e + 0.02);
 
 // ───── palette ─────
-const CREAM = "#EEE8DC", INK = "#26272B", RED = "#C9452F", BLUE = "#3C78C4", GREEN = "#3E9A5B", AMBER = "#E7A43A";
+export const CREAM = "#EEE8DC", INK = "#26272B", RED = "#C9452F", BLUE = "#3C78C4", GREEN = "#3E9A5B", AMBER = "#E7A43A";
 const FT = "V28Bold", FB = "V28Black", FN = "V28Num";
 
 // ───── scene timing (from the voice) ─────
@@ -115,7 +115,7 @@ const Char: React.FC<CharP> = ({ n, x, y, h, t, flip, inAt = -9, outAt = 1e9, fr
 };
 
 /** small floating label chip (RTL) */
-const Chip: React.FC<{ t: number; at: number; x: number; y: number; text: string; color?: string; size?: number; icon?: React.ReactNode; out?: number }> =
+export const Chip: React.FC<{ t: number; at: number; x: number; y: number; text: string; color?: string; size?: number; icon?: React.ReactNode; out?: number }> =
   ({ t, at, x, y, text, color = INK, size = 46, icon, out = 1e9 }) => {
     if (t < at || t > out + 0.3) return null;
     const p = backOut(prog(t, at, at + 0.35)), q = 1 - prog(t, out, out + 0.3);
@@ -159,7 +159,7 @@ const Sub: React.FC<{ t: number; at?: number; y: number; text: string; size?: nu
 
 // ───── particles ─────
 /** gray fallout dust drifting down */
-const Dust: React.FC<{ t: number; n?: number; op?: number; size?: number; speed?: number; area?: [number, number, number, number] }> =
+export const Dust: React.FC<{ t: number; n?: number; op?: number; size?: number; speed?: number; area?: [number, number, number, number] }> =
   ({ t, n = 140, op = 0.8, size = 5, speed = 70, area = [0, 0, W, H] }) => {
     const [ax, ay, aw, ah] = area;
     return (
@@ -184,7 +184,7 @@ const Rain: React.FC<{ t: number; op?: number }> = ({ t, op = 0.55 }) => (
     })}
   </AbsoluteFill>
 );
-const Vignette: React.FC<{ k?: number }> = ({ k = 0.55 }) => (
+export const Vignette: React.FC<{ k?: number }> = ({ k = 0.55 }) => (
   <AbsoluteFill style={{ pointerEvents: "none", background: `radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,${k}))` }} />
 );
 const Glow: React.FC<{ x: number; y: number; r: number; color: string; op: number }> = ({ x, y, r, color, op }) => (
@@ -262,7 +262,7 @@ const Bob: React.FC<{ t: number; amp?: number; children: React.ReactNode }> = ({
 );
 
 // ───── icons (SVG, ink style) ─────
-const DustPile: React.FC<{ t: number; s?: number }> = ({ t, s = 1 }) => (
+export const DustPile: React.FC<{ t: number; s?: number }> = ({ t, s = 1 }) => (
   <svg width={360 * s} height={260 * s} viewBox="0 0 360 260">
     {Array.from({ length: 26 }, (_, i) => {
       const y = ((hash(i) * 200 + t * 60) % 200) - 20; const x = 70 + hash(i * 4.4) * 220;
@@ -844,12 +844,11 @@ const Captions: React.FC<{ T: number }> = ({ T }) => {
 };
 
 // ───── assembly ─────
-const Video: React.FC<{ audio?: string }> = ({ audio }) => {
-  const f = useCurrentFrame();
-  const T = f / FPS;
+/** all scenes (with transitions) at video time T, on the 1920×1080 stage — also used by the vertical teaser */
+export const SceneStack: React.FC<{ T: number }> = ({ T }) => {
   const list = scenes.map((s, i) => ({ ...s, a: START(s.si), b: i + 1 < scenes.length ? START(scenes[i + 1].si) : TOTAL }));
   return (
-    <AbsoluteFill style={{ background: "#000" }}>
+    <>
       {list.map((s, i) => {
         const tyIn: Tr = i === 0 ? "cut" : TR[s.si] ?? "fade";
         const nxt = list[i + 1];
@@ -866,6 +865,15 @@ const Video: React.FC<{ audio?: string }> = ({ audio }) => {
           </AbsoluteFill>
         );
       })}
+    </>
+  );
+};
+const Video: React.FC<{ audio?: string }> = ({ audio }) => {
+  const f = useCurrentFrame();
+  const T = f / FPS;
+  return (
+    <AbsoluteFill style={{ background: "#000" }}>
+      <SceneStack T={T} />
       <Vignette k={0.32} />
       <AbsoluteFill style={{ pointerEvents: "none", opacity: 0.06, backgroundImage: `radial-gradient(rgba(255,255,255,0.8) 1px, transparent 1px)`, backgroundSize: "3px 3px", transform: `translate(${(f * 37) % 3}px, ${(f * 53) % 3}px)` }} />
       <AbsoluteFill style={{ background: "#000", opacity: prog(T, TOTAL - 0.9, TOTAL - 0.1) }} />
