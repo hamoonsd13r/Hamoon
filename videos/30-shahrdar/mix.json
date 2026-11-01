@@ -1,12 +1,12 @@
 {
- "length": 52.815,
+ "length": 53.172,
  "voice": "public/v30/vo.wav",
  "music": [
   {
    "file": "public/audio/music/chiptune/adventure-begins-loop.mp3",
    "at": 0,
    "from": 0,
-   "to": 52.815,
+   "to": 53.172,
    "fadeIn": 0.2,
    "fadeOut": 2.5,
    "gain": 0.22
@@ -110,7 +110,7 @@
   },
   {
    "id": "sfx/ui/click-crisp",
-   "at": 51.015,
+   "at": 51.372,
    "vol": 0.203
   }
  ],
