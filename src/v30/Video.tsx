@@ -334,7 +334,7 @@ const S3: React.FC<SP> = ({ T, t0 }) => {
       <CityLayer T={T} cam={cam} />
       <Smog T={T} k={0.8} />
       {st.busX !== null && <Label cam={cam} x={st.busX} y={8.5} z={0.9} T={T} t0={tBus() + 0.15} size={38} text={<>🚌 خط برقی</>} dark />}
-      <Label cam={cam} x={9.5} y={11.5} z={0.4} T={T} t0={wd(3, "نصف")} text={<>ترافیک <span style={{ color: C.lime }}>−۵۰٪</span></>} />
+      <Label cam={cam} x={9.5} y={11.5} z={0.4} T={T} t0={wd(3, "نصف")} text={<>ترافیک: <span style={{ color: C.lime }}>نصف</span></>} />
       <Title T={T} t0={t0} sub="تصمیم اول" lines={["اتوبوس برقی"]} />
     </AbsoluteFill>
   );
