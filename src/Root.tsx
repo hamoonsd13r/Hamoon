@@ -44,6 +44,7 @@ import { V26 } from "./v26/Video";
 import { V27 } from "./v27/Video";
 import { V28 } from "./v28/Video";
 import { V28Teaser } from "./v28/Teaser";
+import { V29 } from "./v29/Video";
 import { V14 } from "./v14/Video";
 
 // Every video = one <Composition>. The style demos below are the reference films / starter templates (see STYLES.md).
@@ -112,6 +113,7 @@ export const RemotionRoot: React.FC = () => {
       <V27 />
       <V28 />
       <V28Teaser />
+      <V29 />
       <V14 />
       {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
     </>
