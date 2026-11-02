@@ -9,3 +9,4 @@
 - زمان کلمه‌ها: src/v32/words.json (eleven-align روی videos/32/script.txt، متن همان چیزی که گفته شده).
 - ⚠ خط ۸ «روزِ جیره‌ست» را STT سه بار «روز جی هست» شنید. اگر کاربر دوباره ضبط کرد، فقط بازه‌ی ۲۴.۷ تا ۲۵.۵ ثانیه را عوض کن.
 - پیش‌نمایش صوت: موزیک ‎-29 LUFS + sidechain زیر ویس، خروجی ‎-14 LUFS.
+- صدا v2 (کاربر گفت صدا یه کم بده): afftdn حذف شد (نویز کف ‎-67dB بود و afftdn بالای ۸k را ۸ تا ۱۳ دسی‌بل خورده بود → صدا گرفته). زنجیره‌ی تازه: highpass 80 ← firequalizer هم‌طیف با گوینده‌ی مرجع (+۳ در ۲.۵ تا ۴k، +۵ در ۵k، +۷ در ۶.۳ تا ۱۰k؛ out/ref/eq.txt) ← deesser ← acompressor 2.5:1 ← rubberband tempo 1.12 با formant=preserved (به‌جای atempo) ← ‎-16 LUFS ← equalizer ‎-2dB در ۱۲۰ هرتز.
