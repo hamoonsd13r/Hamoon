@@ -1,0 +1,8 @@
+[
+  { "id": "whip", "text": "single sharp leather whip crack outdoors, close, dry, no voice", "dur": 1.2, "infl": 0.6 },
+  { "id": "sheep", "text": "one sheep bleating once, close, outdoors, short", "dur": 1.5, "infl": 0.5 },
+  { "id": "baby", "text": "newborn baby short soft coo and gurgle, happy, close, no crying", "dur": 1.8, "infl": 0.5 },
+  { "id": "site", "text": "ancient construction site ambience, distant hammers on stone, chisels tapping, workers murmuring, wind, no music", "dur": 8, "infl": 0.4 },
+  { "id": "chisel", "text": "iron chisel struck by wooden mallet on limestone, two hits, close, stone chips falling", "dur": 2.5, "infl": 0.6 },
+  { "id": "clay", "text": "reed stylus pressing into soft wet clay tablet, three short presses, close foley", "dur": 1.5, "infl": 0.5 }
+]

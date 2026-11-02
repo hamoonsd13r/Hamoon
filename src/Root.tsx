@@ -31,6 +31,7 @@ import { V12 } from "./v12/Video";
 import { V30 } from "./v30/Video";
 import { V31 } from "./v31/Video";
 import { Covers } from "./v31/Covers";
+import { V32 } from "./v32/Video";
 import { V13 } from "./v13/Video";
 import { V18 } from "./v18/Video";
 import { V15 } from "./v15/Video";
@@ -120,6 +121,7 @@ export const RemotionRoot: React.FC = () => {
       <V30 />
       <V31 />
       <Covers />
+      <V32 />
       <V14 />
       {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
     </>
