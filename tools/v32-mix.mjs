@@ -10,7 +10,7 @@ const wd = (n, x) => LW(n).find((w) => w.w.includes(x)).s;
 const wdEnd = (n, x) => LW(n).find((w) => w.w.includes(x)).e;
 const cut = (n) => LW(n)[0].s - 0.12;
 const LAST = WD.at(-1).e;
-const TOTAL = Math.round((LAST + 1.9) * 100) / 100;
+const TOTAL = Math.round((LAST + 1.3) * 100) / 100;
 const C = { s2: cut(1), s3: cut(2), s4: cut(3) - 0.1, s5: cut(4), s6: cut(5), s7: cut(7), s8: cut(9), s9: cut(10), s10: cut(11), s11: cut(13), s12: cut(14), s13: cut(15), s14: cut(17), s15: cut(18), s16: cut(20) };
 const V3PLAY = wd(16, "داری") - 0.55;
 const A = "public/v32/sfx/sfx/", E = "public/v32/sfx/el/";

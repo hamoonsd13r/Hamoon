@@ -40,7 +40,7 @@ const wdEnd = (line: number, word: string) => lineWords(line).find((x) => x.w.in
 const lineStart = (n: number) => lineWords(n)[0].s;
 const cut = (n: number) => lineStart(n) - 0.12;
 const LAST = WORDS[WORDS.length - 1].e;
-export const TOTAL = Math.round((LAST + 1.9) * 100) / 100;
+export const TOTAL = Math.round((LAST + 1.3) * 100) / 100;
 export const V32_FRAMES = Math.round(TOTAL * FPS);
 
 // ───────── camera ─────────
@@ -262,7 +262,7 @@ const Payslip: React.FC<{ T: number }> = ({ T }) => {
   const out = easeInOut(prog(T, t1, t1 + 0.35));
   const rows: [string, string][] = [["جیره‌ی جو و شراب", "صفر"], ["گوشت روزای خاص", "صفر"], ["هدیه‌ی تولد بچه", "صفر"], ["مونده تا آخر ماه", "صفر"]];
   return (
-    <div style={{ position: "absolute", left: W / 2, top: 820 + (1 - p) * 900 + out * 900, transform: `translate(-50%,-50%) rotate(${-2 + 2 * p}deg)`, width: 780,
+    <div style={{ position: "absolute", left: W / 2, top: 820 + (1 - p) * 900 + out * 900, transform: `translate(-50%,-50%) translateY(${Math.sin(T * 1.7) * 7}px) rotate(${-2 + 2 * p + Math.sin(T * 1.1) * 0.7}deg) scale(${1 + 0.03 * prog(T, t0, t1)})`, width: 780,
       background: "#fbfaf6", borderRadius: 18, boxShadow: "0 40px 90px rgba(0,0,0,0.6)", direction: "rtl", fontFamily: "V32Bold", color: "#1d1d1d", overflow: "hidden" }}>
       <div style={{ background: "#2f3b47", color: "#fff", padding: "22px 36px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <span style={{ fontFamily: "V32Black", fontSize: 50 }}>فیش حقوقی</span>
@@ -292,9 +292,17 @@ const FA = ["۱", "۲", "۳", "۴", "۵", "۶", "۷"];
 const EndCard: React.FC<{ T: number }> = ({ T }) => {
   const t0 = cut(20);
   const tw = 236, th = 400, gap = 16;
+  const kb = prog(T, t0, TOTAL);
+  const rt = Math.max(0, T - (t0 + 0.7));
+  const pos = 13 * (1 - Math.exp(-rt * 0.6)); // roulette: fast, then slowing down
+  const curHL = rt > 0 ? Math.floor(pos) % 7 : -1;
+  const frac = pos - Math.floor(pos);
+  const light = 0.5 + 0.5 * Math.sin(T * 1.3);
   return (
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 40%, #3a2814 0%, #140d07 80%)" }}>
-      <Dust T={T} n={20} a={0.4} />
+      <AbsoluteFill style={{ background: `radial-gradient(circle at ${45 + 10 * Math.sin(T * 0.8)}% ${35 + 6 * Math.cos(T * 0.6)}%, rgba(255,200,120,${0.12 + 0.08 * light}) 0%, rgba(0,0,0,0) 55%)` }} />
+      <Dust T={T} n={34} a={0.65} />
+      <AbsoluteFill style={{ transform: `scale(${1 + 0.07 * easeInOut(kb)}) translateY(${-12 * kb}px)` }}>
       <div style={{ position: "absolute", left: 0, right: 0, top: 190, textAlign: "center", direction: "rtl", fontFamily: "V32Black", fontSize: 92, color: "#fff",
         opacity: easeOut(prog(T, t0, t0 + 0.3)), transform: `translateY(${(1 - easeOut(prog(T, t0, t0 + 0.3))) * -30}px)` }}>
         کدوم روز<span style={{ color: GOLD }}>؟</span>
@@ -307,14 +315,19 @@ const EndCard: React.FC<{ T: number }> = ({ T }) => {
         // RTL: day 1 on the right
         const x = W / 2 + rowW / 2 - tw - k * (tw + gap);
         const y = 360 + row * (th + gap);
-        const st = t0 + 0.1 + i * 0.09;
+        const st = t0 + 0.05 + i * 0.07;
         const q = easeOut(prog(T, st, st + 0.35));
-        const hl = T > t0 + 1.0 ? Math.max(0, 1 - Math.abs(((T - t0 - 1.0) * 3.2) % 7 - i) * 1.4) : 0;
+        const hl = i === curHL ? 1 - 0.35 * frac : 0;
+        const z = 1.45 + 0.35 * kb;
+        const dx = (i % 2 ? 1 : -1) * 18 * kb;
+        const bob = Math.sin(T * 2.1 + i * 0.9) * 4;
         return (
-          <div key={i} style={{ position: "absolute", left: x, top: y, width: tw, height: th, borderRadius: 18, overflow: "hidden", opacity: q,
-            transform: `translateY(${(1 - q) * 60}px) scale(${1 + 0.06 * hl})`, border: `4px solid ${hl > 0.3 ? GOLD : "rgba(242,193,78,0.35)"}`, boxShadow: "0 16px 30px rgba(0,0,0,0.5)" }}>
-            <Img src={staticFile(d.img)} style={{ position: "absolute", width: tw * 1.5, height: (tw * 1.5) / IMG_AR, maxWidth: "none",
-              left: tw / 2 - d.fx * tw * 1.5, top: th / 2 - d.fy * ((tw * 1.5) / IMG_AR), filter: `brightness(${0.75 + 0.25 * hl})` }} />
+          <div key={i} style={{ position: "absolute", left: x, top: y + bob, width: tw, height: th, borderRadius: 18, overflow: "hidden", opacity: q, zIndex: hl ? 2 : 1,
+            transform: `translateY(${(1 - q) * 60}px) scale(${1 + 0.1 * hl})`, border: `4px solid ${hl > 0.3 ? GOLD : "rgba(242,193,78,0.35)"}`,
+            boxShadow: hl ? `0 0 ${40 * hl}px rgba(242,193,78,${0.8 * hl}), 0 16px 30px rgba(0,0,0,0.5)` : "0 16px 30px rgba(0,0,0,0.5)" }}>
+            <Img src={staticFile(d.img)} style={{ position: "absolute", width: tw * z, height: (tw * z) / IMG_AR, maxWidth: "none",
+              left: tw / 2 - d.fx * tw * z + dx, top: th / 2 - d.fy * ((tw * z) / IMG_AR), filter: `brightness(${0.7 + 0.35 * hl}) saturate(${0.85 + 0.25 * hl})` }} />
+            {hl > 0 && <div style={{ position: "absolute", top: 0, bottom: 0, width: 90, left: -120 + (tw + 240) * frac, background: "linear-gradient(90deg, rgba(255,255,255,0), rgba(255,240,200,0.45), rgba(255,255,255,0))", transform: "skewX(-15deg)" }} />}
             <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 120, background: "linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0))" }} />
             <div style={{ position: "absolute", left: 0, right: 0, bottom: 14, textAlign: "center", direction: "rtl", fontFamily: "V32Black", fontSize: 44, color: hl > 0.3 ? GOLD : "#fff" }}>
               روز <span style={{ fontFamily: "V32Num", fontSize: 54 }}>{FA[i]}</span>
@@ -322,7 +335,15 @@ const EndCard: React.FC<{ T: number }> = ({ T }) => {
           </div>
         );
       })}
-      <Chip x={W / 2} y={1225} p={prog(T, t0 + 0.9, t0 + 1.2)} size={50} bg={GOLD} color={INK}>توی کامنت بگو</Chip>
+      </AbsoluteFill>
+      <div style={{ position: "absolute", left: 0, top: Math.sin(T * 5) * 8 }}>
+        <Chip x={W / 2} y={1225} p={prog(T, t0 + 0.9, t0 + 1.2)} size={50} bg={GOLD} color={INK}>توی کامنت بگو</Chip>
+      </div>
+      {T > t0 + 1.1 && (
+        <svg width={60} height={60} style={{ position: "absolute", left: W / 2 - 30, top: 1268 + 10 * Math.abs(Math.sin(T * 5)), opacity: easeOut(prog(T, t0 + 1.1, t0 + 1.4)) }}>
+          <path d="M30 6v40M14 32l16 16 16-16" fill="none" stroke={GOLD} strokeWidth={7} strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      )}
     </AbsoluteFill>
   );
 };
@@ -522,12 +543,12 @@ const SHOTS: ShotDef[] = [
   },
   { // ۱۳ · روز ۶: تراشیدن (اول فریم ثابت، بعد کلیپ Veo)
     from: C.s13, to: C.s14, vid: { src: "v32/vid3.mp4", start: V3PLAY }, ar: VID_AR, day: 6,
-    keys: [{ t: C.s13, fx: 0.4, fy: 0.3, s: 1.18 }, { t: C.s13 + 0.01, fx: 0.45, fy: 0.36, s: 1.08, ease: 2.6 }, { t: V3PLAY, fx: 0.62, fy: 0.42, s: 1.12, ease: 3.0 }],
+    keys: [{ t: C.s13, fx: 0.4, fy: 0.3, s: 1.18 }, { t: C.s13 + 0.01, fx: 0.45, fy: 0.36, s: 1.08, ease: 3.3 }, { t: V3PLAY, fx: 0.62, fy: 0.42, s: 1.12, ease: 3.0 }],
     extra: (T, p) => <><Glow p={p} ix={0.6} iy={0.12} r={0.4} color="rgba(255,220,160,A)" a={0.2} /><Dust T={T} n={30} a={0.7} /></>,
   },
   { // ۱۴ · ۲۵۰۰ سال بعد: همان صورت، گوشی‌ها
     from: C.s14, to: C.s15, img: "v32/img8.jpg",
-    keys: [{ t: C.s14, fx: 0.68, fy: 0.42, s: 1.7 }, { t: C.s14 + 0.35, fx: 0.62, fy: 0.45, s: 1.3, ease: 1.2 }, { t: wd(17, "عکس") - 0.2, fx: 0.5, fy: 0.55, s: 1.05, ease: 0.8 }],
+    keys: [{ t: C.s14, fx: 0.68, fy: 0.42, s: 1.7 }, { t: C.s14 + 0.35, fx: 0.62, fy: 0.45, s: 1.3, ease: 2.6 }, { t: wd(17, "عکس") - 0.2, fx: 0.5, fy: 0.55, s: 1.05, ease: 0.8 }],
     extra: (T, p) => {
       const t0 = wd(17, "عکس");
       const phones = [[0.24, 0.59, 0], [0.5, 0.63, 0.12], [0.82, 0.63, 0.2], [0.13, 0.6, 0.3], [0.24, 0.59, 0.55], [0.82, 0.63, 0.7]];
