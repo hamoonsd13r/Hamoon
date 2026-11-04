@@ -30,6 +30,7 @@ import { V11 } from "./v11/Video";
 import { V12 } from "./v12/Video";
 import { V30 } from "./v30/Video";
 import { V31 } from "./v31/Video";
+import { V33 } from "./v33/Video";
 import { Covers } from "./v31/Covers";
 import { V32 } from "./v32/Video";
 import { V13 } from "./v13/Video";
@@ -120,6 +121,7 @@ export const RemotionRoot: React.FC = () => {
       <V29 />
       <V30 />
       <V31 />
+      <V33 />
       <Covers />
       <V32 />
       <V14 />
