@@ -1,0 +1,16 @@
+# V34 · شکافِ داریِن (هم‌قالب ریلز @geoglobe_tales «The Darien Gap»)
+- مرجع: instagram.com/reel/DAv36T0PRcy · ۶۰ ثانیه · صدای مرجع دانلود نشد (Apify فقط ویدیوی بی‌صدا داد)، نریشن از زیرنویس سوخته‌ی ویدیو با OCR چشمی درآمد.
+- نریشن: ترجمه‌ی وفادار، همان ترتیب. خط ۲ و ۳ یکی شد تا «داریِن» وسط جمله بیفتد.
+- صدا: Brian، eleven_v4، کسره. tempo 1.15، طول ۶۷.۴ ثانیه.
+- تلفظ «داریِن»:
+  - Scribe فارسی آن را همیشه «دارین» می‌نویسد، پس برای این اسم معیار نیست.
+  - با wav2vec2-lv-60-espeak-cv-ft (تشخیص آوای IPA، فایل scratch/phon.py) چک شد: «dɔrian» یعنی درست. نسخه‌ای که اسم آخر جمله بود «dɔri» شد، یعنی ناقص.
+- تصویر:
+  - نقشه: NASA GIBS BlueMarble_ShadedRelief_Bathymetry (EPSG:3857، مالکیت عمومی)، گرید آب تیره‌ی فیروزه‌ای.
+  - نمای نزدیک جنگل، باتلاق و کوه: EOX Sentinel-2 cloudless 2020 (CC BY 4.0).
+  - مرزها و رودها: Natural Earth.
+- کد: src/v34 (map.ts دوربین Web-Mercator، data.ts مسیرها، Video.tsx).
+  - همه‌ی عکس‌های نقشه روی یک canvas کشیده می‌شوند و فقط تکه‌ی دیده‌شده crop می‌شود. `<img>` چند ده‌هزار پیکسلی در کروم نصفه رستر می‌شد.
+- صدا: موزیک Alvana «Game Over 1» (CC0) با gain 0.245، و ۴۰ افکت Alvana روی اتفاق‌ها (videos/34-darien/build-mix.cjs).
+  - stemها: voice ‎-22.2، music ‎-31.9، sfx ‎-37.5. خروجی ‎-14 LUFS.
+- اعتبار (برای کپشن): Sentinel-2 cloudless by EOX IT Services GmbH (contains modified Copernicus Sentinel data 2020)
