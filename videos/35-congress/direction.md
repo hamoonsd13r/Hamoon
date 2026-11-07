@@ -1,0 +1,20 @@
+# V35 · فرقِ مجلسِ نمایندگان و سنای آمریکا (هم‌قالب ریلز @geoglobe_tales «House vs Senate»)
+- مرجع: instagram.com/reel/DfVz7oHs17R · ۱۱۴ ثانیه.
+  - این بار Apify `audioUrl` هم داد. متن انگلیسی با Scribe درآمد (با curl؛ fetch خود node در اسکریپت scratch از پروکسی رد نمی‌شد).
+- نریشن: ترجمه‌ی وفادار، ۲۳ خط. Brian v4 با کسره، tempo 1.15، طول ۱۳۵.۸ ثانیه.
+  - تلفظ «فرماندارها، کاپیتول، وایومینگ» با IPA چک شد (phonfull.py).
+- عددهای آخر ویدیو: انتخابات ۳ نوامبر ۲۰۲۶ طبق ویکی‌پدیا هنوز «پیش‌بینی» است (اکثریت دموکرات در هر دو مجلس، سنا حداقل ۵۴).
+  - برای همین فقط صندلی‌ها پر می‌شوند: سنا ۵۴ به ۴۶ و مجلس ۲۵۹ به ۱۷۶، به نسبت عدد کل مرجع (۳۱۳ به ۲۲۲). هیچ عددی روی صفحه نمی‌آید.
+- تصویر:
+  - نقشه: GIBS Blue Marble (ناسا) و US.jpg، NY.jpg، WY.jpg.
+  - واشنگتن: USGS National Map orthoimagery (مالکیت عمومی، ~۰.۵ متر).
+  - مرزها: Natural Earth و حوزه‌های کنگره‌ی Census cb_2023_us_cd118.
+  - عکس‌ها از Wikimedia Commons، همه مالکیت عمومی:
+    - تریلر Mr. Smith Goes to Washington (۲ فریم + تیتراژ)
+    - North Façade White House
+    - United States Capitol west front
+    - پرتره‌ی رسمی Trump 2025
+  - برش عکس‌ها با rembg (isnet برای کاخ سفید، ماسک u2net برای کاپیتول).
+- Wikimedia از این IP به فایل اصلی 429 می‌دهد. فقط thumbnail با اندازه‌ی استاندارد (‎960 یا 1280 از API imageinfo) کار کرد: wmthumb.py.
+- رندر: ۴ پروسه‌ی موازی با concurrency=1 (out/par35.sh). concurrency=4 کندتر بود، چون هر تب عکس‌ها را جدا decode می‌کند.
+- صدا: موزیک Alvana «Autumn» (CC0)، gain 0.2. ۴۴ افکت (build-mix.cjs). stemها: voice ‎-22، music ‎-32.6، sfx ‎-37.2.
