@@ -1,0 +1,191 @@
+{
+ "length": 101.49,
+ "voice": "public/v38/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/horror/floor-1.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 37.54,
+   "fadeIn": 0.05,
+   "fadeOut": 0.12,
+   "gain": 0.22
+  },
+  {
+   "file": "public/audio/music/horror/floor-4.mp3",
+   "at": 41.31,
+   "from": 0,
+   "to": 80.78,
+   "fadeIn": 0.6,
+   "fadeOut": 0.1,
+   "gain": 0.22
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 0.12,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/glitch/short-1",
+   "at": 4.29,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 4.35,
+   "vol": 0.113
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 10.47,
+   "vol": 0.189
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 13.59,
+   "vol": 0.099
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 16.45,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/glitch/short-3",
+   "at": 19.17,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/glitch/static",
+   "at": 22.89,
+   "vol": 0.126
+  },
+  {
+   "id": "sfx/glitch/stutter",
+   "at": 24.67,
+   "vol": 0.126
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 24.75,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/glitch/static",
+   "at": 26.44,
+   "vol": 0.113
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 27.95,
+   "vol": 0.099
+  },
+  {
+   "id": "sfx/riser/noise-2s",
+   "at": 35.79,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/glitch/static",
+   "at": 35.79,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 37.54,
+   "vol": 0.203
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 38.4,
+   "vol": 0.203
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 39.9,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 41.31,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 44.03,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 44.87,
+   "vol": 0.099
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 46.3,
+   "vol": 0.099
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 48.97,
+   "vol": 0.099
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 51.18,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 58.84,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 59.46,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 60.09,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 60.42,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/data/typing-terminal",
+   "at": 66.18,
+   "vol": 0.113
+  },
+  {
+   "id": "sfx/glitch/short-3",
+   "at": 68.43,
+   "vol": 0.126
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 71.12,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/riser/noise-2s",
+   "at": 78.55,
+   "vol": 0.126
+  },
+  {
+   "id": "sfx/glitch/short-1",
+   "at": 78.55,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 78.6,
+   "vol": 0.158
+  }
+ ]
+}
