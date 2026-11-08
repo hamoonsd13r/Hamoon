@@ -112,7 +112,7 @@ const Chapter: React.FC<{ T: number; t0: number; text: string; tag?: string; siz
 };
 
 // ───── the reconstructed basement corridor (true perspective, the camera dollies in) ─────
-const Corridor: React.FC<{ T: number; camZ: number; tint?: [number, number, number]; sway?: number; door?: number }> = ({ T, camZ, tint = [1, 1, 1], sway = 1, door = 1 }) => {
+export const Corridor: React.FC<{ T: number; camZ: number; tint?: [number, number, number]; sway?: number; door?: number }> = ({ T, camZ, tint = [1, 1, 1], sway = 1, door = 1 }) => {
   const F = 700, cx = 540 + Math.sin(T * 0.5) * 14 * sway, cy = 960 + Math.sin(T * 0.37 + 1) * 10 * sway;
   const XW = 430, CY = -560, FY = 640, L = 360, N = 24, END = N * L;
   const P = (x: number, y: number, d: number) => `${(cx + (x * F) / d).toFixed(1)},${(cy + (y * F) / d).toFixed(1)}`;
