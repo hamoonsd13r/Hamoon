@@ -1,0 +1,172 @@
+{
+ "length": 106.62,
+ "voice": "public/v39/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/horror/tension-in-the-air.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 4.38,
+   "fadeIn": 0.05,
+   "fadeOut": 0.1,
+   "gain": 0.2
+  },
+  {
+   "file": "public/audio/music/horror/floor-6.mp3",
+   "at": 11.85,
+   "from": 0,
+   "to": 72.83,
+   "fadeIn": 0.8,
+   "fadeOut": 1.5,
+   "gain": 0.21
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 72.03,
+   "from": 0,
+   "to": 85.22,
+   "fadeIn": 1.2,
+   "fadeOut": 0.6,
+   "gain": 0.13
+  },
+  {
+   "file": "public/audio/music/horror/between-life-and-death.mp3",
+   "at": 88.46,
+   "from": 0,
+   "to": 106.62,
+   "fadeIn": 1,
+   "fadeOut": 3,
+   "gain": 0.15
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/room-tone",
+   "from": 96.09,
+   "to": 106.62,
+   "vol": 0.5
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 0.05,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 4.38,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 10.05,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 11.85,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/data/typing-terminal",
+   "at": 12.1,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/paper/slide",
+   "at": 18.32,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 20.19,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/paper/slide",
+   "at": 22.82,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 27.64,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/glitch/static",
+   "at": 28.28,
+   "vol": 0.11
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 31.31,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/paper/slide",
+   "at": 33.86,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 37.47,
+   "vol": 0.13
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 37.9,
+   "vol": 0.13
+  },
+  {
+   "id": "sfx/paper/slide",
+   "at": 40.22,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 45,
+   "vol": 0.13
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 57.31,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 58.54,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 64.05,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 67.43,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 68.89,
+   "vol": 0.11
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 85.86,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 91.19,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 93.77,
+   "vol": 0.16
+  }
+ ]
+}
