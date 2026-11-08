@@ -1,0 +1,180 @@
+{
+ "length": 31.08,
+ "voice": "public/v37/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/intro/beginning-7.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 31.08,
+   "fadeIn": 0.2,
+   "fadeOut": 2.5,
+   "gain": 0.2
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/wind",
+   "from": 0,
+   "to": 8.9,
+   "vol": 0.18
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 0.08,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 1.0,
+   "vol": 0.27
+  },
+  {
+   "file": "public/v37/sfx/hiss.wav",
+   "at": 2.62,
+   "vol": 0.27,
+   "peak": 0.15
+  },
+  {
+   "id": "sfx/impact/punch-medium-001",
+   "at": 3.35,
+   "vol": 0.3
+  },
+  {
+   "id": "sfx/body/heartbeat-fast",
+   "at": 3.45,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 4.2,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 4.35,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 4.65,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 4.95,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 5.25,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 5.55,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/transition/whoosh-hit-2",
+   "at": 5.85,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 6.15,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 6.45,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 6.75,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 7.1,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 8.92,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/water/splash-15",
+   "at": 9.7,
+   "vol": 0.18
+  },
+  {
+   "file": "public/v37/sfx/row.wav",
+   "at": 11.45,
+   "vol": 0.24,
+   "peak": 0.2
+  },
+  {
+   "file": "public/v37/sfx/horn.wav",
+   "at": 12.2,
+   "vol": 0.21,
+   "peak": 0.3
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 14.42,
+   "vol": 0.3
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 16.16,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/paper/page-flip",
+   "at": 17.55,
+   "vol": 0.3
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 19.48,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 21.9,
+   "vol": 0.18
+  },
+  {
+   "file": "public/v37/sfx/pen.wav",
+   "at": 22.95,
+   "vol": 0.27,
+   "peak": 0.1
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 23.62,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/transition/whoosh-hit-2",
+   "at": 25.2,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 27.08,
+   "vol": 0.21
+  },
+  {
+   "file": "public/v37/sfx/cheer.wav",
+   "at": 28.85,
+   "vol": 0.27,
+   "peak": 0.3
+  }
+ ]
+}
