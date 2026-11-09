@@ -1,144 +1,163 @@
 {
- "length": 81.84,
+ "length": 82.28,
  "voice": "public/v41/vo.wav",
  "music": [
   {
    "file": "public/v41/music.mp3",
    "at": 0,
    "from": 0,
-   "to": 40.93,
+   "to": 41.292,
    "fadeIn": 0.05,
    "fadeOut": 0.03,
-   "gain": 0.18
+   "gain": 0.06
   },
   {
    "file": "public/v41/music.mp3",
-   "at": 41.63,
+   "at": 41.992000000000004,
    "from": 87,
-   "to": 66.2,
+   "to": 66.555,
    "fadeIn": 1.5,
    "fadeOut": 1.2,
-   "gain": 0.22
+   "gain": 0.08
   },
   {
    "file": "public/v41/music.mp3",
-   "at": 65.6,
+   "at": 65.95500000000001,
    "from": 165.6,
-   "to": 81.836,
+   "to": 82.28399999999999,
    "fadeIn": 1.2,
    "fadeOut": 2.5,
-   "gain": 0.16
+   "gain": 0.035
   }
  ],
  "sfx": [
   {
    "id": "sfx/explosion/low-frequency-explosion-000",
    "at": 0.25,
-   "vol": 0.5
+   "vol": 0.45
   },
   {
    "id": "sfx/ui/tick-001",
    "at": 0.35,
-   "vol": 0.18
+   "vol": 0.16
   },
   {
    "id": "sfx/ui/tick-001",
    "at": 1.35,
-   "vol": 0.18
+   "vol": 0.16
   },
   {
    "id": "sfx/ui/tick-001",
    "at": 2.35,
-   "vol": 0.18
+   "vol": 0.16
   },
   {
    "id": "sfx/ui/tick-001",
    "at": 3.35,
-   "vol": 0.18
+   "vol": 0.16
   },
   {
    "id": "sfx/riser/downlifter-dark",
-   "at": 6.259,
-   "vol": 0.35
-  },
-  {
-   "id": "sfx/glitch/short-1",
-   "at": 6.309,
+   "at": 6.33,
    "vol": 0.3
   },
   {
-   "id": "sfx/whoosh/deep",
-   "at": 7.939,
-   "vol": 0.35
+   "id": "sfx/glitch/short-1",
+   "at": 6.38,
+   "vol": 0.28
   },
   {
-   "id": "sfx/camera/shutter-film",
-   "at": 8.459,
-   "vol": 0.15
+   "id": "sfx/whoosh/deep",
+   "at": 8.011000000000001,
+   "vol": 0.3
+  },
+  {
+   "file": "public/v41/sfx/chant-dictator-a.wav",
+   "at": 8.131,
+   "vol": 0.4,
+   "peak": 0
   },
   {
    "id": "sfx/impact/soft-thump",
-   "at": 13.164,
+   "at": 12.896,
+   "vol": 0.4
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 22.182,
    "vol": 0.45
   },
   {
-   "id": "sfx/impact/soft-thump",
-   "at": 22.317,
-   "vol": 0.5
+   "id": "sfx/explosion/low-frequency-explosion-000",
+   "at": 30.477,
+   "vol": 0.35
   },
   {
-   "id": "sfx/explosion/low-frequency-explosion-000",
-   "at": 30.394000000000002,
-   "vol": 0.4
+   "file": "public/v41/sfx/chant-tehran-b.wav",
+   "at": 28.942,
+   "vol": 0.45,
+   "peak": 0
   },
   {
    "id": "sfx/body/heartbeat",
-   "at": 36.086,
-   "vol": 0.35
+   "at": 36.448,
+   "vol": 0.3
+  },
+  {
+   "file": "public/v41/sfx/chant-amirabad-18dey.wav",
+   "at": 35.792,
+   "vol": 0.4,
+   "peak": 0
   },
   {
    "id": "sfx/glitch/stutter",
-   "at": 40.93,
-   "vol": 0.55
+   "at": 41.292,
+   "vol": 0.5
   },
   {
    "id": "sfx/glitch/short-2",
-   "at": 41.18,
-   "vol": 0.4
-  },
-  {
-   "id": "sfx/paper/slide",
-   "at": 50.876,
-   "vol": 0.4
-  },
-  {
-   "id": "sfx/paper/slide",
-   "at": 57.361999999999995,
-   "vol": 0.4
-  },
-  {
-   "id": "sfx/impact/soft-thump",
-   "at": 65.975,
+   "at": 41.542,
    "vol": 0.35
   },
   {
+   "id": "sfx/paper/slide",
+   "at": 51.251,
+   "vol": 0.35
+  },
+  {
+   "id": "sfx/paper/slide",
+   "at": 57.653,
+   "vol": 0.35
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 66.267,
+   "vol": 0.3
+  },
+  {
+   "file": "public/v41/sfx/chant-dictator-c.wav",
+   "at": 67.75500000000001,
+   "vol": 0.28,
+   "peak": 0
+  },
+  {
    "id": "sfx/riser/downlifter-dark",
-   "at": 76.295,
-   "vol": 0.4
+   "at": 76.743,
+   "vol": 0.35
   }
  ],
  "beds": [
   {
    "file": "public/v41/sfx/crowd-1.mp3",
-   "from": 25.375,
-   "to": 37.586,
+   "from": 25.69,
+   "to": 29.041999999999998,
    "vol": 0.28
   },
   {
    "id": "sfx/ambience/wind",
-   "from": 42.733,
-   "to": 69.763,
-   "vol": 0.22
+   "from": 43.096,
+   "to": 68.055,
+   "vol": 0.18
   }
  ]
 }

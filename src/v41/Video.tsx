@@ -48,7 +48,7 @@ export const V41_FRAMES = Math.round(TOTAL * FPS);
 const tL2 = c(S(2)), tZero = wd(2, "صفر");
 const tL3 = c(S(3)), tStreets = wd(3, "خیابون‌ها");
 const tL4 = c(S(4)), tL5 = c(S(5)), tFall = wd(5, "سقوط"), tProt = c(wd(5, "اعتراض‌هایی")), tBazaar = wd(5, "بازار"), tCities = wd(5, "شهرهای");
-const tL6 = c(S(6)), tL7 = c(S(7)), tGath = wd(7, "تجمعات"), tClash = c(wd(7, "درگیری‌ها")), tKilled = wd(7, "کشته‌شدن");
+const tL6 = c(S(6)), tL7 = c(S(7)), tGath = wd(7, "تجمع‌ها"), tClash = c(wd(7, "درگیری‌ها")), tKilled = wd(7, "کشته‌شدن");
 const tL8 = c(S(8)), t18 = wd(8, "هجده"), tL9 = c(S(9)), tTehran = wd(9, "تهران"), tOther = wd(9, "شهرهای");
 const tL10 = c(S(10)), tL11 = c(S(11)), tCut = wd(11, "قطع");
 const tL12 = c(S(12)), tL13 = c(S(13)), tUN = c(wd(13, "سازمان")), tCrack = wd(13, "سرکوب"), tMany = wd(13, "کشته‌شدن");
