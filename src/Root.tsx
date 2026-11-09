@@ -34,6 +34,7 @@ import { V31 } from "./v31/Video";
 import { V33 } from "./v33/Video";
 import { V36 } from "./v36/Video";
 import { V40 } from "./v40/Video";
+import { Cover5Comp } from "./v40/Covers";
 import { Covers34 } from "./v36/Covers";
 import { V34 } from "./v34/Video";
 import { V35 } from "./v35/Video";
@@ -136,6 +137,7 @@ export const RemotionRoot: React.FC = () => {
       <V33 />
       <V36 />
       <V40 />
+      <Cover5Comp />
       <Covers34 />
       <V34 />
       <V35 />
