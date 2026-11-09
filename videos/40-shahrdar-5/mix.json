@@ -1,0 +1,108 @@
+{
+ "length": 48.621,
+ "voice": "public/v40/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/chiptune/adventure-begins-loop.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 48.621,
+   "fadeIn": 0.2,
+   "fadeOut": 2.5,
+   "gain": 0.22
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/ui/click-crisp",
+   "at": 0.5,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/pop/pop-1",
+   "at": 3.832,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 6.312,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/ui/click-crisp",
+   "at": 8.267000000000001,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/ui/click-crisp",
+   "at": 10.943999999999999,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 12.214,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 15.141,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/pop/bubbles-cluster",
+   "at": 20.232,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/money/coins-handful",
+   "at": 16.894000000000002,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/money/handle-coins-2",
+   "at": 22.528,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 23.462999999999997,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/money/handle-coins-2",
+   "at": 28.32,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 29.29,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/pop/pop-1",
+   "at": 30.497,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/money/handle-coins-2",
+   "at": 31.725,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/pop/bubbles-cluster",
+   "at": 33.96,
+   "vol": 0.158
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 38.492000000000004,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/ui/click-crisp",
+   "at": 46.521,
+   "vol": 0.203
+  }
+ ],
+ "audioDir": "public/audio"
+}
