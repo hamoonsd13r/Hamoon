@@ -1,0 +1,229 @@
+{
+ "length": 67.38,
+ "voice": "public/v44/vo.wav",
+ "music": [],
+ "sfx": [
+  {
+   "id": "sfx/impact/subdrop-short",
+   "at": 0.05,
+   "vol": 0.19
+  },
+  {
+   "id": "sfx/money/coins-handful",
+   "at": 0.6,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 1.2,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 2.146,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 3.072,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v44/sfx/printerbeep-1.mp3",
+   "peak": 0.65,
+   "at": 6.14,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 7.767,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/ui/beep-15",
+   "at": 8.267,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 10.481,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v44/sfx/lightsoff-1.mp3",
+   "peak": 0.2,
+   "at": 11.681,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/glitch/short-1",
+   "at": 14.631,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/data/typing-terminal",
+   "at": 15.031,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 16.065,
+   "vol": 0.152
+  },
+  {
+   "file": "public/v44/sfx/serverhum-1.mp3",
+   "peak": 2.25,
+   "at": 19.552,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/notification/error-buzz",
+   "at": 19.146,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/data/transfer",
+   "at": 21.842,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/paper/slide",
+   "at": 22.967,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/double",
+   "at": 24.093,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/data/hud-ping",
+   "at": 24.393,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 26.205,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/data/beeps-fast",
+   "at": 27.59,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/glitch/long",
+   "at": 28.992,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/data/beeps-fast",
+   "at": 30.393,
+   "vol": 0.095
+  },
+  {
+   "file": "public/v44/sfx/powerdown-1.mp3",
+   "peak": 0,
+   "at": 34.353,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 35.533,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 35.933,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 36.333,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 36.106,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 37.32,
+   "vol": 0.152
+  },
+  {
+   "file": "public/v44/sfx/door-1.mp3",
+   "peak": 0.05,
+   "at": 42.962,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 43.212,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v44/sfx/printing-1.mp3",
+   "peak": 0.1,
+   "at": 44.933,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/paper/page-flip",
+   "at": 45.283,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 48.249,
+   "vol": 0.209
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 49.488,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/money/cash-register",
+   "at": 50.404,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/data/collect",
+   "at": 52.45,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/subdrop-short",
+   "at": 53.813,
+   "vol": 0.209
+  },
+  {
+   "id": "sfx/glitch/stutter",
+   "at": 53.863,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/glitch/short-2",
+   "at": 55.163,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 58.53,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v44/sfx/printerbeep-1.mp3",
+   "peak": 0.65,
+   "at": 63.491,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/explosion/low-frequency-explosion-000",
+   "at": 65.48,
+   "vol": 0.152
+  }
+ ]
+}

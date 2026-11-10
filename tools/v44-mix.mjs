@@ -27,11 +27,12 @@ const sfx = [
 ].map(([id, at, vol]) => (typeof id === "string" ? { id, at: +at.toFixed(3), vol: +(vol * 0.38).toFixed(3) } : { ...id, at: +at.toFixed(3), vol: +(vol * 0.38).toFixed(3) }));
 const mix = {
   length: +TOTAL.toFixed(2), voice: "public/v44/vo.wav",
-  music: [
-    { file: "public/audio/music/synthwave/cyber-anxiety.mp3", at: 0, from: 25.492 - 0.07 /* drop on the first word */, to: 25.492 - 0.07 + K[13] - 0.05, fadeIn: 0.05, fadeOut: 0.4, gain: 0.1 },
-    { file: "public/audio/music/ambient/cave-5.mp3", at: K[13] + 0.9, from: 8, to: 8 + (TOTAL - K[13] - 0.9), fadeIn: 0.8, fadeOut: 1.4, gain: 0.12 },
+  // v2: the user asked for a Mr. Robot-like hacker feel (the series score itself is copyrighted → CC0 synth instead)
+  music: process.env.NO_MUSIC ? [] : [
+    { file: "public/audio/music/synthwave/machines-with-feelings.mp3", at: 0, from: 9.588 - 0.07, to: 9.588 - 0.07 + K[13] - 0.05, fadeIn: 0.05, fadeOut: 0.4, gain: 0.1 },
+    { file: "public/audio/music/synthwave/machines-with-feelings.mp3", at: K[13] + 0.9, from: 76.785, to: 76.785 + (TOTAL - K[13] - 0.9), fadeIn: 0.8, fadeOut: 1.4, gain: 0.1 },
   ],
   sfx,
 };
-fs.writeFileSync("videos/44/mix.json", JSON.stringify(mix, null, 1));
+fs.writeFileSync(process.env.NO_MUSIC ? "videos/44/mix-nomusic.json" : "videos/44/mix.json", JSON.stringify(mix, null, 1));
 console.log("sfx", sfx.length, "length", mix.length);

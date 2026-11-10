@@ -3,22 +3,22 @@
  "voice": "public/v44/vo.wav",
  "music": [
   {
-   "file": "public/audio/music/synthwave/cyber-anxiety.mp3",
+   "file": "public/audio/music/synthwave/machines-with-feelings.mp3",
    "at": 0,
-   "from": 25.422,
-   "to": 79.135,
+   "from": 9.517999999999999,
+   "to": 63.231,
    "fadeIn": 0.05,
    "fadeOut": 0.4,
    "gain": 0.1
   },
   {
-   "file": "public/audio/music/ambient/cave-5.mp3",
+   "file": "public/audio/music/synthwave/machines-with-feelings.mp3",
    "at": 54.663,
-   "from": 8,
-   "to": 20.712999999999994,
+   "from": 76.785,
+   "to": 89.49799999999999,
    "fadeIn": 0.8,
    "fadeOut": 1.4,
-   "gain": 0.12
+   "gain": 0.1
   }
  ],
  "sfx": [
