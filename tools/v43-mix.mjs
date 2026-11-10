@@ -30,9 +30,9 @@ const sfx = [
 const mix = {
   length: +TOTAL.toFixed(2), voice: "public/v43/vo.wav",
   music: [
-    { file: "public/audio/music/scifi/anxiety.mp3", at: 0, from: 0, to: K.cctv + 0.1, fadeIn: 0.05, fadeOut: 0.35, gain: 0.2 },
-    { file: "public/audio/music/scifi/credit-cards.mp3", at: wd(7, "مونده") + 0.3, from: 62, to: 62 + (K.q - wd(7, "مونده") - 0.3), fadeIn: 0.6, fadeOut: 0.3, gain: 0.24 },
-    { file: "public/audio/music/scifi/anxiety.mp3", at: K.end - 0.05, from: 104.702 - (wd(11, "12") - K.end + 0.05), to: 104.702 - (wd(11, "12") - K.end + 0.05) + (TOTAL - K.end + 0.05), fadeIn: 0.2, fadeOut: 1.4, gain: 0.22 },
+    { file: "public/audio/music/scifi/anxiety.mp3", at: 0, from: 0, to: K.cctv + 0.1, fadeIn: 0.05, fadeOut: 0.35, gain: 0.09 },
+    { file: "public/audio/music/scifi/credit-cards.mp3", at: wd(7, "مونده") + 0.3, from: 62, to: 62 + (K.q - wd(7, "مونده") - 0.3), fadeIn: 0.6, fadeOut: 0.3, gain: 0.11 },
+    { file: "public/audio/music/scifi/anxiety.mp3", at: K.end - 0.05, from: 104.702 - (wd(11, "12") - K.end + 0.05), to: 104.702 - (wd(11, "12") - K.end + 0.05) + (TOTAL - K.end + 0.05), fadeIn: 0.2, fadeOut: 1.4, gain: 0.1 },
   ],
   sfx,
 };

@@ -9,7 +9,7 @@
    "to": 36.264,
    "fadeIn": 0.05,
    "fadeOut": 0.35,
-   "gain": 0.2
+   "gain": 0.09
   },
   {
    "file": "public/audio/music/scifi/credit-cards.mp3",
@@ -18,7 +18,7 @@
    "to": 80.889,
    "fadeIn": 0.6,
    "fadeOut": 0.3,
-   "gain": 0.24
+   "gain": 0.11
   },
   {
    "file": "public/audio/music/scifi/anxiety.mp3",
@@ -27,7 +27,7 @@
    "to": 111.797,
    "fadeIn": 0.2,
    "fadeOut": 1.4,
-   "gain": 0.22
+   "gain": 0.1
   }
  ],
  "sfx": [
