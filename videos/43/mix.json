@@ -1,0 +1,282 @@
+{
+ "length": 68.59,
+ "voice": "public/v43/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/scifi/anxiety.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 36.264,
+   "fadeIn": 0.05,
+   "fadeOut": 0.35,
+   "gain": 0.2
+  },
+  {
+   "file": "public/audio/music/scifi/credit-cards.mp3",
+   "at": 38.836999999999996,
+   "from": 62,
+   "to": 80.889,
+   "fadeIn": 0.6,
+   "fadeOut": 0.3,
+   "gain": 0.24
+  },
+  {
+   "file": "public/audio/music/scifi/anxiety.mp3",
+   "at": 59.997,
+   "from": 103.204,
+   "to": 111.797,
+   "fadeIn": 0.2,
+   "fadeOut": 1.4,
+   "gain": 0.22
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/subdrop-short",
+   "at": 0.05,
+   "vol": 0.19
+  },
+  {
+   "id": "sfx/mechanical/lock-open-01",
+   "at": 0.9,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 0.446,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/mechanical/lock-open-01",
+   "at": 2.2,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 3.104,
+   "vol": 0.133
+  },
+  {
+   "file": "public/v43/sfx/siren-1.mp3",
+   "peak": 1.2,
+   "at": 4.104,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 5.715,
+   "vol": 0.133
+  },
+  {
+   "file": "public/v43/sfx/jet-1.mp3",
+   "peak": 0.5,
+   "at": 7.173,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 8.236,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/mechanical/gear-clockwork",
+   "at": 8.736,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 12.536,
+   "vol": 0.19
+  },
+  {
+   "id": "sfx/glitch/short-1",
+   "at": 13.912,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v43/sfx/typewriter-1.mp3",
+   "peak": 0,
+   "at": 13.932,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/ui/beep-15",
+   "at": 16.258,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 17.702,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/whoosh/double",
+   "at": 22.853,
+   "vol": 0.133
+  },
+  {
+   "file": "public/v43/sfx/grinder-1.mp3",
+   "peak": 0.15,
+   "at": 23.915,
+   "vol": 0.133
+  },
+  {
+   "file": "public/v43/sfx/vaultdoor-1.mp3",
+   "peak": 0.15,
+   "at": 25.044,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/impact/metallic",
+   "at": 25.906,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/mechanical/lock-open-01",
+   "at": 26.772,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 28.971,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/money/coins-handful",
+   "at": 30.993,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 32.102,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/money/handle-coins",
+   "at": 32.664,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 33.335,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 34.024,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/glitch/stutter",
+   "at": 36.164,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/impact/subdrop-short",
+   "at": 38.437,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 39.156,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 39.256,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 39.356,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 39.456,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 40.196,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 43.352,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 44.071,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v43/sfx/jet-1.mp3",
+   "peak": 0.5,
+   "at": 48.366,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 48.774,
+   "vol": 0.19
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 50.019,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/camera/shutter-dslr",
+   "at": 50.352,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 51.851,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v43/sfx/cuffs-1.mp3",
+   "peak": 0.55,
+   "at": 53.707,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 55.098,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/impact/subdrop-short",
+   "at": 57.776,
+   "vol": 0.209
+  },
+  {
+   "id": "sfx/glitch/short-2",
+   "at": 57.826,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 60.047,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 61.395,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 64.206,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/explosion/low-frequency-explosion-000",
+   "at": 66.832,
+   "vol": 0.152
+  }
+ ]
+}

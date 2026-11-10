@@ -1,0 +1,8 @@
+[
+ {"id":"siren","text":"police car siren passing at night in the distance, short wail","dur":2.2,"infl":0.5},
+ {"id":"grinder","text":"angle grinder cutting through a concrete wall, sparks, in an echoing basement","dur":2.2,"infl":0.5},
+ {"id":"vaultdoor","text":"heavy steel bank vault door unlocking and swinging open, deep metallic clank","dur":1.6,"infl":0.5},
+ {"id":"jet","text":"passenger jet airplane flyby overhead, whoosh","dur":2.5,"infl":0.5},
+ {"id":"cuffs","text":"metal handcuffs clicking shut, close up","dur":1.0,"infl":0.6},
+ {"id":"typewriter","text":"three quick typewriter keystrokes and a carriage bell","dur":1.2,"infl":0.5}
+]

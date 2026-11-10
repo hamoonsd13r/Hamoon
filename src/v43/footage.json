@@ -1,0 +1,252 @@
+{
+ "clips": {
+  "police": {
+   "file": "v43/footage/police.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 7.007,
+   "fps": 59.94,
+   "in": 0,
+   "out": 7,
+   "audio": false,
+   "focus": [
+    0.156,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "49328",
+   "title": "Blue and red lights from a police car",
+   "page": "https://mixkit.co/free-stock-video/blue-and-red-lights-from-a-police-car-49328/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Blue and red lights from a police car · Mixkit · Mixkit Free License",
+   "shot": "s02"
+  },
+  "gold": {
+   "file": "v43/footage/gold.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 5,
+   "fps": 24,
+   "in": 0,
+   "out": 5,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-diverse-collection-of-rings-on-display",
+   "title": "Diverse Collection of Rings Elegantly Displayed",
+   "page": "https://coverr.co/videos/diverse-collection-of-rings-elegantly-displayed",
+   "author": "",
+   "year": 2024,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Diverse Collection of Rings Elegantly Displayed · Coverr · Coverr License",
+   "shot": "s06"
+  },
+  "coins": {
+   "file": "v43/footage/coins.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 5.005,
+   "fps": 29.97,
+   "in": 0,
+   "out": 5,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "38406",
+   "title": "Towers of golden coins rotating on a gray background",
+   "page": "https://mixkit.co/free-stock-video/towers-of-golden-coins-rotating-on-a-gray-background-38406/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Towers of golden coins rotating on a gray background · Mixkit · Mixkit Free License",
+   "shot": "s06"
+  },
+  "cash": {
+   "file": "v43/footage/cash.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6.006,
+   "fps": 29.97,
+   "in": 0,
+   "out": 6,
+   "audio": false,
+   "focus": [
+    0.573,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "14895",
+   "title": "Euros and dollars falling to the table",
+   "page": "https://mixkit.co/free-stock-video/euros-and-dollars-falling-to-the-table-14895/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Euros and dollars falling to the table · Mixkit · Mixkit Free License",
+   "shot": "s06"
+  },
+  "valuables": {
+   "file": "v43/footage/valuables.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 5.005,
+   "fps": 23.976,
+   "in": 0,
+   "out": 5,
+   "audio": false,
+   "focus": [
+    0.677,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "30714",
+   "title": "Gold and silver stack of coins",
+   "page": "https://mixkit.co/free-stock-video/gold-and-silver-stack-of-coins-30714/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Gold and silver stack of coins · Mixkit · Mixkit Free License",
+   "shot": "s06"
+  },
+  "departs": {
+   "file": "v43/footage/departs.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 8,
+   "fps": 60,
+   "in": 0,
+   "out": 8,
+   "audio": false,
+   "focus": [
+    0.604,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-airport-departure-board-3419",
+   "title": "Airport departure board",
+   "page": "https://coverr.co/videos/airport-departure-board-hs3mlv10ws",
+   "author": "",
+   "year": 2020,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Airport departure board · Coverr · Coverr License",
+   "shot": "s08"
+  },
+  "tape": {
+   "file": "v43/footage/tape.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6,
+   "fps": 24,
+   "in": 0,
+   "out": 6,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "32786",
+   "title": "Cordoning off a crime scene with barricade tape",
+   "page": "https://mixkit.co/free-stock-video/cordoning-off-a-crime-scene-with-barricade-tape-32786/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Cordoning off a crime scene with barricade tape · Mixkit · Mixkit Free License",
+   "shot": "s09"
+  },
+  "city": {
+   "file": "v43/footage/city.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 7.007,
+   "fps": 23.976,
+   "in": 0,
+   "out": 7,
+   "audio": false,
+   "focus": [
+    0.489,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-gloomy-city-at-night-6099",
+   "title": "Gloomy city at night",
+   "page": "https://coverr.co/videos/gloomy-city-at-night-kglm0yzad1",
+   "author": "",
+   "year": 2021,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Gloomy city at night · Coverr · Coverr License",
+   "shot": "s03"
+  }
+ }
+}
