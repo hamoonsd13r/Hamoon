@@ -40,7 +40,7 @@ const GEO = {
   foot: new THREE.BoxGeometry(0.1, 0.06, 0.22),
   joint: new THREE.SphereGeometry(0.06, 10, 8),
 };
-const makeDummy = (mat: THREE.Material, masked: boolean): Dummy => {
+export const makeDummy = (mat: THREE.Material, masked: boolean): Dummy => {
   const m = (g: THREE.BufferGeometry, p: THREE.Object3D, x = 0, y = 0, z = 0, mt: THREE.Material = mat) => {
     const me = new THREE.Mesh(g, mt); me.position.set(x, y, z); p.add(me); return me;
   };
@@ -74,7 +74,7 @@ const makeDummy = (mat: THREE.Material, masked: boolean): Dummy => {
   return { root, hips, spine, neck, sh, el, hip, kn };
 };
 export type Pose = { walk?: number; amp?: number; reach?: number; crouch?: number; look?: number; turn?: number; cuffs?: number; carry?: number };
-const pose = (d: Dummy, p: Pose) => {
+export const pose = (d: Dummy, p: Pose) => {
   const ph = p.walk ?? 0, a = p.amp ?? 0;
   const s = Math.sin(ph), c = Math.cos(ph);
   const crouch = p.crouch ?? 0, reach = p.reach ?? 0, cuffs = p.cuffs ?? 0;

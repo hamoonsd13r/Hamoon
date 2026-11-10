@@ -1,0 +1,8 @@
+[
+ {"id":"printing","text":"office laser printer printing many pages rapidly, paper feeding out","dur":3.5,"infl":0.5},
+ {"id":"printerbeep","text":"office printer error beep, three short electronic beeps","dur":1.2,"infl":0.6},
+ {"id":"powerdown","text":"electronic machine powering down, fan winding down and a click","dur":1.2,"infl":0.5},
+ {"id":"door","text":"office door closing softly with a latch click","dur":1.0,"infl":0.6},
+ {"id":"serverhum","text":"server room ambience, fans humming, faint electronic chirps","dur":4.0,"infl":0.4},
+ {"id":"lightsoff","text":"big office light switches clicking off one after another","dur":1.6,"infl":0.5}
+]

@@ -7,7 +7,7 @@
   const NF = (G.NF = G.NF || {});
   const NODE = typeof window === "undefined";
   // An honest name for the sites' logs (Wikimedia asks every tool for one). Browsers send their own.
-  NF.UA = NF.UA || "NFP-Footage/1.0 (+https://alvana.me)";
+  NF.UA = (typeof process !== "undefined" && process.env && process.env.NFP_UA) || NF.UA || "NFP-Footage/1.0 (+https://alvana.me)";
   // API keys for the optional sources: the host fills these (Node: from .env; the page: never).
   NF.keys = NF.keys || {};
 

@@ -1,0 +1,66 @@
+{
+ "clips": {
+  "code": {
+   "file": "v44/footage/code.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6.006,
+   "fps": 29.97,
+   "in": 0,
+   "out": 6,
+   "audio": false,
+   "focus": [
+    0.448,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "11747",
+   "title": "Scrolling blue code on a screen",
+   "page": "https://mixkit.co/free-stock-video/scrolling-blue-code-on-a-screen-11747/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Scrolling blue code on a screen · Mixkit · Mixkit Free License",
+   "shot": "s06"
+  },
+  "printer2": {
+   "file": "v44/footage/printer2.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6,
+   "fps": 25,
+   "in": 0,
+   "out": 6,
+   "audio": false,
+   "focus": [
+    0.667,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "25260",
+   "title": "Office printer printing",
+   "page": "https://mixkit.co/free-stock-video/office-printer-printing-25260/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Office printer printing · Mixkit · Mixkit Free License",
+   "shot": "s12"
+  }
+ }
+}
