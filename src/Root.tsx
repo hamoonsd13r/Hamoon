@@ -64,6 +64,7 @@ import { V38Cover } from "./v38/Cover";
 import { V39 } from "./v39/Video";
 import { V41 } from "./v41/Video";
 import { V14 } from "./v14/Video";
+import { FootageReelComps } from "./footage-starter/FootageReel";
 
 // Every video = one <Composition>. The style demos below are the reference films / starter templates (see STYLES.md).
 // They play silent: the films’ narration, music and effects are not shipped — each style’s pipeline/ folder says how to make yours.
@@ -103,6 +104,7 @@ export const RemotionRoot: React.FC = () => {
       {/* v2 · Art Motion: 36 moving-painting styles (Art-<Style>) + 9 explainer grammars (Explainer-<Style>) + Art-Story / Art-Poem / Art-Journey.
           Card: styles/art-motion.md. Your video: cp src/art-starter/StoryVideo.tsx src/v01/Video.tsx → import { V01 } from "./v01/Video"; <V01 /> */}
       <ArtMotionCompositions />
+      <FootageReelComps />
       <V02 />
       <V03 />
       <V04 />
