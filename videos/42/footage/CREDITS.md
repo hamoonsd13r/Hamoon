@@ -1,0 +1,43 @@
+# V42 · منابع تصویر (Wikimedia Commons)
+صورت آدم‌ها محو شده است.
+
+- `p09a` 3rd Day - The Green Protest Rally.jpg · Hamed Saber · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:3rd_Day_-_The_Green_Protest_Rally.jpg
+- `p09b` عکس تظاهرات روز دوشنبه تهران - 25 خرداد 1388.jpg · بـهـرام · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:عکس_تظاهرات_روز_دوشنبه_تهران_-_25_خرداد_1388.jpg
+- `p09c` 3rd Day - Mousavi Supporters Rally2009.JPG · Farzaaaad2000 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:3rd_Day_-_Mousavi_Supporters_Rally2009.JPG
+- `p09d` Iran's post-election protests in 2009 (27).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Iran's_post-election_protests_in_2009_(27).jpg
+- `p09e` Iran's post-election protests in 2009 (13).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Iran's_post-election_protests_in_2009_(13).jpg
+- `p09f` Iran's post-election protests in 2009 (20).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Iran's_post-election_protests_in_2009_(20).jpg
+- `p09g` Iran's post-election protests in 2009 (42).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Iran's_post-election_protests_in_2009_(42).jpg
+- `p09h` Iran's post-election protests in 2009 (34).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Iran's_post-election_protests_in_2009_(34).jpg
+- `p09i` Iranian old woman protesting.jpg · User:Seyedkhan (Mohsen Sajjadi) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Iranian_old_woman_protesting.jpg
+- `p09j` Iran's post-election protests in 2009 (05).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Iran's_post-election_protests_in_2009_(05).jpg
+- `p09k` Supporters of Mir Hossein Musavi on Azadi Square.jpg · — · Public domain · https://commons.wikimedia.org/wiki/File:Supporters_of_Mir_Hossein_Musavi_on_Azadi_Square.jpg
+- `p17a` A group of protesters in Shadegan - Jan 1, 2018.webm · Freedom Messenger · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:A_group_of_protesters_in_Shadegan_-_Jan_1,_2018.webm
+- `p17b` Police during 2018 Iranian protests 02.jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Police_during_2018_Iranian_protests_02.jpg
+- `p17c` Polices during 2018 Iranian protests 03.jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Polices_during_2018_Iranian_protests_03.jpg
+- `p19a` 2019 Iranian fuel protests Day 1 by Fars News (1).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2019_Iranian_fuel_protests_Day_1_by_Fars_News_(1).jpg
+- `p19b` 2019 Iranian fuel protests Day 1 by Fars News (10).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2019_Iranian_fuel_protests_Day_1_by_Fars_News_(10).jpg
+- `p19c` 2019 Iranian fuel protests Day 1 by Fars News (16).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2019_Iranian_fuel_protests_Day_1_by_Fars_News_(16).jpg
+- `p19d` 2019 Iranian fuel protests Fars News (1).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2019_Iranian_fuel_protests_Fars_News_(1).jpg
+- `p19e` 2019 Iranian fuel protests Fars News (3).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2019_Iranian_fuel_protests_Fars_News_(3).jpg
+- `p19f` 2019 Iranian fuel protests Fars News (16).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2019_Iranian_fuel_protests_Fars_News_(16).jpg
+- `p19g` 2019 Iranian fuel protests Fars News (14).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2019_Iranian_fuel_protests_Fars_News_(14).jpg
+- `p19h` Iranian protesters in November of 2019. Isfahan.jpg · NicolasGaron · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Iranian_protesters_in_November_of_2019._Isfahan.jpg
+- `p19i` Sit-in in Behbahan 2019-11-15.jpg · VOA · Public domain · https://commons.wikimedia.org/wiki/File:Sit-in_in_Behbahan_2019-11-15.jpg
+- `p19j` 2019 Iranian fuel protests Fars News (13).jpg · Fars News Agency · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2019_Iranian_fuel_protests_Fars_News_(13).jpg
+- `v22a` Antigovernment protests after the death of Mahsa Amini in Tehran - 19 September 2022 (01).webm · Farnews · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Tehran_-_19_September_2022_(01).webm
+- `v22b` Antigovernment protests after the death of Mahsa Amini in Tehran - 19 September 2022 (02).webm · Farnews · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Tehran_-_19_September_2022_(02).webm
+- `v22c` Antigovernment protests after the death of Mahsa Amini in Sanandaj - 17 November 2022.webm · Farnews · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm
+- `v22d` Antigovernment protests after the death of Mahsa Amini in Sari - 20 September 2022.webm · Farnews · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sari_-_20_September_2022.webm
+- `v22e` Antigovernment Protests on 40th Day of Mahsa Amini's Death in Sanandaj - 26 October 2022 (01).webm · Zeinab Rajaee · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Antigovernment_Protests_on_40th_Day_of_Mahsa_Amini's_Death_in_Sanandaj_-_26_October_2022_(01).webm
+- `v22f` Antigovernment Protests on 40th Day of Mahsa Amini's Death in Sanandaj - 26 October 2022 (02).webm · Zeinab Rajaee · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Antigovernment_Protests_on_40th_Day_of_Mahsa_Amini's_Death_in_Sanandaj_-_26_October_2022_(02).webm
+- `v22g` Antigovernment Protests on 40th Day of Mahsa Amini's Death in Sanandaj - 26 October 2022 (03).webm · Zeinab Rajaee · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Antigovernment_Protests_on_40th_Day_of_Mahsa_Amini's_Death_in_Sanandaj_-_26_October_2022_(03).webm
+- `v26a` VahidOnline-69242-tehran market.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-69242-tehran_market.webm
+- `v26b` VahidOnline-69266-tehran market protests.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-69266-tehran_market_protests.webm
+- `v26c` VahidOnline-69271-tehran market.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-69271-tehran_market.webm
+- `v26d` VahidOnline-68942-tehran market strike.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-68942-tehran_market_strike.webm
+- `v26e` VahidOnline-69574-tehran protests january 18.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-69574-tehran_protests_january_18.webm
+- `v26f` VahidOnline-69482-kashani tehran january 8.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-69482-kashani_tehran_january_8.webm
+- `v26g` VahidOnline-69497-tehran protests jan 2026.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-69497-tehran_protests_jan_2026.webm
+- `v26h` VahidOnline-69529-tehran january 18.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-69529-tehran_january_18.webm
+- `v26i` VahidOnline-69536-tehran protests january 18.webm · Vahid Online · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:VahidOnline-69536-tehran_protests_january_18.webm

@@ -1,0 +1,64 @@
+{
+ "shot": "s23",
+ "text": "وقتی اینترنت برگشت، تازه فیلم‌ها بیرون اومد.",
+ "need": "protest footage released after the 2019 shutdown",
+ "queries": [
+  "Iran protests November 2019 video",
+  "Aban 1398 protests",
+  "2019 Iran protests"
+ ],
+ "kind": "video",
+ "items": [
+  {
+   "source": "commons",
+   "id": "File:Antigovernment protests after the death of Mahsa Amini in Sanandaj - 17 November 2022.webm",
+   "kind": "video",
+   "title": "Antigovernment protests after the death of Mahsa Amini in Sanandaj - 17 November 2022",
+   "desc": "Antigovernment protests after the death of Mahsa Amini in Sanandaj - 17 November 2022",
+   "page": "https://commons.wikimedia.org/wiki/File:Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm/500px--Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm/Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm.360p.mpeg4.mov",
+   "w": 640,
+   "h": 352,
+   "dur": 21.579,
+   "year": 2022,
+   "author": "Farnews",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm",
+     "w": 640,
+     "h": 352,
+     "size": 4411830,
+     "mime": "video/webm",
+     "label": "original"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm/Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm.240p.vp9.webm",
+     "w": 426,
+     "h": 234,
+     "mime": "video/webm",
+     "label": "240p.vp9.webm"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm/Antigovernment_protests_after_the_death_of_Mahsa_Amini_in_Sanandaj_-_17_November_2022.webm.360p.mpeg4.mov",
+     "w": 640,
+     "h": 352,
+     "mime": "video/quicktime",
+     "label": "360p.mpeg4.mov"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Antigovernment protests after the death of Mahsa Amini in Sanandaj - 17 November 2022 · Farnews · Wikimedia Commons · CC BY 4.0",
+   "q": "Iran protests November video"
+  }
+ ]
+}

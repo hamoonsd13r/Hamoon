@@ -1,0 +1,123 @@
+{
+ "shot": "s25",
+ "text": "شهریور هزار و چهارصد و یک؛ ژینا مهسا امینی، بیست و دو ساله، از سقز به تهران اومده بود.",
+ "need": "Saqqez, Kurdistan city, 2022",
+ "queries": [
+  "Saqqez",
+  "Saqqez Kurdistan Iran",
+  "Mahsa Amini funeral Saqqez"
+ ],
+ "items": [
+  {
+   "source": "commons",
+   "id": "File:Saqqezphotos2.jpg",
+   "kind": "image",
+   "title": "Saqqezphotos2",
+   "desc": "Saqqez Photos Collection",
+   "page": "https://commons.wikimedia.org/wiki/File:Saqqezphotos2.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Saqqezphotos2.jpg/960px-Saqqezphotos2.jpg",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Saqqezphotos2.jpg/1280px-Saqqezphotos2.jpg",
+   "w": 1920,
+   "h": 2400,
+   "dur": 0,
+   "year": 2021,
+   "author": "Min.neel Mohammad Bajian Keyvan Firouzei Bakhtiar Samadi Ayoub Farabi",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Saqqezphotos2.jpg",
+     "w": 1920,
+     "h": 2400,
+     "size": 1469673,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Saqqezphotos2 · Min.neel Mohammad Bajian Keyvan Firouzei Bakhtiar Samadi Ayoub Farabi · Wikimedia Commons · CC BY 4.0",
+   "q": "Saqqez"
+  },
+  {
+   "source": "commons",
+   "id": "File:Saqqez Manucipality.png",
+   "kind": "image",
+   "title": "Saqqez Manucipality",
+   "desc": "Saqqez Manucipality Seal",
+   "page": "https://commons.wikimedia.org/wiki/File:Saqqez_Manucipality.png",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/03/Saqqez_Manucipality.png",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/0/03/Saqqez_Manucipality.png",
+   "w": 250,
+   "h": 249,
+   "dur": 0,
+   "year": 2022,
+   "author": "My Personal Album",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Saqqez_Manucipality.png",
+     "w": 250,
+     "h": 249,
+     "size": 114663,
+     "mime": "image/png",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Saqqez Manucipality · My Personal Album · Wikimedia Commons · CC0",
+   "q": "Saqqez"
+  },
+  {
+   "source": "commons",
+   "id": "File:Saqqez airport.jpg",
+   "kind": "image",
+   "title": "Saqqez airport",
+   "desc": "saqqez airport",
+   "page": "https://commons.wikimedia.org/wiki/File:Saqqez_airport.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Saqqez_airport.jpg/960px-Saqqez_airport.jpg",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Saqqez_airport.jpg/1280px-Saqqez_airport.jpg",
+   "w": 4624,
+   "h": 2600,
+   "dur": 0,
+   "year": 2024,
+   "author": "Enigmachin",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Saqqez_airport.jpg",
+     "w": 4624,
+     "h": 2600,
+     "size": 960061,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Saqqez airport · Enigmachin · Wikimedia Commons · CC BY 4.0",
+   "q": "Saqqez"
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "shot": "s33",
+ "text": "هفت دی‌ماه، بازاری‌های تهران، به خاطر سقوط ریال، کرکره‌ها رو پایین کشیدن.",
+ "need": "closed shutters at Tehran Grand Bazaar",
+ "queries": [
+  "Tehran Grand Bazaar",
+  "Tehran bazaar shops closed strike",
+  "Grand Bazaar Tehran"
+ ],
+ "items": [
+  {
+   "source": "commons",
+   "id": "File:Tehran Old Bazaar.jpg",
+   "kind": "image",
+   "title": "Tehran Old Bazaar",
+   "desc": "Tehran Old Bazaar",
+   "page": "https://commons.wikimedia.org/wiki/File:Tehran_Old_Bazaar.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tehran_Old_Bazaar.jpg/960px-Tehran_Old_Bazaar.jpg",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tehran_Old_Bazaar.jpg/1280px-Tehran_Old_Bazaar.jpg",
+   "w": 2848,
+   "h": 4288,
+   "dur": 0,
+   "year": 2013,
+   "author": "Babak Farrokhi",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 2.0",
+    "url": "https://creativecommons.org/licenses/by/2.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Tehran_Old_Bazaar.jpg",
+     "w": 2848,
+     "h": 4288,
+     "size": 4851525,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Tehran Old Bazaar · Babak Farrokhi · Wikimedia Commons · CC BY 2.0",
+   "q": "Tehran Grand"
+  },
+  {
+   "source": "commons",
+   "id": "File:Dariush Borbor (Architect and Urban Planner) Book by Dariush Borbor, Feasibility Study for the Construction of a Shopping Centre in Tehran Central Bazaar, Tehran, 20.jpg",
+   "kind": "image",
+   "title": "Dariush Borbor (Architect and Urban Planner) Book by Dariush Borbor, Feasibility Study for the Construction of a Shopping Centre in Tehran Central Bazaar, Tehran, 20",
+   "desc": "Dariush Borbor (Architect and Urban Planner) Book by Dariush Borbor, Feasibility Study for the Construction of a Shopping Centre in Tehran Central Bazaar, Tehran, 20",
+   "page": "https://commons.wikimedia.org/wiki/File:Dariush_Borbor_(Architect_and_Urban_Planner)_Book_by_Dariush_Borbor,_Feasibility_Study_for_the_Construction_of_a_Shopping_Centre_in_Tehran_Central_Bazaar,_Tehran,_20.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Dariush_Borbor_%28Architect_and_Urban_Planner%29_Book_by_Dariush_Borbor%2C_Feasibility_Study_for_the_Construction_of_a_Shopping_Centre_in_Tehran_Central_Bazaar%2C_Tehran%2C_20.jpg/960px-thumbnail.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/1/13/Dariush_Borbor_%28Architect_and_Urban_Planner%29_Book_by_Dariush_Borbor%2C_Feasibility_Study_for_the_Construction_of_a_Shopping_Centre_in_Tehran_Central_Bazaar%2C_Tehran%2C_20.jpg",
+   "w": 1241,
+   "h": 1755,
+   "dur": 0,
+   "year": 2020,
+   "author": "Dariushborbor",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Dariush_Borbor_%28Architect_and_Urban_Planner%29_Book_by_Dariush_Borbor%2C_Feasibility_Study_for_the_Construction_of_a_Shopping_Centre_in_Tehran_Central_Bazaar%2C_Tehran%2C_20.jpg",
+     "w": 1241,
+     "h": 1755,
+     "size": 1139397,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Dariush Borbor (Architect and Urban Planner) Book by Dariush Borbor, Feasibility Study for the Construction of a Shopping Centre in Tehran Central Bazaar, Tehran, 20 · Dariushborbor · Wikimedia Commons · CC BY 4.0",
+   "q": "Tehran bazaar shops"
+  },
+  {
+   "source": "mixkit",
+   "id": "15577",
+   "kind": "video",
+   "title": "The Grand Bazaar in Istanbul",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/the-grand-bazaar-in-istanbul-15577/",
+   "thumb": "https://assets.mixkit.co/videos/15577/15577-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/15577/15577-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/15577/15577-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/15577/15577-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "The Grand Bazaar in Istanbul · Mixkit · Mixkit Free License",
+   "q": "Grand Bazaar"
+  },
+  {
+   "source": "commons",
+   "id": "File:Grand Bazaar, Tehran (41906451204).jpg",
+   "kind": "image",
+   "title": "Grand Bazaar, Tehran (41906451204)",
+   "desc": "The Grand Bazaar (Bāzār e Bozorg) is an old historical bazaar in Tehran, Iran. It is split into several corridors over 10 kilometres in length, each specializing in different types of goods, and has several entrances, with Sabze-Meydan being the main entrance. In addition to shops, the Grand Bazaar contains mosques, guest houses, and banks. The bazaar grew as a \"city within a city\" for much of the",
+   "page": "https://commons.wikimedia.org/wiki/File:Grand_Bazaar,_Tehran_(41906451204).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Grand_Bazaar%2C_Tehran_%2841906451204%29.jpg/960px-Grand_Bazaar%2C_Tehran_%2841906451204%29.jpg",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Grand_Bazaar%2C_Tehran_%2841906451204%29.jpg/1280px-Grand_Bazaar%2C_Tehran_%2841906451204%29.jpg",
+   "w": 2818,
+   "h": 2129,
+   "dur": 0,
+   "year": 2018,
+   "author": "Ninara from Helsinki, Finland",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 2.0",
+    "url": "https://creativecommons.org/licenses/by/2.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Grand_Bazaar%2C_Tehran_%2841906451204%29.jpg",
+     "w": 2818,
+     "h": 2129,
+     "size": 5280603,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Grand Bazaar, Tehran (41906451204) · Ninara from Helsinki, Finland · Wikimedia Commons · CC BY 2.0",
+   "q": "Tehran bazaar shops"
+  },
+  {
+   "source": "wellcome",
+   "id": "nssnppw9",
+   "kind": "image",
+   "title": "Bazaar for the opening of an extension to Hull infirmary. Lithograph after H. Burn.",
+   "desc": "",
+   "page": "https://wellcomecollection.org/works/bqvc39w6",
+   "thumb": "https://iiif.wellcomecollection.org/image/V0014832/full/400,/0/default.jpg",
+   "preview": "https://iiif.wellcomecollection.org/image/V0014832/full/1000,/0/default.jpg",
+   "w": 0,
+   "h": 0,
+   "ar": 1.0230179028132993,
+   "dur": 0,
+   "year": null,
+   "author": "Burn, H.",
+   "licence": {
+    "code": "pd",
+    "name": "Public domain",
+    "url": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://iiif.wellcomecollection.org/image/V0014832/full/2400,/0/default.jpg",
+     "label": "2400px"
+    },
+    {
+     "url": "https://iiif.wellcomecollection.org/image/V0014832/full/full/0/default.jpg",
+     "label": "full"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Bazaar for the opening of an extension to Hull infirmary. Lithograph after H. Burn. · Burn, H. · Wellcome Collection · Public domain",
+   "q": "Grand Bazaar"
+  },
+  {
+   "source": "commons",
+   "id": "File:Verplant (film) Tehran Bazaar.jpg",
+   "kind": "image",
+   "title": "Verplant (film) Tehran Bazaar",
+   "desc": "A still frame from the 2021 documentary film \"Verplant - How towo guys try to cycle from Germany to Vietnam\"",
+   "page": "https://commons.wikimedia.org/wiki/File:Verplant_(film)_Tehran_Bazaar.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Verplant_%28film%29_Tehran_Bazaar.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Verplant_%28film%29_Tehran_Bazaar.jpg",
+   "w": 800,
+   "h": 450,
+   "dur": 0,
+   "year": 2020,
+   "author": "Interactive Bread",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Verplant_%28film%29_Tehran_Bazaar.jpg",
+     "w": 800,
+     "h": 450,
+     "size": 161119,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Verplant (film) Tehran Bazaar · Interactive Bread · Wikimedia Commons · CC BY 4.0",
+   "q": "Tehran bazaar shops"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-mathura-bazaar-1014",
+   "kind": "video",
+   "title": "Mathura Bazaar",
+   "desc": "People walking through the Mathura Bazaar and looking at the shops on the street. ",
+   "tags": "",
+   "page": "https://coverr.co/videos/mathura-bazaar-uepsaivhee",
+   "thumb": "https://cdn.coverr.co/videos/coverr-mathura-bazaar-1014/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-mathura-bazaar-1014/360p.mp4",
+   "w": 1920,
+   "h": 1080,
+   "dur": 14,
+   "year": 2018,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-mathura-bazaar-1014/1080p.mp4",
+     "w": 1920,
+     "h": 1080,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Mathura Bazaar · Coverr · Coverr License",
+   "q": "Tehran bazaar shops"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-thrift-shopping-359",
+   "kind": "video",
+   "title": "Thrift shopping",
+   "desc": "Cinematic shot of people thrift shopping on the street. ",
+   "tags": "",
+   "page": "https://coverr.co/videos/thrift-shopping-c5i7evt7gv",
+   "thumb": "https://cdn.coverr.co/videos/coverr-thrift-shopping-359/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-thrift-shopping-359/360p.mp4",
+   "w": 1920,
+   "h": 1080,
+   "dur": 11.06,
+   "year": 2018,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-thrift-shopping-359/1080p.mp4",
+     "w": 1920,
+     "h": 1080,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Thrift shopping · Coverr · Coverr License",
+   "q": "Tehran bazaar shops"
+  }
+ ]
+}

@@ -1,0 +1,539 @@
+{
+ "shot": "s08",
+ "text": "یک سؤال روی پلاکاردها نوشته شد: «رأی من کجاست؟»",
+ "need": "protester holding 'Where is my vote' sign, Tehran 2009",
+ "queries": [
+  "Where is my vote Iran 2009",
+  "where is my vote protest",
+  "Iranian election protests 2009 sign"
+ ],
+ "kind": "image",
+ "items": [
+  {
+   "source": "nasa",
+   "id": "NHQ202002210003",
+   "kind": "image",
+   "title": "Samson Reiny Portrait",
+   "desc": "“Back home there’s a place called Mākua beach. It’s where I spent so much of my childhood. My grandfather had a little beachside camp area, and every day after school my dad and I would drive to the camp and visit my grandfather, and we’d go out fishing either on a rubber tube or a small fishing boat. There are so many memories of being with my dad and my grandfather and all of my calabash uncles ",
+   "page": "https://images.nasa.gov/details/NHQ202002210003",
+   "thumb": "https://images-assets.nasa.gov/image/NHQ202002210003/NHQ202002210003~medium.jpg",
+   "preview": "https://images-assets.nasa.gov/image/NHQ202002210003/NHQ202002210003~large.jpg",
+   "w": 1920,
+   "h": 1329,
+   "dur": 0,
+   "year": 2020,
+   "author": "NASA/Joel Kowsky",
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (NASA)",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [],
+   "collection": "https://images-assets.nasa.gov/image/NHQ202002210003/collection.json",
+   "notes": [
+    "NASA: no logo or endorsement; check third-party material"
+   ],
+   "flags": [],
+   "credit": "Samson Reiny Portrait · NASA/Joel Kowsky · NASA · Public domain (NASA)",
+   "q": "Where is my"
+  },
+  {
+   "source": "commons",
+   "id": "File:Where Is My Wandering Boy Tonight lobby card.jpg",
+   "kind": "image",
+   "title": "Where Is My Wandering Boy Tonight lobby card",
+   "desc": "Lobby card for the 1922 film Where Is My Wandering Boy Tonight?",
+   "page": "https://commons.wikimedia.org/wiki/File:Where_Is_My_Wandering_Boy_Tonight_lobby_card.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Where_Is_My_Wandering_Boy_Tonight_lobby_card.jpg/960px-Where_Is_My_Wandering_Boy_Tonight_lobby_card.jpg",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Where_Is_My_Wandering_Boy_Tonight_lobby_card.jpg/1280px-Where_Is_My_Wandering_Boy_Tonight_lobby_card.jpg",
+   "w": 1492,
+   "h": 1169,
+   "dur": 0,
+   "year": 1922,
+   "author": "B.F. Zeidman Productions",
+   "licence": {
+    "code": "pd",
+    "name": "Public domain",
+    "url": "",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Where_Is_My_Wandering_Boy_Tonight_lobby_card.jpg",
+     "w": 1492,
+     "h": 1169,
+     "size": 482936,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Where Is My Wandering Boy Tonight lobby card · B.F. Zeidman Productions · Wikimedia Commons · Public domain",
+   "q": "where is my"
+  },
+  {
+   "source": "commons",
+   "id": "File:Iranian presidential election, 2009, protests (2).jpg",
+   "kind": "image",
+   "title": "Iranian presidential election, 2009, protests (2)",
+   "desc": "Protesters in Tehran",
+   "page": "https://commons.wikimedia.org/wiki/File:Iranian_presidential_election,_2009,_protests_(2).jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Iranian_presidential_election%2C_2009%2C_protests_%282%29.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Iranian_presidential_election%2C_2009%2C_protests_%282%29.jpg",
+   "w": 800,
+   "h": 521,
+   "dur": 0,
+   "year": 2009,
+   "author": "[Protected] from Tehran, IRAN",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 2.0",
+    "url": "https://creativecommons.org/licenses/by/2.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Iranian_presidential_election%2C_2009%2C_protests_%282%29.jpg",
+     "w": 800,
+     "h": 521,
+     "size": 193612,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Iranian presidential election, 2009, protests (2) · [Protected] from Tehran, IRAN · Wikimedia Commons · CC BY 2.0",
+   "q": "Iranian election protests"
+  },
+  {
+   "source": "nasa",
+   "id": "NHQ202102120001",
+   "kind": "image",
+   "title": "Jenny Carlos Portrait",
+   "desc": "“Especially right now during the pandemic crisis, I love to occupy my mind. People say that they’re tired of being at home, but I don’t feel that. I practice yoga. I love decorating our house and working in the backyard during the summer time. If I don’t like where something is, I have to change it. That’s what I love. It’s the same thing with my work —I go outside the box to get ideas. I think ab",
+   "page": "https://images.nasa.gov/details/NHQ202102120001",
+   "thumb": "https://images-assets.nasa.gov/image/NHQ202102120001/NHQ202102120001~medium.jpg",
+   "preview": "https://images-assets.nasa.gov/image/NHQ202102120001/NHQ202102120001~orig.jpg",
+   "w": 5436,
+   "h": 3624,
+   "dur": 0,
+   "year": 2021,
+   "author": "NASA/Aubrey Gemignani",
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (NASA)",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [],
+   "collection": "https://images-assets.nasa.gov/image/NHQ202102120001/collection.json",
+   "notes": [
+    "NASA: no logo or endorsement; check third-party material"
+   ],
+   "flags": [],
+   "credit": "Jenny Carlos Portrait · NASA/Aubrey Gemignani · NASA · Public domain (NASA)",
+   "q": "Where is my"
+  },
+  {
+   "source": "commons",
+   "id": "File:Where is my train.webp",
+   "kind": "image",
+   "title": "Where is my train",
+   "desc": "Where is my Train logo",
+   "page": "https://commons.wikimedia.org/wiki/File:Where_is_my_train.webp",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/90/Where_is_my_train.webp",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/9/90/Where_is_my_train.webp",
+   "w": 240,
+   "h": 240,
+   "dur": 0,
+   "year": 2015,
+   "author": "Sigmoid Labs and its affiliates, Google",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Where_is_my_train.webp",
+     "w": 240,
+     "h": 240,
+     "size": 5382,
+     "mime": "image/webp",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Where is my train · Sigmoid Labs and its affiliates, Google · Wikimedia Commons · CC0",
+   "q": "where is my"
+  },
+  {
+   "source": "commons",
+   "id": "File:Iranian election cash.jpg",
+   "kind": "image",
+   "title": "Iranian election cash",
+   "desc": "Ballot of Iranian 2016 elections",
+   "page": "https://commons.wikimedia.org/wiki/File:Iranian_election_cash.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Iranian_election_cash.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Iranian_election_cash.jpg",
+   "w": 800,
+   "h": 479,
+   "dur": 0,
+   "year": 2016,
+   "author": "Abdolrahman Rafati",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Iranian_election_cash.jpg",
+     "w": 800,
+     "h": 479,
+     "size": 159460,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Iranian election cash · Abdolrahman Rafati · Wikimedia Commons · CC BY 4.0",
+   "q": "Iranian election"
+  },
+  {
+   "source": "nasa",
+   "id": "NHQ201906280015",
+   "kind": "image",
+   "title": "MAF Portraits",
+   "desc": "\"On my first day, I felt like I did not belong. I felt like I was unqualified. That’s the thing: the people around here, I don’t know if it’s just the culture or the area where we are, but these people around here, they just encourage you: 'You can do it!' and 'Let me show you this, there’s nothing to it!' I mean, really, they forced me out of my element, even into where I am right now. I belong n",
+   "page": "https://images.nasa.gov/details/NHQ201906280015",
+   "thumb": "https://images-assets.nasa.gov/image/NHQ201906280015/NHQ201906280015~medium.jpg",
+   "preview": "https://images-assets.nasa.gov/image/NHQ201906280015/NHQ201906280015~large.jpg",
+   "w": 1920,
+   "h": 1280,
+   "dur": 0,
+   "year": 2019,
+   "author": "NASA/Aubrey Gemignani",
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (NASA)",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [],
+   "collection": "https://images-assets.nasa.gov/image/NHQ201906280015/collection.json",
+   "notes": [
+    "NASA: no logo or endorsement; check third-party material"
+   ],
+   "flags": [],
+   "credit": "MAF Portraits · NASA/Aubrey Gemignani · NASA · Public domain (NASA)",
+   "q": "Where is my"
+  },
+  {
+   "source": "commons",
+   "id": "File:Juan de la Cruz (Where Are My Children?).jpg",
+   "kind": "image",
+   "title": "Juan de la Cruz (Where Are My Children?)",
+   "desc": "Juan de la Cruz as Dr. Herman Malfit in Where Are My Children?",
+   "page": "https://commons.wikimedia.org/wiki/File:Juan_de_la_Cruz_(Where_Are_My_Children%3F).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Juan_de_la_Cruz_%28Where_Are_My_Children%3F%29.jpg/960px-Juan_de_la_Cruz_%28Where_Are_My_Children%3F%29.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/0/03/Juan_de_la_Cruz_%28Where_Are_My_Children%3F%29.jpg",
+   "w": 1074,
+   "h": 952,
+   "dur": 0,
+   "year": 1916,
+   "author": "Phillips Smalley and Lois Weber",
+   "licence": {
+    "code": "pd",
+    "name": "Public domain",
+    "url": "",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Juan_de_la_Cruz_%28Where_Are_My_Children%3F%29.jpg",
+     "w": 1074,
+     "h": 952,
+     "size": 377745,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Juan de la Cruz (Where Are My Children?) · Phillips Smalley and Lois Weber · Wikimedia Commons · Public domain",
+   "q": "where is my"
+  },
+  {
+   "source": "commons",
+   "id": "File:2013 Iranian presidential election results.png",
+   "kind": "image",
+   "title": "2013 Iranian presidential election results",
+   "desc": "Map of 2013 Iranian presidential election results",
+   "page": "https://commons.wikimedia.org/wiki/File:2013_Iranian_presidential_election_results.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/2013_Iranian_presidential_election_results.png/960px-2013_Iranian_presidential_election_results.png",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/2013_Iranian_presidential_election_results.png/1280px-2013_Iranian_presidential_election_results.png",
+   "w": 6000,
+   "h": 3459,
+   "dur": 0,
+   "year": 2024,
+   "author": "Jasper Chu",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/2013_Iranian_presidential_election_results.png",
+     "w": 6000,
+     "h": 3459,
+     "size": 935005,
+     "mime": "image/png",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "2013 Iranian presidential election results · Jasper Chu · Wikimedia Commons · CC0",
+   "q": "Iranian election"
+  },
+  {
+   "source": "europeana",
+   "id": "/2059209/3798_11197672344_f0366196cb_o_jpg",
+   "kind": "image",
+   "title": "No daughter of mine shall ever enter a family where she is not gladly welcomed as an equal! from \"My Boy Jack ... With illustrations, etc\".",
+   "desc": "This image has been taken from scan 000016 from \"My Boy Jack ... With illustrations, etc\". The title and subject terms of this image have been generated from tags, created by users of the British Library's flickr photostream.",
+   "page": "https://www.europeana.eu/item/2059209/3798_11197672344_f0366196cb_o_jpg",
+   "thumb": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Ffarm4.staticflickr.com%2F3798%2F11197672344_f0366196cb_o.jpg&type=IMAGE",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Ffarm4.staticflickr.com%2F3798%2F11197672344_f0366196cb_o.jpg&type=IMAGE",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "The British Library",
+   "licence": {
+    "code": "pd",
+    "name": "Public domain",
+    "url": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://farm4.staticflickr.com/3798/11197672344_f0366196cb_o.jpg",
+     "label": "original"
+    }
+   ],
+   "provider": "The British Library",
+   "notes": [],
+   "flags": [],
+   "credit": "No daughter of mine shall ever enter a family where she is not gladly welcomed as an equal! from \"My Boy Jack ... With illustrations, etc\". · The British Library · Europeana · Public domain",
+   "q": "Where is my"
+  },
+  {
+   "source": "commons",
+   "id": "File:2001 Iranian presidential election results.png",
+   "kind": "image",
+   "title": "2001 Iranian presidential election results",
+   "desc": "Map of 2001 Iranian presidential election results",
+   "page": "https://commons.wikimedia.org/wiki/File:2001_Iranian_presidential_election_results.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2001_Iranian_presidential_election_results.png/960px-2001_Iranian_presidential_election_results.png",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2001_Iranian_presidential_election_results.png/1280px-2001_Iranian_presidential_election_results.png",
+   "w": 6000,
+   "h": 3459,
+   "dur": 0,
+   "year": 2024,
+   "author": "Jasper Chu",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2001_Iranian_presidential_election_results.png",
+     "w": 6000,
+     "h": 3459,
+     "size": 1042523,
+     "mime": "image/png",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "2001 Iranian presidential election results · Jasper Chu · Wikimedia Commons · CC0",
+   "q": "Iranian election"
+  },
+  {
+   "source": "europeana",
+   "id": "/1477/libruse_EXLIBRIS_228282",
+   "kind": "image",
+   "title": "Where is amexit? [Екслибрис]",
+   "desc": "Международен конкурс Ex Libris, ХІ. Русе, 2015",
+   "page": "https://www.europeana.eu/item/1477/libruse_EXLIBRIS_228282",
+   "thumb": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2F185.138.176.146%3A18082%2Fcgi-bin%2Fkoha%2Fopac-image.pl%3Fimagenumber%3D33044&type=IMAGE",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2F185.138.176.146%3A18082%2Fcgi-bin%2Fkoha%2Fopac-image.pl%3Fimagenumber%3D33044&type=IMAGE",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": 2015,
+   "author": "Nastenko, Valery",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "http://185.138.176.146:18082/cgi-bin/koha/opac-image.pl?imagenumber=33044",
+     "label": "original"
+    }
+   ],
+   "provider": "Public Library - Ruse",
+   "notes": [],
+   "flags": [],
+   "credit": "Where is amexit? [Екслибрис] · Nastenko, Valery · Europeana · CC0",
+   "q": "Where is"
+  },
+  {
+   "source": "europeana",
+   "id": "/401/item_K4ITOTDZYZH5ITEJ4JN4KG3HCK3THMEF",
+   "kind": "image",
+   "title": "Where is it?",
+   "desc": "sündmuse kommentaar: Põlva rahvaviisi ainetel, tekst: rahvaluule, \"Vana Kannel\"",
+   "page": "https://www.europeana.eu/item/401/item_K4ITOTDZYZH5ITEJ4JN4KG3HCK3THMEF",
+   "thumb": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.muis.ee%2Fdigitaalhoidla%2Fapi%2Fmeedia%2Foriginaal%3Fid%3Dc5be94e8-3078-45cb-8070-2f7f794aeb7b&type=IMAGE",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.muis.ee%2Fdigitaalhoidla%2Fapi%2Fmeedia%2Foriginaal%3Fid%3Dc5be94e8-3078-45cb-8070-2f7f794aeb7b&type=IMAGE",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": 1898,
+   "author": "Mr, Mina (author)",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://www.muis.ee/digitaalhoidla/api/meedia/originaal?id=c5be94e8-3078-45cb-8070-2f7f794aeb7b",
+     "label": "original"
+    }
+   ],
+   "provider": "Estonian Theater and Music Museum",
+   "notes": [],
+   "flags": [],
+   "credit": "Where is it? · Mr, Mina (author) · Europeana · CC BY 4.0",
+   "q": "Where is"
+  },
+  {
+   "source": "europeana",
+   "id": "/1477/libruse_EXLIBRIS_229441",
+   "kind": "image",
+   "title": "And Where is Eva [Exlibris]",
+   "desc": "Международен конкурс Ex Libris, ХІІI. Русе, 2017",
+   "page": "https://www.europeana.eu/item/1477/libruse_EXLIBRIS_229441",
+   "thumb": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2F185.138.176.146%3A18082%2Fcgi-bin%2Fkoha%2Fopac-image.pl%3Fimagenumber%3D33778&type=IMAGE",
+   "preview": "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2F185.138.176.146%3A18082%2Fcgi-bin%2Fkoha%2Fopac-image.pl%3Fimagenumber%3D33778&type=IMAGE",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": 2017,
+   "author": "Kezele, Snezana",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "http://185.138.176.146:18082/cgi-bin/koha/opac-image.pl?imagenumber=33778",
+     "label": "original"
+    }
+   ],
+   "provider": "Public Library - Ruse",
+   "notes": [],
+   "flags": [],
+   "credit": "And Where is Eva [Exlibris] · Kezele, Snezana · Europeana · CC0",
+   "q": "Where is"
+  },
+  {
+   "source": "wellcome",
+   "id": "q52f2f3k",
+   "kind": "image",
+   "title": "Asphodeline lutea Rchb. Yellow asphodel, King's spear, Hastula regia. Hardy rhizomatous perennial. Distribution Mediterranean and Caucasus. It is the flower of the dead, as Homer writes that it carpets an area in the gloomy darkness of the underworld (Hades), in Greek mythology where the souls of the dead are found. However this may be a misinterpretation of the Greek where 'Asphodel' has been read instead of 'ash-filled'. In the etymology of flower names, it is suggested that the yellow 'daffodil' is a corruption of French or Flemish 'de asphodel' (both ex Steve Reece, 2007). An Aristotelian epigram, refers to it growing on tombs: 'On my back I hold mallow and many-rooted asphodel ...' The asphodel was sacred to Persephone, goddess of the underworld, who was seized and wed by Hades, god of the underworld, and taken to his kingdom. Her disappearance brings the winter, and her reappearance each year, the spring. The only reliable source of information about its early medical uses is, probably, Dioscorides although the plant in his De Materia Medica may be A. ramosus or A. albus. He gives its properties as diuretic, induces menses, good for coughs and convulsions, an antidote to snake bite, applied as a poultice for sores of all sorts, and in compounds for eye, ear and tooth pains, and to cure alopecia and vitiligo, but induces diarrhoea and vomiting and is an anti-aphrodisiac. Fuchs (1542), as Ruel’s commentaries (1543) note, makes a big mistake as he has Lilium martagon as his concept of A. luteus. Ruel only illustrates its leaves and roots, calling it Hastula regia (Latin for King’s spear) but Matthiolus's Commentaries (1569 edition) has a reasonable woodcut also as Hastula regia (1569). Dodoen's Cruydeboeck (1556) does not mention or illustrate Asphodelus luteus. L'Escluse's French translation Histoire des Plantes (1557) follows the Cruydeboeck. Dodoen's Latin translation Stirpium Historia Pemptades Sex (1583) adds A. luteus with text and woodcut, with no uses. Henry Lyte's (1578) translation illustrates Asphodelus luteus as Asphodeli tertia species and 'Yellow affodyl' (vide etymology of 'daffodil') and also does not describe any uses for it. Gerard's translation The Herbal (1597 and 1633) continues the muddle and does not give any uses for this plant. Parkinson's comments (1640) on the lack of medicinal properties of asphodels, refer to quite different plants coming from wet areas in Lancashire, Scotland and Norway . He calls them pseudoasphodelus major and minor which he writes are called Asphodelus luteus palustris by Dodoens, and not 'King's Spear' which he illustrates with a good woodcut of A. luteus and calls it Asphodelus luteus minor. Once herbals started to be written in northern Europe, the knowledge of the arid loving, Asphodelus luteus of south east Europe was lost. Photographed in the Medicinal Garden of the Royal College of Physicians, London.",
+   "desc": "",
+   "page": "https://wellcomecollection.org/works/nkhrfyfd",
+   "thumb": "https://iiif.wellcomecollection.org/image/B0008940/full/400,/0/default.jpg",
+   "preview": "https://iiif.wellcomecollection.org/image/B0008940/full/1000,/0/default.jpg",
+   "w": 0,
+   "h": 0,
+   "ar": 0.6675,
+   "dur": 0,
+   "year": 2007,
+   "author": "Dr Henry Oakeley",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://iiif.wellcomecollection.org/image/B0008940/full/2400,/0/default.jpg",
+     "label": "2400px"
+    },
+    {
+     "url": "https://iiif.wellcomecollection.org/image/B0008940/full/full/0/default.jpg",
+     "label": "full"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Asphodeline lutea Rchb. Yellow asphodel, King's spear, Hastula regia. Hardy rhizomatous perennial. Distribution Mediterranean and Caucasus. It is the flower of the dead, as Homer writes that it carpets an area in the gloomy darkness of the underworld (Hades), in Greek mythology where the souls of the dead are found. However this may be a misinterpretation of the Greek where 'Asphodel' has been read instead of 'ash-filled'. In the etymology of flower names, it is suggested that the yellow 'daffodil' is a corruption of French or Flemish 'de asphodel' (both ex Steve Reece, 2007). An Aristotelian epigram, refers to it growing on tombs: 'On my back I hold mallow and many-rooted asphodel ...' The asphodel was sacred to Persephone, goddess of the underworld, who was seized and wed by Hades, god of the underworld, and taken to his kingdom. Her disappearance brings the winter, and her reappearance each year, the spring. The only reliable source of information about its early medical uses is, probably, Dioscorides although the plant in his De Materia Medica may be A. ramosus or A. albus. He gives its properties as diuretic, induces menses, good for coughs and convulsions, an antidote to snake bite, applied as a poultice for sores of all sorts, and in compounds for eye, ear and tooth pains, and to cure alopecia and vitiligo, but induces diarrhoea and vomiting and is an anti-aphrodisiac. Fuchs (1542), as Ruel’s commentaries (1543) note, makes a big mistake as he has Lilium martagon as his concept of A. luteus. Ruel only illustrates its leaves and roots, calling it Hastula regia (Latin for King’s spear) but Matthiolus's Commentaries (1569 edition) has a reasonable woodcut also as Hastula regia (1569). Dodoen's Cruydeboeck (1556) does not mention or illustrate Asphodelus luteus. L'Escluse's French translation Histoire des Plantes (1557) follows the Cruydeboeck. Dodoen's Latin translation Stirpium Historia Pemptades Sex (1583) adds A. luteus with text and woodcut, with no uses. Henry Lyte's (1578) translation illustrates Asphodelus luteus as Asphodeli tertia species and 'Yellow affodyl' (vide etymology of 'daffodil') and also does not describe any uses for it. Gerard's translation The Herbal (1597 and 1633) continues the muddle and does not give any uses for this plant. Parkinson's comments (1640) on the lack of medicinal properties of asphodels, refer to quite different plants coming from wet areas in Lancashire, Scotland and Norway . He calls them pseudoasphodelus major and minor which he writes are called Asphodelus luteus palustris by Dodoens, and not 'King's Spear' which he illustrates with a good woodcut of A. luteus and calls it Asphodelus luteus minor. Once herbals started to be written in northern Europe, the knowledge of the arid loving, Asphodelus luteus of south east Europe was lost. Photographed in the Medicinal Garden of the Royal College of Physicians, London. · Dr Henry Oakeley · Wellcome Collection · CC BY 4.0",
+   "q": "Where is my vote"
+  }
+ ]
+}

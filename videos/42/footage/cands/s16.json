@@ -1,0 +1,308 @@
+{
+ "shot": "s16",
+ "text": "ظرف چند روز، اعتراض به بیش از هشتاد شهر رسید؛ بیشترشون شهرهای کوچیک.",
+ "need": "Iran protests 2017-18 in small towns",
+ "queries": [
+  "Iran protests January 2018",
+  "2017–18 Iranian protests",
+  "Iranian protests 2018 street"
+ ],
+ "items": [
+  {
+   "source": "commons",
+   "id": "File:Police during 2018 Iranian protests 02.jpg",
+   "kind": "image",
+   "title": "Police during 2018 Iranian protests 02",
+   "desc": "2017–18 Iranian protests",
+   "page": "https://commons.wikimedia.org/wiki/File:Police_during_2018_Iranian_protests_02.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Police_during_2018_Iranian_protests_02.jpg/960px-Police_during_2018_Iranian_protests_02.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Police_during_2018_Iranian_protests_02.jpg",
+   "w": 973,
+   "h": 691,
+   "dur": 0,
+   "year": 2018,
+   "author": "Fars News Agency",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Police_during_2018_Iranian_protests_02.jpg",
+     "w": 973,
+     "h": 691,
+     "size": 216494,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Police during 2018 Iranian protests 02 · Fars News Agency · Wikimedia Commons · CC BY 4.0",
+   "q": "Iran protests January 2018"
+  },
+  {
+   "source": "commons",
+   "id": "File:Casualties of 2017–18 Iranian protests - a map by VOAIran.jpg",
+   "kind": "image",
+   "title": "Casualties of 2017–18 Iranian protests - a map by VOAIran",
+   "desc": "Casualties of 2017–18 Iranian protests - a map by VOAIran",
+   "page": "https://commons.wikimedia.org/wiki/File:Casualties_of_2017%E2%80%9318_Iranian_protests_-_a_map_by_VOAIran.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Casualties_of_2017%E2%80%9318_Iranian_protests_-_a_map_by_VOAIran.jpg/960px-Casualties_of_2017%E2%80%9318_Iranian_protests_-_a_map_by_VOAIran.jpg",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Casualties_of_2017%E2%80%9318_Iranian_protests_-_a_map_by_VOAIran.jpg/1280px-Casualties_of_2017%E2%80%9318_Iranian_protests_-_a_map_by_VOAIran.jpg",
+   "w": 1920,
+   "h": 1080,
+   "dur": 0,
+   "year": 2018,
+   "author": "voanews.com",
+   "licence": {
+    "code": "pd",
+    "name": "Public domain",
+    "url": "",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Casualties_of_2017%E2%80%9318_Iranian_protests_-_a_map_by_VOAIran.jpg",
+     "w": 1920,
+     "h": 1080,
+     "size": 137599,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Casualties of 2017–18 Iranian protests - a map by VOAIran · voanews.com · Wikimedia Commons · Public domain",
+   "q": "2017–18 Iranian protests"
+  },
+  {
+   "source": "commons",
+   "id": "File:Solidarity with Iranian Protests (52381997142).jpg",
+   "kind": "image",
+   "title": "Solidarity with Iranian Protests (52381997142)",
+   "desc": "Thousands turn out in Melbourne to stand in solidarity with protests that have broken out in Iran following the death of 22-year old Mahsa (also known as Jina or Zhina) Amini at the hands of the country’s brutal dictatorship and its ‘morality’ police. My website: &lt;a href=\" https://www.matthrkac.com.au \" rel=\"noreferrer nofollow\"&gt;www.matthrkac.com.au&lt;/a&gt; Follow me on Instagram: &lt;a hr",
+   "page": "https://commons.wikimedia.org/wiki/File:Solidarity_with_Iranian_Protests_(52381997142).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Solidarity_with_Iranian_Protests_%2852381997142%29.jpg/960px-Solidarity_with_Iranian_Protests_%2852381997142%29.jpg",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Solidarity_with_Iranian_Protests_%2852381997142%29.jpg/1280px-Solidarity_with_Iranian_Protests_%2852381997142%29.jpg",
+   "w": 7008,
+   "h": 4672,
+   "dur": 0,
+   "year": 2022,
+   "author": "Matt Hrkac from Geelong / Melbourne, Australia",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 2.0",
+    "url": "https://creativecommons.org/licenses/by/2.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Solidarity_with_Iranian_Protests_%2852381997142%29.jpg",
+     "w": 7008,
+     "h": 4672,
+     "size": 18147515,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Solidarity with Iranian Protests (52381997142) · Matt Hrkac from Geelong / Melbourne, Australia · Wikimedia Commons · CC BY 2.0",
+   "q": "Iranian protests street"
+  },
+  {
+   "source": "commons",
+   "id": "File:Police during 2018 Iranian protests 05.jpg",
+   "kind": "image",
+   "title": "Police during 2018 Iranian protests 05",
+   "desc": "2017–18 Iranian protests",
+   "page": "https://commons.wikimedia.org/wiki/File:Police_during_2018_Iranian_protests_05.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Police_during_2018_Iranian_protests_05.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Police_during_2018_Iranian_protests_05.jpg",
+   "w": 800,
+   "h": 568,
+   "dur": 0,
+   "year": 2018,
+   "author": "Iman Jannati",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Police_during_2018_Iranian_protests_05.jpg",
+     "w": 800,
+     "h": 568,
+     "size": 154772,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Police during 2018 Iranian protests 05 · Iman Jannati · Wikimedia Commons · CC BY 4.0",
+   "q": "Iran protests January 2018"
+  },
+  {
+   "source": "commons",
+   "id": "File:VOA map about 2017–18 Iranian protests.jpg",
+   "kind": "image",
+   "title": "VOA map about 2017–18 Iranian protests",
+   "desc": "VOA map about 2017–18 Iranian protests",
+   "page": "https://commons.wikimedia.org/wiki/File:VOA_map_about_2017%E2%80%9318_Iranian_protests.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/VOA_map_about_2017%E2%80%9318_Iranian_protests.jpg/960px-VOA_map_about_2017%E2%80%9318_Iranian_protests.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/8/8e/VOA_map_about_2017%E2%80%9318_Iranian_protests.jpg",
+   "w": 974,
+   "h": 548,
+   "dur": 0,
+   "year": 2017,
+   "author": "voanews.com",
+   "licence": {
+    "code": "pd",
+    "name": "Public domain",
+    "url": "",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/VOA_map_about_2017%E2%80%9318_Iranian_protests.jpg",
+     "w": 974,
+     "h": 548,
+     "size": 71972,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "VOA map about 2017–18 Iranian protests · voanews.com · Wikimedia Commons · Public domain",
+   "q": "2017–18 Iranian protests"
+  },
+  {
+   "source": "commons",
+   "id": "File:Solidarity with Iranian Protests (52383169358).jpg",
+   "kind": "image",
+   "title": "Solidarity with Iranian Protests (52383169358)",
+   "desc": "Thousands turn out in Melbourne to stand in solidarity with protests that have broken out in Iran following the death of 22-year old Mahsa (also known as Jina or Zhina) Amini at the hands of the country’s brutal dictatorship and its ‘morality’ police. My website: &lt;a href=\" https://www.matthrkac.com.au \" rel=\"noreferrer nofollow\"&gt;www.matthrkac.com.au&lt;/a&gt; Follow me on Instagram: &lt;a hr",
+   "page": "https://commons.wikimedia.org/wiki/File:Solidarity_with_Iranian_Protests_(52383169358).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Solidarity_with_Iranian_Protests_%2852383169358%29.jpg/960px-Solidarity_with_Iranian_Protests_%2852383169358%29.jpg",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Solidarity_with_Iranian_Protests_%2852383169358%29.jpg/1280px-Solidarity_with_Iranian_Protests_%2852383169358%29.jpg",
+   "w": 7008,
+   "h": 4672,
+   "dur": 0,
+   "year": 2022,
+   "author": "Matt Hrkac from Geelong / Melbourne, Australia",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 2.0",
+    "url": "https://creativecommons.org/licenses/by/2.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Solidarity_with_Iranian_Protests_%2852383169358%29.jpg",
+     "w": 7008,
+     "h": 4672,
+     "size": 21605055,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Solidarity with Iranian Protests (52383169358) · Matt Hrkac from Geelong / Melbourne, Australia · Wikimedia Commons · CC BY 2.0",
+   "q": "Iranian protests street"
+  },
+  {
+   "source": "commons",
+   "id": "File:2018 Iranian protests damage.jpg",
+   "kind": "image",
+   "title": "2018 Iranian protests damage",
+   "desc": "Damages during 2018 Iranian protests",
+   "page": "https://commons.wikimedia.org/wiki/File:2018_Iranian_protests_damage.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/2018_Iranian_protests_damage.jpg/960px-2018_Iranian_protests_damage.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/6/60/2018_Iranian_protests_damage.jpg",
+   "w": 1050,
+   "h": 640,
+   "dur": 0,
+   "year": 2018,
+   "author": "Fars News Agency",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/2018_Iranian_protests_damage.jpg",
+     "w": 1050,
+     "h": 640,
+     "size": 187487,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "2018 Iranian protests damage · Fars News Agency · Wikimedia Commons · CC BY 4.0",
+   "q": "Iran protests January 2018"
+  },
+  {
+   "source": "commons",
+   "id": "File:18 Iranian protests.jpg",
+   "kind": "image",
+   "title": "18 Iranian protests",
+   "desc": "18 Iranian protests 1 January",
+   "page": "https://commons.wikimedia.org/wiki/File:18_Iranian_protests.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/25/18_Iranian_protests.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/2/25/18_Iranian_protests.jpg",
+   "w": 672,
+   "h": 602,
+   "dur": 0,
+   "year": 2018,
+   "author": "אלעד",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/18_Iranian_protests.jpg",
+     "w": 672,
+     "h": 602,
+     "size": 89973,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "18 Iranian protests · אלעד · Wikimedia Commons · CC0",
+   "q": "2017–18 Iranian protests"
+  }
+ ]
+}

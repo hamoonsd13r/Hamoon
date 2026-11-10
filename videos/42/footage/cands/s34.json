@@ -1,0 +1,49 @@
+{
+ "shot": "s34",
+ "text": "اعتراض از بازار به شهرهای دیگه رسید؛ و این بار، شعارها مستقیم کل حکومت رو نشونه گرفته بود.",
+ "need": "Iran protests January 2026 street",
+ "queries": [
+  "VahidOnline tehran protests jan 2026",
+  "Iran protests January 2026",
+  "tehran protests january"
+ ],
+ "kind": "video",
+ "items": [
+  {
+   "source": "coverr",
+   "id": "coverr-protesting-group-1049",
+   "kind": "video",
+   "title": "Protesting group",
+   "desc": "Slow-motion shot of a group of people protesting for their rights.",
+   "tags": "",
+   "page": "https://coverr.co/videos/protesting-group-z2bmxbhb6n",
+   "thumb": "https://cdn.coverr.co/videos/coverr-protesting-group-1049/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-protesting-group-1049/360p.mp4",
+   "w": 1920,
+   "h": 1080,
+   "dur": 23.52,
+   "year": 2019,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-protesting-group-1049/1080p.mp4",
+     "w": 1920,
+     "h": 1080,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Protesting group · Coverr · Coverr License",
+   "q": "tehran protests"
+  }
+ ]
+}

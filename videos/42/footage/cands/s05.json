@@ -1,0 +1,235 @@
+{
+ "shot": "s05",
+ "text": "بیست و دو خرداد هشتاد و هشت؛ انتخابات ریاست‌جمهوری.",
+ "need": "Iranian voters at a polling station, June 2009 election",
+ "queries": [
+  "Iran presidential election 2009 voting",
+  "Iranian election 2009 ballot box",
+  "Iran election 2009"
+ ],
+ "kind": "image",
+ "items": [
+  {
+   "source": "commons",
+   "id": "File:Ali Khamenei voting in 2013 Presidential Election of Iran.jpg",
+   "kind": "image",
+   "title": "Ali Khamenei voting in 2013 Presidential Election of Iran",
+   "desc": "Supreme leader Ali Khamenei casts his vote to elect a new president in his office at the first hour of 2013 Presidential election day.",
+   "page": "https://commons.wikimedia.org/wiki/File:Ali_Khamenei_voting_in_2013_Presidential_Election_of_Iran.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ali_Khamenei_voting_in_2013_Presidential_Election_of_Iran.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ali_Khamenei_voting_in_2013_Presidential_Election_of_Iran.jpg",
+   "w": 766,
+   "h": 585,
+   "dur": 0,
+   "year": 2013,
+   "author": "Mohamad Sadegh Heydari",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ali_Khamenei_voting_in_2013_Presidential_Election_of_Iran.jpg",
+     "w": 766,
+     "h": 585,
+     "size": 100593,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Ali Khamenei voting in 2013 Presidential Election of Iran · Mohamad Sadegh Heydari · Wikimedia Commons · CC BY 4.0",
+   "q": "Iran presidential election voting"
+  },
+  {
+   "source": "commons",
+   "id": "File:Isfahan iran election jan 2020.jpg",
+   "kind": "image",
+   "title": "Isfahan iran election jan 2020",
+   "desc": "isfahan iran election jan 2020",
+   "page": "https://commons.wikimedia.org/wiki/File:Isfahan_iran_election_jan_2020.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Isfahan_iran_election_jan_2020.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Isfahan_iran_election_jan_2020.jpg",
+   "w": 800,
+   "h": 531,
+   "dur": 0,
+   "year": 2020,
+   "author": "Abdolrahman rafati",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Isfahan_iran_election_jan_2020.jpg",
+     "w": 800,
+     "h": 531,
+     "size": 161977,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Isfahan iran election jan 2020 · Abdolrahman rafati · Wikimedia Commons · CC BY 4.0",
+   "q": "Iran election"
+  },
+  {
+   "source": "commons",
+   "id": "File:Nationals in Syria Voting in Iran’s Presidential Election-9.jpg",
+   "kind": "image",
+   "title": "Nationals in Syria Voting in Iran’s Presidential Election-9",
+   "desc": "Nationals in Syria Voting in Iran’s Presidential Election - DAMASCUS (Tasnim) – Iranian expatriates in Syria on Friday have been casting their votes in Iran’s 12th presidential election.",
+   "page": "https://commons.wikimedia.org/wiki/File:Nationals_in_Syria_Voting_in_Iran%E2%80%99s_Presidential_Election-9.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/49/Nationals_in_Syria_Voting_in_Iran%E2%80%99s_Presidential_Election-9.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/4/49/Nationals_in_Syria_Voting_in_Iran%E2%80%99s_Presidential_Election-9.jpg",
+   "w": 800,
+   "h": 533,
+   "dur": 0,
+   "year": 2017,
+   "author": "Fathi Nizam",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Nationals_in_Syria_Voting_in_Iran%E2%80%99s_Presidential_Election-9.jpg",
+     "w": 800,
+     "h": 533,
+     "size": 78318,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Nationals in Syria Voting in Iran’s Presidential Election-9 · Fathi Nizam · Wikimedia Commons · CC BY 4.0",
+   "q": "Iran presidential election voting"
+  },
+  {
+   "source": "commons",
+   "id": "File:2001 Iranian presidential election results.png",
+   "kind": "image",
+   "title": "2001 Iranian presidential election results",
+   "desc": "Map of 2001 Iranian presidential election results",
+   "page": "https://commons.wikimedia.org/wiki/File:2001_Iranian_presidential_election_results.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2001_Iranian_presidential_election_results.png/960px-2001_Iranian_presidential_election_results.png",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2001_Iranian_presidential_election_results.png/1280px-2001_Iranian_presidential_election_results.png",
+   "w": 6000,
+   "h": 3459,
+   "dur": 0,
+   "year": 2024,
+   "author": "Jasper Chu",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2001_Iranian_presidential_election_results.png",
+     "w": 6000,
+     "h": 3459,
+     "size": 1042523,
+     "mime": "image/png",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "2001 Iranian presidential election results · Jasper Chu · Wikimedia Commons · CC0",
+   "q": "Iran election"
+  },
+  {
+   "source": "commons",
+   "id": "File:Nationals in Syria Voting in Iran’s Presidential Election-5.jpg",
+   "kind": "image",
+   "title": "Nationals in Syria Voting in Iran’s Presidential Election-5",
+   "desc": "Nationals in Syria Voting in Iran’s Presidential Election - DAMASCUS (Tasnim) – Iranian expatriates in Syria on Friday have been casting their votes in Iran’s 12th presidential election.",
+   "page": "https://commons.wikimedia.org/wiki/File:Nationals_in_Syria_Voting_in_Iran%E2%80%99s_Presidential_Election-5.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Nationals_in_Syria_Voting_in_Iran%E2%80%99s_Presidential_Election-5.jpg",
+   "preview": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Nationals_in_Syria_Voting_in_Iran%E2%80%99s_Presidential_Election-5.jpg",
+   "w": 800,
+   "h": 533,
+   "dur": 0,
+   "year": 2017,
+   "author": "Fathi Nizam",
+   "licence": {
+    "code": "by",
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "verdict": "credit",
+    "attr": true,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Nationals_in_Syria_Voting_in_Iran%E2%80%99s_Presidential_Election-5.jpg",
+     "w": 800,
+     "h": 533,
+     "size": 58046,
+     "mime": "image/jpeg",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Nationals in Syria Voting in Iran’s Presidential Election-5 · Fathi Nizam · Wikimedia Commons · CC BY 4.0",
+   "q": "Iran presidential election voting"
+  },
+  {
+   "source": "commons",
+   "id": "File:2021 Iranian presidential election results.png",
+   "kind": "image",
+   "title": "2021 Iranian presidential election results",
+   "desc": "Map of 2021 Iranian presidential election results",
+   "page": "https://commons.wikimedia.org/wiki/File:2021_Iranian_presidential_election_results.png",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/2021_Iranian_presidential_election_results.png/960px-2021_Iranian_presidential_election_results.png",
+   "preview": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/2021_Iranian_presidential_election_results.png/1280px-2021_Iranian_presidential_election_results.png",
+   "w": 6000,
+   "h": 3459,
+   "dur": 0,
+   "year": 2024,
+   "author": "Jasper Chu",
+   "licence": {
+    "code": "cc0",
+    "name": "CC0",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/2021_Iranian_presidential_election_results.png",
+     "w": 6000,
+     "h": 3459,
+     "size": 926073,
+     "mime": "image/png",
+     "label": "original"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "2021 Iranian presidential election results · Jasper Chu · Wikimedia Commons · CC0",
+   "q": "Iran election"
+  }
+ ]
+}

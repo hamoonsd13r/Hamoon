@@ -1,0 +1,68 @@
+{
+ "vo": "public/v42/vo-reel.wav",
+ "voJson": "src/v42/vo-reel.json",
+ "length": 46.646,
+ "music": [
+  [
+   "public/audio/music/dark/game-over-4.mp3",
+   "0",
+   0.4,
+   "W:7:قطع+0.15",
+   0.4
+  ],
+  [
+   "public/audio/music/ambient/cave-5.mp3",
+   "S:8-0.2",
+   1.5,
+   "end",
+   2.0
+  ]
+ ],
+ "sfx": [
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "S:2-0.05",
+   0.45,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "S:3-0.05",
+   0.45,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "S:4-0.05",
+   0.45,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "S:5-0.05",
+   0.45,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "S:6-0.05",
+   0.45,
+   0.146
+  ],
+  [
+   "public/audio/sfx/glitch/static.wav",
+   "W:4:خاموش",
+   0.35,
+   0.246
+  ],
+  [
+   "public/audio/sfx/glitch/static.wav",
+   "W:6:خاموشی",
+   0.4,
+   0.246
+  ]
+ ],
+ "musicBase": 0.13,
+ "musicLift": 0.16,
+ "sfxGain": 0.24
+}

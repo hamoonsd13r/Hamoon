@@ -1,0 +1,634 @@
+{
+ "shot": "s41",
+ "text": "و هر بار، یکی دوباره گوشیش رو بالا گرفت.",
+ "need": "a person raising a phone to film at night",
+ "queries": [
+  "person filming with smartphone at night crowd",
+  "holding phone recording crowd night",
+  "smartphone recording protest"
+ ],
+ "kind": "video",
+ "items": [
+  {
+   "source": "coverr",
+   "id": "coverr-twilight-city-call",
+   "kind": "video",
+   "title": "Man Listens to Music Using Headphones while Walking at Night",
+   "desc": "A man walks through the city at night, wearing headphones and enjoying music on his smartphone. The evening lights and urban backdrop create a serene and engaging atmosphere.",
+   "tags": "",
+   "page": "https://coverr.co/videos/twilight-city-call",
+   "thumb": "https://cdn.coverr.co/videos/coverr-twilight-city-call/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-twilight-city-call/360p.mp4",
+   "w": 3840,
+   "h": 2160,
+   "dur": 13.24,
+   "year": 2024,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-twilight-city-call/1080p.mp4",
+     "w": 3840,
+     "h": 2160,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Man Listens to Music Using Headphones while Walking at Night · Coverr · Coverr License",
+   "q": "person filming with smartphone at night crowd"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-cheerful-guy-takes-selfie-indoors",
+   "kind": "video",
+   "title": "Cheerful Young Man Recording a Video with Selfie Camera Indoors",
+   "desc": "A cheerful guy is indoors, recording a video using the selfie camera on his iPhone. The scene highlights his enthusiasm and the user-friendly nature of modern smartphone technology for creating personal content.",
+   "tags": "",
+   "page": "https://coverr.co/videos/cheerful-young-man-recording-a-video-with-selfie-camera-indoors",
+   "thumb": "https://cdn.coverr.co/videos/coverr-cheerful-guy-takes-selfie-indoors/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-cheerful-guy-takes-selfie-indoors/360p.mp4",
+   "w": 3840,
+   "h": 2160,
+   "dur": 19.75,
+   "year": 2024,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-cheerful-guy-takes-selfie-indoors/1080p.mp4",
+     "w": 3840,
+     "h": 2160,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Cheerful Young Man Recording a Video with Selfie Camera Indoors · Coverr · Coverr License",
+   "q": "holding phone recording crowd night"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-man-enjoying-music-on-smartphone-at-dusk",
+   "kind": "video",
+   "title": "Man Enjoying Music on Smartphone at Dusk in City",
+   "desc": "A man stands in the city at dusk, listening to music on his smartphone with wireless headphones. The twilight sky and urban lights create a relaxing atmosphere as he enjoys pleasant tunes.",
+   "tags": "",
+   "page": "https://coverr.co/videos/man-enjoying-music-on-smartphone-at-dusk",
+   "thumb": "https://cdn.coverr.co/videos/coverr-man-enjoying-music-on-smartphone-at-dusk/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-man-enjoying-music-on-smartphone-at-dusk/360p.mp4",
+   "w": 3840,
+   "h": 2160,
+   "dur": 21.88,
+   "year": 2024,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-man-enjoying-music-on-smartphone-at-dusk/1080p.mp4",
+     "w": 3840,
+     "h": 2160,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Man Enjoying Music on Smartphone at Dusk in City · Coverr · Coverr License",
+   "q": "person filming with smartphone at night crowd"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-urban-coffee-break",
+   "kind": "video",
+   "title": "Close-Up of Woman Sitting on a Bench Recording a Message on her Phone",
+   "desc": "A close-up shot of a young woman in a black jacket enjoying her coffee while browsing her smartphone on a park bench in the city. She records a voice message using her phone's microphone.",
+   "tags": "",
+   "page": "https://coverr.co/videos/urban-coffee-break",
+   "thumb": "https://cdn.coverr.co/videos/coverr-urban-coffee-break/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-urban-coffee-break/360p.mp4",
+   "w": 3840,
+   "h": 2160,
+   "dur": 21.64,
+   "year": 2024,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-urban-coffee-break/1080p.mp4",
+     "w": 3840,
+     "h": 2160,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Close-Up of Woman Sitting on a Bench Recording a Message on her Phone · Coverr · Coverr License",
+   "q": "smartphone recording protest"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-capturing-marina-views-on-smartphone",
+   "kind": "video",
+   "title": "Close-Up of Woman Capturing Marina Views on Smartphone",
+   "desc": "A close-up shot of a woman using her smartphone to capture the scenic marina views in the evening. The calm water and boats create a serene and picturesque backdrop, highlighting her appreciation for the moment.",
+   "tags": "",
+   "page": "https://coverr.co/videos/capturing-marina-views-on-smartphone",
+   "thumb": "https://cdn.coverr.co/videos/coverr-capturing-marina-views-on-smartphone/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-capturing-marina-views-on-smartphone/360p.mp4",
+   "w": 3840,
+   "h": 2160,
+   "dur": 12.625,
+   "year": 2024,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-capturing-marina-views-on-smartphone/1080p.mp4",
+     "w": 3840,
+     "h": 2160,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Close-Up of Woman Capturing Marina Views on Smartphone · Coverr · Coverr License",
+   "q": "person filming with smartphone at night crowd"
+  },
+  {
+   "source": "mixkit",
+   "id": "8839",
+   "kind": "video",
+   "title": "Hand holding mobile phone with greenscreen",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/hand-holding-mobile-phone-with-greenscreen-8839/",
+   "thumb": "https://assets.mixkit.co/videos/8839/8839-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/8839/8839-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/8839/8839-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/8839/8839-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Hand holding mobile phone with greenscreen · Mixkit · Mixkit Free License",
+   "q": "holding phone"
+  },
+  {
+   "source": "mixkit",
+   "id": "50417",
+   "kind": "video",
+   "title": "A woman shows how to use a moisturizing skincare product in front of a recording smartphone ",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/a-woman-shows-how-to-use-a-moisturizing-skincare-product-50417/",
+   "thumb": "https://assets.mixkit.co/videos/50417/50417-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/50417/50417-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/50417/50417-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/50417/50417-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "A woman shows how to use a moisturizing skincare product in front of a recording smartphone  · Mixkit · Mixkit Free License",
+   "q": "smartphone recording"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-close-up-of-a-young-man-using-his-smartphone-6745",
+   "kind": "video",
+   "title": "Close-up of a young man using his smartphone",
+   "desc": "A young man uses his smartphone while sitting on a bench.",
+   "tags": "",
+   "page": "https://coverr.co/videos/close-up-of-a-young-man-using-his-smartphone-z9qt6oqpvj",
+   "thumb": "https://cdn.coverr.co/videos/coverr-close-up-of-a-young-man-using-his-smartphone-6745/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-close-up-of-a-young-man-using-his-smartphone-6745/360p.mp4",
+   "w": 3840,
+   "h": 2160,
+   "dur": 14.681333,
+   "year": 2022,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-close-up-of-a-young-man-using-his-smartphone-6745/1080p.mp4",
+     "w": 3840,
+     "h": 2160,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Close-up of a young man using his smartphone · Coverr · Coverr License",
+   "q": "person filming with smartphone at night crowd"
+  },
+  {
+   "source": "mixkit",
+   "id": "45345",
+   "kind": "video",
+   "title": "Holding a phone with a green screen and swiping",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/holding-a-phone-with-a-green-screen-and-swiping-45345/",
+   "thumb": "https://assets.mixkit.co/videos/45345/45345-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/45345/45345-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/45345/45345-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/45345/45345-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Holding a phone with a green screen and swiping · Mixkit · Mixkit Free License",
+   "q": "holding phone"
+  },
+  {
+   "source": "mixkit",
+   "id": "50406",
+   "kind": "video",
+   "title": "A smartphone is recording a brunette woman applying skincare products",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/a-smartphone-is-recording-a-brunette-woman-applying-skincare-products-50406/",
+   "thumb": "https://assets.mixkit.co/videos/50406/50406-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/50406/50406-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/50406/50406-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/50406/50406-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "A smartphone is recording a brunette woman applying skincare products · Mixkit · Mixkit Free License",
+   "q": "smartphone recording"
+  },
+  {
+   "source": "mixkit",
+   "id": "33727",
+   "kind": "video",
+   "title": "Person filling a hole in the ground",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/person-filling-a-hole-in-the-ground-33727/",
+   "thumb": "https://assets.mixkit.co/videos/33727/33727-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/33727/33727-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/33727/33727-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/33727/33727-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Person filling a hole in the ground · Mixkit · Mixkit Free License",
+   "q": "person filming with"
+  },
+  {
+   "source": "mixkit",
+   "id": "28743",
+   "kind": "video",
+   "title": "Woman holding mobile phone with a green screen",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/woman-holding-mobile-phone-with-a-green-screen-28743/",
+   "thumb": "https://assets.mixkit.co/videos/28743/28743-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/28743/28743-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/28743/28743-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/28743/28743-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Woman holding mobile phone with a green screen · Mixkit · Mixkit Free License",
+   "q": "holding phone"
+  },
+  {
+   "source": "mixkit",
+   "id": "50466",
+   "kind": "video",
+   "title": "Smartphone recording a young woman modeling for social media post",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/smartphone-recording-a-young-woman-modeling-for-social-media-post-50466/",
+   "thumb": "https://assets.mixkit.co/videos/50466/50466-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/50466/50466-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/50466/50466-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/50466/50466-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Smartphone recording a young woman modeling for social media post · Mixkit · Mixkit Free License",
+   "q": "smartphone recording"
+  },
+  {
+   "source": "mixkit",
+   "id": "13778",
+   "kind": "video",
+   "title": "Cell phone filled with a pink liquid like a glass on a blue background",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/cell-phone-filled-with-a-pink-liquid-like-a-glass-13778/",
+   "thumb": "https://assets.mixkit.co/videos/13778/13778-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/13778/13778-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/13778/13778-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/13778/13778-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Cell phone filled with a pink liquid like a glass on a blue background · Mixkit · Mixkit Free License",
+   "q": "person filming with smartphone at"
+  },
+  {
+   "source": "mixkit",
+   "id": "47168",
+   "kind": "video",
+   "title": "Man in a shirt holding a phone with a green screen ",
+   "desc": "",
+   "page": "https://mixkit.co/free-stock-video/man-in-a-shirt-holding-a-phone-with-a-green-47168/",
+   "thumb": "https://assets.mixkit.co/videos/47168/47168-thumb-360-0.jpg",
+   "preview": "https://assets.mixkit.co/videos/47168/47168-360.mp4",
+   "w": 0,
+   "h": 0,
+   "dur": 0,
+   "year": null,
+   "author": "",
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://assets.mixkit.co/videos/47168/47168-1080.mp4",
+     "label": "1080p"
+    },
+    {
+     "url": "https://assets.mixkit.co/videos/47168/47168-720.mp4",
+     "label": "720p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Man in a shirt holding a phone with a green screen  · Mixkit · Mixkit Free License",
+   "q": "holding phone"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-a-man-makes-a-videocall-on-iphone-15",
+   "kind": "video",
+   "title": "Young Man Making a Video Call on iPhone 15 Indoors",
+   "desc": "A young man is making a video call on his iPhone 15 while indoors. The scene captures the clarity and ease of using the latest smartphone technology for personal or professional communication.",
+   "tags": "",
+   "page": "https://coverr.co/videos/young-man-making-a-video-call-on-iphone-15-indoors",
+   "thumb": "https://cdn.coverr.co/videos/coverr-a-man-makes-a-videocall-on-iphone-15/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-a-man-makes-a-videocall-on-iphone-15/360p.mp4",
+   "w": 3840,
+   "h": 2160,
+   "dur": 19.25,
+   "year": 2024,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-a-man-makes-a-videocall-on-iphone-15/1080p.mp4",
+     "w": 3840,
+     "h": 2160,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Young Man Making a Video Call on iPhone 15 Indoors · Coverr · Coverr License",
+   "q": "smartphone recording protest"
+  },
+  {
+   "source": "coverr",
+   "id": "coverr-urban-morning-coffee-and-phone-check",
+   "kind": "video",
+   "title": "Woman on a Stroll Sits on a Bench to Record a Voice Message",
+   "desc": "A young woman enjoys her morning coffee while casually checking her smartphone, walking on a city street. She sits down on a wooden bench to record a voice message. ",
+   "tags": "",
+   "page": "https://coverr.co/videos/urban-morning-coffee-and-phone-check",
+   "thumb": "https://cdn.coverr.co/videos/coverr-urban-morning-coffee-and-phone-check/thumbnail?width=640",
+   "preview": "https://cdn.coverr.co/videos/coverr-urban-morning-coffee-and-phone-check/360p.mp4",
+   "w": 3840,
+   "h": 2160,
+   "dur": 20.96,
+   "year": 2024,
+   "author": "",
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "files": [
+    {
+     "url": "https://cdn.coverr.co/videos/coverr-urban-morning-coffee-and-phone-check/1080p.mp4",
+     "w": 3840,
+     "h": 2160,
+     "label": "1080p"
+    }
+   ],
+   "notes": [],
+   "flags": [],
+   "credit": "Woman on a Stroll Sits on a Bench to Record a Voice Message · Coverr · Coverr License",
+   "q": "smartphone recording protest"
+  }
+ ]
+}

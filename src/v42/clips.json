@@ -1,0 +1,402 @@
+{
+ "p09a": {
+  "file": "v42/footage/p09a.jpg",
+  "shot": "s09",
+  "label": "تجمع ۲۵ خرداد، میدان آزادی",
+  "kind": "image",
+  "w": 2128,
+  "h": 1416,
+  "dur": null,
+  "credit": "Hamed Saber · CC BY 2.0 · Wikimedia Commons"
+ },
+ "p09b": {
+  "file": "v42/footage/p09b.jpg",
+  "shot": "s09",
+  "label": "۲۵ خرداد ۱۳۸۸",
+  "kind": "image",
+  "w": 800,
+  "h": 600,
+  "dur": null,
+  "credit": "Bahram · CC BY-SA 3.0 · Wikimedia Commons"
+ },
+ "p09c": {
+  "file": "v42/footage/p09c.jpg",
+  "shot": "s09",
+  "label": "۲۵ خرداد، جمعیت",
+  "kind": "image",
+  "w": 1280,
+  "h": 960,
+  "dur": null,
+  "credit": "Farzad · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "p09d": {
+  "file": "v42/footage/p09d.jpg",
+  "shot": "s08",
+  "label": "رأی من کجاست",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p09e": {
+  "file": "v42/footage/p09e.jpg",
+  "shot": "s07",
+  "label": "طرفداران موسوی",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p09f": {
+  "file": "v42/footage/p09f.jpg",
+  "shot": "s10",
+  "label": "سبز",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p09g": {
+  "file": "v42/footage/p09g.jpg",
+  "shot": "s10",
+  "label": "سبز",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p09h": {
+  "file": "v42/footage/p09h.jpg",
+  "shot": "s13",
+  "label": "نیروی ضدشورش",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p09i": {
+  "file": "v42/footage/p09i.jpg",
+  "shot": "s13",
+  "label": "بازداشت",
+  "kind": "image",
+  "w": 800,
+  "h": 534,
+  "dur": null,
+  "credit": "Seyedkhan (Mohsen Sajjadi) · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "p09j": {
+  "file": "v42/footage/p09j.jpg",
+  "shot": "s13",
+  "label": "آتش",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p09k": {
+  "file": "v42/footage/p09k.jpg",
+  "shot": "s04",
+  "label": "میدان آزادی",
+  "kind": "image",
+  "w": 3648,
+  "h": 2736,
+  "dur": null,
+  "credit": "PD · Wikimedia Commons"
+ },
+ "p17a": {
+  "file": "v42/footage/p17a.mp4",
+  "shot": "s16",
+  "label": "شادگان، ۱۱ دی ۹۶",
+  "kind": "video",
+  "w": 640,
+  "h": 352,
+  "dur": 51.936,
+  "credit": "Freedom Messenger · CC BY 3.0 · Wikimedia Commons"
+ },
+ "p17b": {
+  "file": "v42/footage/p17b.jpg",
+  "shot": "s18",
+  "label": "پلیس، دی ۹۶",
+  "kind": "image",
+  "w": 973,
+  "h": 691,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p17c": {
+  "file": "v42/footage/p17c.jpg",
+  "shot": "s18",
+  "label": "پلیس، دی ۹۶",
+  "kind": "image",
+  "w": 1050,
+  "h": 624,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p19a": {
+  "file": "v42/footage/p19a.jpg",
+  "shot": "s21",
+  "label": "بزرگراه بسته، آبان ۹۸",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p19b": {
+  "file": "v42/footage/p19b.jpg",
+  "shot": "s21",
+  "label": "بزرگراه بسته",
+  "kind": "image",
+  "w": 1050,
+  "h": 636,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p19c": {
+  "file": "v42/footage/p19c.jpg",
+  "shot": "s21",
+  "label": "خودروهای متوقف",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p19d": {
+  "file": "v42/footage/p19d.jpg",
+  "shot": "s21",
+  "label": "آتش، آبان ۹۸",
+  "kind": "image",
+  "w": 1050,
+  "h": 636,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p19e": {
+  "file": "v42/footage/p19e.jpg",
+  "shot": "s21",
+  "label": "آتش",
+  "kind": "image",
+  "w": 1050,
+  "h": 634,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p19f": {
+  "file": "v42/footage/p19f.jpg",
+  "shot": "s20",
+  "label": "پمپ بنزین سوخته",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p19g": {
+  "file": "v42/footage/p19g.jpg",
+  "shot": "s20",
+  "label": "جایگاه سوخت",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "p19h": {
+  "file": "v42/footage/p19h.jpg",
+  "shot": "s21",
+  "label": "اصفهان، آبان ۹۸",
+  "kind": "image",
+  "w": 1032,
+  "h": 581,
+  "dur": null,
+  "credit": "NicolasGaron · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "p19i": {
+  "file": "v42/footage/p19i.jpg",
+  "shot": "s21",
+  "label": "بهبهان، ۲۴ آبان ۹۸",
+  "kind": "image",
+  "w": 1023,
+  "h": 575,
+  "dur": null,
+  "credit": "VOA · PD · Wikimedia Commons"
+ },
+ "p19j": {
+  "file": "v42/footage/p19j.jpg",
+  "shot": "s23",
+  "label": "آبان ۹۸",
+  "kind": "image",
+  "w": 1050,
+  "h": 700,
+  "dur": null,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "v22a": {
+  "file": "v42/footage/v22a.mp4",
+  "shot": "s27",
+  "label": "تهران، ۲۸ شهریور ۱۴۰۱",
+  "kind": "video",
+  "w": 720,
+  "h": 1280,
+  "dur": 19.582,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "v22b": {
+  "file": "v42/footage/v22b.mp4",
+  "shot": "s28",
+  "label": "تهران، ۲۸ شهریور ۱۴۰۱",
+  "kind": "video",
+  "w": 720,
+  "h": 1280,
+  "dur": 32.673,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "v22c": {
+  "file": "v42/footage/v22c.mp4",
+  "shot": "s29",
+  "label": "سنندج، ۲۶ آبان ۱۴۰۱",
+  "kind": "video",
+  "w": 640,
+  "h": 352,
+  "dur": 21.579,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "v22d": {
+  "file": "v42/footage/v22d.mp4",
+  "shot": "s29",
+  "label": "ساری، ۲۹ شهریور ۱۴۰۱",
+  "kind": "video",
+  "w": 640,
+  "h": 352,
+  "dur": 35.54,
+  "credit": "Fars News · CC BY 4.0 · Wikimedia Commons"
+ },
+ "v22e": {
+  "file": "v42/footage/v22e.mp4",
+  "shot": "s29",
+  "label": "سنندج، چهلم مهسا",
+  "kind": "video",
+  "w": 1280,
+  "h": 720,
+  "dur": 26.594,
+  "credit": "Zeinab Rajaee · CC BY 4.0 · Wikimedia Commons"
+ },
+ "v22f": {
+  "file": "v42/footage/v22f.mp4",
+  "shot": "s29",
+  "label": "سنندج، چهلم مهسا",
+  "kind": "video",
+  "w": 1280,
+  "h": 720,
+  "dur": 69.876,
+  "credit": "Zeinab Rajaee · CC BY 4.0 · Wikimedia Commons"
+ },
+ "v22g": {
+  "file": "v42/footage/v22g.mp4",
+  "shot": "s30",
+  "label": "سنندج، شب",
+  "kind": "video",
+  "w": 1280,
+  "h": 720,
+  "dur": 30.107,
+  "credit": "Zeinab Rajaee · CC BY 4.0 · Wikimedia Commons"
+ },
+ "v26a": {
+  "file": "v42/footage/v26a.mp4",
+  "shot": "s33",
+  "label": "کرکره، بازار تهران",
+  "kind": "video",
+  "w": 480,
+  "h": 852,
+  "dur": 14.404,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "v26b": {
+  "file": "v42/footage/v26b.mp4",
+  "shot": "s33",
+  "label": "بازار تهران",
+  "kind": "video",
+  "w": 352,
+  "h": 640,
+  "dur": 11.766,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "v26c": {
+  "file": "v42/footage/v26c.mp4",
+  "shot": "s34",
+  "label": "بازار تهران",
+  "kind": "video",
+  "w": 352,
+  "h": 640,
+  "dur": 55.503,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "v26d": {
+  "file": "v42/footage/v26d.mp4",
+  "shot": "s34",
+  "label": "اعتصاب بازار",
+  "kind": "video",
+  "w": 444,
+  "h": 626,
+  "dur": 30.400000000000002,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "v26e": {
+  "file": "v42/footage/v26e.mp4",
+  "shot": "s34",
+  "label": "تهران، ۲۸ دی",
+  "kind": "video",
+  "w": 720,
+  "h": 1280,
+  "dur": 2.689,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "v26f": {
+  "file": "v42/footage/v26f.mp4",
+  "shot": "s34",
+  "label": "تهران، کاشانی",
+  "kind": "video",
+  "w": 464,
+  "h": 848,
+  "dur": 25.364,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "v26g": {
+  "file": "v42/footage/v26g.mp4",
+  "shot": "s35",
+  "label": "تهران، ۱۸ دی، ۲۰:۳۰",
+  "kind": "video",
+  "w": 480,
+  "h": 852,
+  "dur": 13.256,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "v26h": {
+  "file": "v42/footage/v26h.mp4",
+  "shot": "s36",
+  "label": "تهران، شب",
+  "kind": "video",
+  "w": 480,
+  "h": 852,
+  "dur": 87.961,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ },
+ "v26i": {
+  "file": "v42/footage/v26i.mp4",
+  "shot": "s36",
+  "label": "تهران، شب",
+  "kind": "video",
+  "w": 480,
+  "h": 852,
+  "dur": 37.322,
+  "credit": "Vahid Online · CC BY-SA 4.0 · Wikimedia Commons"
+ }
+}

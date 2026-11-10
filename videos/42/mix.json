@@ -1,0 +1,106 @@
+{
+ "vo": "public/v42/vo.wav",
+ "voJson": "src/v42/vo.json",
+ "length": 239.793,
+ "music": [
+  [
+   "public/audio/music/sad/mixed-signals.mp3",
+   "0",
+   1.0,
+   "S:14-0.6",
+   2.5
+  ],
+  [
+   "public/audio/music/dark/game-over-4.mp3",
+   "E:13-0.6",
+   2.0,
+   "S:25-0.8",
+   2.2
+  ],
+  [
+   "public/audio/music/ambient/cave-5.mp3",
+   "E:24-0.4",
+   2.0,
+   "W:40:قطع+0.15",
+   0.5
+  ],
+  [
+   "public/audio/music/sad/mixed-signals.mp3",
+   "S:41",
+   2.5,
+   "end",
+   2.5
+  ]
+ ],
+ "sfx": [
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "E:4+0.12",
+   0.5,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "E:13+0.12",
+   0.5,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "E:18+0.12",
+   0.5,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "E:24+0.12",
+   0.5,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/cinematic-heavy.wav",
+   "E:31+0.12",
+   0.5,
+   0.146
+  ],
+  [
+   "public/audio/sfx/impact/classic-stamp.wav",
+   "W:18:مسدود",
+   0.35,
+   0.012
+  ],
+  [
+   "public/audio/sfx/impact/classic-stamp.wav",
+   "W:18:مسدود+0.12",
+   0.3,
+   0.012
+  ],
+  [
+   "public/audio/sfx/impact/classic-stamp.wav",
+   "W:30:مسدود",
+   0.35,
+   0.012
+  ],
+  [
+   "public/audio/sfx/impact/classic-stamp.wav",
+   "W:30:مسدود+0.12",
+   0.3,
+   0.012
+  ],
+  [
+   "public/audio/sfx/glitch/static.wav",
+   "W:22:قطع",
+   0.35,
+   0.246
+  ],
+  [
+   "public/audio/sfx/glitch/static.wav",
+   "W:35:صفر",
+   0.4,
+   0.246
+  ]
+ ],
+ "musicBase": 0.105,
+ "musicLift": 0.13,
+ "sfxGain": 0.24
+}
