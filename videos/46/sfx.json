@@ -1,0 +1,7 @@
+[
+ {"id":"heli","text":"helicopter flying overhead, rotor blades thumping, passing by, cinematic","dur":4,"infl":0.5},
+ {"id":"siren","text":"distant police siren wailing in a city at night","dur":4,"infl":0.5},
+ {"id":"ring","text":"old 1990s telephone ringing twice, landline bell","dur":3,"infl":0.6},
+ {"id":"jet","text":"passenger jet airplane taking off, engines roaring","dur":4,"infl":0.5},
+ {"id":"gunfire","text":"distant burst of gunfire on a rooftop, several shots echoing between houses","dur":3,"infl":0.6}
+]

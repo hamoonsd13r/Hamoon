@@ -1,0 +1,612 @@
+{
+ "clips": {
+  "mugface": {
+   "file": "v46/footage/mugface.jpg",
+   "kind": "image",
+   "w": 1423,
+   "h": 1480,
+   "source": "commons",
+   "title": "Pablo Escobar Mug (cropped).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pablo_Escobar_Mug_(cropped).jpg",
+   "author": "Colombian National Police",
+   "year": 1976,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Pablo Escobar Mug (cropped).jpg · Colombian National Police · Public domain · Wikimedia Commons"
+  },
+  "mugfull": {
+   "file": "v46/footage/mugfull.jpg",
+   "kind": "image",
+   "w": 2219,
+   "h": 3179,
+   "source": "commons",
+   "title": "Pablo Escobar Mug.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pablo_Escobar_Mug.jpg",
+   "author": "Colombian National Police",
+   "year": 1976,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Pablo Escobar Mug.jpg · Colombian National Police · Public domain · Wikimedia Commons"
+  },
+  "rionegro": {
+   "file": "v46/footage/rionegro.jpg",
+   "kind": "image",
+   "w": 3840,
+   "h": 2880,
+   "source": "commons",
+   "title": "Casa vieja del pueblo de Rionegro (Antioquia).JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Casa_vieja_del_pueblo_de_Rionegro_(Antioquia).JPG",
+   "author": "Kamilokardona",
+   "year": 2012,
+   "licence": {
+    "name": "CC BY-SA 3.0",
+    "verdict": "credit"
+   },
+   "credit": "Casa vieja del pueblo de Rionegro (Antioquia).JPG · Kamilokardona · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  "envigado": {
+   "file": "v46/footage/envigado.jpg",
+   "kind": "image",
+   "w": 3840,
+   "h": 2880,
+   "source": "commons",
+   "title": "Envigado above.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Envigado_above.jpg",
+   "author": "Castillogrande",
+   "year": 2022,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Envigado above.jpg · Castillogrande · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "prado1940": {
+   "file": "v46/footage/prado1940.jpg",
+   "kind": "image",
+   "w": 960,
+   "h": 1506,
+   "source": "commons",
+   "title": "Residencia particular en el barrio Prado. Medellín, 1940.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Residencia_particular_en_el_barrio_Prado._Medell%C3%ADn,_1940.jpg",
+   "author": "Gonzalo Escovar Gaviria",
+   "year": 1940,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Residencia particular en el barrio Prado. Medellín, 1940.jpg · Gonzalo Escovar Gaviria · Public domain · Wikimedia Commons"
+  },
+  "cisneros": {
+   "file": "v46/footage/cisneros.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 790,
+   "source": "commons",
+   "title": "Plaza de Cisneros en Medellín.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_Cisneros_en_Medell%C3%ADn.jpg",
+   "author": "AnonymousUnknown author",
+   "year": 1932,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Plaza de Cisneros en Medellín.jpg · AnonymousUnknown author · Public domain · Wikimedia Commons"
+  },
+  "lehder": {
+   "file": "v46/footage/lehder.jpg",
+   "kind": "image",
+   "w": 960,
+   "h": 1620,
+   "source": "commons",
+   "title": "Carlos Lehder.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Carlos_Lehder.jpg",
+   "author": "U.S. state of Florida",
+   "year": null,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Carlos Lehder.jpg · U.S. state of Florida · Public domain · Wikimedia Commons"
+  },
+  "gacha": {
+   "file": "v46/footage/gacha.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 661,
+   "source": "commons",
+   "title": "Rodriguezgacha.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Rodriguezgacha.png",
+   "author": "US gov",
+   "year": null,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Rodriguezgacha.png · US gov · Public domain · Wikimedia Commons"
+  },
+  "ochoa": {
+   "file": "v46/footage/ochoa.jpg",
+   "kind": "image",
+   "w": 191,
+   "h": 238,
+   "source": "commons",
+   "title": "Fabioochoav.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Fabioochoav.png",
+   "author": "http://www.dea.gov/pubs/pressrel/pr053003.html",
+   "year": null,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Fabioochoav.png · http://www.dea.gov/pubs/pressrel/pr053003.html · Public domain · Wikimedia Commons"
+  },
+  "gate": {
+   "file": "v46/footage/gate.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1079,
+   "source": "commons",
+   "title": "Parque Temático Hacienda Nápoles 9.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Parque_Tem%C3%A1tico_Hacienda_N%C3%A1poles_9.jpg",
+   "author": "Motero colombia",
+   "year": 2015,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Parque Temático Hacienda Nápoles 9.jpg · Motero colombia · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "hippo": {
+   "file": "v46/footage/hippo.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1274,
+   "source": "commons",
+   "title": "Hipopótamo PTHN.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hipop%C3%B3tamo_PTHN.jpg",
+   "author": "Alvaro Morales Ríos",
+   "year": 2011,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Hipopótamo PTHN.jpg · Alvaro Morales Ríos · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "cars": {
+   "file": "v46/footage/cars.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1079,
+   "source": "commons",
+   "title": "Parque Temático Hacienda Nápoles 96.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Parque_Tem%C3%A1tico_Hacienda_N%C3%A1poles_96.jpg",
+   "author": "Motero colombia",
+   "year": 2015,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Parque Temático Hacienda Nápoles 96.jpg · Motero colombia · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "capnight": {
+   "file": "v46/footage/capnight.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1440,
+   "source": "commons",
+   "title": "Capitolionoche.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Capitolionoche.jpg",
+   "author": "Trent Chandra",
+   "year": 2006,
+   "licence": {
+    "name": "CC BY-SA 2.0",
+    "verdict": "credit"
+   },
+   "credit": "Capitolionoche.jpg · Trent Chandra · CC BY-SA 2.0 · Wikimedia Commons"
+  },
+  "caprain": {
+   "file": "v46/footage/caprain.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1286,
+   "source": "commons",
+   "title": "Capitolio Nacional en la lluvia I.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Capitolio_Nacional_en_la_lluvia_I.jpg",
+   "author": "Aztlek, Luis Alejandro Bernal Romero",
+   "year": 2011,
+   "licence": {
+    "name": "CC BY-SA 3.0",
+    "verdict": "credit"
+   },
+   "credit": "Capitolio Nacional en la lluvia I.jpg · Aztlek, Luis Alejandro Bernal Romero · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  "parliament": {
+   "file": "v46/footage/parliament.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1092,
+   "source": "commons",
+   "title": "Parliament Colombia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Parliament_Colombia.jpg",
+   "author": "VeraVidiVici",
+   "year": 2022,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Parliament Colombia.jpg · VeraVidiVici · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "barrio": {
+   "file": "v46/footage/barrio.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1037,
+   "source": "commons",
+   "title": "Barrio Pablo Escobar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Barrio_Pablo_Escobar.jpg",
+   "author": "nigel burgher",
+   "year": 2016,
+   "licence": {
+    "name": "CC BY 2.0",
+    "verdict": "credit"
+   },
+   "credit": "Barrio Pablo Escobar.jpg · nigel burgher · CC BY 2.0 · Wikimedia Commons"
+  },
+  "lara": {
+   "file": "v46/footage/lara.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 609,
+   "source": "commons",
+   "title": "2.ODO CON RODRIGO LARA BONILLA.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2.ODO_CON_RODRIGO_LARA_BONILLA.jpg",
+   "author": "Familia oyd",
+   "year": 2019,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "2.ODO CON RODRIGO LARA BONILLA.jpg · Familia oyd · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "mac10": {
+   "file": "v46/footage/mac10.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1361,
+   "source": "commons",
+   "title": "Mac-10 submachine gun used to kill Minister Rodrigo Lara.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Mac-10_submachine_gun_used_to_kill_Minister_Rodrigo_Lara.jpg",
+   "author": "Yukof",
+   "year": 2015,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Mac-10 submachine gun used to kill Minister Rodrigo Lara.jpg · Yukof · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "laragalan": {
+   "file": "v46/footage/laragalan.jpg",
+   "kind": "image",
+   "w": 330,
+   "h": 304,
+   "source": "commons",
+   "title": "LuisCarlosGalan RodrigoLaraBonilla NancyRestrepodeLara.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:LuisCarlosGalan_RodrigoLaraBonilla_NancyRestrepodeLara.jpg",
+   "author": "https://www.flickr.com/people/ivanmarulanda/",
+   "year": 1976,
+   "licence": {
+    "name": "CC BY 2.0",
+    "verdict": "credit"
+   },
+   "credit": "LuisCarlosGalan RodrigoLaraBonilla NancyRestrepodeLara.jpg · https://www.flickr.com/people/ivanmarulanda/ · CC BY 2.0 · Wikimedia Commons"
+  },
+  "galan79": {
+   "file": "v46/footage/galan79.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 283,
+   "source": "commons",
+   "title": "Iván Marulanda con los fundadores del Nuevo Liberalismo (Colombia).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Iv%C3%A1n_Marulanda_con_los_fundadores_del_Nuevo_Liberalismo_(Colombia).jpg",
+   "author": "Iván Marulanda",
+   "year": 1979,
+   "licence": {
+    "name": "CC BY 2.0",
+    "verdict": "credit"
+   },
+   "credit": "Iván Marulanda con los fundadores del Nuevo Liberalismo (Colombia).jpg · Iván Marulanda · CC BY 2.0 · Wikimedia Commons"
+  },
+  "galanstatue": {
+   "file": "v46/footage/galanstatue.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 2560,
+   "source": "commons",
+   "title": "Estatua de Galán en el Concejo.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Estatua_de_Gal%C3%A1n_en_el_Concejo.JPG",
+   "author": "Felipe Restrepo Acosta",
+   "year": 2013,
+   "licence": {
+    "name": "CC BY-SA 3.0",
+    "verdict": "credit"
+   },
+   "credit": "Estatua de Galán en el Concejo.JPG · Felipe Restrepo Acosta · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  "mansion": {
+   "file": "v46/footage/mansion.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 375,
+   "source": "commons",
+   "title": "Hacienda Napoles.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hacienda_Napoles.jpg",
+   "author": "Pascaweb at en.wikipedia",
+   "year": 2007,
+   "licence": {
+    "name": "CC BY-SA 3.0",
+    "verdict": "credit"
+   },
+   "credit": "Hacienda Napoles.jpg · Pascaweb at en.wikipedia · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  "catedral": {
+   "file": "v46/footage/catedral.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1218,
+   "source": "commons",
+   "title": "LaCatedralAntioquia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:LaCatedralAntioquia.jpg",
+   "author": "Roma Diachkin",
+   "year": 2020,
+   "licence": {
+    "name": "CC0",
+    "verdict": "free"
+   },
+   "credit": "LaCatedralAntioquia.jpg · Roma Diachkin · CC0 · Wikimedia Commons"
+  },
+  "kalesi": {
+   "file": "v46/footage/kalesi.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1440,
+   "source": "commons",
+   "title": "Pablonun kalesi14.23.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pablonun_kalesi14.23.jpg",
+   "author": "LucastTurco",
+   "year": 2014,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Pablonun kalesi14.23.jpg · LucastTurco · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "guard": {
+   "file": "v46/footage/guard.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 591,
+   "source": "commons",
+   "title": "Guard house at La Catedral, Medellin.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Guard_house_at_La_Catedral,_Medellin.jpg",
+   "author": "Stefanomione",
+   "year": 2019,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Guard house at La Catedral, Medellin.jpg · Stefanomione · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "helipad": {
+   "file": "v46/footage/helipad.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 591,
+   "source": "commons",
+   "title": "Helipad at La Catedral, the former Pablo Escobar prison overlooking the City of Medellin.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Helipad_at_La_Catedral,_the_former_Pablo_Escobar_prison_overlooking_the_City_of_Medellin.jpg",
+   "author": "Stefanomione",
+   "year": 2019,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Helipad at La Catedral, the former Pablo Escobar prison overlooking the City of Medellin.jpg · Stefanomione · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "narino": {
+   "file": "v46/footage/narino.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1440,
+   "source": "commons",
+   "title": "Palacio de Nariño.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Nari%C3%B1o.JPG",
+   "author": "Renzo Parada",
+   "year": 2012,
+   "licence": {
+    "name": "CC BY-SA 3.0",
+    "verdict": "credit"
+   },
+   "credit": "Palacio de Nariño.JPG · Renzo Parada · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  "popeye": {
+   "file": "v46/footage/popeye.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 583,
+   "source": "commons",
+   "title": "Jhon Jairo Velásquez.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Jhon_Jairo_Vel%C3%A1squez.png",
+   "author": "Télam http://www.telam.com.ar",
+   "year": 2014,
+   "licence": {
+    "name": "CC BY 3.0",
+    "verdict": "credit"
+   },
+   "credit": "Jhon Jairo Velásquez.png · Télam http://www.telam.com.ar · CC BY 3.0 · Wikimedia Commons"
+  },
+  "roberto": {
+   "file": "v46/footage/roberto.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 2276,
+   "source": "commons",
+   "title": "Roberto Escobar.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Roberto_Escobar.jpg",
+   "author": "Reubenzadeh",
+   "year": 2018,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Roberto Escobar.jpg · Reubenzadeh · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "heli1": {
+   "file": "v46/footage/heli1.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1275,
+   "source": "commons",
+   "title": "Policía Antinarcóticos (5513319073).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Polic%C3%ADa_Antinarc%C3%B3ticos_(5513319073).jpg",
+   "author": "National Police of Colombia",
+   "year": 2006,
+   "licence": {
+    "name": "CC BY-SA 2.0",
+    "verdict": "credit"
+   },
+   "credit": "Policía Antinarcóticos (5513319073).jpg · National Police of Colombia · CC BY-SA 2.0 · Wikimedia Commons"
+  },
+  "heli2": {
+   "file": "v46/footage/heli2.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1280,
+   "source": "commons",
+   "title": "Servicio Áereo de la Policía Nacional (7550732900).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Servicio_%C3%81ereo_de_la_Polic%C3%ADa_Nacional_(7550732900).jpg",
+   "author": "National Police of Colombia",
+   "year": 2012,
+   "licence": {
+    "name": "CC BY-SA 2.0",
+    "verdict": "credit"
+   },
+   "credit": "Servicio Áereo de la Policía Nacional (7550732900).jpg · National Police of Colombia · CC BY-SA 2.0 · Wikimedia Commons"
+  },
+  "heli3": {
+   "file": "v46/footage/heli3.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1280,
+   "source": "commons",
+   "title": "Servicio Áereo de la Policía Nacional (7550731430).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Servicio_%C3%81ereo_de_la_Polic%C3%ADa_Nacional_(7550731430).jpg",
+   "author": "National Police of Colombia",
+   "year": 2012,
+   "licence": {
+    "name": "CC BY-SA 2.0",
+    "verdict": "credit"
+   },
+   "credit": "Servicio Áereo de la Policía Nacional (7550731430).jpg · National Police of Colombia · CC BY-SA 2.0 · Wikimedia Commons"
+  },
+  "police": {
+   "file": "v46/footage/police.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1280,
+   "source": "commons",
+   "title": "Servicio Aéreo de la Policía Nacional de Colombia (6069835724).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Servicio_A%C3%A9reo_de_la_Polic%C3%ADa_Nacional_de_Colombia_(6069835724).jpg",
+   "author": "National Police of Colombia",
+   "year": 2010,
+   "licence": {
+    "name": "CC BY-SA 2.0",
+    "verdict": "credit"
+   },
+   "credit": "Servicio Aéreo de la Policía Nacional de Colombia (6069835724).jpg · National Police of Colombia · CC BY-SA 2.0 · Wikimedia Commons"
+  },
+  "tejado": {
+   "file": "v46/footage/tejado.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 885,
+   "source": "commons",
+   "title": "Escobar Tejado Muerto.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Escobar_Tejado_Muerto.jpg",
+   "author": "Ljadler",
+   "year": 2017,
+   "licence": {
+    "name": "CC0",
+    "verdict": "free"
+   },
+   "credit": "Escobar Tejado Muerto.jpg · Ljadler · CC0 · Wikimedia Commons"
+  },
+  "death": {
+   "file": "v46/footage/death.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 960,
+   "source": "commons",
+   "title": "Death of Pablo Escobar b (cropped).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Death_of_Pablo_Escobar_b_(cropped).jpg",
+   "author": "File:Death of Pablo Escobar.jpg: Steve Murphy, DEA agent\nderivative work: Georgfotoart",
+   "year": 1993,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Death of Pablo Escobar b (cropped).jpg · File:Death of Pablo Escobar.jpg: Steve Murphy, DEA agent\nderivative work: Georgfotoart · Public domain · Wikimedia Commons"
+  },
+  "tomb": {
+   "file": "v46/footage/tomb.jpg",
+   "kind": "image",
+   "w": 960,
+   "h": 960,
+   "source": "commons",
+   "title": "Pablo Escobar Tomb.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pablo_Escobar_Tomb.jpg",
+   "author": "Daniel Di Palm",
+   "year": 2017,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Pablo Escobar Tomb.jpg · Daniel Di Palm · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "ftomb": {
+   "file": "v46/footage/ftomb.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 768,
+   "source": "commons",
+   "title": "Cementerio monte sacro escobar family tomb 02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cementerio_monte_sacro_escobar_family_tomb_02.jpg",
+   "author": "Daniel Di Palma",
+   "year": 2017,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Cementerio monte sacro escobar family tomb 02.jpg · Daniel Di Palma · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "casa": {
+   "file": "v46/footage/casa.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 667,
+   "source": "commons",
+   "title": "Vista de la casa de Pablo Escobar, Colombia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Vista_de_la_casa_de_Pablo_Escobar,_Colombia.jpg",
+   "author": "Joan Deutscharq",
+   "year": 2024,
+   "licence": {
+    "name": "CC0",
+    "verdict": "free"
+   },
+   "credit": "Vista de la casa de Pablo Escobar, Colombia.jpg · Joan Deutscharq · CC0 · Wikimedia Commons"
+  }
+ }
+}

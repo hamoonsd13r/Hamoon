@@ -1,0 +1,256 @@
+{
+ "length": 249.69,
+ "voice": "public/v46/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/horror/tragedy-waiting-to-happen.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 28.868,
+   "fadeIn": 0.2,
+   "fadeOut": 1.5,
+   "gain": 0.075
+  },
+  {
+   "file": "public/audio/music/sad/small-towns-smaller-lives.mp3",
+   "at": 28.568,
+   "from": 0,
+   "to": 54.016999999999996,
+   "fadeIn": 1,
+   "fadeOut": 2,
+   "gain": 0.075
+  },
+  {
+   "file": "public/audio/music/horror/tension-in-the-air.mp3",
+   "at": 82.085,
+   "from": 20,
+   "to": 83.37400000000001,
+   "fadeIn": 1,
+   "fadeOut": 2,
+   "gain": 0.075
+  },
+  {
+   "file": "public/audio/music/horror/abducted.mp3",
+   "at": 144.859,
+   "from": 10,
+   "to": 91.57999999999998,
+   "fadeIn": 1,
+   "fadeOut": 2,
+   "gain": 0.075
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 225.939,
+   "from": 0,
+   "to": 23.74600000000001,
+   "fadeIn": 1.2,
+   "fadeOut": 2.5,
+   "gain": 0.0825
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/mechanical/clock-tick-tock",
+   "at": 1,
+   "vol": 0.09
+  },
+  {
+   "file": "public/v46/sfx/jet-1.mp3",
+   "at": 2.45,
+   "vol": 0.09,
+   "peak": 0.3
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 10.237,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 10.257,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/impact/subdrop-punch",
+   "at": 20.424,
+   "vol": 0.15
+  },
+  {
+   "file": "public/v46/sfx/heli-1.mp3",
+   "at": 22.652,
+   "vol": 0.084,
+   "peak": 0.3
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 28.908,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 48.674,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 54.772999999999996,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 62.36,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 86.5,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 102.237,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 117.084,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 148.648,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 169.413,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 189.887,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 42.431,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 62.519999999999996,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 70.148,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 102.39699999999999,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 108.573,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 123.565,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 65.941,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 73.546,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 159.726,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 172.522,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/explosion/shot-01",
+   "at": 107.67,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/explosion/shot-03",
+   "at": 127.163,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v46/sfx/siren-1.mp3",
+   "at": 120.048,
+   "vol": 0.066,
+   "peak": 0.3
+  },
+  {
+   "id": "sfx/explosion/explosion",
+   "at": 135.222,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 135.27200000000002,
+   "vol": 0.135
+  },
+  {
+   "file": "public/v46/sfx/siren-1.mp3",
+   "at": 142.156,
+   "vol": 0.06,
+   "peak": 0.3
+  },
+  {
+   "file": "public/v46/sfx/heli-1.mp3",
+   "at": 148.708,
+   "vol": 0.075,
+   "peak": 0.3
+  },
+  {
+   "file": "public/v46/sfx/heli-1.mp3",
+   "at": 182.414,
+   "vol": 0.066,
+   "peak": 0.3
+  },
+  {
+   "file": "public/v46/sfx/ring-1.mp3",
+   "at": 200.801,
+   "vol": 0.096,
+   "peak": 0.3
+  },
+  {
+   "id": "sfx/riser/noise-2s",
+   "at": 205.358,
+   "vol": 0.075
+  },
+  {
+   "file": "public/v46/sfx/gunfire-1.mp3",
+   "at": 213.861,
+   "vol": 0.126,
+   "peak": 0.3
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 219.17,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/impact/subdrop-punch",
+   "at": 247.385,
+   "vol": 0.135
+  }
+ ]
+}

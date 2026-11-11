@@ -1,0 +1,1604 @@
+{
+ "clips": {
+  "s01a": {
+   "file": "v46/footage/s01a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 11.511,
+   "fps": 59.94,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-planes-heading-to-the-runway-8804",
+   "title": "Planes heading to the runway ",
+   "page": "https://coverr.co/videos/planes-heading-to-the-runway-s88pegx0yt",
+   "author": "",
+   "year": 2020,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Planes heading to the runway  · Coverr · Coverr License",
+   "shot": "s01"
+  },
+  "s01b": {
+   "file": "v46/footage/s01b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 29.567,
+   "fps": 30,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "7029",
+   "title": "Airplane take off from the track",
+   "page": "https://mixkit.co/free-stock-video/airplane-take-off-from-the-track-7029/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Airplane take off from the track · Mixkit · Mixkit Free License",
+   "shot": "s01"
+  },
+  "s02a": {
+   "file": "v46/footage/s02a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 16.167,
+   "fps": 30,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.156,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "7476",
+   "title": "Airplane flying in a red cloudy sky",
+   "page": "https://mixkit.co/free-stock-video/airplane-flying-in-a-red-cloudy-sky-7476/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Airplane flying in a red cloudy sky · Mixkit · Mixkit Free License",
+   "shot": "s02"
+  },
+  "s02b": {
+   "file": "v46/footage/s02b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 15.015,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.365,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "18052",
+   "title": "Particle explosion, smoke and fire",
+   "page": "https://mixkit.co/free-stock-video/particle-explosion-smoke-and-fire-18052/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Particle explosion, smoke and fire · Mixkit · Mixkit Free License",
+   "shot": "s02"
+  },
+  "s03": {
+   "file": "v46/footage/s03.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 13.013,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.552,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-burning-church-candles-4154",
+   "title": "Burning church candles",
+   "page": "https://coverr.co/videos/burning-church-candles-v1y9sfoo09",
+   "author": "",
+   "year": 2022,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Burning church candles · Coverr · Coverr License",
+   "shot": "s03"
+  },
+  "s08": {
+   "file": "v46/footage/s08.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 22.733,
+   "fps": 60,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.844,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "9709",
+   "title": "Green mountain landscape",
+   "page": "https://mixkit.co/free-stock-video/green-mountain-landscape-9709/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Green mountain landscape · Mixkit · Mixkit Free License",
+   "shot": "s08"
+  },
+  "s11": {
+   "file": "v46/footage/s11.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 14.473,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-a-teenage-boy-walking-along-a-street-9452",
+   "title": "A teenage boy walking along a street",
+   "page": "https://coverr.co/videos/a-teenage-boy-walking-along-a-street-2xyoqlbszc",
+   "author": "",
+   "year": 2021,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "A teenage boy walking along a street · Coverr · Coverr License",
+   "shot": "s11"
+  },
+  "s12a": {
+   "file": "v46/footage/s12a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 14.625,
+   "fps": 24,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.615,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "31376",
+   "title": "Thief is surprised by the police when stealing",
+   "page": "https://mixkit.co/free-stock-video/thief-is-surprised-by-the-police-when-stealing-31376/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Thief is surprised by the police when stealing · Mixkit · Mixkit Free License",
+   "shot": "s12"
+  },
+  "s12b": {
+   "file": "v46/footage/s12b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 7.2,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.656,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "23168",
+   "title": "Counting money and giving it to another person",
+   "page": "https://mixkit.co/free-stock-video/counting-money-and-giving-it-to-another-person-23168/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Counting money and giving it to another person · Mixkit · Mixkit Free License",
+   "shot": "s12"
+  },
+  "s18a": {
+   "file": "v46/footage/s18a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 12.72,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.406,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "45702",
+   "title": "Money counting machine counting a stack of bills",
+   "page": "https://mixkit.co/free-stock-video/money-counting-machine-counting-a-stack-of-bills-45702/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Money counting machine counting a stack of bills · Mixkit · Mixkit Free License",
+   "shot": "s18"
+  },
+  "s18c": {
+   "file": "v46/footage/s18c.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 11.56,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.156,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-close-up-of-stack-of-us-dollars",
+   "title": "Close-Up View of US Dollar Bills on a Wooden Table",
+   "page": "https://coverr.co/videos/close-up-of-stack-of-us-dollars",
+   "author": "",
+   "year": 2024,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Close-Up View of US Dollar Bills on a Wooden Table · Coverr · Coverr License",
+   "shot": "s18"
+  },
+  "s21b": {
+   "file": "v46/footage/s21b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 15.458,
+   "fps": 24,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-a-settlement-in-the-mountains-5585",
+   "title": "A settlement in the mountains",
+   "page": "https://coverr.co/videos/a-settlement-in-the-mountains-sjg2gfyu0d",
+   "author": "",
+   "year": 2021,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "A settlement in the mountains · Coverr · Coverr License",
+   "shot": "s21"
+  },
+  "s22a": {
+   "file": "v46/footage/s22a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 14,
+   "fps": 24,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.844,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "32776",
+   "title": "Gun and some bullets on the ground at a crime scene",
+   "page": "https://mixkit.co/free-stock-video/gun-and-some-bullets-on-the-ground-at-a-crime-32776/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Gun and some bullets on the ground at a crime scene · Mixkit · Mixkit Free License",
+   "shot": "s22"
+  },
+  "s25b": {
+   "file": "v46/footage/s25b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 13.78,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.406,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "5987",
+   "title": "Soldiers standing with rifles",
+   "page": "https://mixkit.co/free-stock-video/soldiers-standing-with-rifles-5987/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Soldiers standing with rifles · Mixkit · Mixkit Free License",
+   "shot": "s25"
+  },
+  "s26a": {
+   "file": "v46/footage/s26a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 20,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.458,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "45676",
+   "title": "Fire of a bonfire against black",
+   "page": "https://mixkit.co/free-stock-video/fire-of-a-bonfire-against-black-45676/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Fire of a bonfire against black · Mixkit · Mixkit Free License",
+   "shot": "s26"
+  },
+  "s26b": {
+   "file": "v46/footage/s26b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 16.867,
+   "fps": 59.94,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.156,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "49328",
+   "title": "Blue and red lights from a police car",
+   "page": "https://mixkit.co/free-stock-video/blue-and-red-lights-from-a-police-car-49328/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Blue and red lights from a police car · Mixkit · Mixkit Free License",
+   "shot": "s26"
+  },
+  "s28": {
+   "file": "v46/footage/s28.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 12.833,
+   "fps": 24,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.328,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-soaring-above-the-clouds-and-mountains",
+   "title": "Airplane Soaring Above Clouds and Mountains at Twilight",
+   "page": "https://coverr.co/videos/soaring-above-the-clouds-and-mountains",
+   "author": "",
+   "year": 2024,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Airplane Soaring Above Clouds and Mountains at Twilight · Coverr · Coverr License",
+   "shot": "s28"
+  },
+  "s29a": {
+   "file": "v46/footage/s29a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 22.523,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.531,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-lighting-a-candle-7332",
+   "title": "Lighting a candle",
+   "page": "https://coverr.co/videos/lighting-a-candle-cmpavpzgnk",
+   "author": "",
+   "year": 2022,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Lighting a candle · Coverr · Coverr License",
+   "shot": "s29"
+  },
+  "s29b": {
+   "file": "v46/footage/s29b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 11.803,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.646,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "48288",
+   "title": "Ball of fire blasting on a black background",
+   "page": "https://mixkit.co/free-stock-video/ball-of-fire-blasting-on-a-black-background-48288/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Ball of fire blasting on a black background · Mixkit · Mixkit Free License",
+   "shot": "s29"
+  },
+  "s29c": {
+   "file": "v46/footage/s29c.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 10,
+   "fps": 24,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.406,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "32790",
+   "title": "Police barricade tape at a crime scene",
+   "page": "https://mixkit.co/free-stock-video/police-barricade-tape-at-a-crime-scene-32790/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Police barricade tape at a crime scene · Mixkit · Mixkit Free License",
+   "shot": "s29"
+  },
+  "s30a": {
+   "file": "v46/footage/s30a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 5.464,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.635,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "1767",
+   "title": "City lights at night aerial shot",
+   "page": "https://mixkit.co/free-stock-video/city-lights-at-night-aerial-shot-1767/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "City lights at night aerial shot · Mixkit · Mixkit Free License",
+   "shot": "s30"
+  },
+  "s30b": {
+   "file": "v46/footage/s30b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 11.92,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "17376",
+   "title": "Police car lights flashing",
+   "page": "https://mixkit.co/free-stock-video/police-car-lights-flashing-17376/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Police car lights flashing · Mixkit · Mixkit Free License",
+   "shot": "s30"
+  },
+  "s32a": {
+   "file": "v46/footage/s32a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 16.884,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.427,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "6952",
+   "title": "Helicopter flying in the sky",
+   "page": "https://mixkit.co/free-stock-video/helicopter-flying-in-the-sky-6952/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Helicopter flying in the sky · Mixkit · Mixkit Free License",
+   "shot": "s32"
+  },
+  "s32b": {
+   "file": "v46/footage/s32b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 20.02,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.844,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "26991",
+   "title": "Wooden fence with barbed wire in detail",
+   "page": "https://mixkit.co/free-stock-video/wooden-fence-with-barbed-wire-in-detail-26991/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Wooden fence with barbed wire in detail · Mixkit · Mixkit Free License",
+   "shot": "s32"
+  },
+  "s35b": {
+   "file": "v46/footage/s35b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 12.262,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.458,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "39808",
+   "title": "Man on a phone call at night",
+   "page": "https://mixkit.co/free-stock-video/man-on-a-phone-call-at-night-39808/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Man on a phone call at night · Mixkit · Mixkit Free License",
+   "shot": "s35"
+  },
+  "s37b": {
+   "file": "v46/footage/s37b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 9.92,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.458,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "23247",
+   "title": "Police officer with a flashlight in a dark room",
+   "page": "https://mixkit.co/free-stock-video/police-officer-with-a-flashlight-in-a-dark-room-23247/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Police officer with a flashlight in a dark room · Mixkit · Mixkit Free License",
+   "shot": "s37"
+  },
+  "s40": {
+   "file": "v46/footage/s40.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 10.26,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.417,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "41795",
+   "title": "Mercenary going up the stairs aiming his gun",
+   "page": "https://mixkit.co/free-stock-video/mercenary-going-up-the-stairs-aiming-his-gun-41795/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Mercenary going up the stairs aiming his gun · Mixkit · Mixkit Free License",
+   "shot": "s40"
+  },
+  "s42": {
+   "file": "v46/footage/s42.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 15.916,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.771,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "3099",
+   "title": "Looking at the sky from the window of an airplane",
+   "page": "https://mixkit.co/free-stock-video/looking-at-the-sky-from-the-window-of-an-airplane-3099/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Looking at the sky from the window of an airplane · Mixkit · Mixkit Free License",
+   "shot": "s42"
+  },
+  "s43b": {
+   "file": "v46/footage/s43b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 10.219,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.198,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-the-city-at-sunset-1628",
+   "title": "The city at sunset",
+   "page": "https://coverr.co/videos/the-city-at-sunset-mfqx42ns6w",
+   "author": "",
+   "year": 2021,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "The city at sunset · Coverr · Coverr License",
+   "shot": "s43"
+  },
+  "s46a": {
+   "file": "v46/footage/s46a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 30.03,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.479,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "34948",
+   "title": "Full aerial shot of a radio tower in the mountains",
+   "page": "https://mixkit.co/free-stock-video/full-aerial-shot-of-a-radio-tower-in-the-mountains-34948/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Full aerial shot of a radio tower in the mountains · Mixkit · Mixkit Free License",
+   "shot": "s46"
+  },
+  "s48": {
+   "file": "v46/footage/s48.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 15.182,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.26,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "25882",
+   "title": "Timelapse across city rooftops",
+   "page": "https://mixkit.co/free-stock-video/timelapse-across-city-rooftops-25882/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Timelapse across city rooftops · Mixkit · Mixkit Free License",
+   "shot": "s48"
+  },
+  "s52b": {
+   "file": "v46/footage/s52b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 23.69,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.604,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-a-woman-puts-a-church-candle-into-a-candlestick-4199",
+   "title": "A woman puts a church candle into a candlestick",
+   "page": "https://coverr.co/videos/a-woman-puts-a-church-candle-into-a-candlestick-19rb16atcf",
+   "author": "",
+   "year": 2022,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "A woman puts a church candle into a candlestick · Coverr · Coverr License",
+   "shot": "s52"
+  },
+  "s53a": {
+   "file": "v46/footage/s53a.mp4",
+   "kind": "video",
+   "w": 1080,
+   "h": 1920,
+   "dur": 14.292,
+   "fps": 24,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.678
+   ],
+   "source": "mixkit",
+   "id": "49878",
+   "title": "Big city at night from an aerial shot",
+   "page": "https://mixkit.co/free-stock-video/big-city-at-night-from-an-aerial-shot-49878/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Big city at night from an aerial shot · Mixkit · Mixkit Free License",
+   "shot": "s53"
+  },
+  "s53b": {
+   "file": "v46/footage/s53b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 12.56,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.521,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "30976",
+   "title": "Silhouette of the mountain and the sunrise",
+   "page": "https://mixkit.co/free-stock-video/silhouette-of-the-mountain-and-the-sunrise-30976/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Silhouette of the mountain and the sunrise · Mixkit · Mixkit Free License",
+   "shot": "s53"
+  },
+  "s04a": {
+   "file": "v46/footage/s04a.mp4",
+   "kind": "video",
+   "w": 1440,
+   "h": 1080,
+   "dur": 8.008,
+   "fps": 29.97,
+   "in": 58,
+   "out": 66,
+   "audio": false,
+   "focus": [
+    0.482,
+    0.418
+   ],
+   "source": "archive",
+   "id": "gov.archives.arc.38101",
+   "title": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA",
+   "page": "https://archive.org/details/gov.archives.arc.38101",
+   "author": "National Archives and Records Administration",
+   "year": null,
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (U.S. federal government work)",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA · National Archives and Records Administration · Internet Archive · Public domain (U.S. federal government work)",
+   "shot": "s04"
+  },
+  "s13": {
+   "file": "v46/footage/s13.mp4",
+   "kind": "video",
+   "w": 1412,
+   "h": 1080,
+   "dur": 8.008,
+   "fps": 29.97,
+   "in": 538,
+   "out": 546,
+   "audio": false,
+   "focus": [
+    0.357,
+    0.525
+   ],
+   "source": "archive",
+   "id": "gov.archives.arc.38101",
+   "title": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA",
+   "page": "https://archive.org/details/gov.archives.arc.38101",
+   "author": "National Archives and Records Administration",
+   "year": null,
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (U.S. federal government work)",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA · National Archives and Records Administration · Internet Archive · Public domain (U.S. federal government work)",
+   "shot": "s13"
+  },
+  "s16": {
+   "file": "v46/footage/s16.mp4",
+   "kind": "video",
+   "w": 1440,
+   "h": 1080,
+   "dur": 8.008,
+   "fps": 29.97,
+   "in": 838,
+   "out": 846,
+   "audio": false,
+   "focus": [
+    0.502,
+    0.397
+   ],
+   "source": "archive",
+   "id": "gov.archives.arc.38101",
+   "title": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA",
+   "page": "https://archive.org/details/gov.archives.arc.38101",
+   "author": "National Archives and Records Administration",
+   "year": null,
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (U.S. federal government work)",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA · National Archives and Records Administration · Internet Archive · Public domain (U.S. federal government work)",
+   "shot": "s16"
+  },
+  "s25a": {
+   "file": "v46/footage/s25a.mp4",
+   "kind": "video",
+   "w": 1422,
+   "h": 1080,
+   "dur": 8.008,
+   "fps": 29.97,
+   "in": 238,
+   "out": 246,
+   "audio": false,
+   "focus": [
+    0.357,
+    0.422
+   ],
+   "source": "archive",
+   "id": "gov.archives.arc.38101",
+   "title": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA",
+   "page": "https://archive.org/details/gov.archives.arc.38101",
+   "author": "National Archives and Records Administration",
+   "year": null,
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (U.S. federal government work)",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA · National Archives and Records Administration · Internet Archive · Public domain (U.S. federal government work)",
+   "shot": "s25"
+  },
+  "s52a": {
+   "file": "v46/footage/s52a.mp4",
+   "kind": "video",
+   "w": 1412,
+   "h": 1080,
+   "dur": 8.008,
+   "fps": 29.97,
+   "in": 958,
+   "out": 966,
+   "audio": false,
+   "focus": [
+    0.497,
+    0.422
+   ],
+   "source": "archive",
+   "id": "gov.archives.arc.38101",
+   "title": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA",
+   "page": "https://archive.org/details/gov.archives.arc.38101",
+   "author": "National Archives and Records Administration",
+   "year": null,
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (U.S. federal government work)",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "COLUMBIA COCAINE SEIZURES: TRANQUIDILIA · National Archives and Records Administration · Internet Archive · Public domain (U.S. federal government work)",
+   "shot": "s52"
+  },
+  "s04b": {
+   "file": "v46/footage/s04b.mp4",
+   "kind": "video",
+   "w": 1408,
+   "h": 1080,
+   "dur": 8.008,
+   "fps": 29.97,
+   "in": 58,
+   "out": 66,
+   "audio": false,
+   "focus": [
+    0.643,
+    0.419
+   ],
+   "source": "archive",
+   "id": "gov.archives.arc.38122",
+   "title": "CRAMAY: U.S. Coast Guard",
+   "page": "https://archive.org/details/gov.archives.arc.38122",
+   "author": "National Archives and Records Administration",
+   "year": null,
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (U.S. federal government work)",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "CRAMAY: U.S. Coast Guard · National Archives and Records Administration · Internet Archive · Public domain (U.S. federal government work)",
+   "shot": "s04"
+  },
+  "s14a": {
+   "file": "v46/footage/s14a.mp4",
+   "kind": "video",
+   "w": 1408,
+   "h": 1080,
+   "dur": 8.008,
+   "fps": 29.97,
+   "in": 658,
+   "out": 666,
+   "audio": false,
+   "focus": [
+    0.554,
+    0.419
+   ],
+   "source": "archive",
+   "id": "gov.archives.arc.38122",
+   "title": "CRAMAY: U.S. Coast Guard",
+   "page": "https://archive.org/details/gov.archives.arc.38122",
+   "author": "National Archives and Records Administration",
+   "year": null,
+   "licence": {
+    "code": "gov",
+    "name": "Public domain (U.S. federal government work)",
+    "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "CRAMAY: U.S. Coast Guard · National Archives and Records Administration · Internet Archive · Public domain (U.S. federal government work)",
+   "shot": "s14"
+  },
+  "s37a": {
+   "file": "v46/footage/s37a.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 13.92,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.844,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-lush-green-mountain-pathway",
+   "title": "Lush Green Mountain Pathway",
+   "page": "https://coverr.co/videos/lush-green-mountain-pathway",
+   "author": "",
+   "year": 2024,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Lush Green Mountain Pathway · Coverr · Coverr License",
+   "shot": "s37"
+  },
+  "s44b": {
+   "file": "v46/footage/s44b.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 21.271,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.49,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-number-dialed-on-an-old-british-phone-2358",
+   "title": "Number dialed on an old British phone",
+   "page": "https://coverr.co/videos/number-dialed-on-an-old-british-phone-eupbpxskyn",
+   "author": "",
+   "year": 2022,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Number dialed on an old British phone · Coverr · Coverr License",
+   "shot": "s44"
+  }
+ },
+ "shots": {
+  "s01": {
+   "t0": 0.091,
+   "t1": 4.792,
+   "text": "ساعت ۷:۱۶ دقیقه صبح، 27 نوامبر 1989."
+  },
+  "s02": {
+   "t0": 5.246,
+   "t1": 10.999,
+   "text": "یه هواپیمای مسافربری چند دقیقه بعد از بلند شدن از فرودگاه بوگوتا در آسمون منفجر شد."
+  },
+  "s03": {
+   "t0": 11.453,
+   "t1": 13.323,
+   "text": "107 نفر جونشون رو از دست دادن."
+  },
+  "s04": {
+   "t0": 13.722,
+   "t1": 20.02,
+   "text": "این حادثه بعدها در پرونده‌های قضایی به شبکه جنایی یکی از معروف‌ترین قاچاقچی‌های تاریخ نسبت داده شد."
+  },
+  "s05": {
+   "t0": 20.474,
+   "t1": 21.418,
+   "text": "پابلو اسکوبار."
+  },
+  "s06": {
+   "t0": 21.872,
+   "t1": 28.514,
+   "text": "اما این مرد چطور از یه خانواده معمولی به کسی تبدیل شد که دولت کلمبیا سال‌ها برای متوقف کردنش جنگید؟"
+  },
+  "s07": {
+   "t0": 28.968,
+   "t1": 35.702,
+   "text": "یکم دسامبر 1949، شهر ریونیگرو، کلمبیا، پابلو امیلیو اسکوبار گاویریا به دنیا اومد."
+  },
+  "s08": {
+   "t0": 36.065,
+   "t1": 38.134,
+   "text": "مادرش معلم بود و پدرش کشاورز."
+  },
+  "s09": {
+   "t0": 38.515,
+   "t1": 42.055,
+   "text": "خانواده‌ش بعدها به انویگادو نزدیک مدلین نقل مکان کردن."
+  },
+  "s10": {
+   "t0": 42.381,
+   "t1": 48.28,
+   "text": "هیچکس اون موقع نمی‌دونست این پسربچه قراره به یکی از بدنام‌ترین چهره‌های قرن بیستم تبدیل بشه."
+  },
+  "s11": {
+   "t0": 48.734,
+   "t1": 51.112,
+   "text": "پابلو از جوونی وارد کارهای غیرقانونی شد."
+  },
+  "s12": {
+   "t0": 51.42,
+   "t1": 54.488,
+   "text": "سرقت خودرو، قاچاق کالا و معامله‌های خلاف."
+  },
+  "s13": {
+   "t0": 54.833,
+   "t1": 58.173,
+   "text": "اما نقطه عطف زندگیش دهه 1970 بود."
+  },
+  "s14": {
+   "t0": 58.481,
+   "t1": 61.966,
+   "text": "زمانی که بازار کوکائین در آمریکا به شدت گسترش پیدا کرد."
+  },
+  "s15": {
+   "t0": 62.42,
+   "t1": 66.613,
+   "text": "سال 1976، پابلو به اتهام حمل کوکائین بازداشت شد."
+  },
+  "s16": {
+   "t0": 66.958,
+   "t1": 69.789,
+   "text": "اما این اتفاق جلوی گسترش فعالیتش رو نگرفت."
+  },
+  "s17": {
+   "t0": 70.098,
+   "t1": 74.998,
+   "text": "اون همراه چند قاچاقچی دیگه شبکه‌ای ساخت که بعدها به اسم کارتل مدلین شناخته شد."
+  },
+  "s18": {
+   "t0": 75.325,
+   "t1": 82.132,
+   "text": "شبکه‌ای که درآمدش به رقم‌های نجومی رسید و اسم پابلو وارد فهرست ثروتمندترین آدم‌های جهان شد."
+  },
+  "s19": {
+   "t0": 82.585,
+   "t1": 86.179,
+   "text": "اما پابلو فقط پول نمی‌خواست، قدرت سیاسی هم می‌خواست."
+  },
+  "s20": {
+   "t0": 86.56,
+   "t1": 91.752,
+   "text": "سال 1982، اون حتی به عنوان نماینده علی‌البدل وارد کنگره کلمبیا شد."
+  },
+  "s21": {
+   "t0": 92.024,
+   "t1": 97.796,
+   "text": "در محله‌های فقیرنشین برای بعضی خانواده‌ها خونه می‌ساخت و تلاش می‌کرد خودش رو حامی مردم نشون بده."
+  },
+  "s22": {
+   "t0": 98.104,
+   "t1": 101.843,
+   "text": "ولی پشت این تصویر یه شبکه قاچاق و خشونت وجود داشت."
+  },
+  "s23": {
+   "t0": 102.297,
+   "t1": 108.196,
+   "text": "30 آوریل 1984، رودریگو لارا بونیا، وزیر دادگستری کلمبیا ترور شد."
+  },
+  "s24": {
+   "t0": 108.523,
+   "t1": 110.937,
+   "text": "وزیری که علیه نفوذ قاچاقچی‌ها ایستاده بود."
+  },
+  "s25": {
+   "t0": 111.282,
+   "t1": 116.69,
+   "text": "این قتل که به شبکه اسکوبار نسبت داده شد، جنگ اون با حکومت رو وارد مرحله تازه‌ای کرد."
+  },
+  "s26": {
+   "t0": 117.144,
+   "t1": 123.134,
+   "text": "و بعد رسیدیم به سال 1989، یکی از خونین‌ترین سال‌های تاریخ معاصر کلمبیا."
+  },
+  "s27": {
+   "t0": 123.515,
+   "t1": 127.689,
+   "text": "18 اکتبر، لوئیس کارلوس گالان نامزد ریاست جمهوری ترور شد."
+  },
+  "s28": {
+   "t0": 127.98,
+   "t1": 131.646,
+   "text": "27 نوامبر، پرواز 203 آویانکا سقوط کرد."
+  },
+  "s29": {
+   "t0": 131.973,
+   "t1": 139.379,
+   "text": "107 نفر کشته شدن و ششم دسامبر یک انفجار بزرگ ساختمان سازمان امنیتی کلمبیا رو هدف قرار داد."
+  },
+  "s30": {
+   "t0": 139.796,
+   "t1": 145.132,
+   "text": "کشوری که پابلو توش بزرگ شده بود، حالا با بمب‌گذاری، ترور و ترس دست و پنجه نرم می‌کرد."
+  },
+  "s31": {
+   "t0": 145.459,
+   "t1": 148.291,
+   "text": "اما پایان قدرت اسکوبار شکل عجیبی داشت."
+  },
+  "s32": {
+   "t0": 148.708,
+   "t1": 155.133,
+   "text": "19 ژوئن 1991، پابلو خودش رو تسلیم حکومت کرد، ولی نه برای رفتن به یه زندان معمولی."
+  },
+  "s33": {
+   "t0": 155.551,
+   "t1": 158.618,
+   "text": "اون به زندانی رفت که طبق خواسته‌های خودش ساخته شده بود."
+  },
+  "s34": {
+   "t0": 159.072,
+   "t1": 162.666,
+   "text": "اسمش لا کاتدرال، زندان اختصاصی پابلو اسکوبار."
+  },
+  "s35": {
+   "t0": 163.12,
+   "t1": 166.478,
+   "text": "حتی از داخل همون زندان هم فعالیت‌های جنایی‌ش ادامه داشت."
+  },
+  "s36": {
+   "t0": 166.932,
+   "t1": 169.019,
+   "text": "تا اینکه دولت تصمیم گرفت منتقلش کنه."
+  },
+  "s37": {
+   "t0": 169.473,
+   "t1": 175.735,
+   "text": "22 ژوئیه 1992، پابلو فرار کرد و بزرگ‌ترین تعقیب زندگیش شروع شد."
+  },
+  "s38": {
+   "t0": 176.188,
+   "t1": 177.132,
+   "text": "ماه‌ها گذشت."
+  },
+  "s39": {
+   "t0": 177.532,
+   "t1": 180.309,
+   "text": "آدم‌های نزدیکش یکی یکی کشته یا دستگیر شدن."
+  },
+  "s40": {
+   "t0": 180.744,
+   "t1": 182.015,
+   "text": "رقیب‌هاش به دنبالش بودن."
+  },
+  "s41": {
+   "t0": 182.414,
+   "t1": 185.028,
+   "text": "پلیس هم شهر رو برای پیدا کردنش زیر نظر داشت."
+  },
+  "s42": {
+   "t0": 185.427,
+   "t1": 189.493,
+   "text": "خانواده‌ش هم برای پیدا کردن جایی امن تلاش می‌کردن از کلمبیا خارج بشن."
+  },
+  "s43": {
+   "t0": 189.947,
+   "t1": 197.734,
+   "text": "تا اینکه رسیدیم به پنجشنبه، دوم دسامبر 1993، فقط یک روز بعد از تولد 44 سالگی پابلو."
+  },
+  "s44": {
+   "t0": 198.151,
+   "t1": 201.473,
+   "text": "اون در مخفیگاهش در شهر مدلین با پسرش تماس گرفت."
+  },
+  "s45": {
+   "t0": 201.926,
+   "t1": 204.504,
+   "text": "اما این بار تماس بیش از اندازه طول کشید."
+  },
+  "s46": {
+   "t0": 204.958,
+   "t1": 208.588,
+   "text": "پلیس با ردیابی ارتباط تلفنی محل مخفیگاه رو پیدا کرد."
+  },
+  "s47": {
+   "t0": 208.933,
+   "t1": 210.73,
+   "text": "نیروهای ویژه وارد عملیات شدن."
+  },
+  "s48": {
+   "t0": 211.129,
+   "t1": 212.962,
+   "text": "پابلو سعی کرد از پشت بام فرار کنه."
+  },
+  "s49": {
+   "t0": 213.416,
+   "t1": 219.714,
+   "text": "صدای تیراندازی بلند شد و چند لحظه بعد پابلو اسکوبار روی پشت‌بام یکی از خونه‌ها کشته شد."
+  },
+  "s50": {
+   "t0": 220.168,
+   "t1": 224.597,
+   "text": "درباره اینکه گلوله نهایی رو چه کسی شلیک کرد، روایت‌های متفاوتی وجود داره."
+  },
+  "s51": {
+   "t0": 225.014,
+   "t1": 226.285,
+   "text": "اما یه حقیقت روشنه."
+  },
+  "s52": {
+   "t0": 226.739,
+   "t1": 238.301,
+   "text": "مردی که با قاچاق مواد مخدر به ثروت و قدرت رسید، با خشونت شبکه‌ش زندگی هزاران نفر رو تحت تأثیر قرار داد و در 44 سالگی در جریان تعقیب پلیس کشته شد."
+  },
+  "s53": {
+   "t0": 238.754,
+   "t1": 246.741,
+   "text": "پابلو اسکوبار مرد، اما زخم‌هایی که دوران کارتل‌های مواد مخدر روی کلمبیا گذاشت، با مرگ اون یک شبه از بین نرفت"
+  }
+ }
+}
