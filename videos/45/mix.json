@@ -9,7 +9,7 @@
    "to": 54.260999999999996,
    "fadeIn": 0.3,
    "fadeOut": 0.7,
-   "gain": 0.1
+   "gain": 0.05
   },
   {
    "file": "public/audio/music/ambient/cave-1.mp3",
@@ -18,7 +18,7 @@
    "to": 67.513,
    "fadeIn": 0.5,
    "fadeOut": 1.6,
-   "gain": 0.11
+   "gain": 0.055
   }
  ],
  "sfx": [

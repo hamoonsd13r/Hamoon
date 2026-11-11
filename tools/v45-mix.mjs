@@ -31,8 +31,8 @@ const tTruth = wd(11, "حقیقت"), t2 = cut(S(12)) + 0.1;
 const mix = {
   length: +TOTAL.toFixed(2), voice: "public/v45/vo.wav",
   music: process.env.NO_MUSIC ? [] : [
-    { file: "public/audio/music/dark/game-over-4.mp3", at: 0, from: 0.01, to: 0.01 + tTruth + 0.3, fadeIn: 0.3, fadeOut: 0.7, gain: 0.1 },
-    { file: "public/audio/music/ambient/cave-1.mp3", at: t2, from: 42.593 - (wd(12, "سزیوم") - t2), to: 42.593 - (wd(12, "سزیوم") - t2) + (TOTAL - t2), fadeIn: 0.5, fadeOut: 1.6, gain: 0.11 },
+    { file: "public/audio/music/dark/game-over-4.mp3", at: 0, from: 0.01, to: 0.01 + tTruth + 0.3, fadeIn: 0.3, fadeOut: 0.7, gain: 0.05 },
+    { file: "public/audio/music/ambient/cave-1.mp3", at: t2, from: 42.593 - (wd(12, "سزیوم") - t2), to: 42.593 - (wd(12, "سزیوم") - t2) + (TOTAL - t2), fadeIn: 0.5, fadeOut: 1.6, gain: 0.055 },
   ],
   sfx,
 };
