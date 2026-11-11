@@ -167,10 +167,13 @@ const Stamp: React.FC<{ t: number; t0: number; text: string; top: number; rot?: 
     </div>
   );
 };
-const Grain: React.FC<{ o?: number }> = ({ o = 0.5 }) => {
-  const f = useCurrentFrame();
-  return <Img src={staticFile(`v42/grain${Math.floor(f / 2) % 4}.png`)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", opacity: o, mixBlendMode: "overlay" }} />;
-};
+
+/* a blurred, darkened copy of a picture filling the frame (blurred small, then scaled up: much cheaper to render) */
+const Soft: React.FC<{ src: string; k: number; gray?: boolean }> = ({ src, k, gray }) => (
+  <div style={{ position: "absolute", left: -40, top: -40, width: (W + 80) / 8, height: (H + 80) / 8, transform: "scale(8)", transformOrigin: "0 0", overflow: "hidden" }}>
+    <Img src={staticFile(src)} style={{ width: "100%", height: "100%", objectFit: "cover", filter: `blur(4px) brightness(${k}) saturate(${gray ? 0 : 0.6})` }} />
+  </div>
+);
 
 /* a photo printed on paper, lying on a dark desk, drifting (portraits, small or old pictures) */
 const Print: React.FC<{ n: string; t: number; t0: number; t1: number; label?: string }> = ({ n, t, t0, t1, label }) => {
@@ -183,7 +186,7 @@ const Print: React.FC<{ n: string; t: number; t0: number; t1: number; label?: st
   const rot = (hash(t0) - 0.5) * 5 + u * 1.2;
   return (
     <AbsoluteFill>
-      <Img src={staticFile(cl.file)} style={{ position: "absolute", inset: -80, width: W + 160, height: H + 160, objectFit: "cover", filter: "blur(38px) brightness(0.32) saturate(0.6)" }} />
+      <Soft src={cl.file} k={0.32} />
       <div style={{ position: "absolute", left: (W - pw) / 2 - 22, top: 120 + (maxH - ph) / 2 - 22, width: pw + 44, height: ph + 44 + (label ? 0 : 0), background: "#EDE6D8", boxShadow: "0 40px 90px rgba(0,0,0,0.75)", transform: `translateY(${(1 - k) * 80}px) rotate(${rot}deg) scale(${1.02 + 0.05 * u})`, opacity: k }}>
         <Img src={staticFile(cl.file)} style={{ position: "absolute", left: 22, top: 22, width: pw, height: ph, objectFit: "cover", filter: "contrast(1.05) sepia(0.12)" }} />
         <div style={{ position: "absolute", inset: 22, boxShadow: "inset 0 0 60px rgba(60,40,10,0.35)" }} />
@@ -327,7 +330,7 @@ const Months: React.FC<{ t: number; t0: number; t1: number }> = ({ t, t0, t1 }) 
   const y = i < 6 ? 1992 : 1993;
   return (
     <AbsoluteFill>
-      <Media clip={CLIPS.s37a} t0={t0} len={t1 - t0} w={W} h={H} focus={[0.5, 0.5]} from={4} grade="mono" />
+      <Media clip={CLIPS.s37a} t0={t0} len={t1 - t0} w={W} h={H} focus={[0.5, 0.5]} from={4} grade="cool" />
       <AbsoluteFill style={{ background: "rgba(7,8,10,0.6)" }} />
       <div style={{ position: "absolute", left: 710, top: 150, width: 500, height: 560, background: BONE, borderRadius: 16, boxShadow: "0 40px 90px rgba(0,0,0,0.7)", overflow: "hidden", direction: "rtl" }}>
         <div style={{ height: 130, background: RED, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "E46Oswald", fontSize: 90, color: BONE }}>{y}</div>
@@ -359,7 +362,7 @@ const Cal93: React.FC<{ t: number; t0: number }> = ({ t, t0 }) => {
   const day = flip < 0.5 ? 1 : 2;
   return (
     <AbsoluteFill>
-      {CLIPS.casa && <Img src={staticFile(CLIPS.casa.file)} style={{ position: "absolute", inset: -60, width: W + 120, height: H + 120, objectFit: "cover", filter: "blur(24px) brightness(0.3)" }} />}
+      {CLIPS.casa && <Soft src={CLIPS.casa.file} k={0.3} />}
       <div style={{ position: "absolute", left: 640, top: 80, width: 640, height: 690, background: BONE, borderRadius: 18, overflow: "hidden", boxShadow: "0 40px 90px rgba(0,0,0,0.75)", direction: "rtl" }}>
         <div style={{ height: 130, background: INK, color: BONE, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "E46Black", fontSize: 70 }}>دسامبر {fa(1993)}</div>
         <div style={{ textAlign: "center", fontFamily: "E46Num", fontSize: 330, lineHeight: 1.2, color: day === 2 ? RED : INK, transform: `scaleY(${Math.abs(Math.cos(flip * Math.PI))})` }}>{fa(day)}</div>
@@ -374,7 +377,7 @@ const Trace: React.FC<{ t: number; t0: number }> = ({ t, t0 }) => {
   const warn = el > 120;
   return (
     <AbsoluteFill style={{ background: "#050607" }}>
-      <Media clip={CLIPS.s44b} t0={t0 - 2} len={6} w={W} h={H} focus={[0.5, 0.45]} from={4} grade="mono" />
+      <Media clip={CLIPS.s44b} t0={t0 - 2} len={6} w={W} h={H} focus={[0.5, 0.45]} from={4} grade="cool" />
       <AbsoluteFill style={{ background: "rgba(5,6,7,0.72)" }} />
       <div style={{ position: "absolute", left: 510, top: 110, width: 900, padding: "30px 46px", border: `3px solid ${warn ? RED : "rgba(241,236,226,0.4)"}`, borderRadius: 22, background: "rgba(10,11,13,0.85)", direction: "rtl" }}>
         <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "E46Bold", fontSize: 34, color: MUTED }}><span>تماس در جریان</span><span style={{ color: RED, opacity: 0.5 + 0.5 * Math.sin(t * 10) }}>● ضبط</span></div>
@@ -393,7 +396,7 @@ const Radar: React.FC<{ t: number; t0: number }> = ({ t, t0 }) => {
   const ants = [[330, 230], [1640, 300], [1260, 900]];
   return (
     <AbsoluteFill>
-      <Media clip={CLIPS.helipad} t0={t0} len={3} w={W} h={H} focus={[0.62, 0.5]} zoom={1.05} grade="mono" />
+      <Media clip={CLIPS.helipad} t0={t0} len={3} w={W} h={H} focus={[0.62, 0.5]} zoom={1.05} grade="cool" />
       <AbsoluteFill style={{ background: "rgba(4,10,8,0.62)" }} />
       <svg width={W} height={H} style={{ position: "absolute", inset: 0 }}>
         {[120, 240, 360, 480].map((r) => <circle key={r} cx={tgt[0]} cy={tgt[1]} r={r} fill="none" stroke="rgba(120,255,170,0.25)" strokeWidth={2} />)}
@@ -415,7 +418,7 @@ const Accounts: React.FC<{ t: number; t0: number }> = ({ t, t0 }) => {
   const A = [{ h: "روایت پلیس", b: "گلوله‌ی نیروهای ویژه" }, { h: "روایت خانواده", b: "خودش شلیک کرد" }, { h: "و روایت‌های دیگر", b: "؟" }];
   return (
     <AbsoluteFill>
-      {CLIPS.tejado && <Img src={staticFile(CLIPS.tejado.file)} style={{ position: "absolute", inset: -60, width: W + 120, height: H + 120, objectFit: "cover", filter: "blur(30px) brightness(0.28) grayscale(1)" }} />}
+      {CLIPS.tejado && <Soft src={CLIPS.tejado.file} k={0.28} gray />}
       {A.map((a, i) => {
         const k = backOut(prog(t, t0 + 0.2 + i * 0.5, t0 + 0.55 + i * 0.5));
         return (
@@ -573,7 +576,6 @@ const ChapterCard: React.FC<{ t: number }> = ({ t }) => {
       <div style={{ position: "absolute", top: 230, width: W, textAlign: "center", fontFamily: label ? "E46Black" : "E46Oswald", fontSize: label ? 200 : 330, lineHeight: 1.2, color: BONE, opacity: inn, transform: `translateY(${(1 - inn) * 60}px) scale(${1 + 0.04 * u})`, letterSpacing: 6 }}>{label ? fa(label) : ch.y}</div>
       <div style={{ position: "absolute", top: 640, left: (W - 520) / 2, width: 520 * inn, height: 12, background: RED }} />
       <div style={{ position: "absolute", top: 680, width: W, textAlign: "center", fontFamily: "E46Black", fontSize: 76, color: RED, direction: "rtl", opacity: prog(u, 0.15, 0.4) }}>{ch.title}</div>
-      <Grain o={0.6} />
     </AbsoluteFill>
   );
 };
@@ -631,7 +633,7 @@ const ShotView: React.FC<{ s: Sh; t: number; until: number }> = ({ s, t, until }
   if (s.fit === "print") return <Print n={s.n} t={t} t0={s.at} t1={until} />;
   const cl = CLIPS[s.n];
   const old = cl && cl.source === "archive";
-  return <Media clip={cl} name={s.n} t0={s.at} len={len + 0.1} w={W} h={H} from={s.from ?? 0} rate={s.rate} fit={s.fit ?? "cover"} focus={s.focus ?? cl?.focus} pan={s.pan} zoom={s.zoom} push={s.push} grade={s.grade ?? (old ? "film" : "clean")} />;
+  return <Media clip={cl} name={s.n} t0={s.at} len={len + 0.1} w={W} h={H} from={s.from ?? 0} rate={s.rate} fit={s.fit ?? "cover"} focus={s.focus ?? cl?.focus} pan={s.pan} zoom={s.zoom} push={s.push} grade={s.grade === "film" || s.grade === "mono" || (!s.grade && old) ? "warm" : s.grade ?? "clean"} />;
 };
 
 /* ───────── main */
@@ -647,12 +649,11 @@ const Video: React.FC<{ audio?: string; at?: number }> = ({ audio, at: tAt }) =>
   return (
     <FootageTime.Provider value={t}>
       <AbsoluteFill style={{ background: INK }}>
-        <AbsoluteFill style={{ transform: `scale(${punch}) translate(${Math.sin(t * 83) * shake}px, ${Math.cos(t * 71) * shake}px)`, filter: kindOf(s) === "stock" ? "saturate(0.72) contrast(1.08) brightness(0.95)" : "saturate(0.85) contrast(1.05)" }}>
+        <AbsoluteFill style={{ transform: `scale(${punch}) translate(${Math.sin(t * 83) * shake}px, ${Math.cos(t * 71) * shake}px)` }}>
           <ShotView s={s} t={t} until={until} />
         </AbsoluteFill>
         <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 62%, rgba(0,0,0,0.6) 100%)" }} />
         <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 46%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.5) 100%)" }} />
-        <Grain o={0.35} />
         {OVERS.filter((o) => t >= o.from - 0.1 && t <= o.to + 0.3).map((o, k) => <React.Fragment key={k}>{o.r(t)}</React.Fragment>)}
         <PhotoLabel t={t} s={s} until={until} />
         <SourceLine t={t} s={s} />
