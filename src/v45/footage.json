@@ -1,0 +1,159 @@
+{
+ "clips": {
+  "abandoned": {
+   "file": "v45/footage/abandoned.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6,
+   "fps": 25,
+   "in": 0,
+   "out": 6,
+   "audio": false,
+   "focus": [
+    0.208,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "17407",
+   "title": "Abandoned building interior",
+   "page": "https://mixkit.co/free-stock-video/abandoned-building-interior-17407/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Abandoned building interior · Mixkit · Mixkit Free License",
+   "shot": "s04"
+  },
+  "ruin": {
+   "file": "v45/footage/ruin.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6,
+   "fps": 30,
+   "in": 0,
+   "out": 6,
+   "audio": false,
+   "focus": [
+    0.844,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "5301",
+   "title": "Interior of a destroyed and deteriorated abandoned place",
+   "page": "https://mixkit.co/free-stock-video/interior-of-a-destroyed-and-deteriorated-abandoned-place-5301/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Interior of a destroyed and deteriorated abandoned place · Mixkit · Mixkit Free License",
+   "shot": "s04"
+  },
+  "hazmat": {
+   "file": "v45/footage/hazmat.mp4",
+   "kind": "video",
+   "w": 1080,
+   "h": 1920,
+   "dur": 6,
+   "fps": 24,
+   "in": 0,
+   "out": 6,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.158
+   ],
+   "source": "mixkit",
+   "id": "5156",
+   "title": "Man in hazmat suit",
+   "page": "https://mixkit.co/free-stock-video/man-in-hazmat-suit-5156/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Man in hazmat suit · Mixkit · Mixkit Free License",
+   "shot": "s12"
+  },
+  "hazmat2": {
+   "file": "v45/footage/hazmat2.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6,
+   "fps": 24,
+   "in": 0,
+   "out": 6,
+   "audio": false,
+   "focus": [
+    0.594,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "5165",
+   "title": "Workers in hazmat suits on a pedestrian bridge",
+   "page": "https://mixkit.co/free-stock-video/workers-in-hazmat-suits-on-a-pedestrian-bridge-5165/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Workers in hazmat suits on a pedestrian bridge · Mixkit · Mixkit Free License",
+   "shot": "s13"
+  },
+  "hospital": {
+   "file": "v45/footage/hospital.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 5.005,
+   "fps": 23.976,
+   "in": 0,
+   "out": 5,
+   "audio": false,
+   "focus": [
+    0.375,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "5554",
+   "title": "Man lying in hospital bed receiving treatment",
+   "page": "https://mixkit.co/free-stock-video/man-lying-in-hospital-bed-receiving-treatment-5554/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Man lying in hospital bed receiving treatment · Mixkit · Mixkit Free License",
+   "shot": "s09"
+  }
+ }
+}

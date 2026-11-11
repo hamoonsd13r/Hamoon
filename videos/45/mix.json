@@ -1,0 +1,328 @@
+{
+ "length": 82.47,
+ "voice": "public/v45/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/dark/game-over-4.mp3",
+   "at": 0,
+   "from": 0.01,
+   "to": 54.260999999999996,
+   "fadeIn": 0.3,
+   "fadeOut": 0.7,
+   "gain": 0.1
+  },
+  {
+   "file": "public/audio/music/ambient/cave-1.mp3",
+   "at": 56.282000000000004,
+   "from": 41.32200000000001,
+   "to": 67.513,
+   "fadeIn": 0.5,
+   "fadeOut": 1.6,
+   "gain": 0.11
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/subdrop-short",
+   "at": 0.05,
+   "vol": 0.171
+  },
+  {
+   "file": "public/v45/sfx/shimmer-1.mp3",
+   "peak": 0.25,
+   "at": 0.7,
+   "vol": 0.152
+  },
+  {
+   "file": "public/v45/sfx/shimmer-1.mp3",
+   "peak": 0.25,
+   "at": 4.316,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 5.744,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 7.956,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/explosion/low-frequency-explosion-001",
+   "at": 8.917,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/double",
+   "at": 9.846,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/ui/beep-15",
+   "at": 12.72,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/data/hud-ping",
+   "at": 13.929,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/camera/shutter-dslr",
+   "at": 15.643,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 17.515,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 18.942,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 20.159,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 20.559,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 20.959,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 21.368,
+   "vol": 0.133
+  },
+  {
+   "file": "public/v45/sfx/crowbar-1.mp3",
+   "peak": 0.35,
+   "at": 23.642,
+   "vol": 0.171
+  },
+  {
+   "file": "public/v45/sfx/scrap-1.mp3",
+   "peak": 0.35,
+   "at": 24.521,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 25.826,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 26.076,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 26.276,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 26.476,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 26.676,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/ui/tick-001",
+   "at": 26.876,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 28.145,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v45/sfx/scrap-1.mp3",
+   "peak": 0.35,
+   "at": 30.257,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/transition/power-down",
+   "at": 32.11,
+   "vol": 0.133
+  },
+  {
+   "file": "public/v45/sfx/shimmer-1.mp3",
+   "peak": 0.25,
+   "at": 32.745,
+   "vol": 0.171
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 34.013,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v45/sfx/shimmer-1.mp3",
+   "peak": 0.25,
+   "at": 36.544,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/double",
+   "at": 37.419,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/data/hud-ping",
+   "at": 37.989,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/data/hud-ping",
+   "at": 38.589,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/camera/shutter-dslr",
+   "at": 39.078,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 40.754,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/notification/error-buzz",
+   "at": 43.191,
+   "vol": 0.076
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 45.284,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 47.014,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v45/sfx/bus-1.mp3",
+   "peak": 0.95,
+   "at": 48.384,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 51.384,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 52.846,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v45/sfx/geiger-1.mp3",
+   "peak": 3.6,
+   "at": 55.521,
+   "vol": 0.19
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 55.221,
+   "vol": 0.19
+  },
+  {
+   "file": "public/v45/sfx/shimmer-1.mp3",
+   "peak": 0.25,
+   "at": 56.482,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 57.483,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/data/transfer",
+   "at": 58.053,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/impact/classic-stamp",
+   "at": 59.986,
+   "vol": 0.19
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 61.532,
+   "vol": 0.114
+  },
+  {
+   "file": "public/v45/sfx/crowdmurmur-1.mp3",
+   "peak": 0.25,
+   "at": 63.098,
+   "vol": 0.152
+  },
+  {
+   "id": "sfx/whoosh/double",
+   "at": 64.546,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/data/beeps-fast",
+   "at": 65.116,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/impact/subdrop-short",
+   "at": 68.008,
+   "vol": 0.209
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 68.666,
+   "vol": 0.133
+  },
+  {
+   "file": "public/v45/sfx/shimmer-1.mp3",
+   "peak": 0.25,
+   "at": 73.71,
+   "vol": 0.133
+  },
+  {
+   "id": "sfx/camera/shutter-dslr",
+   "at": 74.445,
+   "vol": 0.095
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 76.264,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/camera/shutter-dslr",
+   "at": 78.493,
+   "vol": 0.114
+  },
+  {
+   "id": "sfx/explosion/low-frequency-explosion-000",
+   "at": 80.821,
+   "vol": 0.152
+  }
+ ]
+}

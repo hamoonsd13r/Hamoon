@@ -1,0 +1,8 @@
+[
+ {"id":"geiger","text":"geiger counter clicking, slow sparse clicks that speed up into a frantic crackle","dur":4.0,"infl":0.6},
+ {"id":"shimmer","text":"soft eerie magical shimmer, glowing dust, high crystalline tones, mysterious","dur":3.5,"infl":0.5},
+ {"id":"crowbar","text":"metal being pried open with a crowbar, heavy steel plate cracking loose, bolts falling","dur":2.0,"infl":0.5},
+ {"id":"scrap","text":"scrap metal pieces clanking and dropping on a pile in a junkyard","dur":2.0,"infl":0.5},
+ {"id":"bus","text":"old city bus diesel engine passing by on a street","dur":3.0,"infl":0.5},
+ {"id":"crowdmurmur","text":"large crowd of people murmuring in a stadium, anxious","dur":3.0,"infl":0.5}
+]
