@@ -1,0 +1,1092 @@
+{
+ "clips": {
+  "birth_old": {
+   "file": "v47/footage/birth_old.jpg",
+   "kind": "image",
+   "w": 330,
+   "h": 342,
+   "source": "commons",
+   "title": "Hitlers Geburtshaus Braunau am Inn.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hitlers_Geburtshaus_Braunau_am_Inn.jpg",
+   "author": "Friedrich Weiler, Picture Library of the Prussian Cultural Heritage Foundation / Фридрих Вайлер, фотоархив Фонда прусско",
+   "year": 1934,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Hitlers Geburtshaus Braunau am Inn.jpg · Friedrich Weiler, Picture Library of the Prussian Cultural Heritage Foundation / Фридрих Вайлер, фотоархив Фонда прусско · Public domain · Wikimedia Commons"
+  },
+  "birth_now": {
+   "file": "v47/footage/birth_now.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1304,
+   "source": "commons",
+   "title": "Salzburger Vorstadt 15 (Braunau) I.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Salzburger_Vorstadt_15_(Braunau)_I.jpg",
+   "author": "Michael Kranewitter",
+   "year": 2011,
+   "licence": {
+    "name": "CC BY-SA 3.0 at",
+    "verdict": "credit"
+   },
+   "credit": "Salzburger Vorstadt 15 (Braunau) I.jpg · Michael Kranewitter · CC BY-SA 3.0 at · Wikimedia Commons"
+  },
+  "braunau_paint": {
+   "file": "v47/footage/braunau_paint.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1506,
+   "source": "commons",
+   "title": "Rolf von Hoerschelmann Braunau am Inn.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rolf_von_Hoerschelmann_Braunau_am_Inn.jpg",
+   "author": "Rolf von Hörschelmann",
+   "year": 1939,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Rolf von Hoerschelmann Braunau am Inn.jpg · Rolf von Hörschelmann · Public domain · Wikimedia Commons"
+  },
+  "baby": {
+   "file": "v47/footage/baby.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 762,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-1989-0322-506, Adolf Hitler, Kinderbild.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1989-0322-506,_Adolf_Hitler,_Kinderbild.jpg",
+   "author": "UnknownUnknown",
+   "year": null,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Bundesarchiv Bild 183-1989-0322-506, Adolf Hitler, Kinderbild.jpg · UnknownUnknown · Public domain · Wikimedia Commons"
+  },
+  "alois": {
+   "file": "v47/footage/alois.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 2744,
+   "source": "commons",
+   "title": "Alois Hitler in his last years.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alois_Hitler_in_his_last_years.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1900,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Alois Hitler in his last years.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "klara": {
+   "file": "v47/footage/klara.jpg",
+   "kind": "image",
+   "w": 960,
+   "h": 1253,
+   "source": "commons",
+   "title": "Klara Hitler (2).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Klara_Hitler_(2).jpg",
+   "author": "Unknown authorUnknown author",
+   "year": null,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Klara Hitler (2).jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "linz": {
+   "file": "v47/footage/linz.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1418,
+   "source": "commons",
+   "title": "Linz 1900.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Linz_1900.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1905,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Linz 1900.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "maennerheim": {
+   "file": "v47/footage/maennerheim.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1134,
+   "source": "commons",
+   "title": "1906 - 20., Meldemannstraße 27 - Männerheim der Kaiser Franz Josef I.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:1906_-_20.,_Meldemannstra%C3%9Fe_27_-_M%C3%A4nnerheim_der_Kaiser_Franz_Josef_I.jpg",
+   "author": "Erwin Pendl",
+   "year": 1906,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "1906 - 20., Meldemannstraße 27 - Männerheim der Kaiser Franz Josef I.jpg · Erwin Pendl · Public domain · Wikimedia Commons"
+  },
+  "h1923": {
+   "file": "v47/footage/h1923.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 655,
+   "source": "commons",
+   "title": "Adolf Hitler, 1923 photograph by International Newsreel Photographs.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler,_1923_photograph_by_International_Newsreel_Photographs.jpg",
+   "author": "International Newsreel Photos",
+   "year": 1923,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Adolf Hitler, 1923 photograph by International Newsreel Photographs.jpg · International Newsreel Photos · Public domain · Wikimedia Commons"
+  },
+  "w_1908": {
+   "file": "v47/footage/w_1908.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1332,
+   "source": "commons",
+   "title": "Adolf Hitler - 04.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_-_04.jpg",
+   "author": "Adolf Hitler",
+   "year": 1908,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Adolf Hitler - 04.jpg · Adolf Hitler · Public domain · Wikimedia Commons"
+  },
+  "w_michaeler": {
+   "file": "v47/footage/w_michaeler.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1318,
+   "source": "commons",
+   "title": "Adolf Hitler - Michaelerplatz, Vienna, Austria.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_-_Michaelerplatz,_Vienna,_Austria.jpg",
+   "author": "Adolf Hitler",
+   "year": 1900,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Adolf Hitler - Michaelerplatz, Vienna, Austria.jpg · Adolf Hitler · Public domain · Wikimedia Commons"
+  },
+  "w_oper": {
+   "file": "v47/footage/w_oper.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 951,
+   "source": "commons",
+   "title": "Adolf Hitler - Wien Oper.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_-_Wien_Oper.jpg",
+   "author": "Adolf Hitler",
+   "year": 1912,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Adolf Hitler - Wien Oper.jpg · Adolf Hitler · Public domain · Wikimedia Commons"
+  },
+  "academy": {
+   "file": "v47/footage/academy.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 933,
+   "source": "commons",
+   "title": "Akademie der bildenden Künste Wien.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Akademie_der_bildenden_K%C3%BCnste_Wien.jpg",
+   "author": "Armineaghayan",
+   "year": 2022,
+   "licence": {
+    "name": "CC BY-SA 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Akademie der bildenden Künste Wien.jpg · Armineaghayan · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  "ausch_three": {
+   "file": "v47/footage/ausch_three.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 348,
+   "source": "commons",
+   "title": "Birkenau Three Jewish men holding an elderly woman looking behind her.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Birkenau_Three_Jewish_men_holding_an_elderly_woman_looking_behind_her.jpg",
+   "author": "anonymous, possibly SS photographers E. Hoffmann &amp; B. Walter",
+   "year": 1944,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Birkenau Three Jewish men holding an elderly woman looking behind her.jpg · anonymous, possibly SS photographers E. Hoffmann &amp; B. Walter · Public domain · Wikimedia Commons"
+  },
+  "barbarossa": {
+   "file": "v47/footage/barbarossa.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 335,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 101I-265-0006-29, Russland, \"Unternehmen Barbarossa\".jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-265-0006-29,_Russland,_%22Unternehmen_Barbarossa%22.jpg",
+   "author": "Moosdorf [Mossdorf]",
+   "year": 1941,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 101I-265-0006-29, Russland, \"Unternehmen Barbarossa\".jpg · Moosdorf [Mossdorf] · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "fire_inside": {
+   "file": "v47/footage/fire_inside.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 352,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 102-14367, Berlin, Reichstag, ausgebrannte Loge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-14367,_Berlin,_Reichstag,_ausgebrannte_Loge.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1933,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 102-14367, Berlin, Reichstag, ausgebrannte Loge.jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "enabling_speech": {
+   "file": "v47/footage/enabling_speech.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 344,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 102-14439, Rede Adolf Hitlers zum Ermächtigungsgesetz.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-14439,_Rede_Adolf_Hitlers_zum_Erm%C3%A4chtigungsgesetz.jpg",
+   "author": "Georg Pahl",
+   "year": 1933,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 102-14439, Rede Adolf Hitlers zum Ermächtigungsgesetz.jpg · Georg Pahl · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "putsch": {
+   "file": "v47/footage/putsch.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 296,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 119-1486, Hitler-Putsch, München, Marienplatz.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_119-1486,_Hitler-Putsch,_M%C3%BCnchen,_Marienplatz.jpg",
+   "author": "UnknownUnknown",
+   "year": 1923,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 119-1486, Hitler-Putsch, München, Marienplatz.jpg · UnknownUnknown · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "july20": {
+   "file": "v47/footage/july20.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 339,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 146-1972-025-10, Hitler-Attentat, 20. Juli 1944.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1972-025-10,_Hitler-Attentat,_20._Juli_1944.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1944,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 146-1972-025-10, Hitler-Attentat, 20. Juli 1944.jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "ww1": {
+   "file": "v47/footage/ww1.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 385,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 146-1974-082-44, Adolf Hitler im Ersten Weltkrieg.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1974-082-44,_Adolf_Hitler_im_Ersten_Weltkrieg.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1914,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 146-1974-082-44, Adolf Hitler im Ersten Weltkrieg.jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "unemployed": {
+   "file": "v47/footage/unemployed.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 351,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 146-1985-054-02, Berlin, arbeitslose SA-Männer.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1985-054-02,_Berlin,_arbeitslose_SA-M%C3%A4nner.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1932,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 146-1985-054-02, Berlin, arbeitslose SA-Männer.jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "dachau33": {
+   "file": "v47/footage/dachau33.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 319,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 152-01-26, Dachau, Konzentrationslager.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_152-01-26,_Dachau,_Konzentrationslager.jpg",
+   "author": "Friedrich Franz Bauer",
+   "year": 1933,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 152-01-26, Dachau, Konzentrationslager.jpg · Friedrich Franz Bauer · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "reichstag_speech": {
+   "file": "v47/footage/reichstag_speech.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1393,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-1987-0703-507, Berlin, Reichstagssitzung, Rede Adolf Hitler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1987-0703-507,_Berlin,_Reichstagssitzung,_Rede_Adolf_Hitler.jpg",
+   "author": "UnknownUnknown",
+   "year": 1941,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-1987-0703-507, Berlin, Reichstagssitzung, Rede Adolf Hitler.jpg · UnknownUnknown · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "poland_barrier": {
+   "file": "v47/footage/poland_barrier.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 338,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-51909-0003, Polen, Schlagbaum, deutsche Soldaten.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-51909-0003,_Polen,_Schlagbaum,_deutsche_Soldaten.jpg",
+   "author": "Sönnke, Hans",
+   "year": 1939,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-51909-0003, Polen, Schlagbaum, deutsche Soldaten.jpg · Sönnke, Hans · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "stal_ruin": {
+   "file": "v47/footage/stal_ruin.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 686,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-B22531, Stalingrad, Ruine des Warenhauses.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B22531,_Stalingrad,_Ruine_des_Warenhauses.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1942,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-B22531, Stalingrad, Ruine des Warenhauses.jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "hind_portrait": {
+   "file": "v47/footage/hind_portrait.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 655,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-C06886,_Paul_v._Hindenburg_(cropped).jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1919,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-C06886, Paul v. Hindenburg (cropped).jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "portrait": {
+   "file": "v47/footage/portrait.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 758,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-H1216-0500-002, Adolf Hitler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H1216-0500-002,_Adolf_Hitler.jpg",
+   "author": "Heinrich Hoffmann",
+   "year": 1938,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-H1216-0500-002, Adolf Hitler.jpg · Heinrich Hoffmann · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "potsdam": {
+   "file": "v47/footage/potsdam.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 933,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-S38324, Tag von Potsdam, Adolf Hitler, Paul v. Hindenburg.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S38324,_Tag_von_Potsdam,_Adolf_Hitler,_Paul_v._Hindenburg.jpg",
+   "author": "unknown",
+   "year": 1933,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-S38324, Tag von Potsdam, Adolf Hitler, Paul v. Hindenburg.jpg · unknown · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "synagogue": {
+   "file": "v47/footage/synagogue.jpg",
+   "kind": "image",
+   "w": 330,
+   "h": 220,
+   "source": "commons",
+   "title": "Börnerplatz synagogue burning - Kristallnacht 1938-11-10.png",
+   "page": "https://commons.wikimedia.org/wiki/File:B%C3%B6rnerplatz_synagogue_burning_-_Kristallnacht_1938-11-10.png",
+   "author": "No artist listed on archive website.",
+   "year": 1938,
+   "licence": {
+    "name": "CC BY 4.0",
+    "verdict": "credit"
+   },
+   "credit": "Börnerplatz synagogue burning - Kristallnacht 1938-11-10.png · No artist listed on archive website. · CC BY 4.0 · Wikimedia Commons"
+  },
+  "trial": {
+   "file": "v47/footage/trial.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1433,
+   "source": "commons",
+   "title": "Defendents in Hitler Trail - DPLA - 69c5d0875c39789ae053448bd1568848 (page 1).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Defendents_in_Hitler_Trail_-_DPLA_-_69c5d0875c39789ae053448bd1568848_(page_1).jpg",
+   "author": "General Services Administration. National Archives and Records Service. Office of the National Archives. (9/19/1966 - 4/",
+   "year": 1924,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Defendents in Hitler Trail - DPLA - 69c5d0875c39789ae053448bd1568848 (page 1).jpg · General Services Administration. National Archives and Records Service. Office of the National Archives. (9/19/1966 - 4/ · Public domain · Wikimedia Commons"
+  },
+  "enabling_doc": {
+   "file": "v47/footage/enabling_doc.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 721,
+   "source": "commons",
+   "title": "Enabling act of 1933 printed in the Reich Law Gazette.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Enabling_act_of_1933_printed_in_the_Reich_Law_Gazette.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1933,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Enabling act of 1933 printed in the Reich Law Gazette.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "landsberg": {
+   "file": "v47/footage/landsberg.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 976,
+   "source": "commons",
+   "title": "Hitler, Maurice, Kriebel, Hess, Weber, prison de Landsberg en 1924.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hitler,_Maurice,_Kriebel,_Hess,_Weber,_prison_de_Landsberg_en_1924.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1924,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Hitler, Maurice, Kriebel, Hess, Weber, prison de Landsberg en 1924.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "w_munich": {
+   "file": "v47/footage/w_munich.jpg",
+   "kind": "image",
+   "w": 960,
+   "h": 729,
+   "source": "commons",
+   "title": "Hitler Watercolor - Munich Royal Hofbräuhaus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hitler_Watercolor_-_Munich_Royal_Hofbr%C3%A4uhaus.jpg",
+   "author": "Painting is signed A. Hitler",
+   "year": 1914,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Hitler Watercolor - Munich Royal Hofbräuhaus.jpg · Painting is signed A. Hitler · Public domain · Wikimedia Commons"
+  },
+  "barricade": {
+   "file": "v47/footage/barricade.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 986,
+   "source": "commons",
+   "title": "Hitlerputsch, barricade in Munich (1923).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hitlerputsch,_barricade_in_Munich_(1923).jpg",
+   "author": "unknown",
+   "year": 1923,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Hitlerputsch, barricade in Munich (1923).jpg · unknown · Public domain · Wikimedia Commons"
+  },
+  "dday": {
+   "file": "v47/footage/dday.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1545,
+   "source": "commons",
+   "title": "Into the Jaws of Death 23-0455M edit.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg",
+   "author": "Chief Photographer's Mate (CPHoM) Robert F. Sargent",
+   "year": 1944,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Into the Jaws of Death 23-0455M edit.jpg · Chief Photographer's Mate (CPHoM) Robert F. Sargent · Public domain · Wikimedia Commons"
+  },
+  "ausch_women": {
+   "file": "v47/footage/ausch_women.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 889,
+   "source": "commons",
+   "title": "Jewish women selected for labor at Auschwitz.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Jewish_women_selected_for_labor_at_Auschwitz.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1944,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Jewish women selected for labor at Auschwitz.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "linz2": {
+   "file": "v47/footage/linz2.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1402,
+   "source": "commons",
+   "title": "Linz 2 1900.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Linz_2_1900.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1890,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Linz 2 1900.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "nuremberg_chart": {
+   "file": "v47/footage/nuremberg_chart.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1346,
+   "source": "commons",
+   "title": "Nuremberg laws Racial Chart.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nuremberg_laws_Racial_Chart.jpg",
+   "author": "German Government (\"Entwurf Willi Hackenberger\", \"Copyright by Reichsausschuß für Volksgesundheitsdienst\", government ag",
+   "year": 1935,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Nuremberg laws Racial Chart.jpg · German Government (\"Entwurf Willi Hackenberger\", \"Copyright by Reichsausschuß für Volksgesundheitsdienst\", government ag · Public domain · Wikimedia Commons"
+  },
+  "dachau_lib": {
+   "file": "v47/footage/dachau_lib.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 928,
+   "source": "commons",
+   "title": "Prisoners liberation dachau.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Prisoners_liberation_dachau.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1945,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Prisoners liberation dachau.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "fire": {
+   "file": "v47/footage/fire.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 2365,
+   "source": "commons",
+   "title": "Reichstagsbrand.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Reichstagsbrand.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1933,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Reichstagsbrand.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "ausch_ramp": {
+   "file": "v47/footage/ausch_ramp.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1285,
+   "source": "commons",
+   "title": "Selection on the ramp at Auschwitz-Birkenau, 1944 (Auschwitz Album) 1a.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Selection_on_the_ramp_at_Auschwitz-Birkenau,_1944_(Auschwitz_Album)_1a.jpg",
+   "author": "Bernhard Walter",
+   "year": 1944,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Selection on the ramp at Auschwitz-Birkenau, 1944 (Auschwitz Album) 1a.jpg · Bernhard Walter · Public domain · Wikimedia Commons"
+  },
+  "kristall": {
+   "file": "v47/footage/kristall.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 1032,
+   "source": "commons",
+   "title": "The day after Kristallnacht.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:The_day_after_Kristallnacht.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1938,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "The day after Kristallnacht.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "wannsee_list": {
+   "file": "v47/footage/wannsee_list.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 960,
+   "source": "commons",
+   "title": "Wannsee Conference - List of Jews in European countries.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Wannsee_Conference_-_List_of_Jews_in_European_countries.JPG",
+   "author": "unknown",
+   "year": null,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Wannsee Conference - List of Jews in European countries.JPG · unknown · Public domain · Wikimedia Commons"
+  },
+  "armistice_lon": {
+   "file": "v47/footage/armistice_lon.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 928,
+   "source": "commons",
+   "title": "Armistice Day in London, 11 November 1918 Q47852.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Armistice_Day_in_London,_11_November_1918_Q47852.jpg",
+   "author": "American official photographer",
+   "year": 1918,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Armistice Day in London, 11 November 1918 Q47852.jpg · American official photographer · Public domain · Wikimedia Commons"
+  },
+  "poster": {
+   "file": "v47/footage/poster.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 699,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 102-04651A, Preußen, Wahlplakat Nationalsozialisten.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-04651A,_Preu%C3%9Fen,_Wahlplakat_Nationalsozialisten.jpg",
+   "author": "Georg Pahl",
+   "year": 1932,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 102-04651A, Preußen, Wahlplakat Nationalsozialisten.jpg · Georg Pahl · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "odeon": {
+   "file": "v47/footage/odeon.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 301,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 119-1426, Hitler-Putsch, München, Odeonsplatz.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_119-1426,_Hitler-Putsch,_M%C3%BCnchen,_Odeonsplatz.jpg",
+   "author": "UnknownUnknown",
+   "year": 1923,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 119-1426, Hitler-Putsch, München, Odeonsplatz.jpg · UnknownUnknown · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "berlin_mg": {
+   "file": "v47/footage/berlin_mg.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 325,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 146-1995-081-13A, Berlin, MG-Stellung, Hellmuth Reymann.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1995-081-13A,_Berlin,_MG-Stellung,_Hellmuth_Reymann.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1945,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 146-1995-081-13A, Berlin, MG-Stellung, Hellmuth Reymann.jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "soviet_art": {
+   "file": "v47/footage/soviet_art.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 316,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-E0406-0022-012, Sowjetische Artillerie vor Berlin.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-E0406-0022-012,_Sowjetische_Artillerie_vor_Berlin.jpg",
+   "author": "UnknownUnknown",
+   "year": 1945,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-E0406-0022-012, Sowjetische Artillerie vor Berlin.jpg · UnknownUnknown · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "cabinet": {
+   "file": "v47/footage/cabinet.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 376,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-H28422, Reichskabinett Adolf Hitler.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H28422,_Reichskabinett_Adolf_Hitler.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1933,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-H28422, Reichskabinett Adolf Hitler.jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "berlin_street": {
+   "file": "v47/footage/berlin_street.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 336,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-J31338, Berlin, Oranienstraße, Schäden nach Luftangriff.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-J31338,_Berlin,_Oranienstra%C3%9Fe,_Sch%C3%A4den_nach_Luftangriff.jpg",
+   "author": "UnknownUnknown",
+   "year": 1945,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-J31338, Berlin, Oranienstraße, Schäden nach Luftangriff.jpg · UnknownUnknown · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "reichstag45": {
+   "file": "v47/footage/reichstag45.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 719,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-M1203-303, Berlin, Trümmerräumen am Reichstag.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-M1203-303,_Berlin,_Tr%C3%BCmmerr%C3%A4umen_am_Reichstag.jpg",
+   "author": "Otto Donath",
+   "year": 1948,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-M1203-303, Berlin, Trümmerräumen am Reichstag.jpg · Otto Donath · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "bunker_blown": {
+   "file": "v47/footage/bunker_blown.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 343,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-M1204-319, Berlin, Reichskanzlei, gesprengter Führerbunker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-M1204-319,_Berlin,_Reichskanzlei,_gesprengter_F%C3%BChrerbunker.jpg",
+   "author": "Otto Donath",
+   "year": 1947,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-M1204-319, Berlin, Reichskanzlei, gesprengter Führerbunker.jpg · Otto Donath · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "hq": {
+   "file": "v47/footage/hq.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1326,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-R99057, Führerhauptquartier, Adolf Hitler mit Stab.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R99057,_F%C3%BChrerhauptquartier,_Adolf_Hitler_mit_Stab.jpg",
+   "author": "Heinrich Hoffmann",
+   "year": 1940,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-R99057, Führerhauptquartier, Adolf Hitler mit Stab.jpg · Heinrich Hoffmann · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "garden": {
+   "file": "v47/footage/garden.jpg",
+   "kind": "image",
+   "w": 500,
+   "h": 315,
+   "source": "commons",
+   "title": "Bundesarchiv Bild 183-V04744, Berlin, Garten der zerstörte Reichskanzlei.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-V04744,_Berlin,_Garten_der_zerst%C3%B6rte_Reichskanzlei.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1947,
+   "licence": {
+    "name": "CC BY-SA 3.0 de",
+    "verdict": "credit"
+   },
+   "credit": "Bundesarchiv Bild 183-V04744, Berlin, Garten der zerstörte Reichskanzlei.jpg · Unknown authorUnknown author · CC BY-SA 3.0 de · Wikimedia Commons"
+  },
+  "eva": {
+   "file": "v47/footage/eva.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 2651,
+   "source": "commons",
+   "title": "Eva Braun portrait - 1 of 3 (242-EB-26-01).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Eva_Braun_portrait_-_1_of_3_(242-EB-26-01).jpg",
+   "author": "Studio of Heinrich Hoffmann",
+   "year": 1930,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Eva Braun portrait - 1 of 3 (242-EB-26-01).jpg · Studio of Heinrich Hoffmann · Public domain · Wikimedia Commons"
+  },
+  "vienna_kai": {
+   "file": "v47/footage/vienna_kai.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1359,
+   "source": "commons",
+   "title": "Franz-Josefs-Kai Wien 1900.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Franz-Josefs-Kai_Wien_1900.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1890,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Franz-Josefs-Kai Wien 1900.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "surrender_doc": {
+   "file": "v47/footage/surrender_doc.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1457,
+   "source": "commons",
+   "title": "German instrument of surrender.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:German_instrument_of_surrender.jpg",
+   "author": "Office of War Information",
+   "year": 1945,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "German instrument of surrender.jpg · Office of War Information · Public domain · Wikimedia Commons"
+  },
+  "jodl": {
+   "file": "v47/footage/jodl.jpg",
+   "kind": "image",
+   "w": 960,
+   "h": 643,
+   "source": "commons",
+   "title": "Jodl surrender front view.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Jodl_surrender_front_view.JPG",
+   "author": "unknown",
+   "year": null,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Jodl surrender front view.JPG · unknown · Public domain · Wikimedia Commons"
+  },
+  "testament": {
+   "file": "v47/footage/testament.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 2599,
+   "source": "commons",
+   "title": "Political Testament of Adolph Hitler 1945 page 1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Political_Testament_of_Adolph_Hitler_1945_page_1.jpg",
+   "author": "Adolf Hitler",
+   "year": 1945,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Political Testament of Adolph Hitler 1945 page 1.jpg · Adolf Hitler · Public domain · Wikimedia Commons"
+  },
+  "stripes": {
+   "file": "v47/footage/stripes.jpg",
+   "kind": "image",
+   "w": 250,
+   "h": 316,
+   "source": "commons",
+   "title": "Stars & Stripes & Hitler Dead.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Stars_%26_Stripes_%26_Hitler_Dead.jpg",
+   "author": "unknown",
+   "year": null,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Stars & Stripes & Hitler Dead.jpg · unknown · Public domain · Wikimedia Commons"
+  },
+  "sterneck": {
+   "file": "v47/footage/sterneck.jpg",
+   "kind": "image",
+   "w": 250,
+   "h": 177,
+   "source": "commons",
+   "title": "Sterneckerbraeu.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sterneckerbraeu.jpg",
+   "author": "Fotoarchiv Hoffmann",
+   "year": 1925,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Sterneckerbraeu.jpg · Fotoarchiv Hoffmann · Public domain · Wikimedia Commons"
+  },
+  "vienna_burg": {
+   "file": "v47/footage/vienna_burg.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1415,
+   "source": "commons",
+   "title": "Wien Burgtheater um 1900.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wien_Burgtheater_um_1900.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1890,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Wien Burgtheater um 1900.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "vienna_opera": {
+   "file": "v47/footage/vienna_opera.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1369,
+   "source": "commons",
+   "title": "Wien Opernhaus um 1900.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wien_Opernhaus_um_1900.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1890,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Wien Opernhaus um 1900.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "vienna_parl": {
+   "file": "v47/footage/vienna_parl.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1418,
+   "source": "commons",
+   "title": "Wien Parlament um 1900.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wien_Parlament_um_1900.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1890,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Wien Parlament um 1900.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "dachau_soldier": {
+   "file": "v47/footage/dachau_soldier.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 866,
+   "source": "commons",
+   "title": "American Soldier is surrounded by survivors at the newly liberated Dachau concentration camp, April 29, 1945 in Dachau, Germany.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:American_Soldier_is_surrounded_by_survivors_at_the_newly_liberated_Dachau_concentration_camp,_April_29,_1945_in_Dachau,_Germany.jpg",
+   "author": "The National Guard",
+   "year": 1945,
+   "licence": {
+    "name": "CC BY 2.0",
+    "verdict": "credit"
+   },
+   "credit": "American Soldier is surrounded by survivors at the newly liberated Dachau concentration camp, April 29, 1945 in Dachau, Germany.jpg · The National Guard · CC BY 2.0 · Wikimedia Commons"
+  },
+  "compiegne": {
+   "file": "v47/footage/compiegne.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 1280,
+   "source": "commons",
+   "title": "Armistice - Armistice - Allied and German delegates arrive in Compiegne Wood to discuss the terms of Armistice. The first photograph of the actual meeting of the Allied and German plenipotentiaries in the Compieg(...) - NARA - 20807010.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Armistice_-_Armistice_-_Allied_and_German_delegates_arrive_in_Compiegne_Wood_to_discuss_the_terms_of_Armistice._The_first_photograph_of_the_actual_meeting_of_the_Allied_and_German_plenipotentiaries_in_the_Compieg(...)_-_NARA_-_20807010.jpg",
+   "author": "Unknown authorUnknown author or not provided",
+   "year": 1917,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Armistice - Armistice - Allied and German delegates arrive in Compiegne Wood to discuss the terms of Armistice. The first photograph of the actual meeting of the Allied and German plenipotentiaries in the Compieg(...) - NARA - 20807010.jpg · Unknown authorUnknown author or not provided · Public domain · Wikimedia Commons"
+  },
+  "stal_paulus": {
+   "file": "v47/footage/stal_paulus.jpg",
+   "kind": "image",
+   "w": 1280,
+   "h": 965,
+   "source": "commons",
+   "title": "Field Marshal Paulus, General Heitz and other German officers of the 6th Army after its surrender.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Field_Marshal_Paulus,_General_Heitz_and_other_German_officers_of_the_6th_Army_after_its_surrender.jpg",
+   "author": "Unknown authorUnknown author",
+   "year": 1943,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Field Marshal Paulus, General Heitz and other German officers of the 6th Army after its surrender.jpg · Unknown authorUnknown author · Public domain · Wikimedia Commons"
+  },
+  "fire_men": {
+   "file": "v47/footage/fire_men.jpg",
+   "kind": "image",
+   "w": 1920,
+   "h": 2462,
+   "source": "commons",
+   "title": "Firemen work on the burning Reichstag Building in February, 1933, after fire broke out simultaneously at 20 places.... - NARA - 535790.tif",
+   "page": "https://commons.wikimedia.org/wiki/File:Firemen_work_on_the_burning_Reichstag_Building_in_February,_1933,_after_fire_broke_out_simultaneously_at_20_places...._-_NARA_-_535790.tif",
+   "author": "Unknown authorUnknown author or not provided",
+   "year": 1942,
+   "licence": {
+    "name": "Public domain",
+    "verdict": "free"
+   },
+   "credit": "Firemen work on the burning Reichstag Building in February, 1933, after fire broke out simultaneously at 20 places.... - NARA - 535790.tif · Unknown authorUnknown author or not provided · Public domain · Wikimedia Commons"
+  }
+ }
+}

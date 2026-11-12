@@ -1,0 +1,52 @@
+{
+ "length": 60.07,
+ "voice": "public/v47/vo-reel.wav",
+ "music": [
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 60.071,
+   "fadeIn": 0.3,
+   "fadeOut": 2,
+   "gain": 0.075
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 0.05,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 20.82,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 28.485000000000003,
+   "vol": 0.105
+  },
+  {
+   "id": "sfx/impact/subdrop-punch",
+   "at": 11.911,
+   "vol": 0.135
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 31.304,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 39.968,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/impact/subdrop-punch",
+   "at": 58.671,
+   "vol": 0.12
+  }
+ ]
+}
