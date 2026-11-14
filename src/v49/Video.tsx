@@ -545,7 +545,7 @@ export const Video: React.FC<{ at?: number; audio?: string }> = ({ at, audio }) 
       <div style={{ position: "absolute", left: 0, width: W, top: 150, textAlign: "center", direction: "rtl", transform: `translateY(${(1 - hk) * -30}px)`, opacity: hk }}>
         <div style={{ fontFamily: "H49Black", fontSize: 82, color: CREAM, lineHeight: 1.15 }}>رژیم سقوط کرد…</div>
         <div style={{ fontFamily: "H49Black", fontSize: 70, color: SAFF, lineHeight: 1.25 }}>حاج‌آقا پرید، سجاد جا موند</div>
-        <div style={{ display: "inline-block", marginTop: 14, fontFamily: "H49Bold", fontSize: 34, color: CREAM, border: `3px solid ${SAFF}`, borderRadius: 30, padding: "2px 28px" }}>چی می‌شد اگه · شبِ آخرِ ستاد</div>
+        <div style={{ display: "inline-block", marginTop: 14, fontFamily: "H49Bold", fontSize: 34, color: CREAM, border: `3px solid ${SAFF}`, borderRadius: 30, padding: "2px 28px" }}>فردای سقوط · شبِ آخرِ ستاد</div>
       </div>
       {/* the cartoon window */}
       <div style={{ position: "absolute", left: 0, top: WIN.y, width: W, height: WIN.h, overflow: "hidden", boxShadow: `0 -3px 0 ${SAFF}, 0 3px 0 ${SAFF}, 0 30px 80px rgba(0,0,0,0.6)` }}>
