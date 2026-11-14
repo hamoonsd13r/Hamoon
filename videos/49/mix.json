@@ -9,7 +9,7 @@
    "to": 46.782999999999994,
    "fadeIn": 0.2,
    "fadeOut": 1.2,
-   "gain": 0.1
+   "gain": 0.045
   },
   {
    "file": "public/audio/music/sad/mixed-signals.mp3",
@@ -18,7 +18,7 @@
    "to": 31.307000000000002,
    "fadeIn": 1.2,
    "fadeOut": 2.5,
-   "gain": 0.1
+   "gain": 0.045
   }
  ],
  "sfx": [

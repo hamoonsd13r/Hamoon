@@ -39,6 +39,6 @@ fx("sfx/riser/downlifter-dark", wd(26, "خیالیه"), 0.3);
 fx("sfx/whoosh/soft-short", wd(27, "بی‌خبر") - 0.2, 0.3);
 fx("sfx/impact/soft-thump", S(29), 0.35);
 const M = (f, at, to, from = 0, fadeIn = 0.8, fadeOut = 2, gain = 0.1) => ({ file: "public/audio/music/" + f + ".mp3", at, from, to: from + (to - at), fadeIn, fadeOut, gain });
-const music = [M("dark/game-over-4", 0, wd(22, "ولی") + 0.3, 0, 0.2, 1.2, 0.1), M("sad/mixed-signals", wd(22, "ولی") - 0.4, LEN, 0, 1.2, 2.5, 0.1)];
+const music = [M("dark/game-over-4", 0, wd(22, "ولی") + 0.3, 0, 0.2, 1.2, 0.045), M("sad/mixed-signals", wd(22, "ولی") - 0.4, LEN, 0, 1.2, 2.5, 0.045)];
 fs.writeFileSync("videos/49/mix.json", JSON.stringify({ length: LEN, voice: "public/v49/vo.wav", music, sfx }, null, 1));
 console.log("videos/49/mix.json", sfx.length, "sfx", LEN, "s");
