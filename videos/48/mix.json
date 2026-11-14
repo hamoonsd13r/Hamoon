@@ -1,0 +1,302 @@
+{
+ "length": 69.77,
+ "voice": "public/v48/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/synthwave/50-over-the-speed-limit.mp3",
+   "at": 0,
+   "from": 0.2,
+   "to": 69.97,
+   "fadeIn": 0.05,
+   "fadeOut": 2.2,
+   "gain": 0.11
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 0.05,
+   "vol": 0.176
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 0.939,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 1.967,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/riser/quick-1s",
+   "at": 4.067,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/impact/subdrop-punch",
+   "at": 4.087,
+   "vol": 0.176
+  },
+  {
+   "id": "sfx/pop/pop-2",
+   "at": 6.313,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 7.103,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 8.817,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 9.776,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/whoosh/double",
+   "at": 11.448,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/pop/pop-1",
+   "at": 12.839,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/pop/pop-2",
+   "at": 12.979,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/pop/pop-3",
+   "at": 13.119,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/pop/pop-4",
+   "at": 13.259,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/glitch/short-1",
+   "at": 13.674,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 14.852,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 15.607,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/ui/click-crisp",
+   "at": 16.748,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/mechanical/classic-ticks",
+   "at": 17.9,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/money/cash-register",
+   "at": 20.678,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/impact/glass-shimmer",
+   "at": 21.757,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 23.366,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/pop/pop-4",
+   "at": 24.487,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 25.731,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 26.844,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/riser/noise-2s",
+   "at": 31.063,
+   "vol": 0.07
+  },
+  {
+   "id": "sfx/camera/shutter-dslr",
+   "at": 31.583,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/glitch/static",
+   "at": 32.41,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 33.839,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 35.624,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 36.059,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 37.152,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 37.332,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 37.512,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 37.692,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/ui/click-tonal",
+   "at": 37.872,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/break/glass-breaking-02",
+   "at": 39.161,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/whoosh/double",
+   "at": 39.644,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/break/glass-breaking-05",
+   "at": 40.711,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 43.426,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/whoosh/stutter",
+   "at": 44.757,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 47.374,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 47.826,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 48.052,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 48.435,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 48.435,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/camera/shutter-film",
+   "at": 50.054,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 51.662,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 56.922,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/glitch/short-3",
+   "at": 57.818,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 59.722,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/paper/book-flip-1",
+   "at": 61.227,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 62.696,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/pop/pop-1",
+   "at": 63.913,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/ui/click-crisp",
+   "at": 65.913,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/ui/click-crisp",
+   "at": 67.235,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/impact/subdrop-punch",
+   "at": 68.47,
+   "vol": 0.112
+  }
+ ]
+}

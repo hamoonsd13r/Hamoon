@@ -1,0 +1,717 @@
+{
+ "clips": {
+  "miami-night": {
+   "file": "v48/footage/miami-night.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 10.577,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.656,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "12028",
+   "title": "Night lights across Miami",
+   "page": "https://mixkit.co/free-stock-video/night-lights-across-miami-12028/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Night lights across Miami · Mixkit · Mixkit Free License",
+   "shot": "s01"
+  },
+  "miami-calm": {
+   "file": "v48/footage/miami-calm.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 12.079,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.615,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "12026",
+   "title": "Calm night over Miami",
+   "page": "https://mixkit.co/free-stock-video/calm-night-over-miami-12026/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Calm night over Miami · Mixkit · Mixkit Free License",
+   "shot": "s05"
+  },
+  "miami-bay": {
+   "file": "v48/footage/miami-bay.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 8.976,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.156,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "11814",
+   "title": "Timelapse over a bay in Miami",
+   "page": "https://mixkit.co/free-stock-video/timelapse-over-a-bay-in-miami-11814/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Timelapse over a bay in Miami · Mixkit · Mixkit Free License",
+   "shot": "s07"
+  },
+  "crowd-blue": {
+   "file": "v48/footage/crowd-blue.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 7.307,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.24,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "14085",
+   "title": "Crowd cheering at the concert",
+   "page": "https://mixkit.co/free-stock-video/crowd-cheering-at-the-concert-14085/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Crowd cheering at the concert · Mixkit · Mixkit Free License",
+   "shot": "s03"
+  },
+  "crowd-horns": {
+   "file": "v48/footage/crowd-horns.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6.8,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.427,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "47570",
+   "title": "Person cheering in the crowd of a rock concert",
+   "page": "https://mixkit.co/free-stock-video/person-cheering-in-the-crowd-of-a-rock-concert-47570/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Person cheering in the crowd of a rock concert · Mixkit · Mixkit Free License",
+   "shot": "s06"
+  },
+  "crowd-pink": {
+   "file": "v48/footage/crowd-pink.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 14.88,
+   "fps": 50,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.583,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-pov-crowd-at-a-concert-4932",
+   "title": "POV crowd at a concert",
+   "page": "https://coverr.co/videos/pov-crowd-at-a-concert-qtehbzxw4l",
+   "author": "",
+   "year": 2018,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "POV crowd at a concert · Coverr · Coverr License",
+   "shot": "s14"
+  },
+  "gamer-scream": {
+   "file": "v48/footage/gamer-scream.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 7.76,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.51,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "45814",
+   "title": "Gamer screaming at the screen while playing an online game",
+   "page": "https://mixkit.co/free-stock-video/gamer-screaming-at-the-screen-while-playing-an-online-game-45814/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Gamer screaming at the screen while playing an online game · Mixkit · Mixkit Free License",
+   "shot": "s04"
+  },
+  "gamer-glow": {
+   "file": "v48/footage/gamer-glow.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 18.68,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.646,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "45809",
+   "title": "Gamer illuminated by a screen having fun online",
+   "page": "https://mixkit.co/free-stock-video/gamer-illuminated-by-a-screen-having-fun-online-45809/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Gamer illuminated by a screen having fun online · Mixkit · Mixkit Free License",
+   "shot": "s12"
+  },
+  "traffic-lapse": {
+   "file": "v48/footage/traffic-lapse.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 7.567,
+   "fps": 30,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.333,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "4240",
+   "title": "Time lapse of traffic at night",
+   "page": "https://mixkit.co/free-stock-video/time-lapse-of-traffic-at-night-4240/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Time lapse of traffic at night · Mixkit · Mixkit Free License",
+   "shot": "s07"
+  },
+  "traffic-fast": {
+   "file": "v48/footage/traffic-fast.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 11.111,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.375,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "25517",
+   "title": "Fast timelapse of night traffic",
+   "page": "https://mixkit.co/free-stock-video/fast-timelapse-of-night-traffic-25517/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Fast timelapse of night traffic · Mixkit · Mixkit Free License",
+   "shot": "s11"
+  },
+  "city-aerial": {
+   "file": "v48/footage/city-aerial.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 5.464,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.635,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "1767",
+   "title": "City lights at night aerial shot",
+   "page": "https://mixkit.co/free-stock-video/city-lights-at-night-aerial-shot-1767/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "City lights at night aerial shot · Mixkit · Mixkit Free License",
+   "shot": "s11"
+  },
+  "beach-pier": {
+   "file": "v48/footage/beach-pier.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 12.583,
+   "fps": 24,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.458,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "4279",
+   "title": "Beach full of tourists next to the pier",
+   "page": "https://mixkit.co/free-stock-video/beach-full-of-tourists-next-to-the-pier-4279/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Beach full of tourists next to the pier · Mixkit · Mixkit Free License",
+   "shot": "s07"
+  },
+  "alligator": {
+   "file": "v48/footage/alligator.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 30.03,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.51,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "22160",
+   "title": "Alligator with an open mouth",
+   "page": "https://mixkit.co/free-stock-video/alligator-with-an-open-mouth-22160/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Alligator with an open mouth · Mixkit · Mixkit Free License",
+   "shot": "s07"
+  },
+  "flamingo": {
+   "file": "v48/footage/flamingo.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 20.12,
+   "fps": 29.97,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.396,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "32202",
+   "title": "Pink flamingos in the lake",
+   "page": "https://mixkit.co/free-stock-video/pink-flamingos-in-the-lake-32202/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Pink flamingos in the lake · Mixkit · Mixkit Free License",
+   "shot": "s07"
+  },
+  "palm-sunset": {
+   "file": "v48/footage/palm-sunset.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 13.997,
+   "fps": 59.94,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.833,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "48358",
+   "title": "Silhouettes of palm trees against the sunset",
+   "page": "https://mixkit.co/free-stock-video/silhouettes-of-palm-trees-against-the-sunset-48358/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Silhouettes of palm trees against the sunset · Mixkit · Mixkit Free License",
+   "shot": "s08"
+  },
+  "palm-twilight": {
+   "file": "v48/footage/palm-twilight.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 24.524,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.844,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-palm-trees-at-twilight-8442",
+   "title": "Palm trees at twilight",
+   "page": "https://coverr.co/videos/palm-trees-at-twilight-va06xduswq",
+   "author": "",
+   "year": 2021,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Palm trees at twilight · Coverr · Coverr License",
+   "shot": "s17"
+  },
+  "robber": {
+   "file": "v48/footage/robber.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 6.16,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.771,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "20864",
+   "title": "Masked robber smashing a window",
+   "page": "https://mixkit.co/free-stock-video/masked-robber-smashing-a-window-20864/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Masked robber smashing a window · Mixkit · Mixkit Free License",
+   "shot": "s11"
+  },
+  "police": {
+   "file": "v48/footage/police.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 16.867,
+   "fps": 59.94,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.156,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "49328",
+   "title": "Blue and red lights from a police car",
+   "page": "https://mixkit.co/free-stock-video/blue-and-red-lights-from-a-police-car-49328/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Blue and red lights from a police car · Mixkit · Mixkit Free License",
+   "shot": "s11"
+  },
+  "woman-car": {
+   "file": "v48/footage/woman-car.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 20.604,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.677,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "44544",
+   "title": "Stylish woman smoking sitting next to sports car",
+   "page": "https://mixkit.co/free-stock-video/stylish-woman-smoking-sitting-next-to-sports-car-44544/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Stylish woman smoking sitting next to sports car · Mixkit · Mixkit Free License",
+   "shot": "s11"
+  },
+  "car-rain": {
+   "file": "v48/footage/car-rain.mp4",
+   "kind": "video",
+   "w": 2050,
+   "h": 1080,
+   "dur": 15.05,
+   "fps": 60,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.292,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-car-in-the-rain-outside-6155",
+   "title": "Car in the rain outside",
+   "page": "https://coverr.co/videos/car-in-the-rain-outside-bencuv6uts",
+   "author": "",
+   "year": 2022,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Car in the rain outside · Coverr · Coverr License",
+   "shot": "s10"
+  },
+  "iguana": {
+   "file": "v48/footage/iguana.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 12.28,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "45248",
+   "title": "Iguana looks from the side in the wild",
+   "page": "https://mixkit.co/free-stock-video/iguana-looks-from-the-side-in-the-wild-45248/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Iguana looks from the side in the wild · Mixkit · Mixkit Free License",
+   "shot": "s12"
+  },
+  "bikers": {
+   "file": "v48/footage/bikers.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 30.656,
+   "fps": 23.976,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.156,
+    0.5
+   ],
+   "source": "coverr",
+   "id": "coverr-bikers-in-the-distance-riding-a-downhill-path-9269",
+   "title": "Bikers in the distance riding a downhill path",
+   "page": "https://coverr.co/videos/bikers-in-the-distance-riding-a-downhill-path-rdw3bjfc5w",
+   "author": "",
+   "year": 2021,
+   "licence": {
+    "code": "coverr",
+    "name": "Coverr License",
+    "url": "https://coverr.co/license",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Bikers in the distance riding a downhill path · Coverr · Coverr License",
+   "shot": "s12"
+  },
+  "controller": {
+   "file": "v48/footage/controller.mp4",
+   "kind": "video",
+   "w": 1920,
+   "h": 1080,
+   "dur": 10,
+   "fps": 25,
+   "in": 0,
+   "out": null,
+   "audio": false,
+   "focus": [
+    0.375,
+    0.5
+   ],
+   "source": "mixkit",
+   "id": "14759",
+   "title": "Hands playing with a video game controller",
+   "page": "https://mixkit.co/free-stock-video/hands-playing-with-a-video-game-controller-14759/",
+   "author": "",
+   "year": null,
+   "licence": {
+    "code": "mixkit",
+    "name": "Mixkit Free License",
+    "url": "https://mixkit.co/license/#videoFree",
+    "verdict": "free",
+    "attr": false,
+    "sa": false
+   },
+   "credit": "Hands playing with a video game controller · Mixkit · Mixkit Free License",
+   "shot": "s14"
+  }
+ }
+}
