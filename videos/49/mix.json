@@ -1,0 +1,203 @@
+{
+ "length": 77.39,
+ "voice": "public/v49/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/dark/game-over-4.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 46.782999999999994,
+   "fadeIn": 0.2,
+   "fadeOut": 1.2,
+   "gain": 0.1
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 46.083,
+   "from": 0,
+   "to": 31.307000000000002,
+   "fadeIn": 1.2,
+   "fadeOut": 2.5,
+   "gain": 0.1
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 0.1,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 2.379,
+   "vol": 0.096
+  },
+  {
+   "file": "public/v46/sfx/jet-1.mp3",
+   "at": 4.214,
+   "vol": 0.112,
+   "peak": 0.8
+  },
+  {
+   "id": "sfx/notification/notify-message",
+   "at": 8.152,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/ui/click-crisp",
+   "at": 8.552,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 11.364,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/ui/toggle-off",
+   "at": 14.754,
+   "vol": 0.176
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 17.191,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 24.002,
+   "vol": 0.08
+  },
+  {
+   "file": "public/v45/sfx/crowdmurmur-1.mp3",
+   "at": 25.997,
+   "vol": 0.112,
+   "peak": 0.6
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 28.362,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/paper/slide",
+   "at": 31.759,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/impact/punchy-short",
+   "at": 32.109,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 32.984,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/whoosh/swish-thin",
+   "at": 34.897,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/impact/metallic",
+   "at": 35.347,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/pop/pop-2",
+   "at": 36.232,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/glitch/static",
+   "at": 41.224,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/glitch/static",
+   "at": 41.724,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/impact/wood-hit-01-2",
+   "at": 43.466,
+   "vol": 0.192
+  },
+  {
+   "id": "sfx/impact/wood-hit-01-2",
+   "at": 43.766,
+   "vol": 0.192
+  },
+  {
+   "id": "sfx/foley/cloth-3",
+   "at": 45.672,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/door/open",
+   "at": 46.483,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/impact/metal-heavy-002",
+   "at": 56.345,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/foley/cloth-2",
+   "at": 57.776,
+   "vol": 0.144
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 58.803,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 59.203,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 59.603,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 60.003,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 60.403,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 60.803,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/notification/like-tap",
+   "at": 60.893,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 66.914,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 69.024,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 72.759,
+   "vol": 0.112
+  }
+ ]
+}
