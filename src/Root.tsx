@@ -73,6 +73,7 @@ import { V46Compositions } from "./v46/Video";
 import { V47Compositions } from "./v47/Video";
 import { V48Compositions } from "./v48/Video";
 import { V49Compositions } from "./v49/Video";
+import { V51Compositions } from "./v51/Video";
 import { V14 } from "./v14/Video";
 import { FootageReelComps } from "./footage-starter/FootageReel";
 
@@ -173,6 +174,7 @@ export const RemotionRoot: React.FC = () => {
       <V47Compositions />
       <V48Compositions />
       <V49Compositions />
+      <V51Compositions />
       {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
     </>
   );

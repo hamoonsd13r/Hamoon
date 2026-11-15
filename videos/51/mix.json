@@ -1,0 +1,246 @@
+{
+ "length": 150.07,
+ "voice": "public/v51/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/dark/game-over-4.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 39.934,
+   "fadeIn": 0.3,
+   "fadeOut": 3.5,
+   "gain": 0.075
+  },
+  {
+   "file": "public/audio/music/horror/between-life-and-death.mp3",
+   "at": 36.934,
+   "from": 0,
+   "to": 84.831,
+   "fadeIn": 3,
+   "fadeOut": 4.5,
+   "gain": 0.075
+  },
+  {
+   "file": "public/audio/music/calm/love.mp3",
+   "at": 126.407,
+   "from": 0,
+   "to": 23.663,
+   "fadeIn": 2.5,
+   "fadeOut": 2.5,
+   "gain": 0.11
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/room-tone",
+   "from": 0,
+   "to": 29.075999999999997,
+   "vol": 0.28
+  },
+  {
+   "id": "sfx/ambience/night-crickets",
+   "from": 0,
+   "to": 29.075999999999997,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v51/sfx/class.wav",
+   "from": 29.075999999999997,
+   "to": 36.144999999999996,
+   "vol": 0.32
+  },
+  {
+   "id": "sfx/mechanical/clock-tick-tock",
+   "from": 54.272999999999996,
+   "to": 63.031,
+   "vol": 0.4
+  },
+  {
+   "id": "sfx/ambience/room-tone",
+   "from": 104.756,
+   "to": 126.707,
+   "vol": 0.22
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "from": 131.475,
+   "to": 150.07,
+   "vol": 0.18
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 0.12,
+   "vol": 0.375
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 0.1,
+   "vol": 0.3
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 4.045,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/ui/scroll-005",
+   "at": 6.809,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/ui/scroll-005",
+   "at": 9.209,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/ui/scroll-002",
+   "at": 10.688,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 20.894,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/ui/scroll-005",
+   "at": 22.283,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 24.709,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 28.472,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 36.265,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 37.359,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 38.434,
+   "vol": 0.338
+  },
+  {
+   "id": "sfx/whoosh/cinematic",
+   "at": 42.686,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 44.745,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 52.674,
+   "vol": 0.262
+  },
+  {
+   "file": "public/v51/sfx/chains.mp3",
+   "at": 67.583,
+   "vol": 0.338,
+   "peak": 0.1
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 67.583,
+   "vol": 0.262
+  },
+  {
+   "file": "public/v51/sfx/chains.mp3",
+   "at": 71.66,
+   "vol": 0.225,
+   "peak": 0.1
+  },
+  {
+   "id": "sfx/foley/metal-03",
+   "at": 73.697,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/notification/notify-message",
+   "at": 79.152,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/whoosh/reverse",
+   "at": 91.087,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 98.316,
+   "vol": 0.3
+  },
+  {
+   "id": "sfx/whoosh/reverse",
+   "at": 98.316,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 98.38,
+   "vol": 0.3
+  },
+  {
+   "id": "sfx/foley/metal-03",
+   "at": 100.463,
+   "vol": 0.09
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 103.367,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 104.167,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/foley/metal-03",
+   "at": 119.265,
+   "vol": 0.09
+  },
+  {
+   "file": "public/v51/sfx/powerdown.mp3",
+   "at": 119.502,
+   "vol": 0.262,
+   "peak": 0.05
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 121.277,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/magic/shimmer-pad",
+   "at": 126.707,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/whoosh/reverse",
+   "at": 133.879,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 136.226,
+   "vol": 0.225
+  }
+ ]
+}
