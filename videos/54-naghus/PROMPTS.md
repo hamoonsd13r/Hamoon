@@ -5,7 +5,7 @@
 
 ## روال (کم‌خرج)
 1. در Flow فقط **عکس** بساز، ویدیو نه. حرکت، زوم، لرزش، زیرنویس تک‌کلمه‌ای، صدا و افکت را Claude با کد می‌سازد. هر عکس چند نما می‌شود (باز، متوسط، کلوزآپ).
-2. قاب را روی **Portrait 9:16** بگذار.
+2. قاب را روی **Portrait 9:16** بگذار. (۰۰ تا ۰۳ افقی ساخته شد؛ Claude وسطش را عمودی برید.)
 3. **اول عکس ۰۰ (شخصیت‌ها)** را بساز. برای بقیه، اگر Flow اجازه داد، همان را عکس مرجع (reference / ingredient) بگذار تا قیافه‌ها ثابت بمانند.
 4. از هر پرامپت فقط **یک** عکس خوب لازم است. اگر نوشته روی عکس آمد، دوباره بساز.
 5. عکس‌ها را با اسم‌های `00` تا `24` در پوشه‌ی `uploads/v54/` گیت‌هاب آپلود کن. ترتیب مهم است.
@@ -133,7 +133,7 @@
 2D cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain. A bright nursery room with toys and a wooden crib. Three babies in onesies (pure white round faces, big eyes) sitting on a play mat, each frozen stiff like little statues with arms out, very serious faces, while a mother (pure white round face) watches proudly holding a stopwatch. Funny mood. No text, no letters, no watermark. Vertical 9:16.
 ```
 
-### 05 · کلاس مجسمه
+### 05 · کلاس مجسمه (❌ لازم نیست، جمله‌اش حذف شد)
 ```
 2D cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain. A school gym. A row of kids in gym clothes (pure white round faces, black mitten-like gloved hands) frozen in funny statue poses on one leg, arms up, one kid wobbling with sweat drops. A strict teacher with a whistle and a clipboard (pure white round face) inspecting them closely. Funny mood. No text, no letters, no watermark. Vertical 9:16.
 ```
@@ -143,7 +143,7 @@
 2D cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain. Night, an outdoor town festival under string lights. A very long table with a long row of contestants (pure white round faces, black mitten-like gloved hands, bibs without numbers) all frozen bent over with their faces buried in big cream pies, hands behind their backs, cream splashed around. Cold blue night, warm lights. Funny mood. No text, no letters, no watermark. Vertical 9:16.
 ```
 
-### 07 · عطسه‌ی آقای فرهادی
+### 07 · عطسه‌ی آقای فرهادی (❌ لازم نیست، جمله‌اش حذف شد)
 ```
 2D cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain. Early morning sunrise light on a small-town sidewalk. MR. FARHADI, a chubby middle-aged man (pure white round face, bushy mustache, brown vest, flat cap) frozen mid-sneeze: head thrown back, eyes squeezed shut, nose scrunched, mouth wide open. Golden sun rising behind him. Funny mood. No text, no letters, no watermark. Vertical 9:16.
 ```
@@ -183,7 +183,7 @@
 2D cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, strong vignette. Night, in front of an old town library building. A young woman (pure white round face, long dark hair, purple jacket) frozen on the sidewalk, her phone in her hand lighting up and ringing with a bright glow, her eyes wide in panic, mouth open in a gasp. Behind her, a huge dark shadow of a giant figure falls across the library wall. No text on the phone screen, no letters, no watermark. Vertical 9:16.
 ```
 
-### 15 · کلاهِ باد برده
+### 15 · کلاهِ باد برده (❌ لازم نیست، جمله‌اش حذف شد)
 ```
 2D cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain. Night, a quiet residential street lined with pine trees, streetlamps. A man (pure white round face, grey coat) frozen on the sidewalk, but his hand has just snatched his brown hat out of the air as the wind blows it, his face full of fear. Far down the street, the silhouette of a giant stone figure turning its head toward him. No text, no letters, no watermark. Vertical 9:16.
 ```
