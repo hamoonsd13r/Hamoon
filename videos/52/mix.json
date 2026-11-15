@@ -1,0 +1,209 @@
+{
+ "length": 112.28,
+ "voice": "public/v52/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/dark/game-over-4.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 60.282,
+   "fadeIn": 0.3,
+   "fadeOut": 3.5,
+   "gain": 0.03
+  },
+  {
+   "file": "public/audio/music/calm/love.mp3",
+   "at": 57.282,
+   "from": 0,
+   "to": 54.998,
+   "fadeIn": 3,
+   "fadeOut": 2.5,
+   "gain": 0.036
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/room-tone",
+   "from": 0,
+   "to": 62.857,
+   "vol": 0.25
+  },
+  {
+   "id": "sfx/mechanical/clock-tick-tock",
+   "from": 24.307,
+   "to": 31.927999999999997,
+   "vol": 0.32
+  },
+  {
+   "file": "public/v05/sfx/birds.wav",
+   "from": 67.28007692307692,
+   "to": 79.907,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "from": 90.19,
+   "to": 112.28,
+   "vol": 0.16
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 0.12,
+   "vol": 0.375
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 0.1,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 2.6,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/ui/click-soft",
+   "at": 6.764,
+   "vol": 0.21
+  },
+  {
+   "id": "sfx/ui/scroll-005",
+   "at": 7.764,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/ui/scroll-002",
+   "at": 8.964,
+   "vol": 0.15
+  },
+  {
+   "file": "public/v52/sfx/alarm-1.wav",
+   "at": 16.779,
+   "vol": 0.262,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/ui/toggle-off",
+   "at": 18.549,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 32.028,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 31.978,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 41.048,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 56.009,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 56.12,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 58.048,
+   "vol": 0.262
+  },
+  {
+   "file": "public/v52/sfx/alarm-2.wav",
+   "at": 62.904,
+   "vol": 0.262,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/whoosh/soft-short",
+   "at": 65.422,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/footsteps/grass-001",
+   "at": 75.055,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/footsteps/grass-003",
+   "at": 75.463,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/footsteps/grass-001",
+   "at": 75.871,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/footsteps/grass-003",
+   "at": 78.623,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/footsteps/grass-001",
+   "at": 79.265,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/footsteps/grass-003",
+   "at": 79.65,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 73.232,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 73.898,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 74.563,
+   "vol": 0.165
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 80.622,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 85.422,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 88.508,
+   "vol": 0.338
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 88.508,
+   "vol": 0.262
+  },
+  {
+   "id": "sfx/magic/shimmer-pad",
+   "at": 88.608,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 97.552,
+   "vol": 0.225
+  }
+ ]
+}
