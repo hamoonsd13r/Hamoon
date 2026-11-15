@@ -1,0 +1,86 @@
+{
+ "length": 30.13,
+ "voice": "public/v53/vo-short.wav",
+ "music": [
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 17.554000000000002,
+   "fadeIn": 0.3,
+   "fadeOut": 2.5,
+   "gain": 0.042
+  },
+  {
+   "file": "public/audio/music/calm/love.mp3",
+   "at": 15.054,
+   "from": 0,
+   "to": 15.076,
+   "fadeIn": 2,
+   "fadeOut": 2,
+   "gain": 0.055
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/wind",
+   "from": 4.207,
+   "to": 11.899,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/ambience/rain",
+   "from": 5.215,
+   "to": 11.899,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "from": 21.349,
+   "to": 30.13,
+   "vol": 0.1
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 0.12,
+   "vol": 0.338
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 0.1,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 1.2,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 5.215,
+   "vol": 0.3
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 11.999,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 12.899,
+   "vol": 0.225
+  },
+  {
+   "id": "sfx/magic/shimmer-pad",
+   "at": 15.854,
+   "vol": 0.188
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 21.349,
+   "vol": 0.225
+  }
+ ]
+}
