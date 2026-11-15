@@ -560,10 +560,34 @@ export const Video: React.FC<{ at?: number; audio?: string }> = ({ at, audio }) 
 export const LOOK = [0.2, ...SC.map((s) => +(s.a + Math.min(1.6, (s.b - s.a) * 0.6)).toFixed(2)), wd(13, "گزارشش") + 0.6, wd(22, "پدرِ") + 0.4, wd(24, "درآورد") + 0.4, wd(28, "سربازاش") + 0.5, END - 0.4].sort((a, b) => a - b);
 const Look: React.FC = () => { const f = useCurrentFrame(); return <Video at={LOOK[Math.min(f, LOOK.length - 1)]} />; };
 const frames = Math.round(END * FPS);
+
+/* ───────── cover (Instagram 9:16; title kept inside the 3:4 grid crop, y 240–1680) */
+const Half: React.FC<{ i: number; t: number; vb: string; h: number }> = ({ i, t, vb, h }) => (
+  <svg width={W} height={h} viewBox={vb} preserveAspectRatio="xMidYMid slice" style={{ display: "block" }}><Defs />{SC[i].r(t)}</svg>
+);
+export const Cover: React.FC = () => {
+  const iM = SC.findIndex((s) => s.a === T.moscow), iG = SC.findIndex((s) => s.a === T.guard);
+  return (
+    <AbsoluteFill style={{ background: INK, overflow: "hidden" }}>
+      <div style={{ position: "absolute", left: 0, top: 0 }}><Half i={iM} t={T.moscow + 1.2} vb="760 140 900 1000" h={960} /></div>
+      <div style={{ position: "absolute", left: 0, top: 960 }}><Half i={iG} t={T.guard + 1.2} vb="1020 140 900 1000" h={960} /></div>
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(14,17,22,0.55) 0%, rgba(14,17,22,0) 22%, rgba(14,17,22,0) 40%, rgba(14,17,22,0.85) 50%, rgba(14,17,22,0) 60%, rgba(14,17,22,0) 78%, rgba(14,17,22,0.6) 100%)" }} />
+      <div style={{ position: "absolute", left: 0, top: 930, width: W, height: 60, background: SAFF, transform: "rotate(-4deg)", boxShadow: "0 10px 40px rgba(0,0,0,0.5)" }} />
+      <div style={{ position: "absolute", left: 60, top: 300, direction: "rtl", fontFamily: "H49Black", fontSize: 120, color: CREAM, textShadow: "0 8px 30px rgba(0,0,0,0.85)", lineHeight: 1.1 }}>حاج‌آقا<br /><span style={{ color: SAFF }}>پرید مسکو</span></div>
+      <div style={{ position: "absolute", right: 60, top: 1120, direction: "rtl", fontFamily: "H49Black", fontSize: 120, color: CREAM, textShadow: "0 8px 30px rgba(0,0,0,0.85)", lineHeight: 1.1, textAlign: "right" }}>سجاد<br /><span style={{ color: SAFF }}>جا موند</span></div>
+      <div style={{ position: "absolute", right: 60, top: 1400, display: "flex", justifyContent: "flex-end" }}>
+        <div style={{ fontFamily: "H49Black", fontSize: 50, color: INK, background: SAFF, borderRadius: 40, padding: "6px 40px", direction: "rtl" }}>فردای سقوط · قسمت ۱</div>
+      </div>
+      <div style={{ position: "absolute", left: 0, width: W, top: 120, textAlign: "center", fontFamily: "H49Bold", fontSize: 40, color: CREAM, direction: "rtl", opacity: 0.9 }}>رژیم سقوط کرد…</div>
+    </AbsoluteFill>
+  );
+};
+
 export const V49Compositions: React.FC = () => (
   <>
     <Composition id="V49" component={Video} durationInFrames={frames} fps={FPS} width={W} height={H} defaultProps={{ audio: "v49/mix.wav" }} />
     <Composition id="V49-Silent" component={Video} durationInFrames={frames} fps={FPS} width={W} height={H} defaultProps={{}} />
+    <Composition id="V49-Cover" component={Cover} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="V49-Look" component={Look} durationInFrames={LOOK.length} fps={FPS} width={W} height={H} />
   </>
 );
