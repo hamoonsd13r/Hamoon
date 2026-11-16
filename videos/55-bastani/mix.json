@@ -1,0 +1,664 @@
+{
+ "length": 78.81,
+ "voice": "public/v55/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 78.81,
+   "fadeIn": 1.5,
+   "fadeOut": 1,
+   "gain": 0.05
+  }
+ ],
+ "beds": [
+  {
+   "file": "public/v55/sfx/jingle.wav",
+   "from": 0.2,
+   "to": 7.633,
+   "vol": 0.08
+  },
+  {
+   "file": "public/v55/sfx/jingle.wav",
+   "from": 12.902,
+   "to": 21.578,
+   "vol": 0.08
+  },
+  {
+   "file": "public/v55/sfx/jingle.wav",
+   "from": 32.287,
+   "to": 39.043,
+   "vol": 0.11
+  },
+  {
+   "file": "public/v55/sfx/jingle.wav",
+   "from": 39.043,
+   "to": 62.056,
+   "vol": 0.17
+  },
+  {
+   "file": "public/v55/sfx/jingle-warped.wav",
+   "from": 66.019,
+   "to": 78.41,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/ambience/night-crickets",
+   "from": 0,
+   "to": 21.578,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "from": 21.578,
+   "to": 39.043,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/ambience/room-tone",
+   "from": 62.793,
+   "to": 66.019,
+   "vol": 0.2
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 3.947,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/mechanical/clock-tick-tock",
+   "at": 4.347,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 4.247,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 4.467,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 4.687,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 4.907,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 5.127,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 5.347,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 5.567,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 5.787,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 6.007,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 6.227,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 6.447,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 6.667,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 6.887,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 7.107,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 7.327,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 7.833,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 10.191,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 17.307,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 17.557,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 17.807,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 18.057,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 18.307,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 18.557,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 18.807,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 19.647,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/door/door-02-2",
+   "at": 21.828,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/impact/slam-01",
+   "at": 22.128,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/impact/slam-06",
+   "at": 22.528,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 24.058,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 24.258,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 24.458,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 24.658,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 24.858,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 25.058,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 25.258,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 25.458,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 25.658,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 25.858,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 26.058,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 26.258,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 26.438,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v55/sfx/spark.wav",
+   "at": 27.545,
+   "vol": 0.16,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v55/sfx/spark.wav",
+   "at": 28.545,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 30.807,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 30.822,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 31.022,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 31.222,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 31.422,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 31.622,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 31.822,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 32.022,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 32.222,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 32.287,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 37.241,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 39.043,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 39.72,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 39.9,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 40.08,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 40.26,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 40.44,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 40.62,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 40.8,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 40.98,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 41.16,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 41.34,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 41.52,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 41.7,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 41.88,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 42.06,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 42.24,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 42.42,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 42.6,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 42.78,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 42.96,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 43.14,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 43.32,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 43.5,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 43.68,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 43.86,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 44.04,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 44.22,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 41.641,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 45.535,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 47.298,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 51.271,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 52.256,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 53.594,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 53.764,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 53.934,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 54.104,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 54.274,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 54.444,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 54.614,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 54.784,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 54.954,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-001",
+   "at": 55.124,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-002",
+   "at": 55.294,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-003",
+   "at": 55.464,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/footsteps/concrete-000",
+   "at": 55.634,
+   "vol": 0.136
+  },
+  {
+   "id": "sfx/impact/slam-06",
+   "at": 59.282,
+   "vol": 0.24
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 59.282,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 62.056,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 63.531,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 64.531,
+   "vol": 0.112
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 66.019,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 68.513,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 69.513,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 70.513,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 71.513,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 72.513,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 73.513,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/ui/tick-004",
+   "at": 74.513,
+   "vol": 0.2
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 75.513,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 76.513,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 77.513,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 78.26,
+   "vol": 0.24
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 78.26,
+   "vol": 0.16
+  }
+ ]
+}
