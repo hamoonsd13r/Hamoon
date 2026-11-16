@@ -157,7 +157,7 @@ const Captions: React.FC<{ t: number }> = ({ t }) => {
   if (!c) return null;
   const k = clamp01((t - c.a) / 0.12);
   return (
-    <div style={{ position: "absolute", left: 0, width: W, top: H * 0.72, display: "flex", justifyContent: "center" }}>
+    <div style={{ position: "absolute", left: 0, width: W, top: H * 0.865, display: "flex", justifyContent: "center" }}>
       <div style={{ direction: "rtl", textAlign: "center", fontFamily: "H56Black", fontSize: 92, lineHeight: 1.25, color: "#FFFFFF", WebkitTextStroke: "14px #000", paintOrder: "stroke fill",
         textShadow: "0 6px 14px rgba(0,0,0,0.55)", transform: `translateY(-50%) scale(${1.18 - 0.18 * ease(k)})`, opacity: Math.min(1, k * 2) }}>
         {c.ws.map((w, i) => { const b = bare(w.w); return <span key={i} style={{ color: RED.has(b) ? "#FF3B30" : undefined }}>{b}{i < c.ws.length - 1 ? " " : ""}</span>; })}
