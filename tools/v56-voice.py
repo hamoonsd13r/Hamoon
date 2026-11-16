@@ -75,3 +75,17 @@ fc = ";".join(f) + ";" + "".join(lab) + f"concat=n={len(pieces)}:v=0:a=1,atempo=
 subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", SRC, "-filter_complex", fc, "-map", "[o]", "-ac", "1", "public/v56/vo.wav"], check=True)
 print(len(S), "script words ·", matched, "matched ·", len(sents), "lines · total", total)
 for i, s in enumerate(segs): print(s["n"], round(s["start"], 2), round(s["end"], 2), "gap", round(s["start"] - segs[i-1]["end"], 2) if i else "", s["text"][:30])
+# ── manual anchors measured on public/v56/vo.wav (energy onsets): the knocks in line 12, the «یک… دو… سه» in
+# line 44 (whisper merged دو/سه) and line 45, which starts after «سه»
+def refit(line, s0, e0):
+    ws = [w for w in words if w["line"] == line]; a, b = ws[0]["s"], ws[-1]["e"]
+    for w in ws: w["s"] = round(s0 + (w["s"] - a) * (e0 - s0) / (b - a), 3); w["e"] = round(s0 + (w["e"] - a) * (e0 - s0) / (b - a), 3)
+def put(line, times):
+    ws = [w for w in words if w["line"] == line][-len(times):]
+    for w, t in zip(ws, times): w["s"], w["e"] = t, t + 0.3
+put(12, [40.22, 40.65, 41.08])
+put(44, [135.68, 136.22, 136.75])
+refit(45, 137.25, segs[44]["end"])
+segs = [{"n": n, "start": min(w["s"] for w in words if w["line"] == n), "end": max(w["e"] for w in words if w["line"] == n), "text": sents[n - 1]} for n in range(1, len(sents) + 1)]
+json.dump({"total": total, "segs": segs, "words": words}, open("src/v56/vo.json", "w"), ensure_ascii=False)
+print("anchors applied", segs[43]["end"], segs[44]["start"])
