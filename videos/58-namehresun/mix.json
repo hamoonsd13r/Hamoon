@@ -1,0 +1,367 @@
+{
+ "length": 174.25,
+ "voice": "public/v58/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/ambient/cave-1.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 64.115,
+   "fadeIn": 0.5,
+   "fadeOut": 3,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 61.115,
+   "from": 0,
+   "to": 96.628,
+   "fadeIn": 3,
+   "fadeOut": 2,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 155.743,
+   "from": 0,
+   "to": 15.473,
+   "fadeIn": 2,
+   "fadeOut": 1.5,
+   "gain": 0.08
+  },
+  {
+   "file": "public/audio/music/dark/game-over-4.mp3",
+   "at": 169.916,
+   "from": 0,
+   "to": 4.334,
+   "fadeIn": 0.5,
+   "fadeOut": 1,
+   "gain": 0.07
+  }
+ ],
+ "beds": [
+  {
+   "id": "sfx/ambience/night-crickets",
+   "from": 0,
+   "to": 8.639,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "from": 0,
+   "to": 8.639,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/ambience/night-crickets",
+   "from": 61.615,
+   "to": 82.824,
+   "vol": 0.15
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "from": 61.615,
+   "to": 82.824,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/ambience/room-tone",
+   "from": 85.32,
+   "to": 153.434,
+   "vol": 0.18
+  }
+ ],
+ "sfx": [
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 0.1,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 5.692,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v58/sfx/clack.wav",
+   "at": 9.639,
+   "vol": 0.18,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 18.45,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 22.335,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/mechanical/gear-winding",
+   "at": 24.59,
+   "vol": 0.06
+  },
+  {
+   "id": "sfx/magic/sparkle",
+   "at": 43.624,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 45.581,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 49.847,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 50.747,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 52.045,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v58/sfx/squeak.wav",
+   "at": 65.015,
+   "vol": 0.16,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v58/sfx/squeak.wav",
+   "at": 65.758,
+   "vol": 0.16,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v58/sfx/thump.wav",
+   "at": 66.494,
+   "vol": 0.22,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v58/sfx/squeak.wav",
+   "at": 114.333,
+   "vol": 0.16,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v58/sfx/squeak.wav",
+   "at": 115.073,
+   "vol": 0.16,
+   "peak": 0.15
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 67.563,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v58/sfx/clack.wav",
+   "at": 77.623,
+   "vol": 0.2,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v58/sfx/clack.wav",
+   "at": 78.048,
+   "vol": 0.2,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v58/sfx/bike.wav",
+   "at": 78.963,
+   "vol": 0.12,
+   "peak": 0.05
+  },
+  {
+   "id": "sfx/door/door-02-2",
+   "at": 83.224,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 85.62,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v58/sfx/stamp.wav",
+   "at": 95.234,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v58/sfx/stamp.wav",
+   "at": 96.034,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v58/sfx/stamp.wav",
+   "at": 96.834,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v58/sfx/stamp.wav",
+   "at": 97.634,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/magic/shimmer-pad",
+   "at": 99.765,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/mechanical/clock-tick-tock",
+   "at": 103.666,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/magic/sparkle",
+   "at": 106.527,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 117.848,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 120.086,
+   "vol": 0.128
+  },
+  {
+   "file": "public/v58/sfx/clack.wav",
+   "at": 124.293,
+   "vol": 0.22,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v58/sfx/clack.wav",
+   "at": 124.695,
+   "vol": 0.22,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v58/sfx/clack.wav",
+   "at": 125.109,
+   "vol": 0.22,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 126.077,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/mechanical/clock-tick-tock",
+   "at": 132.88,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v58/sfx/clack.wav",
+   "at": 137.08,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 137.08,
+   "vol": 0.14
+  },
+  {
+   "file": "public/v58/sfx/fold.wav",
+   "at": 138.1,
+   "vol": 0.2,
+   "peak": 0.3
+  },
+  {
+   "id": "sfx/magic/shimmer-pad",
+   "at": 138.3,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 143.199,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v58/sfx/tear.wav",
+   "at": 147.368,
+   "vol": 0.22,
+   "peak": 0.1
+  },
+  {
+   "file": "public/v58/sfx/tear.wav",
+   "at": 148.753,
+   "vol": 0.16,
+   "peak": 0.1
+  },
+  {
+   "file": "public/v58/sfx/tear.wav",
+   "at": 149.253,
+   "vol": 0.16,
+   "peak": 0.1
+  },
+  {
+   "file": "public/v58/sfx/tear.wav",
+   "at": 149.653,
+   "vol": 0.16,
+   "peak": 0.1
+  },
+  {
+   "file": "public/v58/sfx/tear.wav",
+   "at": 150.153,
+   "vol": 0.16,
+   "peak": 0.1
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 156.243,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v58/sfx/bike.wav",
+   "at": 156.543,
+   "vol": 0.1,
+   "peak": 0.05
+  },
+  {
+   "id": "sfx/magic/sparkle",
+   "at": 162.815,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 170.216,
+   "vol": 0.14
+  },
+  {
+   "file": "public/v58/sfx/squeak.wav",
+   "at": 171.207,
+   "vol": 0.14,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v58/sfx/clack.wav",
+   "at": 172.107,
+   "vol": 0.22,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 172.107,
+   "vol": 0.16
+  }
+ ]
+}
