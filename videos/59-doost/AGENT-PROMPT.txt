@@ -1,0 +1,47 @@
+You are my storyboard artist. Create a set of 28 images (numbered 00 to 27) for one animated short, in order, one image per scene.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, bright warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- Frame: horizontal 16:9, cinematic.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no labels, no watermark. Every card, paper, sign, menu or screen is completely blank.
+- Keep the same characters identical in every image. Make image 00 first and use it as the reference for all others.
+
+CHARACTERS:
+- THE NARRATOR: 10-year-old boy, messy black hair, yellow t-shirt, green shorts.
+- HAFEZ: his best friend, 10-year-old boy, spiky red hair, blue-and-white striped t-shirt, big smile.
+- MOM: narrator's mom, dark hair in a ponytail, teal sweater.
+- HAFEZ'S MOM: curly brown hair, pink dress.
+- GRANDPA: bald, white mustache, brown cardigan.
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: THE NARRATOR, HAFEZ, MOM, HAFEZ'S MOM.
+01. A sunny backyard birthday party: in the middle a party chair where a boy just vanished in a puff of white sparkly smoke, only a cone party hat falling in the air, guests around with shocked faces. Magical, funny-dramatic.
+02. A town main street: five serious inspectors in suits each holding a giant magnifying glass, carefully examining a big blank street sign on a pole, one standing on a ladder. Funny.
+03. An Italian restaurant: a chef with a big mustache and tall white hat staring in horror at a blank chalkboard menu, while at the tables customers are biting into thin air, their pizzas vanishing in little puffs of smoke. Funny.
+04. A huge packed stadium at night with spotlights and cheering crowds, and in the middle of the field one tiny kid at a microphone stand during a spelling contest, giant screens around (screens blank). Epic and funny.
+05. A sunny street: a happy GRANDPA licking a big ice cream cone in front of an ice cream shop, with plenty of ice cream in the window. Cheerful.
+06. A living room with birthday decorations: THE NARRATOR standing next to a big open gift box that is completely empty except for a little puff of sparkly smoke, a blank paper wish list in his hand, his jaw dropped.
+07. A backyard: an empty goldfish bowl with only water on a table, and an empty patch of grass with four dents where a trampoline used to be, THE NARRATOR standing between them looking guilty. Funny.
+08. A school playground: HAFEZ laughing and putting his arm around THE NARRATOR's shoulders, both smiling, sunny day. Warm friendship.
+09. A school cafeteria lunch line: HAFEZ standing behind THE NARRATOR and drawing on his back with one gloved finger, a little sparkle trail where his finger moves, THE NARRATOR squinting and guessing with a grin, lunch trays in hand.
+10. Close-up in the lunch line: THE NARRATOR turning around laughing and pointing at HAFEZ, who is cracking up, both laughing hard. Funny.
+11. A colorful backyard birthday party with balloons, fairy lights and a big two-layer birthday cake with lit candles; HAFEZ wearing a red cone party hat, kids around the table, a blank birthday card on the table. Happy.
+12. MOM kneeling beside THE NARRATOR at the party table, pointing at HAFEZ's red cone party hat, while THE NARRATOR holds a pencil over a blank birthday card, nervous.
+13. Close-up: THE NARRATOR's gloved hand slowly writing with a pencil on a blank birthday card, tongue sticking out in concentration, sweat drop. The card shows no readable writing.
+14. HAFEZ leaning over the birthday cake to blow out the candles, cheeks puffed, and his red cone party hat tipping off his head and falling. Kids watching.
+15. The party table: an empty spot where HAFEZ was, a little puff of sparkly smoke, the red party hat on the grass, the birthday candles still lit, all the kids and MOM frozen in shock.
+16. HAFEZ'S MOM screaming with both hands on her cheeks, the cake and the empty chair in the foreground. Dramatic.
+17. THE NARRATOR at the party table surrounded by crumpled blank papers, writing again and again with a pencil, frustrated, tears in his eyes, kids standing around holding papers out to him.
+18. Close-up of a fridge door covered in photos held by magnets: in each photo THE NARRATOR stands alone with an arm around an empty gap where someone used to be. Sad, eerie.
+19. Evening, the backyard after the party: HAFEZ'S MOM calmly taking down balloons, humming happily with music notes around her head, as if nothing happened, while THE NARRATOR watches her in horror.
+20. Night, the empty party table under fairy lights: THE NARRATOR sitting alone with a pencil and a blank card, in front of the red cone party hat, looking lost and foggy, the leftover cake beside him. Lonely mood.
+21. Night, the party table: MOM standing behind THE NARRATOR and tracing a letter on his back with one gloved finger, a soft glowing trail where her finger moves, while he writes on the blank card with his eyes closed in concentration.
+22. Extreme close-up of THE NARRATOR's face, eyes squeezed shut, sweat on his forehead, a pencil in his hand, a faint glowing trail behind him. Intense.
+23. Night, the party table: HAFEZ falling out of thin air from a burst of sparkly light, landing right into the birthday cake with a big splash of cream and frosting flying everywhere, THE NARRATOR and MOM jumping back. Dynamic, funny.
+24. HAFEZ sitting up inside the smashed cake, covered head to toe in white frosting and sprinkles, confused but smiling, a candle stuck in his hair; THE NARRATOR hugging him, crying with joy.
+25. A huge endless bright white room: a bicycle, two goldfish swimming in floating water bubbles, a trampoline, a big stack of pizzas, and lots of random lost objects floating calmly. Dreamy, funny.
+26. The school lunch line: HAFEZ drawing on THE NARRATOR's back again with his finger, both grinning; behind them, a bicycle with a red bow suddenly appearing in a puff of sparkles. Happy.
+27. The school parking lot: a big round trampoline that just landed on the roof of a small car, a bald principal in a suit staring at it with his mouth open, kids laughing. Funny ending.
+
+Deliver all 28 images in this exact order, 00 to 27, each 16:9, no text on any of them.
