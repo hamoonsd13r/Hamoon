@@ -75,3 +75,12 @@ fc = ";".join(f) + ";" + "".join(lab) + f"concat=n={len(pieces)}:v=0:a=1,atempo=
 subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", SRC, "-filter_complex", fc, "-map", "[o]", "-ac", "1", "public/v59/vo.wav"], check=True)
 print(len(S), "script words ·", matched, "matched ·", len(sents), "lines · total", total)
 for i, s in enumerate(segs): print(s["n"], round(s["start"], 2), round(s["end"], 2), "gap", round(s["start"] - segs[i-1]["end"], 2) if i else "", s["text"][:30])
+# ── manual anchors measured on public/v59/vo.wav (second whisper pass): lines 5–7 (the pizza joke) and 19–20
+def refit(line, s0, e0):
+    ws = [w for w in words if w["line"] == line]; a, b = ws[0]["s"], ws[-1]["e"]
+    for w in ws: w["s"] = round(s0 + (w["s"] - a) * (e0 - s0) / max(1e-3, b - a), 3); w["e"] = round(s0 + (w["e"] - a) * (e0 - s0) / max(1e-3, b - a), 3)
+refit(5, 15.5, 18.9); refit(6, 19.0, 21.8); refit(7, 21.9, 25.0)
+refit(19, 60.6, 63.8); refit(20, 63.9, max(w["e"] for w in words if w["line"] == 20))
+segs = [{"n": n, "start": min(w["s"] for w in words if w["line"] == n), "end": max(w["e"] for w in words if w["line"] == n), "text": sents[n - 1]} for n in range(1, len(sents) + 1)]
+json.dump({"total": total, "segs": segs, "words": words}, open("src/v59/vo.json", "w"), ensure_ascii=False)
+print("anchors applied", segs[5]["start"], segs[6]["start"], segs[19]["start"])
