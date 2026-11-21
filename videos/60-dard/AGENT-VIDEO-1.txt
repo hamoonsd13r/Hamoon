@@ -1,0 +1,32 @@
+You are my animation director. Generate 12 short video clips (numbered 01 to 12) — part 1 of 2 — for one animated short, in this exact order, one clip per scene.
+
+GLOBAL RULES (apply to every clip):
+- Style: 2D stickman-style cartoon animation, bold clean black outlines, flat cel shading with soft gradients, light film grain. Smooth, simple cartoon motion.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands (outdoors in winter, colored mittens over them).
+- Frame: horizontal 16:9. Each clip about 8 seconds.
+- Keep the same characters, faces and outfits identical in every clip.
+- NO speech, NO dialogue, NO lip-sync, NO voice-over, NO music. Only natural background sound is fine.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no subtitles, no signs, no labels, no watermark.
+
+CHARACTERS:
+- THE BOY (narrator): 11-year-old boy, curly brown hair, blue puffy winter jacket, grey pants, an orange bike helmet he always wears.
+- NOKHODI: his 6-year-old little sister, black hair in two short pigtails, red winter coat, red mittens, pink snow boots.
+- MOM: long dark hair, green winter coat.
+- CHIEF DELARAM: female fire chief, tan firefighter turnout gear with yellow reflective stripes, black helmet.
+- FIREFIGHTERS: tan turnout gear with yellow stripes, black helmets.
+
+SCENES:
+01. Split screen: on the left, inside a cozy house, a baby girl bumps her head on a table edge and pouts; on the right, at exactly the same moment across town, a big brother on a bicycle suddenly flies off his bike and tumbles on the grass, rubbing his head. Static camera.
+02. A big family living room with eleven kids: the smallest toddler trips on a toy, and at that instant ten older kids around the room fall to the floor one after another like dominoes, rubbing the same knee. Wide static shot, funny.
+03. A sunny playground: THE BOY sits calmly on a swing, then suddenly flips backward off it for no visible reason; far behind him NOKHODI trips over a rock at the same moment. Funny, slow push-in.
+04. A farm field: THE BOY is sitting on a calm cow, then suddenly topples sideways off it into the hay while the cow keeps chewing; in the background NOKHODI falls off a little fence at the same instant. Funny.
+05. A school classroom: THE BOY sits at his desk wearing his orange bike helmet, elbow pads and knee pads, while other kids stare at him; he shrugs and keeps writing. Slow push-in.
+06. A backyard tree in autumn: THE BOY falls out of the tree onto the grass; below, NOKHODI calmly rubs her own knee, does not cry at all, and points back up at the tree with a determined nod. Gentle camera.
+07. Winter, behind a school building: big snowplow trucks push and dump snow into one gigantic snow mountain, as tall as the school, snow spraying. Wide shot, camera slowly tilts up the mountain.
+08. Daytime on the giant snow mountain: many kids in colorful winter coats dig tunnels and crawl in and out of holes, laughing silently, snow flying from their shovels. Wide shot, slow pan.
+09. Close shot at the base of the snow mountain: NOKHODI crawls deeper and deeper into a narrow snow tunnel until only her pink boots are visible, then her boots disappear inside too; THE BOY in the background looks over. Slow push-in.
+10. The whole giant snow mountain cracks and slides down like a huge white wave, a cloud of snow powder exploding outward; THE BOY in the foreground turns around in shock. Dramatic, slight camera shake.
+11. Close-up: THE BOY drops to his knees in the snow, frost spreading over his jacket and helmet, both hands pressed on his chest as if something very heavy sits on it, breathing hard but alive. Slow push-in.
+12. Red fire trucks with flashing lights skid to a stop next to the collapsed snow pile; FIREFIGHTERS and CHIEF DELARAM jump out carrying long metal probe poles. Dynamic camera.
+
+Deliver these 12 clips in this exact order, 01 to 12, each 16:9, about 8 seconds, no text and no speech.
