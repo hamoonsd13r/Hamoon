@@ -1,0 +1,44 @@
+You are my storyboard artist. Create 25 still images (numbered 00 to 24) for one animated short, in this exact order, one image per scene.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands (outdoors in winter, colored mittens over them).
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image. Make image 00 first and use it as the reference for all others.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no signs, no labels, no watermark.
+
+CHARACTERS:
+- THE BOY (narrator): 11-year-old boy, curly brown hair, blue puffy winter jacket, grey pants, an orange bike helmet he always wears.
+- NOKHODI: his 6-year-old little sister, black hair in two short pigtails, red winter coat, red mittens, pink snow boots.
+- MOM: long dark hair, green winter coat.
+- CHIEF DELARAM: female fire chief, tan firefighter turnout gear with yellow reflective stripes, black helmet.
+- FIREFIGHTERS: tan turnout gear with yellow stripes, black helmets.
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: THE BOY, NOKHODI, MOM, CHIEF DELARAM.
+01. Split screen: on the left, inside a cozy house, a baby girl bumping her head on a table edge and pouting; on the right, at the same moment across town, a big brother flying off his bicycle in mid-air above the grass.
+02. A big family living room with eleven kids: the smallest toddler trips on a toy, and at that instant ten older kids around the room fall to the floor one after another like dominoes, rubbing the same knee.
+03. A sunny playground: THE BOY flipping backward off a swing in mid-air for no visible reason, while far behind him NOKHODI trips over a rock at the same moment. Funny.
+04. A farm field: THE BOY toppling sideways off a calm cow into the hay in mid-fall, the cow still chewing; in the background NOKHODI falling off a little fence at the same instant. Funny.
+05. A school classroom: THE BOY sits at his desk wearing his orange bike helmet, elbow pads and knee pads, while other kids stare at him; he shrugs and keeps writing.
+06. A backyard tree in autumn: THE BOY lying on the grass after falling out of the tree; next to him NOKHODI calmly rubbing her own knee, not crying at all, pointing back up at the tree with a determined face.
+07. Winter, behind a school building: big snowplow trucks push and dump snow into one gigantic snow mountain, as tall as the school, snow spraying.
+08. Daytime on the giant snow mountain: many kids in colorful winter coats dig tunnels and crawl in and out of holes, laughing silently, snow flying from their shovels.
+09. Close shot at the base of the snow mountain: only NOKHODI's pink boots sticking out of a deep narrow snow tunnel; THE BOY in the background looking over, worried.
+10. The whole giant snow mountain cracking and sliding down like a huge white wave, a cloud of snow powder exploding outward; THE BOY in the foreground turning around in shock.
+11. Close-up: THE BOY drops to his knees in the snow, frost spreading over his jacket and helmet, both hands pressed on his chest as if something very heavy sits on it, breathing hard but alive.
+12. Red fire trucks with flashing lights skid to a stop next to the collapsed snow pile; FIREFIGHTERS and CHIEF DELARAM jumping out carrying long metal probe poles.
+13. A row of FIREFIGHTERS walk across the huge snow pile, pushing long metal poles straight down into the snow step by step; the poles keep hitting ice chunks with little sparks of snow.
+14. MOM on her knees on the snow pile, digging with her hands and shouting silently into the snow, tears on her face, snow falling.
+15. Extreme close-up of THE BOY's gloved fingers with frost slowly fading from them; his face above them full of fear as he realizes what it means.
+16. THE BOY stands on the snow pile and waves both arms at the FIREFIGHTERS, pointing at the poles; CHIEF DELARAM nods and signals the line of firefighters.
+17. Close-up of a row of long metal poles plunged into the snow, one after another, left to right; THE BOY standing beside them, tense, watching.
+18. THE BOY suddenly grabs his LEFT shoulder and doubles over in pain, then points straight at the pole that just went into the snow next to him; a firefighter freezes holding that pole.
+19. THE BOY digs frantically into the snow with his bare hands, ice chunks flying, his hands red and scraped; a firefighter's shovel accidentally bonks his orange helmet with a little spark and he keeps digging.
+20. Deep in the snow hole: a small red mitten appears; THE BOY grabs it and pulls NOKHODI out of the snow, her face pale and frosty, eyes closed.
+21. Close-up: NOKHODI, lying in THE BOY's arms wrapped in a firefighter blanket, coughs, slowly opens her eyes, looks at his scraped red hands and gently holds them.
+22. THE BOY hugging NOKHODI tightly in the snow; MOM hugging both of them; FIREFIGHTERS and CHIEF DELARAM around them smiling with relief; snowflakes falling gently.
+23. THE BOY and NOKHODI sitting on the back step of a fire truck wrapped in blankets; he says thank you with a hug, she smiles proudly; sunset light on the snow.
+24. NOKHODI and THE BOY both hopping on one foot holding their toes with the same funny pained face, right after she stubbed her toe on the fire truck's wheel; firefighters laughing.
+
+Deliver all 25 images in this exact order, 00 to 24, each 16:9, no text on any of them.
