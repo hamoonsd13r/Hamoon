@@ -1,4 +1,4 @@
-// Reel covers (1080×1920) for V54 «ناقوس شب», V55 «بستنی‌فروشی»، V56 «مدرسه»، V57 «مترسک»، V58 «نامه‌رسون» and V59 «دوست غلط‌املایی».
+// Reel covers (1080×1920) for V54 «ناقوس شب», V55 «بستنی‌فروشی»، V56 «مدرسه»، V57 «مترسک»، V58 «نامه‌رسون»، V59 «دوست غلط‌املایی» and V60 «دردِ مشترک».
 // The key art and text sit inside the centre 1080×1440 so the profile grid's 3:4 crop keeps them.
 // Render: npx remotion still V54-Cover videos/54-naghus/cover.jpg · npx remotion still V55-Cover videos/55-bastani/cover.jpg
 import React from "react";
@@ -56,5 +56,7 @@ export const CoversCompositions: React.FC = () => (
       defaultProps={{ img: "v58/img/14.jpg", ar: 16 / 9, h: 1250, fx: 0.5, fy: 0.5, top: "اگه پاکتِ سیاه اومد…", hook: "صندوق نذار!", title: "نامه‌رسونِ شب", tint: "rgba(4,6,20,0.85)" }} />
     <Composition id="V59-Cover" component={Cover} durationInFrames={1} fps={30} width={W} height={H}
       defaultProps={{ img: "v59/img/01.jpg", ar: 16 / 9, h: 1250, fx: 0.5, fy: 0.42, big: "حافز؟", top: "اگه غلط بنویسی…", hook: "غیبش می‌زنه!", title: "دوست غلط‌املایی", tint: "rgba(30,14,4,0.8)" }} />
+    <Composition id="V60-Cover" component={Cover} durationInFrames={1} fps={30} width={W} height={H}
+      defaultProps={{ img: "v60/img/20.jpg", ar: 16 / 9, h: 1250, fx: 0.5, fy: 0.25, big: "آخ!", top: "اگه خواهرت زمین بخوره…", hook: "تو حسش می‌کنی!", title: "دردِ مشترک", tint: "rgba(4,14,30,0.8)" }} />
   </>
 );
