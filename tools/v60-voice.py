@@ -75,3 +75,11 @@ fc = ";".join(f) + ";" + "".join(lab) + f"concat=n={len(pieces)}:v=0:a=1,atempo=
 subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", SRC, "-filter_complex", fc, "-map", "[o]", "-ac", "1", "public/v60/vo.wav"], check=True)
 print(len(S), "script words ·", matched, "matched ·", len(sents), "lines · total", total)
 for i, s in enumerate(segs): print(s["n"], round(s["start"], 2), round(s["end"], 2), "gap", round(s["start"] - segs[i-1]["end"], 2) if i else "", s["text"][:30])
+# ── manual anchors measured on public/v60/vo.wav (focused whisper pass on 124–140 s): the counting section
+def put(line, times, dur=0.35):
+    for w, t in zip([w for w in words if w["line"] == line], times): w["s"], w["e"] = t, t + dur
+put(41, [127.14, 127.66, 128.4, 128.82]); put(42, [129.66, 130.16, 130.82]); put(43, [131.48, 131.92, 132.06])
+put(44, [132.74, 133.28, 134.08, 134.32]); put(45, [134.86, 135.24, 135.62]); put(46, [136.2, 136.92, 137.38, 137.94])
+segs = [{"n": n, "start": min(w["s"] for w in words if w["line"] == n), "end": max(w["e"] for w in words if w["line"] == n), "text": sents[n - 1]} for n in range(1, len(sents) + 1)]
+json.dump({"total": total, "segs": segs, "words": words}, open("src/v60/vo.json", "w"), ensure_ascii=False)
+print("anchors applied", segs[41]["start"], segs[42]["start"], segs[45]["start"])

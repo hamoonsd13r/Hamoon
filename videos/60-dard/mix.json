@@ -1,0 +1,379 @@
+{
+ "length": 175.87,
+ "voice": "public/v60/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/ambient/quiet-village-4.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 53.405,
+   "fadeIn": 0.3,
+   "fadeOut": 2,
+   "gain": 0.07
+  },
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 51.405,
+   "from": 0,
+   "to": 95.082,
+   "fadeIn": 2,
+   "fadeOut": 1.2,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 145.487,
+   "from": 0,
+   "to": 22.175,
+   "fadeIn": 1.5,
+   "fadeOut": 1.5,
+   "gain": 0.08
+  },
+  {
+   "file": "public/audio/music/ambient/quiet-village-4.mp3",
+   "at": 166.162,
+   "from": 20,
+   "to": 29.708,
+   "fadeIn": 0.8,
+   "fadeOut": 1.5,
+   "gain": 0.07
+  }
+ ],
+ "beds": [
+  {
+   "file": "public/v60/sfx/wind.wav",
+   "from": 51.905,
+   "to": 92.389,
+   "vol": 0.14
+  },
+  {
+   "file": "public/v60/sfx/wind.wav",
+   "from": 95.737,
+   "to": 145.887,
+   "vol": 0.12
+  }
+ ],
+ "sfx": [
+  {
+   "file": "public/v60/sfx/boing.wav",
+   "at": 14.802,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 17.299,
+   "vol": 0.14
+  },
+  {
+   "file": "public/v60/sfx/boing.wav",
+   "at": 17.399,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 23.235,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 23.535,
+   "vol": 0.108
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 23.835,
+   "vol": 0.096
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 24.135,
+   "vol": 0.084
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 24.435,
+   "vol": 0.072
+  },
+  {
+   "file": "public/v60/sfx/boing.wav",
+   "at": 26.036,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/boing.wav",
+   "at": 26.593,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/boing.wav",
+   "at": 27.128,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 32.649,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v60/sfx/boing.wav",
+   "at": 37.249,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 47.859,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/mechanical/gear-winding",
+   "at": 52.405,
+   "vol": 0.08
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 59.726,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 60.326,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 60.926,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 67.075,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v60/sfx/crack.wav",
+   "at": 69.333,
+   "vol": 0.24,
+   "peak": 0.05
+  },
+  {
+   "file": "public/v60/sfx/avalanche.wav",
+   "at": 73.903,
+   "vol": 0.22,
+   "peak": 0.6
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 77.598,
+   "vol": 0.22
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 77.598,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 82.528,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 85.797,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 89.045,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v60/sfx/siren.wav",
+   "at": 91.889,
+   "vol": 0.14,
+   "peak": 0.5
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 96.237,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 97.037,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 97.837,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 98.637,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 100.725,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 101.525,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/mechanical/clock-tick-tock",
+   "at": 109.421,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 112.559,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 115.999,
+   "vol": 0.128
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 127.14,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 128.4,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 132.74,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/rock-hit-01",
+   "at": 129.66,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/impact/rock-hit-01",
+   "at": 130.16,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/impact/rock-hit-01",
+   "at": 130.82,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/mechanical/clock-tick-tock",
+   "at": 131.48,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 134.86,
+   "vol": 0.14
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 135.46,
+   "vol": 0.2,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/cinematic-heavy",
+   "at": 136.2,
+   "vol": 0.18
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 139.031,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 139.531,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 140.031,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 140.531,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/ding.wav",
+   "at": 143.194,
+   "vol": 0.22,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 144.119,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 144.719,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v60/sfx/snow.wav",
+   "at": 145.319,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 145.887,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/magic/shimmer-pad",
+   "at": 150.616,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v60/sfx/boing.wav",
+   "at": 173.736,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 168.262,
+   "vol": 0.14
+  }
+ ]
+}
