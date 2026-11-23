@@ -1,0 +1,274 @@
+{
+ "length": 175.41,
+ "voice": "public/v61/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/ambient/quiet-village-4.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 72.215,
+   "fadeIn": 0.3,
+   "fadeOut": 1.5,
+   "gain": 0.07
+  },
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 70.715,
+   "from": 0,
+   "to": 73.193,
+   "fadeIn": 1.5,
+   "fadeOut": 1,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 142.908,
+   "from": 0,
+   "to": 32.502,
+   "fadeIn": 1.2,
+   "fadeOut": 2,
+   "gain": 0.08
+  }
+ ],
+ "beds": [
+  {
+   "file": "public/v61/sfx/river.wav",
+   "from": 61.51,
+   "to": 71.115,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v61/sfx/storm.wav",
+   "from": 71.115,
+   "to": 73.341,
+   "vol": 0.35
+  },
+  {
+   "file": "public/v61/sfx/river.wav",
+   "from": 73.341,
+   "to": 153.792,
+   "vol": 0.14
+  }
+ ],
+ "sfx": [
+  {
+   "file": "public/v61/sfx/smash.wav",
+   "at": 3.481,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v61/sfx/snap.wav",
+   "at": 6.941,
+   "vol": 0.22,
+   "peak": 0.62
+  },
+  {
+   "file": "public/v61/sfx/ding.wav",
+   "at": 11.08,
+   "vol": 0.2,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v61/sfx/ding.wav",
+   "at": 11.995,
+   "vol": 0.12,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v61/sfx/smash.wav",
+   "at": 18.478,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 26.268,
+   "vol": 0.16
+  },
+  {
+   "file": "public/v61/sfx/snap.wav",
+   "at": 29.438,
+   "vol": 0.18,
+   "peak": 0.62
+  },
+  {
+   "file": "public/v61/sfx/smash.wav",
+   "at": 36.255,
+   "vol": 0.24,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v61/sfx/snap.wav",
+   "at": 37.861,
+   "vol": 0.22,
+   "peak": 0.62
+  },
+  {
+   "file": "public/v61/sfx/ding.wav",
+   "at": 45.501,
+   "vol": 0.16,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v61/sfx/boing.wav",
+   "at": 66.643,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v61/sfx/boing.wav",
+   "at": 66.812,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v61/sfx/boing.wav",
+   "at": 67.109,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 71.715,
+   "vol": 0.16
+  },
+  {
+   "id": "sfx/ambience/wind",
+   "at": 84.973,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 85.373,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v61/sfx/crack.wav",
+   "at": 91.434,
+   "vol": 0.24,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v61/sfx/crack.wav",
+   "at": 92.909,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 94.662,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v61/sfx/creak.wav",
+   "at": 100.023,
+   "vol": 0.18,
+   "peak": 0.6
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 102.759,
+   "vol": 0.128
+  },
+  {
+   "id": "sfx/body/heartbeat",
+   "at": 103.759,
+   "vol": 0.128
+  },
+  {
+   "file": "public/v61/sfx/smash.wav",
+   "at": 107.451,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v61/sfx/saw.wav",
+   "at": 113.052,
+   "vol": 0.14,
+   "peak": 0.25
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 121.709,
+   "vol": 0.16
+  },
+  {
+   "file": "public/v61/sfx/ding.wav",
+   "at": 124.12,
+   "vol": 0.24,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 124.12,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 124.68,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v61/sfx/boing.wav",
+   "at": 138.888,
+   "vol": 0.2,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v61/sfx/crack.wav",
+   "at": 139.65,
+   "vol": 0.24,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 140.502,
+   "vol": 0.14
+  },
+  {
+   "file": "public/v61/sfx/snap.wav",
+   "at": 143.977,
+   "vol": 0.24,
+   "peak": 0.62
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 143.977,
+   "vol": 0.14
+  },
+  {
+   "file": "public/v61/sfx/snap.wav",
+   "at": 146.966,
+   "vol": 0.16,
+   "peak": 0.62
+  },
+  {
+   "file": "public/v61/sfx/snap.wav",
+   "at": 147.053,
+   "vol": 0.16,
+   "peak": 0.62
+  },
+  {
+   "file": "public/v61/sfx/snap.wav",
+   "at": 147.338,
+   "vol": 0.16,
+   "peak": 0.62
+  },
+  {
+   "id": "sfx/magic/shimmer-pad",
+   "at": 147.902,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/magic/sparkle-rise",
+   "at": 148.902,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/magic/sparkle",
+   "at": 167.574,
+   "vol": 0.08
+  }
+ ]
+}
