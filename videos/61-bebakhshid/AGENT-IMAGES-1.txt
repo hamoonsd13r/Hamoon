@@ -1,0 +1,34 @@
+You are my storyboard artist. Create 14 still images (numbered 00 to 13) for one animated short, in this exact order, one image per scene. This is part 1 of 2.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- Every person has a small round glowing badge on the back of one hand (a simple glowing dot, NO number on it).
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image. Make image 00 first and use it as the reference for all others.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no signs, no labels, no watermark.
+
+CHARACTERS:
+- THE BOY (narrator): 12-year-old boy, short spiky black hair, green hoodie, jeans, sneakers.
+- MORVARID: his 7-year-old little sister, long brown hair in one braid, yellow raincoat, red rain boots.
+- DAD: short black beard, glasses, blue checked shirt, a tool belt.
+- MOM: dark hair in a bun, purple sweater.
+- GRANDPA: bald, big white mustache, brown vest, walking cane.
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: THE BOY, MORVARID, DAD, MOM, GRANDPA.
+01. A cozy kitchen: a broken ceramic plate on the floor magically flying back together in mid-air with sparkles and motion lines, a surprised person in an apron pointing at it, a soft glow on the back of their hand.
+02. Extreme close-up of the back of a black-gloved hand with a small round glowing badge on it, the glow dimming like a light turning down, sparkles drifting off.
+03. A busy restaurant: a waiter who just dropped a stack of plates calmly sweeping up the pieces with a broom, customers not even looking up. Funny.
+04. A school bus that has backed into a bakery window, and hundreds of donuts flying back through the air into the window display with magical sparkles, the bus driver with one hand raised. Funny, dynamic.
+05. A living room: a cat sitting guiltily next to a cracked vase on a shelf, and DAD swinging a hammer at the vase, MOM gasping in the background. Funny.
+06. The same living room: the smashed vase pieces flying back together into a perfect vase with sparkles, DAD smiling proudly, MOM crossing her arms angrily and turning away.
+07. THE BOY sitting on his bed looking at the back of his hand with one faint glowing dot, frowning, thinking, DAD laughing in the doorway.
+08. A backyard: MORVARID with her arms crossed, chin up, stubbornly refusing, while holding a worm in her other hand making a disgusted face. Funny.
+09. An old rope suspension bridge over a small river gorge behind a house: MORVARID jumping high on the wooden planks, the bridge bouncing, GRANDPA watching from the bank laughing. Sunny, happy.
+10. Night: a giant storm with lightning, heavy rain and wind whipping the trees around the rope bridge, the bridge swinging wildly.
+11. Morning after the storm: the rope bridge hanging by only one rope, half of the wooden planks floating down the river below, sad grey light.
+12. A small town hall meeting: villagers sitting on chairs, shaking their heads and hiding their hands behind their backs, MORVARID standing sadly at the front.
+13. A strong wind carrying MORVARID's red kite and dropping it in the middle of the broken rope bridge; MORVARID starting to run toward it.
+
+Deliver these 14 images in this exact order, 00 to 13, each 16:9, no text.

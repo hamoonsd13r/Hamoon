@@ -1,0 +1,34 @@
+You are my storyboard artist. Create 14 still images (numbered 14 to 27) for one animated short, in this exact order, one image per scene. This is part 2 of 2, same characters and style as part 1; use image 00 as the reference.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- Every person has a small round glowing badge on the back of one hand (a simple glowing dot, NO number on it).
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no signs, no labels, no watermark.
+
+CHARACTERS:
+- THE BOY (narrator): 12-year-old boy, short spiky black hair, green hoodie, jeans, sneakers.
+- MORVARID: his 7-year-old little sister, long brown hair in one braid, yellow raincoat, red rain boots.
+- DAD: short black beard, glasses, blue checked shirt, a tool belt.
+- MOM: dark hair in a bun, purple sweater.
+- GRANDPA: bald, big white mustache, brown vest, walking cane.
+
+SCENES:
+14. MORVARID running onto the broken bridge, the wooden planks cracking and snapping under her feet, splinters flying, THE BOY shouting from the bank with his arm out.
+15. MORVARID hanging from the last wooden plank with both hands over the river gorge, sharp rocks far below, her red boots dangling, tears in her eyes. Dramatic low angle.
+16. DAD carefully climbing out onto the remaining rope, the rope creaking and stretching dangerously, GRANDPA on the bank waving for help.
+17. Close-up of MORVARID's gloved fingers slowly slipping on the wet wooden plank.
+18. THE BOY with a determined face holding a hand saw, standing at the edge of the bank looking at the last rope.
+19. THE BOY running with the saw and crashing straight into DAD, both falling, the saw flying, a little glowing spark flashing on THE BOY's hand. Funny-dramatic.
+20. Close-up: THE BOY staring in shock at the back of his hand, its glowing dot now completely dark.
+21. THE BOY on his knees at the edge shouting to MORVARID with his hands around his mouth, MORVARID looking down at the rocks, scared.
+22. MORVARID bouncing on the plank, the last rope snapping, the whole bridge and MORVARID falling toward the river. Dramatic.
+23. Magic moment: all the wooden planks flying up out of the river with sparkles, ropes tying themselves, the rebuilt bridge catching MORVARID in mid-air and lifting her up. Glowing magical light.
+24. The bridge good as new in sunshine, MORVARID sitting in the middle hugging her red kite, smiling; THE BOY sitting on the bank exhausted and relieved.
+25. GRANDPA laughing and pointing at THE BOY, MORVARID giggling, DAD with his arm around THE BOY.
+26. Flashback in warm sepia tones: a tiny 3-year-old boy in a green t-shirt bouncing on the rope bridge until a plank snaps, young DAD rushing toward him. Nostalgic.
+27. Old photo-like flashback in faded colors: a young boy with a big bushy mustache-drawing on his lip jumping on the same rope bridge while it breaks, an old man laughing. Funny ending.
+
+Deliver these 14 images in this exact order, 14 to 27, each 16:9, no text.
