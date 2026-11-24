@@ -1,0 +1,36 @@
+You are my storyboard artist. Create 16 still images (numbered 00 to 15) for one animated short, in this exact order, one image per scene. This is part 1 of 2.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, bright warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- The Golden Book: a giant open book with glowing golden covers on a marble pedestal. Its pages are blank or show only wavy scribble lines.
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no signs, no labels, no banners with writing, no watermark.
+
+CHARACTERS:
+- THE KID (narrator): 12-year-old boy, messy dark hair under a red hoodie with the hood up, black jeans, red sneakers.
+- SALTANI: a smug man in his forties, slicked-back black hair, thin mustache, a small golden crown, a red royal robe with a white fur collar, always holding a big red rubber stamp.
+- THE GIRL: 12-year-old girl, long wavy black hair, white t-shirt, green cargo pants.
+- GRANDMA: white hair in a bun, round glasses, flowered apron.
+- THE GUARDS: two big men in black suits and black sunglasses.
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: THE KID, SALTANI on his stamp, THE GIRL, GRANDMA, and THE GUARDS.
+01. A birthday party at home: a kid blowing out twelve candles on a big cake, friends cheering, confetti. Warm and happy.
+02. The Hall of Rules: a grand white marble temple with tall columns and a golden dome, a beam of golden light shooting from the dome into the sky, a small kid walking up the long red carpet stairs.
+03. Inside the Hall: the giant glowing Golden Book on a pedestal, a kid writing in it with a big golden quill, golden light rings spreading out across the world map on the floor.
+04. A park bench at sunset: a very old grey-haired man and his equally old grey-muzzled dog sitting together, both smiling, happy and loyal.
+05. A sunny weekend park full of kids playing, while dark rain clouds are stuck at the edge of the park, unable to come in. Funny.
+06. GRANDMA pulling a tray of perfect golden chocolate-chip cookies out of the oven, the cookies sparkling, GRANDMA proud.
+07. A school cafeteria: kids happily gobbling broccoli like candy, broccoli sparkling with candy colors, one kid asking for more. Funny.
+08. Close-up of the Golden Book: a pink eraser shattering into pieces against the glowing page, and heavy golden chains wrapped around the book.
+09. Flashback in warm sepia tones, thirty years ago: a 12-year-old boy with slicked-back black hair (young SALTANI) grinning evilly while writing in the Golden Book.
+10. SALTANI grown up, sitting on a giant golden throne next to the Golden Book, crown on his head, red robe, holding his big red stamp, smug smile.
+11. SALTANI slamming his red stamp down, a big red X mark on a kid's paper, the kid holding a puppy and crying, the puppy sad too.
+12. THE GIRL standing in front of SALTANI's throne holding up a page with a drawing of a full food bowl and the Earth, SALTANI stamping a big red X, THE GIRL heartbroken.
+13. A city parade celebrating SALTANI: giant balloons of his face, crowds waving little flags with his face, and a giant gold coin with his face rolling by. No text anywhere.
+14. A town square with a giant golden statue of SALTANI holding his stamp, pigeons on his crown, people walking past rolling their eyes.
+15. A girl writing a rule in microscopic tiny scribbles at the very bottom of a page of the Golden Book, while SALTANI looks through a huge magnifying glass right behind her, stamp raised. Funny.
+
+Deliver these 16 images in this exact order, 00 to 15, each 16:9, no text.
