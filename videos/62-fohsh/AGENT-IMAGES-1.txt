@@ -1,0 +1,36 @@
+You are my storyboard artist. Create 16 still images (numbered 00 to 15) for one animated short, in this exact order, one image per scene. This is part 1 of 2.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, bright warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- Magic transformations always happen with a small puff of pink sparkly smoke.
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image. Make image 00 first and use it as the reference for all others.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no signs, no labels, no watermark.
+
+CHARACTERS:
+- THE BOY (narrator): 12-year-old boy, messy red hair, black t-shirt with a lightning bolt, cargo shorts, sneakers.
+- NILOO: his 7-year-old little sister, black hair in two puffy buns, orange overalls, yellow rain boots.
+- GRANDPA: tall, thin, grumpy, bald with bushy grey eyebrows, grey cardigan, slippers.
+- MOM: brown ponytail, teal t-shirt, jeans.
+- THE CROW: a big glossy black crow with a sharp yellow beak and clever eyes.
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: THE BOY, NILOO, GRANDPA, MOM, and THE CROW perched on a fence post.
+01. A sunny small-town street: a boy pointing angrily at his brother, and the brother turning into a pink pig in a puff of pink sparkly smoke, neighbors gasping. Funny.
+02. Two kids shouting rude words at each other in a schoolyard with angry faces, and absolutely nothing happens; other kids yawning, bored. Funny.
+03. Town hall: a mayor in a suit sitting in a giant baby stroller with a pacifier, holding papers, while staff hand him documents seriously. Funny.
+04. THE BOY standing proudly with arms crossed in front of a house, while behind him NILOO stands as a little pink pig in orange overalls, annoyed.
+05. GRANDPA in his armchair turning his face away grumpily with his arms crossed, refusing to apologize, THE BOY copying his exact pose next to him. Funny.
+06. A driveway: THE BOY's shiny new bicycle covered in mud, NILOO holding a muddy stick and smiling innocently, THE BOY furious.
+07. THE BOY pointing and shouting, and NILOO shrinking into a tiny pink wiggly worm in yellow boots in a puff of pink smoke on the driveway.
+08. A garbage truck backing up with flashing lights toward the tiny pink worm on the driveway, THE BOY reaching out in panic.
+09. THE CROW swooping down and snatching the tiny pink worm in its beak just before the truck wheel, feathers and dust flying. Dynamic.
+10. GRANDPA on the porch in his slippers feeding THE CROW a slice of toast on another morning, flashback warm light.
+11. THE CROW flying high over the rooftops toward the tallest pine tree in a forest, carrying the tiny worm, small figures below looking up.
+12. THE BOY in the yard shouting up at the sky with his hands around his mouth, the wind blowing leaves past him, GRANDPA standing silently beside him in slippers.
+13. THE BOY shaking his fist at THE CROW sitting on a branch, and THE CROW looking back totally unimpressed. Funny.
+14. Close-up: a big nest at the top of a tall swaying pine tree, THE CROW leaning over the tiny pink worm with its beak open. Tense.
+15. THE BOY running to GRANDPA and grabbing his cardigan, begging; GRANDPA scowling with his arms crossed.
+
+Deliver these 16 images in this exact order, 00 to 15, each 16:9, no text.
