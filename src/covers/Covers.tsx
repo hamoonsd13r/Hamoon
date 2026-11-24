@@ -58,5 +58,7 @@ export const CoversCompositions: React.FC = () => (
       defaultProps={{ img: "v59/img/01.jpg", ar: 16 / 9, h: 1250, fx: 0.5, fy: 0.42, big: "حافز؟", top: "اگه غلط بنویسی…", hook: "غیبش می‌زنه!", title: "دوست غلط‌املایی", tint: "rgba(30,14,4,0.8)" }} />
     <Composition id="V60-Cover" component={Cover} durationInFrames={1} fps={30} width={W} height={H}
       defaultProps={{ img: "v60/img/20.jpg", ar: 16 / 9, h: 1250, fx: 0.5, fy: 0.25, big: "آخ!", top: "اگه خواهرت زمین بخوره…", hook: "تو حسش می‌کنی!", title: "دردِ مشترک", tint: "rgba(4,14,30,0.8)" }} />
+    <Composition id="V62-Cover" component={Cover} durationInFrames={1} fps={30} width={W} height={H}
+      defaultProps={{ img: "v62/img/04c.jpg", ar: 16 / 9, h: 1250, fx: 0.42, fy: 0.45, big: "پاپ!", top: "هر اسمی بهش بدی…", hook: "همون می‌شه!", title: "فحشِ واقعی", tint: "rgba(30,6,24,0.8)" }} />
   </>
 );
