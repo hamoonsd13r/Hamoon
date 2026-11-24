@@ -1,0 +1,51 @@
+You are my animation director. Create 15 short video clips (numbered 16 to 30) for one animated short, in this exact order, one clip per scene. This is part 2 of 2. Same characters and style as part 1.
+
+GLOBAL RULES (apply to every clip):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, bright warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- The Golden Book: a giant open book with glowing golden covers on a marble pedestal. Its pages are blank or show only wavy scribble lines.
+- Each clip: 8 seconds, horizontal 16:9, smooth cartoon animation, gentle camera move.
+- NO dialogue, NO voices, NO music: ambient sound effects only (the narration is added later).
+- Keep the same characters, faces and outfits identical in every clip.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no signs, no labels, no banners with writing, no watermark.
+
+CHARACTERS:
+- THE KID (narrator): 12-year-old boy, messy dark hair under a red hoodie with the hood up, black jeans, red sneakers.
+- SALTANI: a smug man in his forties, slicked-back black hair, thin mustache, a small golden crown, a red royal robe with a white fur collar, always holding a big red rubber stamp.
+- THE GIRL: 12-year-old girl, long wavy black hair, white t-shirt, green cargo pants.
+- GRANDMA: white hair in a bun, round glasses, flowered apron.
+- THE GUARDS: two big men in black suits and black sunglasses.
+
+SCENES:
+16. A boy sneaking in, hanging from a rope through a hole in the glass roof of the Hall of Rules, and THE GUARDS below catching his legs. Funny.
+    Motion: The boy slides down the rope from the roof; the guards grab his legs mid-air; he dangles and kicks.
+17. A kid writing in the Golden Book with invisible ink, while SALTANI shines a purple UV flashlight on the page, revealing glowing scribbles, SALTANI smirking.
+    Motion: The kid writes with an invisible pen; Saltani clicks on the purple UV flashlight and the scribbles glow.
+18. THE KID in his red hoodie standing in front of the giant golden doors of the Hall of Rules, TV cameras and a huge crowd behind him, nervous but determined.
+    Motion: Camera flashes and cheering crowd; the kid in the red hoodie takes a deep breath and pushes the giant doors open.
+19. Inside the Hall: SALTANI sitting on his throne beside the Golden Book, smiling, holding his big red stamp, THE KID walking toward him down the red carpet.
+    Motion: The kid walks down the red carpet; Saltani watches from his throne, smiling, spinning the red stamp.
+20. THE GUARDS searching THE KID: one turning out his hoodie pockets, the other inspecting his pen with a magnifying glass. Funny.
+    Motion: One guard turns out the kid's pockets (lint falls out); the other squints at the pen through a magnifying glass.
+21. SALTANI leaning forward from his throne, wagging his finger at THE KID with a smug warning look.
+    Motion: Saltani leans forward and slowly wags his finger, smug.
+22. THE KID calmly writing one short line in the Golden Book, then sliding the book across to SALTANI, a tiny sly smile.
+    Motion: The kid writes one short line, turns the book around and slides it across to Saltani with a tiny sly smile.
+23. SALTANI throwing his head back laughing hard, holding the Golden Book, THE KID standing still.
+    Motion: Saltani reads, then throws his head back laughing hard; the kid stands perfectly still.
+24. SALTANI slamming his big stamp down on the page with a flash of bright green light and a giant green checkmark glow.
+    Motion: Saltani raises the stamp high and slams it down; a flash of bright green light and a giant green checkmark glow.
+25. A cozy living room: a family on the couch watching TV, all groaning and rolling their eyes, the dad face-palming. Funny.
+    Motion: The family on the couch groan at the TV together; the dad slowly face-palms.
+26. SALTANI frozen in horror, sweat drops, face pale, as the Golden Book's pages flip wildly by themselves and glow, papers flying.
+    Motion: Saltani freezes; sweat drops; the Golden Book's pages flip wildly by themselves and glowing papers fly out.
+27. The Hall of Rules shaking, golden light beams shooting from the dome and spreading across the whole planet, seen from high above.
+    Motion: The Hall shakes, dust falls; golden beams shoot from the dome and race across the planet seen from above.
+28. A neighborhood street: on every doorstep a cute puppy with a red bow, kids opening their front doors and screaming with joy.
+    Motion: Front doors open all along the street; kids find puppies with red bows and scream with joy, puppies jump into their arms.
+29. Long tables full of food stretching across a field, people of every kind eating together and smiling, THE GIRL in the middle happily eating. Warm and emotional.
+    Motion: Slow pan along the endless tables; everyone eats and smiles; the girl takes a big happy bite.
+30. SALTANI in yellow rubber gloves, a pink apron and his crown, miserably scrubbing a toilet, an endless line of bathroom stalls behind him, THE KID laughing at the door.
+    Motion: Saltani scrubs a toilet miserably, sighs; the camera pulls back to reveal endless bathroom stalls; the kid laughs at the door.
+
+Deliver these 15 clips in this exact order, 16 to 30, each 8 seconds, 16:9, no text, no voices.
