@@ -1,0 +1,264 @@
+{
+ "length": 150.22,
+ "voice": "public/v63/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/chiptune/sunny-afternoon.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 36.245,
+   "fadeIn": 0.3,
+   "fadeOut": 1.2,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/ambient/quiet-village-4.mp3",
+   "at": 35.245,
+   "from": 0,
+   "to": 48.53,
+   "fadeIn": 1,
+   "fadeOut": 1,
+   "gain": 0.07
+  },
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 82.775,
+   "from": 0,
+   "to": 45.469,
+   "fadeIn": 1,
+   "fadeOut": 0.5,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/upbeat/happy-dance.mp3",
+   "at": 127.744,
+   "from": 0,
+   "to": 22.476,
+   "fadeIn": 0.6,
+   "fadeOut": 2,
+   "gain": 0.06
+  }
+ ],
+ "beds": [],
+ "sfx": [
+  {
+   "id": "sfx/magic/sparkle",
+   "at": 0.3,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/magic/sparkle-rise",
+   "at": 7.075,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v63/sfx/quill.wav",
+   "at": 7.375,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/creature/barking-02",
+   "at": 17.78,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/magic/sparkle",
+   "at": 23.06,
+   "vol": 0.08
+  },
+  {
+   "file": "public/v63/sfx/pages.wav",
+   "at": 32.155,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 32.771,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 40.472,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v63/sfx/quill.wav",
+   "at": 41.072,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 103.64,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v63/sfx/quill.wav",
+   "at": 104.24,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/transition/swell-bell",
+   "at": 143.815,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v63/sfx/quill.wav",
+   "at": 144.415,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 48.777,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v63/sfx/buzz.wav",
+   "at": 48.827,
+   "vol": 0.088,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 50.535,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v63/sfx/buzz.wav",
+   "at": 50.585,
+   "vol": 0.088,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 52.684,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v63/sfx/buzz.wav",
+   "at": 52.734,
+   "vol": 0.088,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 74.953,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v63/sfx/buzz.wav",
+   "at": 75.003,
+   "vol": 0.088,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 77.602,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v63/sfx/buzz.wav",
+   "at": 77.652,
+   "vol": 0.088,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 80.03,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v63/sfx/buzz.wav",
+   "at": 80.08,
+   "vol": 0.088,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 112.654,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v63/sfx/chime.wav",
+   "at": 112.734,
+   "vol": 0.18,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 147.508,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v63/sfx/chime.wav",
+   "at": 147.588,
+   "vol": 0.18,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v63/sfx/stamp.wav",
+   "at": 112.125,
+   "vol": 0.32,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 118.851,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v63/sfx/pages.wav",
+   "at": 120.487,
+   "vol": 0.16,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v63/sfx/rumble.wav",
+   "at": 127.744,
+   "vol": 0.24,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/impact/distant-boom",
+   "at": 127.944,
+   "vol": 0.18
+  },
+  {
+   "id": "sfx/riser/downlifter-dark",
+   "at": 128.696,
+   "vol": 0.08
+  },
+  {
+   "id": "sfx/magic/sparkle-rise",
+   "at": 129.696,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/creature/barking-01",
+   "at": 133.625,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/creature/barking-02",
+   "at": 134.425,
+   "vol": 0.1
+  },
+  {
+   "id": "sfx/foley/toilet-02",
+   "at": 148.138,
+   "vol": 0.12
+  }
+ ]
+}
