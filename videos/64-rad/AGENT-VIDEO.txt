@@ -1,0 +1,58 @@
+You are my animation director. Create 19 short video clips (numbered 01 to 19) for one animated short, in this exact order, one clip per moment. Each clip is exactly 4 seconds.
+
+GLOBAL RULES (apply to every clip):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- Colors: bright and warm in scenes 01 to 06; grey, cold and muted from scene 07 to the end.
+- When ARASH passes through something, his body has a soft glowing cyan outline where it goes through.
+- Each clip: exactly 4 seconds, horizontal 16:9, smooth cartoon animation, one simple action, gentle camera move.
+- NO dialogue, NO voices, NO music: quiet ambient sound only (the narration is added later).
+- Keep the same characters, faces and outfits identical in every clip.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no signs, no labels, no writing on the building, no watermark.
+
+CHARACTERS:
+- ARASH: 12-year-old boy, messy brown hair, black hoodie with red stripes on the sleeves, blue jeans, white sneakers.
+- MOM: dark hair in a low bun, long dark coat (black from scene 07 on).
+- DAD: short black hair, short beard, dark suit (black from scene 07 on).
+
+CLIPS (each 4 seconds; the line number shows which narration line it plays under):
+01. [Line 1] ARASH as a little kid walks straight into a red brick wall in a sunny backyard and passes halfway through it, cyan glow outline, giggling.
+    Motion: Slow push-in; he steps through and his back half follows.
+02. [Line 2] A busy sunny sidewalk: ARASH walks right through a man carrying grocery bags, then through a locked shop door; nobody notices.
+    Motion: Tracking shot following him from the side.
+03. [Line 3] ARASH in the park throws his arms wide, grins and gives a big thumbs up, then floats his hand through a wooden fence like magic.
+    Motion: Camera circles him slightly, bright sun flare.
+04. [Line 4] Evening, in front of his house: ARASH tries the locked front door, shrugs with a smug smile, and steps right through the closed door.
+    Motion: Static wide shot, porch light on.
+05. [Lines 5-6] Hide and seek in the park: two kids search with their hands over their eyes, while ARASH's grinning face slowly pokes out of a thick tree trunk, then sinks back in.
+    Motion: Slow pan from the searching kids to the tree. Funny.
+06. [Line 7 (part 1)] An older ARASH on a basketball court bounces the ball, then calmly slides his free hand through the metal pole of the hoop and back out.
+    Motion: Low angle, slow push-in on his hand.
+07. [Line 7 (part 2)] ARASH in his kitchen: his hand passes through the table top, then he chooses to grab a red apple and lifts it up, smiling, in full control.
+    Motion: Close-up on hands, camera rises with the apple.
+08. [Line 8] Early grey morning, ARASH's bedroom: he sits up in bed rubbing his eyes; MOM and DAD stand in the doorway in black clothes, serious, not smiling.
+    Motion: Slow push-in toward the parents. Cold grey light.
+09. [Lines 9-10] A grey cloudy driveway: MOM holding a tissue and DAD walk silently to the car without looking back; ARASH follows, confused.
+    Motion: Static wide shot, light wind moving dead leaves.
+10. [Line 11] The family car drives slowly along an empty grey road under heavy clouds, wipers moving.
+    Motion: Drone shot from above following the car. Silent and sad.
+11. [Line 12] Inside the car, from the back seat: MOM and DAD stare straight ahead with blank faces, while ARASH leans forward between the seats, smiling, waving his hands, telling a joke.
+    Motion: Static shot from behind ARASH.
+12. [Lines 13-14] ARASH's smile fades; he asks something with a small worried face; the parents do not move or answer at all, eyes fixed on the road.
+    Motion: Slow push-in on the parents' still faces in the rear-view mirror.
+13. [Line 15] Close-up: ARASH in the back seat, hand on his stomach, worried; rain drops slide down the window beside him.
+    Motion: Very slow push-in on his face.
+14. [Line 16] The car pulls up and stops in front of a large quiet grey stone building with tall dark doors and white lilies by the entrance.
+    Motion: Wide static shot, the car rolls into frame and stops.
+15. [Lines 17-18] People in black walk slowly into the building; MOM and DAD get out of the car and walk to the doors; ARASH follows right behind them.
+    Motion: Camera follows behind ARASH toward the doors.
+16. [Lines 19-20] Inside a quiet hall with rows of chairs and white flowers, ARASH looks around and suddenly freezes in the middle of the aisle, eyes wide.
+    Motion: Camera swings around to his frozen shocked face.
+17. [Line 21] Reveal: at the front of the hall, a polished wooden coffin with white flowers and a framed photo of ARASH smiling with a black ribbon on the frame.
+    Motion: Slow dolly forward down the aisle toward the photo.
+18. [Line 22] Close-up: ARASH looks down at his own hands; they slowly turn see-through and glow faintly pale blue; a tear falls.
+    Motion: Static close-up, soft blue light growing.
+19. [Line 23] The front row: MOM cries into DAD's shoulder; see-through glowing ARASH sits beside her and puts his hand on her shoulder; she cannot see him.
+    Motion: Slow pull back to a wide shot of the quiet hall. Sad ending.
+
+Deliver these 19 clips in this exact order, 01 to 19, each exactly 4 seconds, 16:9, no text, no voices, no music.
