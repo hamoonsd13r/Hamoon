@@ -1,0 +1,35 @@
+You are my storyboard artist. Create 16 still images (numbered 00 to 15) for one animated short, in this exact order, one image per scene.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- Colors: bright and warm in scenes 01 to 06; grey, cold and muted from scene 07 to the end.
+- When ARASH passes through something, his body has a soft glowing cyan outline where it goes through.
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image. Make image 00 first and use it as the reference for all others.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no signs, no labels, no writing on the building, no watermark.
+
+CHARACTERS:
+- ARASH: 12-year-old boy, messy brown hair, black hoodie with red stripes on the sleeves, blue jeans, white sneakers.
+- MOM: dark hair in a low bun, long dark coat (black from scene 07 on).
+- DAD: short black hair, short beard, dark suit (black from scene 07 on).
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: ARASH, MOM, DAD.
+01. ARASH, as a little kid, walking halfway through a red brick wall in a sunny backyard, half his body still on this side, giggling, cyan glow outline.
+02. A busy sunny sidewalk: ARASH walking straight through a crowd, passing right through a man carrying groceries, nobody noticing. Playful.
+03. ARASH in the park, grinning proudly with a big thumbs up, arms wide, as if he has the coolest power in the world.
+04. Evening, in front of his house: the front door is locked, ARASH simply stepping through the closed door, a smug smile, house keys forgotten on the doormat.
+05. Hide and seek in the park: two kids searching with hands over their eyes, while ARASH hides inside a thick tree trunk with only his grinning face poking out of the bark. Funny.
+06. A basketball court: older ARASH holding a basketball in one hand while his other hand passes right through the metal pole of the hoop, calm and in control.
+07. Early grey morning, ARASH's bedroom: ARASH sitting up in bed rubbing his eyes, MOM and DAD standing in the doorway in black clothes, serious faces, not smiling.
+08. A grey cloudy morning driveway: MOM holding a tissue and DAD walking silently to the car, ARASH following behind them confused, still in his hoodie.
+09. Inside the car, view from the back seat: MOM and DAD in front staring straight ahead with blank faces, ARASH leaning forward between the seats, smiling and waving his hands, telling a joke.
+10. Close-up of ARASH in the back seat, worried, hand on his stomach, rain drops on the car window, grey light.
+11. The car pulling up in front of a large quiet grey stone building with tall dark doors and white lilies by the entrance, people in black clothes walking in slowly.
+12. MOM and DAD walking through the tall dark doors, ARASH right behind them, people in black standing quietly inside.
+13. Inside a quiet hall: rows of chairs, white flowers, a polished wooden coffin at the front, and a framed photo of ARASH smiling on a stand with a black ribbon on the frame. ARASH frozen in the middle of the aisle, eyes wide, shocked.
+14. Close-up: ARASH looking down at his own hands, which are see-through and glowing faintly pale blue, a tear on his cheek.
+15. The front row: MOM crying into DAD's shoulder, and ARASH, faintly see-through and glowing pale blue, sitting beside her with his hand on her shoulder; she cannot see him. Sad and quiet.
+
+Deliver these 16 images in this exact order, 00 to 15, each 16:9, no text.
