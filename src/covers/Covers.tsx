@@ -64,5 +64,7 @@ export const CoversCompositions: React.FC = () => (
       defaultProps={{ img: "v62/img/04c.jpg", ar: 16 / 9, h: 1250, fx: 0.42, fy: 0.45, big: "پاپ!", top: "هر اسمی بهش بدی…", hook: "همون می‌شه!", title: "فحشِ واقعی", tint: "rgba(30,6,24,0.8)" }} />
     <Composition id="V63-Cover" component={Cover} durationInFrames={1} fps={30} width={W} height={H}
       defaultProps={{ img: "v63/img/10.jpg", ar: 16 / 9, h: 1250, fx: 0.52, fy: 0.45, big: "نه!", top: "سی ساله به همه می‌گه…", hook: "تا امروز!", title: "قانونِ سلطانی", tint: "rgba(30,10,4,0.82)" }} />
+    <Composition id="V65-Cover" component={Cover} durationInFrames={1} fps={30} width={W} height={H}
+      defaultProps={{ img: "v65/img/27.jpg", ar: 16 / 9, h: 1250, fx: 0.62, fy: 0.45, top: "هیچ‌کس هیچ‌وقت بهش نگفته بود…", hook: "«مواظب باش»", title: "روزت مبارک مامان 💛", tint: "rgba(30,18,4,0.8)" }} />
   </>
 );

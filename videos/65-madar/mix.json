@@ -1,0 +1,186 @@
+{
+ "length": 130.74,
+ "voice": "public/v65/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/chiptune/sunny-afternoon.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 34.24,
+   "fadeIn": 0.4,
+   "fadeOut": 0.4,
+   "gain": 0.05
+  },
+  {
+   "file": "public/audio/music/ambient/quiet-village-4.mp3",
+   "at": 45.191,
+   "from": 0,
+   "to": 20.127,
+   "fadeIn": 0.8,
+   "fadeOut": 1.2,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 64.118,
+   "from": 0,
+   "to": 66.622,
+   "fadeIn": 1.5,
+   "fadeOut": 2.5,
+   "gain": 0.08
+  }
+ ],
+ "beds": [],
+ "sfx": [
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 3.345,
+   "vol": 0.16,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 6.169,
+   "vol": 0.12,
+   "peak": 0.15
+  },
+  {
+   "id": "sfx/ambience/rain",
+   "at": 10.495,
+   "vol": 0.048
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 15.919,
+   "vol": 0.1,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 17.472,
+   "vol": 0.1,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 19.392,
+   "vol": 0.1,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 20.613,
+   "vol": 0.12,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 26.357,
+   "vol": 0.12,
+   "peak": 0.15
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 35.907,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v65/sfx/smack.wav",
+   "at": 53.054,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v65/sfx/slop.wav",
+   "at": 54.909,
+   "vol": 0.24,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v65/sfx/splash.wav",
+   "at": 59.369,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v65/sfx/page.wav",
+   "at": 69.041,
+   "vol": 0.16,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v65/sfx/page.wav",
+   "at": 70.804,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v65/sfx/memory.wav",
+   "at": 73.502,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 74.102,
+   "vol": 0.1,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 76.993,
+   "vol": 0.12,
+   "peak": 0.15
+  },
+  {
+   "id": "sfx/magic/sparkle-rise",
+   "at": 78.656,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v65/sfx/page.wav",
+   "at": 82.132,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v65/sfx/memory.wav",
+   "at": 83.805,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/ambience/rain",
+   "at": 84.005,
+   "vol": 0.06
+  },
+  {
+   "id": "sfx/door/open",
+   "at": 101.807,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v65/sfx/golden.wav",
+   "at": 110.64,
+   "vol": 0.3,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/magic/sparkle",
+   "at": 112.496,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v65/sfx/shield.wav",
+   "at": 123.212,
+   "vol": 0.1,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v65/sfx/golden.wav",
+   "at": 124.628,
+   "vol": 0.1,
+   "peak": 0.01
+  }
+ ]
+}
