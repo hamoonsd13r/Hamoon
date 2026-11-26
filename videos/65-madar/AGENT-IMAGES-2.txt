@@ -1,0 +1,33 @@
+You are my storyboard artist. Create 15 still images (numbered 16 to 30) for one animated short, in this exact order, one image per scene. This is part 2 of 2, same characters and style as part 1.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- THE SHIELD: a thin, softly glowing transparent bubble with tiny sparkles (pale blue around KIAN, golden around MOM at the end).
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no signs, no labels, no watermark.
+
+CHARACTERS:
+- KIAN (narrator): 12-year-old boy, curly black hair, yellow hoodie, dark blue jeans, blue backpack, white sneakers.
+- MOM: brown hair in a low ponytail, light blue sweater, long beige coat when she goes out, kind tired eyes.
+- LITTLE KIAN (in old photos and memories): the same boy as a toddler or small child, curly black hair.
+
+SCENES:
+16. Night, KIAN's bedroom: KIAN sitting on the floor by a lamp, surrounded by open old photo albums.
+17. Close-up of an open photo album: old photos of LITTLE KIAN as a baby, each photo softly glowing with tiny pale blue sparkles around the child.
+18. A warm memory: LITTLE KIAN taking his first wobbly steps, MOM's hands close behind him, a pale blue bubble glowing around him.
+19. A warm memory: LITTLE KIAN falling from a small tree and landing softly inside a glowing pale blue bubble, MOM running toward him.
+20. KIAN flipping through the album, amazed, the pages full of hundreds of tiny glowing sparkles floating up into the dark room.
+21. A memory at night in the rain: young MOM alone, carrying a sick LITTLE KIAN wrapped in a blanket toward a hospital entrance. No glow around her.
+22. A memory at night: MOM sitting awake beside LITTLE KIAN's bed, holding a wet cloth on his forehead, very tired, the clock showing dawn light outside. No glow around her.
+23. A memory: MOM in the kitchen holding her burned hand under the tap, wincing, alone. No glow around her.
+24. KIAN holding the album, tears falling on the pages, realizing.
+25. Morning: MOM at the front door in her beige coat with her bag, looking back at KIAN silently, holding back the words.
+26. KIAN running down the hallway and hugging MOM tightly at the doorway.
+27. A beautiful golden glowing bubble shield lighting up around MOM for the first time, golden sparkles everywhere, KIAN looking up amazed.
+28. MOM looking at her own glowing golden hands, tears of joy, smiling.
+29. The front door the next morning: MOM and KIAN waving to each other, a pale blue bubble around KIAN and a golden bubble around MOM, warm sunrise.
+30. MOM and KIAN hugging in warm golden light, flowers on the table behind them, peaceful and loving.
+
+Deliver these 15 images in this exact order, 16 to 30, each 16:9, no text.

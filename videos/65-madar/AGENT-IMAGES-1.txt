@@ -1,0 +1,34 @@
+You are my storyboard artist. Create 16 still images (numbered 00 to 15) for one animated short, in this exact order, one image per scene. This is part 1 of 2.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- THE SHIELD: a thin, softly glowing transparent bubble with tiny sparkles (pale blue around KIAN, golden around MOM at the end).
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no signs, no labels, no watermark.
+
+CHARACTERS:
+- KIAN (narrator): 12-year-old boy, curly black hair, yellow hoodie, dark blue jeans, blue backpack, white sneakers.
+- MOM: brown hair in a low ponytail, light blue sweater, long beige coat when she goes out, kind tired eyes.
+- LITTLE KIAN (in old photos and memories): the same boy as a toddler or small child, curly black hair.
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: KIAN, MOM (at home), MOM (in her beige coat), LITTLE KIAN.
+01. A cozy front door in the morning: MOM leaning down, gently fixing KIAN's hoodie, and a softly glowing pale blue bubble shield appearing around KIAN with sparkles.
+02. Close-up: the glowing bubble around KIAN fading into tiny sparkles in the air, KIAN not even noticing.
+03. KIAN walking to school on a rainy street, rain drops bouncing off an almost invisible shimmering bubble around him.
+04. MOM in the doorway waving, holding her phone to her ear with the other hand, worried and loving, KIAN walking away down the street.
+05. Funny: KIAN walking toward the bathroom door in pajamas, rolling his eyes, while MOM points a caring finger at him from the hallway, a bubble glowing around him.
+06. KIAN standing with arms crossed, annoyed and embarrassed, a bubble flashing around him again.
+07. A schoolyard: a group of kids pointing and laughing at KIAN, who is standing inside a glowing bubble, face red, hiding behind his hands.
+08. The school gate in the morning: MOM leaning down to KIAN, about to speak, other kids watching; KIAN red-faced.
+09. KIAN shouting angrily at MOM in front of everyone at the school gate, fists clenched, other kids staring in shock.
+10. MOM standing still, biting her lip, sad wet eyes, slowly nodding, holding her bag strap with both hands.
+11. KIAN walking happily alone on a sunny sidewalk, arms wide open, free, no bubble around him.
+12. Gym class: a football flying straight into KIAN's face, his eyes popping, other kids wincing. Funny and dynamic.
+13. The school cafeteria: KIAN's tray slipping out of his hands, a bowl of soup flying and splashing all over him. Funny.
+14. KIAN flying over the handlebars of his bicycle into a muddy roadside ditch, splash, the bike flipping behind him.
+15. Sunset: KIAN sitting alone on the curb, a scraped knee and a scraped elbow, muddy hoodie, looking sad and thoughtful.
+
+Deliver these 16 images in this exact order, 00 to 15, each 16:9, no text.
