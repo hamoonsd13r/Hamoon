@@ -1,0 +1,206 @@
+{
+ "length": 140.34,
+ "voice": "public/v66/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/ambient/quiet-village-4.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 31.29,
+   "fadeIn": 0.4,
+   "fadeOut": 1,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 30.29,
+   "from": 0,
+   "to": 12.718,
+   "fadeIn": 0.8,
+   "fadeOut": 0.8,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/chiptune/sunny-afternoon.mp3",
+   "at": 42.208,
+   "from": 0,
+   "to": 25.462,
+   "fadeIn": 0.8,
+   "fadeOut": 1,
+   "gain": 0.04
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 66.67,
+   "from": 0,
+   "to": 73.67,
+   "fadeIn": 1.5,
+   "fadeOut": 2.5,
+   "gain": 0.08
+  }
+ ],
+ "beds": [],
+ "sfx": [
+  {
+   "file": "public/v66/sfx/shield.wav",
+   "at": 0.3,
+   "vol": 0.1,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v66/sfx/golden.wav",
+   "at": 7.277,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v66/sfx/shield.wav",
+   "at": 8.722,
+   "vol": 0.06,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v66/sfx/golden.wav",
+   "at": 29.38,
+   "vol": 0.16,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v66/sfx/shield.wav",
+   "at": 31.79,
+   "vol": 0.06,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v66/sfx/smash.wav",
+   "at": 34.771,
+   "vol": 0.2,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v66/sfx/coins.wav",
+   "at": 34.871,
+   "vol": 0.16,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v66/sfx/steps.wav",
+   "at": 37.439,
+   "vol": 0.18,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v66/sfx/tick.wav",
+   "at": 39.231,
+   "vol": 0.14,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v66/sfx/doorbell.wav",
+   "at": 42.508,
+   "vol": 0.12,
+   "peak": 0.005
+  },
+  {
+   "id": "sfx/pop/pop-2",
+   "at": 48.527,
+   "vol": 0.12
+  },
+  {
+   "id": "sfx/impact/soft-thump",
+   "at": 50.763,
+   "vol": 0.14
+  },
+  {
+   "id": "sfx/pop/pop-2",
+   "at": 51.795,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v66/sfx/clunk.wav",
+   "at": 55.23,
+   "vol": 0.22,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v66/sfx/clunk.wav",
+   "at": 55.772,
+   "vol": 0.22,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v66/sfx/tick.wav",
+   "at": 52.714,
+   "vol": 0.1,
+   "peak": 0.005
+  },
+  {
+   "id": "sfx/impact/subdrop-long",
+   "at": 63.859,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v66/sfx/memory.wav",
+   "at": 71.703,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v66/sfx/memory.wav",
+   "at": 79.405,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v66/sfx/golden.wav",
+   "at": 90.302,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v66/sfx/coins.wav",
+   "at": 94.286,
+   "vol": 0.16,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v66/sfx/tick.wav",
+   "at": 97.158,
+   "vol": 0.12,
+   "peak": 0.005
+  },
+  {
+   "file": "public/v66/sfx/register.wav",
+   "at": 105.453,
+   "vol": 0.16,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/foley/cloth-2",
+   "at": 113.311,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v66/sfx/golden.wav",
+   "at": 122.861,
+   "vol": 0.28,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/magic/sparkle",
+   "at": 119.332,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v66/sfx/shield.wav",
+   "at": 129.589,
+   "vol": 0.16,
+   "peak": 0.15
+  },
+  {
+   "id": "sfx/magic/sparkle-rise",
+   "at": 134.254,
+   "vol": 0.08
+  }
+ ]
+}
