@@ -1,0 +1,43 @@
+You are my storyboard artist. Create 16 still images (numbered 00 to 15) for one animated short, in this exact order, one image per scene. This is part 1 of 2. I am uploading a photo of the real store; use it as the reference for THE STORE.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, warm colors. Same style as the earlier "Be careful" short.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- THE SHIELDS: a thin, softly glowing transparent bubble with tiny sparkles: golden around MOM (weak and flickering until scene 28), pale blue around KIAN.
+- THE RIGHT GIFT: when touched, it bursts into a warm golden glow.
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no price tags with numbers, no labels, no watermark. Store signs must be blank shapes with no letters.
+
+CHARACTERS:
+- KIAN (narrator): 12-year-old boy, curly black hair, yellow hoodie, dark blue jeans, white sneakers.
+- MOM: brown hair in a low ponytail, light blue sweater, long beige coat when she goes out, kind tired eyes.
+- GRANDMA: white hair in a bun, round glasses, purple shawl, gentle smile.
+- THE SHOPKEEPER: a kind old man, white mustache, grey vest over a white shirt, reading glasses on his nose.
+
+THE STORE (use the uploaded photo of the real store as the reference, and draw it as a cartoon of exactly that building):
+- A large modern five-story corner building with a rounded, curved front, covered in light grey and white square panels, with long horizontal ribbon windows on the upper floors.
+- In the middle of the facade, a big logo sign: a teal outline drawing of a sofa with a small yellow accent (draw only the shape, no letters).
+- The two lower floors are wide glass shop windows full of warm glowing table lamps, floor lamps, crystal chandeliers, vases and white side tables.
+- On the sidewalk in front: classic black street lamps with white globes, and a patterned paved sidewalk.
+- Inside: a bright, elegant home-decor showroom with sofas, armchairs, crystal chandeliers, rows of table lamps and vases on shelves.
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: KIAN, MOM, GRANDMA, THE SHOPKEEPER.
+01. A front door in the morning: MOM with a weak, flickering golden bubble around her, KIAN looking up at it, worried.
+02. Morning at the door: KIAN smiling and saying goodbye, MOM's golden bubble lighting up softly.
+03. Night street: MOM walking home tired with her bag, her golden bubble very faint and flickering.
+04. Night, a dark kitchen: MOM alone at the table with papers and a calculator, under a broken ceiling bulb that flickers, rubbing her tired eyes.
+05. A cozy living room: GRANDMA in an armchair, holding up a small gift box that glows golden, telling KIAN a secret; KIAN listening, eyes wide.
+06. Night living room: MOM asleep on the sofa, her golden bubble almost gone, KIAN watching her from the doorway, worried.
+07. KIAN smashing his piggy bank on his bedroom floor, coins and crumpled money flying, determined face.
+08. KIAN running fast down a night street under street lamps, pockets full, breath in the cold air.
+09. THE STORE at night, seen from across the street: the big curved building, warm glowing shop windows full of lamps and chandeliers, KIAN running toward the entrance.
+10. Inside THE STORE: a bright showroom full of glowing chandeliers, lamps, sofas and vases, KIAN standing amazed in the middle.
+11. KIAN standing under a huge crystal chandelier, reaching up toward it, nothing glows, he frowns.
+12. KIAN holding a big shiny golden vase with both hands, disappointed, nothing glows.
+13. KIAN sitting in a huge soft sofa, sinking deep into the cushions, arms crossed, nothing glows. Funny.
+14. The upper floor of the showroom: the lights switching off row by row, darkness creeping toward KIAN, who looks up anxiously.
+15. THE SHOPKEEPER walking toward KIAN between rows of lamps, a kind curious smile.
+
+Deliver these 16 images in this exact order, 00 to 15, each 16:9, no text.
