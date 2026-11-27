@@ -1,0 +1,120 @@
+{
+ "length": 70.19,
+ "voice": "public/v64/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/chiptune/sunny-afternoon.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 23.911,
+   "fadeIn": 0.3,
+   "fadeOut": 1,
+   "gain": 0.05
+  },
+  {
+   "file": "public/audio/music/dark/game-over-4.mp3",
+   "at": 22.911,
+   "from": 0,
+   "to": 34.181,
+   "fadeIn": 1.2,
+   "fadeOut": 0.8,
+   "gain": 0.05
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 56.292,
+   "from": 0,
+   "to": 13.898,
+   "fadeIn": 1,
+   "fadeOut": 2.5,
+   "gain": 0.08
+  }
+ ],
+ "beds": [
+  {
+   "file": "public/v64/sfx/engine.wav",
+   "from": 30.81,
+   "to": 45.134,
+   "vol": 0.07
+  },
+  {
+   "id": "sfx/ambience/rain",
+   "from": 37.039,
+   "to": 45.134,
+   "vol": 0.1
+  }
+ ],
+ "sfx": [
+  {
+   "file": "public/v64/sfx/phase.wav",
+   "at": 0.8,
+   "vol": 0.16,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v64/sfx/swoosh.wav",
+   "at": 4.202,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v64/sfx/phase.wav",
+   "at": 4.602,
+   "vol": 0.12,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v64/sfx/phase.wav",
+   "at": 10.743,
+   "vol": 0.14,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v64/sfx/phase.wav",
+   "at": 12.499,
+   "vol": 0.12,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v64/sfx/bounce.wav",
+   "at": 16.21,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v64/sfx/phase.wav",
+   "at": 19.027,
+   "vol": 0.14,
+   "peak": 0.15
+  },
+  {
+   "file": "public/v64/sfx/cardoor.wav",
+   "at": 29.803,
+   "vol": 0.16,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v64/sfx/cardoor.wav",
+   "at": 53.012,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "id": "sfx/door/door-05",
+   "at": 55.526,
+   "vol": 0.12
+  },
+  {
+   "file": "public/v64/sfx/reveal.wav",
+   "at": 59.851,
+   "vol": 0.24,
+   "peak": 0.05
+  },
+  {
+   "file": "public/v64/sfx/phase.wav",
+   "at": 64.098,
+   "vol": 0.12,
+   "peak": 0.15
+  }
+ ]
+}
