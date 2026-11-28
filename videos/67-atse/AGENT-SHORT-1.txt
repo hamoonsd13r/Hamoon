@@ -35,5 +35,3 @@ SCENES:
 15. A school play on stage: THE BOY in a tree costume shouting in the middle of the play, the audience shocked. Funny.
 
 Deliver these 16 images in this exact order, 00 to 15, each vertical 9:16, no text.
-
-WHEN ALL 16 IMAGES ARE DONE: put them all into ONE ZIP file named V67-short-part1.zip, with each image named by its number (00.png, … 15.png), and give me the download link for the ZIP.
