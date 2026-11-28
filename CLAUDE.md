@@ -44,7 +44,7 @@
   - اگر کاربر در claude.ai کانکتور ساخت عکس وصل کرده، از آن استفاده کن.
   - برای سبک‌هایی که عکس GPT می‌خواهند (hologram-hud، atomic-age، test-reel، satellite-explainer)، فقط اگر کاربر عکس داده.
 - **«شبیه این ویدیو»:** خود فایل لازم است.
-  - از `uploads/` بگیر، یا اگر لینک داده و Network access روی Full است، دانلود کن. برای یوتیوب: `pip install yt-dlp` و `yt-dlp -f "mp4[height<=1080]" <link> -o uploads/ref.mp4`. اینستاگرام معمولاً دانلود نمی‌دهد.
+  - از `uploads/` بگیر (فایلی که خود کاربر دارد و حق استفاده‌اش را دارد). **از یوتیوب، اینستاگرام و تیک‌تاک دانلود نکن** (قانون کیت، `SKILL.md` بخش ۰)؛ اگر فقط لینک داده، بخواه خود فایل را در `uploads` بگذارد، یا چند اسکرین‌شات و توضیح بدهد.
   - بعد `node tools/ref-study.mjs uploads/ref.mp4 videos/NN/ref/study` (کات‌ها، ریتم، فریم‌ها) و روال `REFERENCE.md`. محتوا و متن مال خودت باشد، نه کپی.
 
 ## کلیدها و حساب‌ها
@@ -55,19 +55,27 @@
   - موزیک آزاد `public/music/`
   - افکت‌های `public/kenney/` و `public/sfx-lib/`
 
+## فوتیج و عکس واقعی
+- وقتی ویدیو فیلم یا عکس واقعی لازم دارد (خبر، تاریخ، علم، طبیعت): `.claude/skills/nfp-alvana/FOOTAGE.md` را بخوان و `node tools/footage.mjs` را برو.
+- شبکه‌ی محیط باید دامنه‌های منبع‌ها را باز کرده باشد (`FOOTAGE.md` بخش ۸). اگر `footage.mjs sources` گفت `host_not_allowed`، فهرست را کوتاه به کاربر بده تا در تنظیمات محیط بگذارد، و تا آن موقع با بقیه‌ی کار جلو برو.
+- کانتکت‌شیت گزینه‌ها را **خودت** نگاه کن و انتخاب کن. فقط اگر کاربر خواست، با `deliver` برایش بفرست.
+- متن `node tools/footage.mjs credits NN` را آخر کار به کاربر بده تا در کپشن بگذارد.
+
 ## موزیک و افکت
 - کاربر خواسته موزیک و افکت از کتابخانه‌ی **Alvana Audio** باشد (https://github.com/seyedpouramir/alvana-audio، تقریباً همه CC0). مهارتش: `.claude/skills/alvana-audio/SKILL.md`.
 - ابزارها در `tools/get.mjs` (جست‌وجو و دانلود به `public/audio/`) و `tools/mix.mjs` (میکس و ‎-14 LUFS) هستند.
 - برای دانلود سریع، ریپو را یک بار clone کن (`GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/seyedpouramir/alvana-audio ~/alvana-audio`) و `ALVANA_AUDIO_DIR=~/alvana-audio` بده.
 
+
 ## رندر در ابر
 - **سبک‌های دوبعدی** با `--concurrency=4` رندر می‌شوند. این پیش‌فرض ابر است و در `remotion.config.ts` تنظیم شده.
   - ریلز ۶۰ ثانیه‌ای عمودی حدود ۱۰ تا ۱۵ دقیقه طول می‌کشد.
-- **سبک‌های سه‌بعدی** (`light-swarm`، `light-logo`، `split-flap`) روی CPU رندر می‌شوند (`--gl=swangle`، که پیش‌فرض ابر است) و با `--concurrency=2`.
+- **ستون «ابر» در `STYLES.md`** را ببین: ✅ راحت، 🐢 WebGL و کند، ❌ در ابر نه.
+- **سبک‌های سه‌بعدی 🐢** (مثل `light-swarm`، `light-logo`، `split-flap`، `toon3d`، `poster-wall-3d`) روی CPU رندر می‌شوند (`--gl=swangle`، که پیش‌فرض ابر است) و با `--concurrency=2`.
   - هر فریم ۴ تا ۸ ثانیه طول می‌کشد، یعنی یک اینترو ۱۵ ثانیه‌ای حدود ۴۵ تا ۹۰ دقیقه.
   - قبل از شروع، زمان تقریبی را به کاربر بگو.
   - اول چند فریم ثابت نشانش بده.
-- **`cosmic-web` در ابر نه.** میلیون‌ها نقطه بدون کارت گرافیک ساعت‌ها طول می‌کشد. اگر کاربر خواست، یک سبک دیگر پیشنهاد بده.
+- **سبک‌های ❌ در ابر نه** (`cosmic-web`، `light-swarm-epic`، `snow-castle-3d`، `hollow-moon-3d`، `mirror-hall`): بدون کارت گرافیک ساعت‌ها طول می‌کشد. اگر کاربر خواست، یک سبک ✅ نزدیک به همان حس پیشنهاد بده.
 - **هر دستور حداکثر حدود ۱۰ دقیقه روی صفحه می‌ماند.** پس رندر کامل را همیشه تکه‌ای و با بودجه‌ی زمانی بزن:
   `RENDER_BUDGET_SEC=480 node tools/render-chunks.mjs <Id>-Silent <frames> out/chunks out/video.mp4 150 --muted`
   - کد خروج 3 یا خط `PARTIAL` یعنی هنوز تمام نشده. همان دستور را دوباره بزن تا تمام شود؛ از تکه‌ی بعدی ادامه می‌دهد.
@@ -99,7 +107,7 @@
 - هر چند ویدیو یک بار، اگر ریپو سنگین شد (بالای ۷۰۰MB)، به کاربر پیشنهاد بده ویدیوهای قدیمی را از گیت‌هاب دانلود کند و یک ریپوی تازه بسازد. تاریخچه‌ی git فایل‌های پاک‌شده را هم نگه می‌دارد.
 
 ## به‌روزرسانی کیت
-اگر کاربر zipهای تازه‌ی `NFP-Alvana-Mobile-*-of-*.zip` را در ریشه‌ی ریپو آپلود کرد و گفت «به‌روز کن» یا «به نسخه‌ی ۲ آپدیت کن»:
+اگر کاربر zipهای تازه‌ی `NFP-Alvana-Mobile-*-of-*.zip` را در ریشه‌ی ریپو آپلود کرد و گفت «به‌روز کن» یا «به نسخه‌ی ۳ آپدیت کن»:
 - **قانون:** کارهای کاربر دست نمی‌خورد. git پشتیبان توست: قبل از شروع، اگر چیزی commit نشده، اول commit کن.
 - **دست نزن به:** `videos/`، `uploads/`، ویدیوهای خود کاربر (`src/v01` و …)، و `.env`.
 
@@ -110,26 +118,26 @@
    - نسخه‌ها را مقایسه کن: خط اول `N/nfp-kit-version.txt` و `./nfp-kit-version.txt`. اگر دومی نیست، پروژه نسخه‌ی ۱ است.
 2. **جایگزین کن (از N به ریپو، کل پوشه یا فایل):**
    - `.claude/`، `scripts/`، `tools/`
-   - `src/styles/`، `src/lib/`، `src/art-starter/`، `src/fonts.ts`، `src/index.ts`، `src/index.css`
+   - `src/styles/`، `src/lib/`، `src/art-starter/`، `src/footage/`، `src/footage-starter/`، `src/fonts.ts`، `src/index.ts`، `src/index.css`
    - `public/`: فقط **روی آن کپی کن** (`cp -a N/public/. public/`) و چیزی پاک نکن. صدا و عکس ویدیوهای کاربر در `public/v01` و … هستند.
    - `package.json`، `remotion.config.ts`، `tsconfig.json`، `nfp-kit-version.txt`
-   - `CLAUDE.md`، `README.md`، `GUIDE-FA.md`، `GUIDE-V2-FA.md` (اگر در N هست)
+   - `CLAUDE.md`، `README.md`، `GUIDE-FA.md` و هر `GUIDE-*.md` که در N هست
 3. **`src/Root.tsx` با دقت:**
    - فایل `N/src/Root.tsx` را بردار.
    - import و `<Composition>`های خود کاربر را از نسخه‌ی قبلی پیدا کن (`git show HEAD:src/Root.tsx`) و عیناً در فایل تازه، زیر کامنت «your videos»، بگذار.
-   - `<ArtMotionCompositions />` فایل تازه بماند.
+   - `<ArtMotionCompositions />`، `<FootageReelComps />` و `<KitV3Compositions />` فایل تازه بمانند.
 4. **نصب و چک:**
    - `bash scripts/cloud-setup.sh`
    - `npx tsc --noEmit` باید بدون خطا باشد. اگر خطا در ویدیوی کاربر است، فقط ایمپورتش را درست کن.
-   - یک فریم از سبک تازه: `npx remotion still Art-Story out/update-check.png --frame=100`.
+   - یک فریم از سبک تازه: `npx remotion still Style-Grid9 out/update-check.png --frame=100`.
    - اگر کاربر ویدیوی ثبت‌شده دارد، از یکی‌اش هم یک فریم بگیر.
 5. **ذخیره:**
    - zipها را پاک کن: `git rm -q --cached NFP-Alvana-Mobile-*-of-*.zip ; rm -f NFP-Alvana-Mobile-*-of-*.zip`
-   - `git add -A && git commit -q -m "NFP-Alvana kit 2.0" && git push origin HEAD:main`. اگر رد شد، از راه PR (بخش git).
+   - `git add -A && git commit -q -m "NFP-Alvana kit $(head -1 nfp-kit-version.txt)" && git push origin HEAD:main`. اگر رد شد، از راه PR (بخش git).
    - فریم نمونه را با `node tools/deliver.mjs out/update-check.png --title "آپدیت کیت"` بفرست.
 6. **گزارش کوتاه به کاربر:**
-   - نسخه‌ی کیت حالا 2.0 است.
-   - ۴۵ سبک تازه آمده؛ کاتالوگ را از مدرس بگیرد.
+   - نسخه‌ی کیت حالا خط اول `nfp-kit-version.txt` است.
+   - چه چیزی تازه است: از نسخه‌ی ۲ به ۳، **۳۶ سبک تازه** برای ریلز، شورت و یوتیوب بلند و انتخاب سبک از روی «کار» (کاتالوگ v3 را از مدرس بگیرد)؛ از نسخه‌ی ۱، ۴۵ سبک Art Motion؛ از 2.1، فوتیج‌یاب (فیلم و عکس واقعی برای نریشن، تنظیم شبکه در `FOOTAGE.md` بخش ۸).
    - ویدیوها و فایل‌هایش سالم‌اند.
    - یک پیام نمونه برای اولین ویدیو با سبک تازه.
 - **اگر کاربر خواست آپدیت برگردد:** commit آپدیت را با `git revert` برگردان، روی main push کن و `bash scripts/cloud-setup.sh` بزن. ویدیوهای ساخته‌شده بعد از آپدیت را نگه دار.
@@ -139,8 +147,3 @@
 - **فایل بزرگ‌تر از ۲۵MB** (مثلاً ویدیوی مرجع): GitHub از مرورگر بیشتر از ۲۵MB قبول نمی‌کند.
   - بگو فایل را کوتاه‌تر یا کم‌حجم‌تر کند، یا لینک عمومی‌اش را بدهد.
   - دانلود از لینک فقط وقتی کار می‌کند که آن سایت در شبکه‌ی محیط مجاز باشد.
-
-## فوتیج و عکس واقعی (افزونه‌ی NFP)
-- وقتی ویدیو فیلم یا عکس واقعی لازم دارد (خبر، تاریخ، علم، طبیعت، شهر، «چطور کار می‌کند»)، اول `.claude/skills/nfp-alvana/FOOTAGE.md` را بخوان و با `node tools/footage.mjs` برای هر جمله‌ی نریشن فوتیج پیدا کن، ببین، ببُر و بگذار. قالب شروع: `src/footage-starter`.
-- فقط مجوز آزاد. آخر هر ویدیو متن `node tools/footage.mjs credits NN` را برای کپشن به کاربر بده.
-- اگر کاربر گفت «صفحه‌ی آرشیو فوتیج رو باز کن»: `node nfp-archive/server.mjs --open` را در پس‌زمینه بزن و لینک `http://127.0.0.1:47821` را بده.

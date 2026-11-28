@@ -100,11 +100,10 @@ const end = TOTAL.toFixed(3);
 if (stems) parts.push(`[vo]atrim=0:${end}[o1]`, `[mud]atrim=0:${end}[o2]`, `[fxd]atrim=0:${end}[o3]`);
 else parts.push(`[vo][mud][fxd]amix=inputs=3:normalize=0:dropout_transition=0,atrim=0:${end},alimiter=limit=0.95[out]`);
 const outs = stems ? ["o1", "o2", "o3"].flatMap((o) => ["-map", `[${o}]`, "-ar", "48000", out.replace(/\.wav$/, `-${o}.wav`)]) : ["-map", "[out]", "-ar", "48000", out];
-// the graph goes through a file (ffmpeg 7+: -/filter_complex <file>; 6.x: -filter_complex_script) — long plans overflow the command line otherwise
-const FFV = +(/ffmpeg version (?:n)?(\d+)/.exec(execFileSync("ffmpeg", ["-version"]).toString())?.[1] ?? 7);
+// the graph goes through a file (ffmpeg 7+: -/filter_complex <file>) — long plans overflow the command line otherwise
 const graph = out.replace(/\.wav$/, ".graph.txt");
 fs.writeFileSync(graph, parts.join(";\n"));
-execFileSync("ffmpeg", ["-nostdin", "-v", "error", "-y", ...inputs.flatMap((f) => ["-i", f]), FFV >= 7 ? "-/filter_complex" : "-filter_complex_script", graph, ...outs], { stdio: "inherit" });
+execFileSync("ffmpeg", ["-nostdin", "-v", "error", "-y", ...inputs.flatMap((f) => ["-i", f]), "-/filter_complex", graph, ...outs], { stdio: "inherit" });
 fs.rmSync(graph, { force: true });
 console.log(`mixed: ${MUSIC.length} music · ${SFX.length} effects · ${BEDS.length} beds → ${out}`);
 

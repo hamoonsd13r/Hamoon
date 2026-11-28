@@ -24,7 +24,6 @@ if (!elevenReady()) throw new Error("ELEVENLABS_API_KEY missing (put it in .env,
 const OUT = path.join(dir, "vo");
 fs.mkdirSync(OUT, { recursive: true });
 const pad = (n) => String(n).padStart(2, "0");
-let FMT = "mp3_44100_192";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ---- 1) takes ----
@@ -33,19 +32,22 @@ for (const l of L) {
   if (!V[l.sp]) throw new Error(`no voice for speaker ${l.sp} in voices.json`);
   for (let k = 1; k <= takes; k++) if (!fs.existsSync(path.join(OUT, `${pad(l.n)}-${k}.mp3`))) jobs.push([l, k]);
 }
+const ctx = (l) => {
+  const i = L.indexOf(l), p = L[i - 1], nx = L[i + 1];
+  const same = (o) => o && o.sp === l.sp && (o.ch ?? null) === (l.ch ?? null);
+  return { ...(same(p) ? { previous_text: p.fa } : {}), ...(same(nx) ? { next_text: nx.fa } : {}) };
+};
 async function tts([l, k]) {
   for (let a = 0; a < 4; a++) {
     try {
-      const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${V[l.sp]}/with-timestamps?output_format=${FMT}`, {
+      const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${V[l.sp]}/with-timestamps?output_format=${process.env.ELEVEN_FORMAT || "mp3_44100_192"}`, {
         method: "POST",
         headers: { ...xi(), "Content-Type": "application/json" },
-        body: JSON.stringify({ text: l.fa, model_id: model, language_code: lang, ...(V.settings?.[l.sp] ? { voice_settings: V.settings[l.sp] } : {}) }),
+        body: JSON.stringify({ text: l.fa, model_id: model, language_code: lang, ...(V.settings?.[l.sp] ? { voice_settings: V.settings[l.sp] } : {}),
+          // "context": true in voices.json → the neighbouring lines of the same speaker and chapter steer the intonation (one narrator)
+          ...(V.context ? ctx(l) : {}) }),
       });
-      if (!r.ok) {
-        const t = await r.text();
-        if (r.status === 403 && FMT !== "mp3_44100_128" && t.includes("Output format")) { FMT = "mp3_44100_128"; continue; } // free plan: 128k only
-        throw new Error(r.status + " " + t.slice(0, 160));
-      }
+      if (!r.ok) throw new Error(r.status + " " + (await r.text()).slice(0, 160));
       const j = await r.json();
       fs.writeFileSync(path.join(OUT, `${pad(l.n)}-${k}.mp3`), Buffer.from(j.audio_base64, "base64"));
       fs.writeFileSync(path.join(OUT, `${pad(l.n)}-${k}.json`), JSON.stringify({ alignment: j.alignment }));
@@ -64,7 +66,7 @@ for (let i = 0; i < jobs.length; i += 3) await Promise.all(jobs.slice(i, i + 3).
 if (!process.argv.includes("--no-verify")) {
   const vf = path.join(OUT, "verify.json");
   const cache = fs.existsSync(vf) ? JSON.parse(fs.readFileSync(vf, "utf8")) : {};
-  const norm = (s) => s.replace(/\[[^\]]*\]/g, "").replace(/[ً-ْ‌\s.,،؛؟?!…:«»\-"]/g, "").replace(/ي/g, "ی").replace(/ك/g, "ک").replace(/[أإآ]/g, "ا");
+  const norm = (s) => s.toLowerCase().replace(/\[[^\]]*\]/g, "").replace(/[ً-ْ‌\s.,،؛؟?!…:«»\-"]/g, "").replace(/ي/g, "ی").replace(/ك/g, "ک").replace(/[أإآ]/g, "ا");
   const lev = (a, b) => {
     let p = Array.from({ length: b.length + 1 }, (_, j) => j);
     for (let i = 1; i <= a.length; i++) {

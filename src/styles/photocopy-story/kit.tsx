@@ -219,7 +219,7 @@ export const Giant: React.FC<{ text: string; cap?: string; a: number; x?: number
 
 /**
  * Big stat set with real typographic hierarchy: kicker ─ giant Naskh number + stacked unit ─ ruled one-line caption.
- * count = roll the number up from 0 (CountUp idea from react-bits, frame-based).
+ * count = roll the number up from 0 (a frame-based count-up).
  */
 export const BigStat: React.FC<{ value: string; count?: number; unit?: string; unit2?: string; kicker?: string; cap?: string; a: number; capA?: number; x?: number; y?: number; size?: number; mark?: number }> = ({ value, count, unit, unit2, kicker, cap, a, capA = 1, x = V.W / 2, y = V.H / 2 - 40, size = 360, mark = 0 }) => {
   if (a <= 0) return null;

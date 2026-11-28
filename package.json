@@ -11,10 +11,12 @@
     "doctor": "node tools/cloud-doctor.mjs"
   },
   "dependencies": {
+    "@react-three/fiber": "9.8.1",
+    "@remotion/bundler": "4.0.528",
     "@remotion/cli": "4.0.528",
     "@remotion/noise": "4.0.528",
     "@remotion/paths": "4.0.528",
-    "@react-three/fiber": "9.8.1",
+    "@remotion/renderer": "4.0.528",
     "@remotion/tailwind-v4": "4.0.528",
     "@remotion/three": "4.0.528",
     "d3-geo": "^3.1.1",

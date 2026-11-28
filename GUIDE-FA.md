@@ -9,11 +9,11 @@
 ### چه کاری با توست و چه کاری با Claude
 | | تو | Claude |
 |---|---|---|
-| **یک بار، اول کار** (حدود ۲۰ دقیقه) | ساخت اکانت GitHub و یک ریپوی خالی، آپلود **۴ فایل** کیت (یا هیچ فایلی، اگر لینک «قالب» داری)، وصل کردن Claude به GitHub، تنظیم محیط ابری | باز کردن کیت، ساختن همه‌ی پوشه‌ها و فایل‌ها، نصب ابزارها، ذخیره‌ی همه‌چیز در ریپو |
+| **یک بار، اول کار** (حدود ۲۰ دقیقه) | ساخت اکانت GitHub و یک ریپوی خالی، آپلود **۶ فایل** کیت (یا هیچ فایلی، اگر لینک «قالب» داری)، وصل کردن Claude به GitHub، تنظیم محیط ابری | باز کردن کیت، ساختن همه‌ی پوشه‌ها و فایل‌ها، نصب ابزارها، ذخیره‌ی همه‌چیز در ریپو |
 | **هر ویدیو** | فقط پیام دادن، تأیید متن و فریم‌ها، دانلود ویدیو | متن، صدا، انیمیشن، رندر، و گذاشتن ویدیو در ریپو با لینک دانلود |
 | **فایل‌های شخصی** (اختیاری) | آپلود عکس، لوگو یا صدای خودت در پوشه‌ی `uploads` | مرتب کردن و استفاده‌شان در ویدیو |
 
-**تو هیچ پوشه یا فایلی نمی‌سازی.** فقط بار اول ۴ فایل آپلود می‌کنی تا کیت به ریپوی تو برسد. از آن به بعد همه‌چیز را Claude می‌سازد.
+**تو هیچ پوشه یا فایلی نمی‌سازی.** فقط بار اول ۶ فایل آپلود می‌کنی تا کیت به ریپوی تو برسد. از آن به بعد همه‌چیز را Claude می‌سازد.
 
 ---
 
@@ -56,23 +56,21 @@ GitHub جایی است که پروژه و ویدیوهایت در آن ذخیر�
 
 > **روش قالب (بدون آپلود):** اگر مدرس به تو دسترسی قالب داده، در همین صفحه از منوی **Choose a template** قالب کیت را انتخاب کن (یا در صفحه‌ی قالب بزن **Use this template** و بعد **Create a new repository**). کیت از اول داخل ریپوست، پس بخش ۱.۳ را رد کن.
 
-### ۱.۳ گذاشتن کیت در ریپو: آپلود ۴ فایل (فقط بار اول)
-1. اول ۴ فایل پوشه‌ی `upload-to-github` را روی گوشی داشته باش:
+### ۱.۳ گذاشتن کیت در ریپو: آپلود ۶ فایل (فقط بار اول)
+1. اول ۶ فایل پوشه‌ی `upload-to-github` را روی گوشی داشته باش:
    - `CLAUDE.md`
-   - `NFP-Alvana-Mobile-1-of-3.zip`
-   - `NFP-Alvana-Mobile-2-of-3.zip`
-   - `NFP-Alvana-Mobile-3-of-3.zip`
+   - `NFP-Alvana-Mobile-1-of-5.zip` تا `NFP-Alvana-Mobile-5-of-5.zip` (پنج zip)
    - اگر از تلگرام گرفتی، هر کدام را دانلود کن و در Files یا Downloads ذخیره کن.
 2. صفحه‌ی اصلی ریپو را باز کن. بالای فهرست فایل‌ها بزن **Add file** و بعد **Upload files**.
    - اگر این دکمه را ندیدی، از منوی مرورگر **Desktop site** («نسخه‌ی دسکتاپ») را روشن کن یا گوشی را افقی بگیر.
-3. بزن **choose your files** و هر ۴ فایل را با هم انتخاب کن:
+3. بزن **choose your files** و هر ۶ فایل را با هم انتخاب کن:
    - **اندروید:** روی اولی لمس طولانی کن، بعد بقیه را بزن.
-   - **آیفون:** در Files بزن **Select**، چهار فایل را انتخاب کن و بزن **Open**.
-4. صبر کن تا آپلود هر ۴ فایل تمام شود. هر zip حدود ۲۰ مگ است.
+   - **آیفون:** در Files بزن **Select**، شش فایل را انتخاب کن و بزن **Open**.
+4. صبر کن تا آپلود هر ۶ فایل تمام شود. هر zip حدود ۲۰ تا ۲۵ مگ است.
 5. پایین صفحه، اگر انتخاب شاخه دیدی، **Commit directly to the main branch** انتخاب باشد. بعد بزن **Commit changes**.
-6. حالا در صفحه‌ی ریپو باید ۵ فایل ببینی: `README.md` و همین ۴ فایل.
+6. حالا در صفحه‌ی ریپو باید ۷ فایل ببینی: `README.md` و همین ۶ فایل.
 
-> **چرا ۳ فایل zip؟** GitHub از مرورگر فایل بزرگ‌تر از ۲۵ مگ قبول نمی‌کند. کیت کامل حدود ۶۵ مگ است، برای همین در سه zip آمده و هر کدام بخشی از کیت را دارد. هر سه لازم‌اند. لازم نیست خودت بازشان کنی؛ Claude بار اول هر سه را باز می‌کند و همه‌ی پوشه‌ها را می‌سازد.
+> **چرا ۵ فایل zip؟** GitHub از مرورگر فایل بزرگ‌تر از ۲۵ مگ قبول نمی‌کند. کیت کامل حدود ۱۲۰ مگ است، برای همین در پنج zip آمده و هر کدام بخشی از کیت را دارد. هر پنج‌تا لازم‌اند. لازم نیست خودت بازشان کنی؛ Claude بار اول هر پنج‌تا را باز می‌کند و همه‌ی پوشه‌ها را می‌سازد.
 
 ### ۱.۴ وصل کردن Claude به GitHub
 1. در مرورگر گوشی برو به **claude.ai/code** و با همان اکانت Pro یا Max وارد شو.
@@ -122,9 +120,10 @@ GitHub جایی است که پروژه و ویدیوهایت در آن ذخیر�
 1. بالای کادر پیام، روی دکمه‌ی **ابر** که اسم محیط رویش است (معمولاً **Default**) بزن.
 2. کنار **Default** روی **چرخ‌دنده** بزن. صفحه‌ی **Edit environment** باز می‌شود.
 
-**الف) Setup script** (لازم)
-- متن «پیوست ۱» آخر همین راهنما را کامل کپی کن و در کادر **Setup script** بگذار.
-- این متن ابزارهای رندر را یک بار نصب می‌کند (ffmpeg، کتابخانه‌های Chrome، فونت‌ها) و بعد ذخیره می‌شود تا جلسه‌های بعد سریع شروع شوند.
+**الف) Setup script** (پیشنهادی)
+- متن «پیوست ۱» آخر همین راهنما را کامل کپی کن، از خط `#!/bin/bash` تا `exit 0`، و در کادر **Setup script** بگذار.
+- راه مطمئن‌تر: بعد از اولین جلسه، فایل `scripts/environment-setup.sh` را در ریپوی خودت باز کن و دکمه‌ی کپی بالای فایل (Copy raw file) را بزن.
+- این متن ابزارهای رندر را یک بار نصب می‌کند (ffmpeg، کتابخانه‌های Chrome، فونت‌ها) و بعد ذخیره می‌شود تا جلسه‌های بعد سریع شروع شوند. اگر نگذاری هم همه‌چیز کار می‌کند، فقط هر جلسه یکی دو دقیقه دیرتر شروع می‌شود.
 
 **ب) Network access**
 - همان **Trusted** بماند.
@@ -209,7 +208,7 @@ Claude این‌طوری پیش می‌رود:
 
 **کارهایی که فقط تو می‌توانی بکنی** (Claude برای امنیت انجامشان نمی‌دهد):
 - **یک بار:** ساخت اکانت‌ها، وصل کردن GitHub، و گذاشتن کلید ElevenLabs در تنظیمات محیط. Setup script اختیاری است؛ بدونش هر جلسه یکی دو دقیقه دیرتر شروع می‌شود.
-- **«شبیه این ویدیو»:** خود ویدیو را بده: آپلود در uploads، یا لینک یوتیوب (Network access روی Full).
+- **«شبیه این ویدیو»:** خود فایل ویدیو را در uploads آپلود کن. Claude از یوتیوب، اینستاگرام و تیک‌تاک دانلود نمی‌کند (قانون کیت)؛ اگر فایل را نداری، چند اسکرین‌شات بفرست و توضیح بده.
 - **عکس هوش مصنوعی** برای سبک‌هایی مثل هولوگرام و عصر اتم: Claude در ابر عکس نمی‌سازد. یا خودت با ChatGPT بساز و آپلود کن، یا بگذار Claude سبکی انتخاب کند که تصویرش تماماً کد است (بیشتر سبک‌ها همین‌طورند).
 - **بدون کلید ElevenLabs:** Claude باز هم ویدیو می‌سازد، ولی بدون نریشن، با موزیک و افکت آزاد. یا صدای خودت را ضبط و آپلود کن.
 
@@ -251,22 +250,34 @@ Claude این‌طوری پیش می‌رود:
 
 ```bash
 #!/bin/bash
-# NFP-Alvana · paste this whole text into your cloud environment's "Setup script" box (claude.ai/code → the cloud
-# icon above the message box → the gear next to your environment → Setup script). It installs the system tools for
-# video rendering once; the result is cached, so later sessions start fast. Safe to re-run; it never stops a session.
+# NFP-Alvana: copy ALL of this text into the "Setup script" box
+# of your cloud environment (claude.ai/code > cloud icon > gear
+# next to the environment > Setup script). It installs the video
+# tools once and the result is cached, so sessions start fast.
+# Safe to re-run; it never stops a session.
+# Every line is short (no line wraps when copied from the PDF).
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq >/dev/null 2>&1
-apt-get install -y -qq --no-install-recommends ffmpeg unzip libnss3 libdbus-1-3 libatk1.0-0 libasound2t64 \
-  libxrandr2 libxkbcommon0 libxfixes3 libxcomposite1 libxdamage1 libgbm1 libcups2 libcairo2 libpango-1.0-0 \
-  libatk-bridge2.0-0 fonts-noto-color-emoji fonts-noto-core fonts-dejavu-core >/dev/null 2>&1 || true
-# Chrome Headless Shell for Remotion (Google's CDN; the version Remotion 4.0.528 is tested with)
+P="ffmpeg unzip libnss3 libdbus-1-3 libatk1.0-0 libasound2t64"
+P="$P libxrandr2 libxkbcommon0 libxfixes3 libxcomposite1"
+P="$P libxdamage1 libgbm1 libcups2 libcairo2 libpango-1.0-0"
+P="$P libatk-bridge2.0-0 fonts-noto-color-emoji fonts-noto-core"
+P="$P fonts-dejavu-core"
+apt-get install -y -qq --no-install-recommends $P >/dev/null 2>&1 || true
+# Chrome Headless Shell for Remotion (the version 4.0.528 is tested with)
 V=149.0.7790.0
-if [ ! -x /opt/nfp/chrome-headless-shell-linux64/chrome-headless-shell ]; then
-  mkdir -p /opt/nfp && curl -fsSL -o /tmp/chs.zip "https://storage.googleapis.com/chrome-for-testing-public/$V/linux64/chrome-headless-shell-linux64.zip" \
-    && unzip -q -o /tmp/chs.zip -d /opt/nfp && echo "$V" > /opt/nfp/chrome-version || true
+D=/opt/nfp
+Z=chrome-headless-shell-linux64
+U=https://storage.googleapis.com/chrome-for-testing-public/$V/linux64
+if [ ! -x $D/$Z/chrome-headless-shell ]; then
+  mkdir -p $D &&
+    curl -fsSL -o /tmp/chs.zip "$U/$Z.zip" &&
+    unzip -q -o /tmp/chs.zip -d $D &&
+    echo "$V" > $D/chrome-version || true
   rm -f /tmp/chs.zip
 fi
-# Remotion's official skill for Claude (correct Remotion code): optional
-npx -y skills add remotion-dev/skills --skill remotion-best-practices -g -a claude-code -y --copy >/dev/null 2>&1 || true
+# Remotion's official skill for Claude (correct Remotion code), optional
+S="remotion-dev/skills --skill remotion-best-practices"
+npx -y skills add $S -g -a claude-code -y --copy >/dev/null 2>&1 || true
 exit 0
 ```

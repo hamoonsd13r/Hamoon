@@ -8,7 +8,7 @@ import { elevenReady, xi } from "./lib/eleven.mjs";
 const [planPath, out, seed] = process.argv.slice(2);
 const plan = JSON.parse(fs.readFileSync(planPath, "utf8"));
 const body = { composition_plan: plan, ...(seed ? { seed: Number(seed) } : {}) };
-const r = await fetch("https://api.elevenlabs.io/v1/music?output_format=mp3_44100_192", {
+const r = await fetch(`https://api.elevenlabs.io/v1/music?output_format=${process.env.ELEVEN_FORMAT || "mp3_44100_192"}`, {
   method: "POST",
   headers: { ...xi(), "Content-Type": "application/json" },
   body: JSON.stringify(body),

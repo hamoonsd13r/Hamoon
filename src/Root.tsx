@@ -16,6 +16,8 @@ import { FLAP_FPS, FLAP_FRAMES, FLAP_LOOK, FlapVideo } from "./styles/split-flap
 import { LIGHTLOGO_FPS, LIGHTLOGO_FRAMES, LIGHTLOGO_LOOK, LightLogoVideo } from "./styles/light-logo";
 import { DESK_FPS, DESK_FRAMES, DESK_LOOK, DeskVideo } from "./styles/studio-desk";
 import { ArtMotionCompositions } from "./styles/art-motion";
+import { FootageReelComps } from "./footage-starter/FootageReel";
+import { KitV3Compositions } from "./styles/kit-v3";
 import { V02 } from "./v02/Video";
 import { V03 } from "./v03/Video";
 import { V04 } from "./v04/Video";
@@ -91,7 +93,6 @@ import { V65Compositions } from "./v65/Video";
 import { V66Compositions } from "./v66/Video";
 import { CoversCompositions } from "./covers/Covers";
 import { V14 } from "./v14/Video";
-import { FootageReelComps } from "./footage-starter/FootageReel";
 
 // Every video = one <Composition>. The style demos below are the reference films / starter templates (see STYLES.md).
 // They play silent: the films’ narration, music and effects are not shipped — each style’s pipeline/ folder says how to make yours.
@@ -131,7 +132,13 @@ export const RemotionRoot: React.FC = () => {
       {/* v2 · Art Motion: 36 moving-painting styles (Art-<Style>) + 9 explainer grammars (Explainer-<Style>) + Art-Story / Art-Poem / Art-Journey.
           Card: styles/art-motion.md. Your video: cp src/art-starter/StoryVideo.tsx src/v01/Video.tsx → import { V01 } from "./v01/Video"; <V01 /> */}
       <ArtMotionCompositions />
+      {/* v2.1 · real footage and photos (FOOTAGE.md): the starter shows its shots as slates until tools/footage.mjs fills
+          footage.json. Your video: cp -r src/footage-starter src/v01 → import { FootageReelComps as V01 } from "./v01/FootageReel"; <V01 /> */}
       <FootageReelComps />
+      {/* v3 · every style made since v2 (talking-head edits, product and news reels, YouTube docs and toons, 3D worlds,
+          music videos …). Each style registers Style-<Name> + Style-<Name>-Look itself, in its own Studio folder. */}
+      <KitV3Compositions />
+      {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
       <V02 />
       <V03 />
       <V04 />
@@ -207,7 +214,6 @@ export const RemotionRoot: React.FC = () => {
       <V65Compositions />
       <V66Compositions />
       <CoversCompositions />
-      {/* your videos: <Composition id="V01" component={Video01} durationInFrames={…} fps={30} width={1080} height={1920} /> */}
     </>
   );
 };

@@ -6,24 +6,18 @@ import { elevenReady, xi } from "./lib/eleven.mjs";
 const [listPath, OUT, takes = "2"] = process.argv.slice(2);
 const list = JSON.parse(fs.readFileSync(listPath, "utf8"));
 fs.mkdirSync(OUT, { recursive: true });
-let FMT = "mp3_44100_192";
 const H = { ...xi(), "Content-Type": "application/json" };
 async function one(s, k) {
   const f = `${OUT}/${s.id}-${k}.mp3`;
   if (fs.existsSync(f)) return;
   for (let a = 0; a < 3; a++) {
     try {
-      const r = await fetch(`https://api.elevenlabs.io/v1/sound-generation?output_format=${FMT}`, {
+      const r = await fetch(`https://api.elevenlabs.io/v1/sound-generation?output_format=${process.env.ELEVEN_FORMAT || "mp3_44100_192"}`, {
         method: "POST",
         headers: H,
         body: JSON.stringify({ text: s.text, duration_seconds: s.dur, prompt_influence: s.infl ?? 0.45 }),
       });
-      if (!r.ok) {
-        const t = await r.text();
-        if (r.status === 403 && FMT !== "mp3_44100_128" && t.includes("Output format")) { FMT = "mp3_44100_128"; continue; } // free plan: 128k only
-        console.log(s.id, k, r.status, t.slice(0, 200));
-        return;
-      }
+      if (!r.ok) { console.log(s.id, k, r.status, (await r.text()).slice(0, 200)); return; }
       fs.writeFileSync(f, Buffer.from(await r.arrayBuffer()));
       console.log(s.id, k, "ok");
       return;

@@ -227,7 +227,7 @@ export const S1Hook: React.FC<SP> = ({ t, frame }) => {
 const MONO_F = "Chakra";
 
 // ═════════════ S2 · the AI character's REAL Instagram (the user's screen recordings) (7.55 – 16.5) ═════════════
-// ig-real.mp4 / ig-site.mp4 are 384×848 iOS recordings of @dahliamartinx, shown at 1.5× inside a phone (upscale cap ≈1.6×).
+// ig-real.mp4 / ig-site.mp4 are 384×848 iOS screen recordings of your own page, shown at 1.5× inside a phone (upscale cap ≈1.6×).
 const RS = 1.5, RW = 384 * RS, RH = 848 * RS; // 576 × 1272 screen
 const SX0 = 252, SY0 = 170; // screen top-left at home
 type Seg = { a: number; b: number; src?: string; from?: number; rate?: number; img?: string };
@@ -475,7 +475,7 @@ export const S3YouTube: React.FC<SP> = ({ t, frame }) => {
             <div style={{ position: "absolute", left: 22, top: 17, display: "flex", gap: 9 }}>{["#FF5F57", "#FEBC2E", "#28C840"].map((c) => <div key={c} style={{ width: 14, height: 14, borderRadius: 7, background: c }} />)}</div>
             <div style={{ position: "absolute", left: 104, top: 8, width: 360, height: 40, borderRadius: "12px 12px 0 0", background: "#35363A", display: "flex", alignItems: "center", gap: 10, padding: "0 14px" }}>
               <YtMark s={22} />
-              <Lx s={19} w={500} c="#E8EAED">Day One Films - YouTube</Lx>
+              <Lx s={19} w={500} c="#E8EAED">Your Channel - YouTube</Lx>
               <div style={{ flex: 1 }} />
               <AIco n="x" s={16} c="#9AA0A6" w={2.4} />
             </div>
@@ -485,7 +485,7 @@ export const S3YouTube: React.FC<SP> = ({ t, frame }) => {
               <AIco n="backR" s={22} c="#5F6368" w={2.2} />
               <div style={{ flex: 1, height: 34, borderRadius: 17, background: "#202124", display: "flex", alignItems: "center", gap: 10, padding: "0 16px" }}>
                 <Ico n="lock" s={16} c="#9AA0A6" w={2.2} />
-                <Lx s={19} w={500} c="#E8EAED">youtube.com/<span style={{ color: "#9AA0A6" }}>@dayonefilmsofficial/videos</span></Lx>
+                <Lx s={19} w={500} c="#E8EAED">youtube.com/<span style={{ color: "#9AA0A6" }}>@yourchannel/videos</span></Lx>
               </div>
               <Dots s={22} c="#9AA0A6" v />
             </div>

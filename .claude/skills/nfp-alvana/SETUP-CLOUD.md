@@ -67,12 +67,16 @@
 | کاربر لینک را باز می‌کند و 404 می‌بیند | ریپو خصوصی است و کاربر در GitHub وارد نشده | در مرورگر گوشی با همان اکانت GitHub وارد شود |
 | دیسک پر شد | تکه‌ها و فریم‌های قدیمی | پاک کردن `out/chunks`، `out/look` و `node_modules/.cache` |
 
-## ۵. دانلود مرجع و عکس آزاد
-- **پیش‌نیاز:** Network access محیط روی **Full**. Trusted این دامنه‌ها را ندارد.
-- **یوتیوب:** `pip install yt-dlp` و `yt-dlp -f "mp4[height<=1080]" <link> -o uploads/ref.mp4`.
+## ۵. فوتیج، عکس آزاد و دانلود مرجع
+- **فوتیج و عکس واقعی برای خود ویدیو:** `node tools/footage.mjs` (روال کامل در `FOOTAGE.md` همین پوشه).
+  - Network access محیط باید **Custom** باشد، با فهرست دامنه‌های `FOOTAGE.md` بخش ۸ و تیک **Also include default list of common package managers**. **Full** هم کار می‌کند.
+  - با Trusted هر منبع جواب `403 host_not_allowed` می‌دهد. `node tools/footage.mjs sources` نشان می‌دهد کدام باز است. فهرست را کوتاه برای کاربر بنویس تا در تنظیمات محیط بگذارد و **جلسه‌ی تازه** باز کند.
+  - ElevenLabs روی Pro/Max با Network secret همچنان کار می‌کند. روی Team، `api.elevenlabs.io` را هم به همان فهرست اضافه کن.
+- **دانلود فایل‌های خود کاربر از لینک (Drive، Dropbox):** Network access روی **Full**. Trusted این دامنه‌ها را ندارد.
+- **یوتیوب، اینستاگرام، تیک‌تاک:** دانلود نه (قانون کیت، `SKILL.md` بخش ۰). کاربر خود فایلی را که حقش را دارد در `uploads/` بگذارد.
 - **Google Drive:** `pip install gdown` و `gdown --fuzzy <link> -O uploads/`.
 - **Dropbox:** `?dl=1` را به آخر لینک اضافه کن، بعد `curl -L`.
-- **عکس آزاد:** از API ویکی‌مدیا (commons.wikimedia.org) با فیلتر لایسنس PD یا CC0 بگیر. اسم صاحب و لایسنس را در `videos/NN/CREDITS.md` بنویس.
+- **عکس آزاد:** با `footage.mjs` (`kind: image`). اعتبارها خودکار در `videos/NN/footage/CREDITS.md` نوشته می‌شوند.
 
 ## ۶. اتوماسیون (Routines)
 کاربر می‌تواند در claude.ai/code/routines یک «روتین» بسازد که روی همین ریپو و همین محیط، روزانه یا هفتگی خودش اجرا شود.

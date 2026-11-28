@@ -1,7 +1,7 @@
 # نمونه‌ها (سبک‌های قدیمی‌تر)
 کد کامل ویدیوهای واقعی ساخته‌شده با سبک‌های قدیمی‌تر، برای الگوگرفتن. برای اجرا، پوشه را به `src/` پروژه کپی کن (ایمپورت‌ها `../styles/…` و `../fonts` را فرض می‌کنند) و فایل‌های صدا (`public/vNN/…`) را با صدای خودت جایگزین کن.
 
-**سبک‌های جدیدتر** (hologram-hud، atomic-age، test-reel، stick-toon، satellite-explainer، cosmic-web، studio-desk، split-flap، light-logo) نمونه‌ی جدا ندارند: فیلم مرجعشان، کامل و قابل‌اجرا با عکس‌ها (بی‌صدا)، در خود سبک است (`template/src/styles/<id>/demo/`) و دستور ساختش، از متن تا صدا، در `pipeline/`.
+**سبک‌های جدیدتر** (hologram-hud، atomic-age، test-reel، stick-toon، satellite-explainer، cosmic-web، studio-desk، split-flap، light-logo، و همه‌ی ۳۶ سبک نسخه‌ی ۳) نمونه‌ی جدا ندارند: فیلم مرجعشان، کامل و قابل‌اجرا با عکس‌ها (بی‌صدا)، در خود سبک است (`template/src/styles/<id>/demo/`) و دستور ساختش، از متن تا صدا، در `pipeline/`.
 
 | پوشه | سبک | چیست |
 |---|---|---|
