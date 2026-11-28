@@ -91,6 +91,7 @@ import { V63Compositions } from "./v63/Video";
 import { V64Compositions } from "./v64/Video";
 import { V65Compositions } from "./v65/Video";
 import { V66Compositions } from "./v66/Video";
+import { V67Compositions } from "./v67/Video";
 import { CoversCompositions } from "./covers/Covers";
 import { V14 } from "./v14/Video";
 
@@ -213,6 +214,7 @@ export const RemotionRoot: React.FC = () => {
       <V64Compositions />
       <V65Compositions />
       <V66Compositions />
+      <V67Compositions />
       <CoversCompositions />
     </>
   );
