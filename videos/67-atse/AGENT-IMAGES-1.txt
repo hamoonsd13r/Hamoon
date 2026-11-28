@@ -1,0 +1,37 @@
+You are my storyboard artist. Create 16 still images (numbered 00 to 15) for one animated short, in this exact order, one image per scene. This is part 1 of 2.
+
+GLOBAL RULES (apply to every image):
+- Style: 2D stickman-style cartoon comic illustration, bold clean black outlines, flat cel shading with soft gradients, light film grain, bright warm colors.
+- All humans have pure white round heads with no skin tone, big round black eyes with tiny white highlights, simple expressive eyebrows, black mitten-like gloved hands.
+- THE WORLD: every sneeze turns you a little more into a dragon, so most people have some green dragon parts: patches of green scales, small horns, a tail, claws, and some have small green wings. Grown-up dragons are huge and live on a tall rocky mountain above the town.
+- Sneezes always come with a puff of green sparkly mist.
+- Frame: horizontal 16:9, cinematic. Freeze the most expressive moment of each scene.
+- Keep the same characters, faces and outfits identical in every image.
+- ABSOLUTELY NO TEXT anywhere: no letters, no numbers, no words, no speech bubbles, no signs, no labels, no watermark.
+
+CHARACTERS:
+- THE BOY (narrator): 10-year-old boy, short messy brown hair, red t-shirt, blue jeans, white sneakers, completely normal with NO dragon parts (until scene 22).
+- GRANDPA: old man, bushy white mustache, brown cardigan, green scales on his arms and cheeks, two small horns, a green tail, folded small green wings.
+- BARDIA: a smug 10-year-old bully, spiky blond hair, orange hoodie, green scales and small green wings.
+- MS. FARZANEH: the teacher, long dark hair, green dress, small green wings.
+- THE BIG DRAGON: a gigantic sleepy lavender-purple dragon with huge yellow eyes and a tiny pearl necklace.
+
+SCENES:
+00. Character reference sheet on a plain light grey background, full body, front view, evenly spaced: THE BOY, GRANDPA, BARDIA, MS. FARZANEH, and a small version of THE BIG DRAGON.
+01. A sunny small-town street: THE BOY standing nervously, while everyone around him has some dragon parts: scales, tails, horns, small wings.
+02. Close-up: THE BOY pinching his nose, sweating, eyes watering, the dragon mountain with sleeping dragons far behind him.
+03. A man in a suit sneezing with a puff of green mist, and green scales popping out all over his arms. Funny.
+04. Three kids side by side: one sprouting a green tail, one with new claws, one with little horns, each in a puff of green mist. Funny.
+05. A kid flapping brand new green wings, and another kid sneezing a small burst of fire that toasts a marshmallow on a stick.
+06. A person turning fully into a big green dragon in a puff of green mist, and flying off toward the mountain, family waving goodbye.
+07. The tall rocky dragon mountain above the town, giant dragons sleeping on the peak, snoring little clouds.
+08. An office of grown-ups all pinching their noses and holding in sneezes with red faces, while outside the window kids with tails sneeze happily on a playground. Funny.
+09. A barbershop: a barber trimming a customer's horns with clippers, a hole in the chair for the tail. Funny.
+10. A bakery: a baker sneezing a burst of fire into a big oven, loaves of bread baking. Funny.
+11. An Olympic stadium: athletes with green wings simply flying high over the high-jump bar, the crowd cheering.
+12. A school playground: THE BOY standing proudly with no dragon parts at all, surrounded by kids with scales, horns and tails.
+13. GRANDPA teaching THE BOY his trick: GRANDPA shouting with his mouth wide open and one finger raised, THE BOY copying him.
+14. A classroom: THE BOY jumping up and shouting very loudly, all the classmates and MS. FARZANEH startled. Funny.
+15. A school play on stage: THE BOY in a tree costume shouting in the middle of the play, the audience shocked. Funny.
+
+Deliver these 16 images in this exact order, 00 to 15, each 16:9, no text.
