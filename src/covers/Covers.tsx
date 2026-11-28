@@ -70,5 +70,7 @@ export const CoversCompositions: React.FC = () => (
       defaultProps={{ img: "v64/img/01.jpg", ar: 16 / 9, h: 1250, fx: 0.72, fy: 0.45, top: "از هر چیزی رد می‌شد…", hook: "ولی چرا؟ 👻", title: "پسری که رد می‌شد", tint: "rgba(4,14,26,0.82)" }} />
     <Composition id="V66-Cover" component={Cover} durationInFrames={1} fps={30} width={W} height={H}
       defaultProps={{ img: "v66/img/28.jpg", ar: 16 / 9, h: 1250, fx: 0.55, fy: -0.25, top: "سپرِ مامانم داشت خاموش می‌شد…", hook: "۱۰ دقیقه وقت داشتم!", title: "مواظب باش ۲ 💛", tint: "rgba(30,18,4,0.8)" }} />
+    <Composition id="V67-Cover" component={Cover} durationInFrames={1} fps={30} width={W} height={H}
+      defaultProps={{ img: "v67/img/22.jpg", ar: 16 / 9, h: 1250, fx: 0.45, fy: 0.45, big: "هاپچه!", top: "هر عطسه = یه کم اژدها…", hook: "من الان نُه تا زدم!", title: "۱۰ تا عطسه 🐉", tint: "rgba(6,24,10,0.82)" }} />
   </>
 );

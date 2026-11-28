@@ -1,0 +1,240 @@
+{
+ "length": 169.97,
+ "voice": "public/v67/vo.wav",
+ "music": [
+  {
+   "file": "public/audio/music/chiptune/sunny-afternoon.mp3",
+   "at": 0,
+   "from": 0,
+   "to": 90.801,
+   "fadeIn": 0.3,
+   "fadeOut": 0.6,
+   "gain": 0.05
+  },
+  {
+   "file": "public/audio/music/upbeat/happy-dance.mp3",
+   "at": 90.201,
+   "from": 0,
+   "to": 5.582,
+   "fadeIn": 0.3,
+   "fadeOut": 0.8,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/dark/game-over-3.mp3",
+   "at": 94.983,
+   "from": 0,
+   "to": 51.437,
+   "fadeIn": 1,
+   "fadeOut": 1,
+   "gain": 0.06
+  },
+  {
+   "file": "public/audio/music/sad/mixed-signals.mp3",
+   "at": 145.42,
+   "from": 0,
+   "to": 24.55,
+   "fadeIn": 1.2,
+   "fadeOut": 2.2,
+   "gain": 0.08
+  }
+ ],
+ "beds": [
+  {
+   "file": "public/v67/sfx/growl.wav",
+   "from": 95.283,
+   "to": 145.82,
+   "vol": 0.06
+  }
+ ],
+ "sfx": [
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 10.117,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 83.148,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 84.366,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 84.891,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 86.558,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 87.107,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 88.386,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 88.897,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 104.238,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 107.483,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/puff.wav",
+   "at": 162.043,
+   "vol": 0.14,
+   "peak": 0.01
+  },
+  {
+   "file": "public/v67/sfx/flap.wav",
+   "at": 13.419,
+   "vol": 0.14,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v67/sfx/fire.wav",
+   "at": 15.218,
+   "vol": 0.14,
+   "peak": 0.05
+  },
+  {
+   "file": "public/v67/sfx/flap.wav",
+   "at": 16.93,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v67/sfx/growl.wav",
+   "at": 20.334,
+   "vol": 0.12,
+   "peak": 0.3
+  },
+  {
+   "file": "public/v67/sfx/flap.wav",
+   "at": 32.964,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/foley/cloth-2",
+   "at": 28.496,
+   "vol": 0.1
+  },
+  {
+   "file": "public/v67/sfx/fire.wav",
+   "at": 31.402,
+   "vol": 0.12,
+   "peak": 0.05
+  },
+  {
+   "file": "public/v67/sfx/wind.wav",
+   "at": 59.535,
+   "vol": 0.08,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v67/sfx/flap.wav",
+   "at": 65.67,
+   "vol": 0.12,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v67/sfx/flap.wav",
+   "at": 90.401,
+   "vol": 0.2,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/whoosh/deep",
+   "at": 94.606,
+   "vol": 0.14
+  },
+  {
+   "file": "public/v67/sfx/wind.wav",
+   "at": 92.328,
+   "vol": 0.1,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v67/sfx/rumble.wav",
+   "at": 100.734,
+   "vol": 0.2,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v67/sfx/fire.wav",
+   "at": 104.6,
+   "vol": 0.24,
+   "peak": 0.05
+  },
+  {
+   "file": "public/v67/sfx/flap.wav",
+   "at": 109.867,
+   "vol": 0.18,
+   "peak": 0.02
+  },
+  {
+   "file": "public/v67/sfx/eye.wav",
+   "at": 137.187,
+   "vol": 0.22,
+   "peak": 0.5
+  },
+  {
+   "file": "public/v67/sfx/growl.wav",
+   "at": 138.587,
+   "vol": 0.14,
+   "peak": 0.3
+  },
+  {
+   "file": "public/v67/sfx/flap.wav",
+   "at": 144.709,
+   "vol": 0.2,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/whoosh/fast-bright",
+   "at": 144.709,
+   "vol": 0.16
+  },
+  {
+   "file": "public/v67/sfx/flap.wav",
+   "at": 162.416,
+   "vol": 0.16,
+   "peak": 0.02
+  },
+  {
+   "id": "sfx/magic/sparkle-rise",
+   "at": 163.916,
+   "vol": 0.08
+  }
+ ]
+}
